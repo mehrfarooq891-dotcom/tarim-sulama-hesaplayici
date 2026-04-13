@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Source Sans 3", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+:root {
+    --background: #fdfdfb;
+    --foreground: #1a2e1f;
+    --card: #ffffff;
+    --card-foreground: #1a2e1f;
+    --popover: #ffffff;
+    --popover-foreground: #1a2e1f;
+    --primary: #1a5c2a; /* green-dark */
+    --primary-foreground: #ffffff;
+    --secondary: #e8f5ec; /* green-light */
+    --secondary-foreground: #1a5c2a;
+    --muted: #f0f4f1;
+    --muted-foreground: #5a7060; /* text-muted */
+    --accent: #2e8b45; /* green-mid */
+    --accent-foreground: #ffffff;
+    --destructive: oklch(0.577 0.245 27.325);
+    --border: #d1dbd3;
+    --input: #d1dbd3;
+    --ring: #2e8b45;
+    --radius: 1rem;
+
+    /* Custom Design System Variables */
+    --green-dark: #1a5c2a;
+    --green-mid: #2e8b45;
+    --green-light: #e8f5ec;
+    --earth-brown: #8b5e3c;
+    --sky-blue: #d0eaf8;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply font-serif text-[var(--green-dark)];
+  }
+  body {
+    @apply font-sans text-[var(--text-primary)] bg-[var(--background)];
+  }
+  input, select, textarea {
+    @apply text-[18px] min-h-[52px];
+  }
+  button {
+    @apply min-h-[52px] font-bold transition-all duration-200;
+  }
+}
+
+.mono-data {
+  font-family: var(--font-mono);
+}
