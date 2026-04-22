@@ -1,145 +1,253 @@
 import { Helmet } from "react-helmet-async";
 import IrrigationCalculator from "@/components/calculator/IrrigationCalculator";
-import { CheckCircle2, Sprout, Droplets, TrendingUp } from "lucide-react";
+import { CheckCircle2, Sprout, Droplets, TrendingUp, HelpCircle, ArrowRight, Star, Quote } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { motion } from "motion/react";
 
 export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Tarım Sulama Hesaplayıcı | Bitki Su İhtiyacını Hesapla</title>
-        <meta name="description" content="Tarlanızın su ihtiyacını saniyeler içinde hesapla. Bitki türü, toprak tipi ve bölgeye göre kişiselleştirilmiş sulama planı." />
-        <meta name="keywords" content="sulama hesaplama, bitki su ihtiyacı, damla sulama hesaplayıcı, tarımsal sulama" />
-        <link rel="canonical" href="https://tarimsulama.com/" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "SoftwareApplication",
-            "name": "Tarım Sulama Hesaplayıcı",
-            "applicationCategory": "UtilitiesApplication",
-            "operatingSystem": "Web",
-            "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TRY"},
-            "description": "Türkiye'deki çiftçiler için bitki türü, toprak tipi ve bölgeye göre sulama hesaplama aracı.",
-            "url": "https://tarimsulama.com"
-          })}
-        </script>
+        <title>Tarım Sulama Hesaplayıcı | Tarlanızın Su İhtiyacını Hesaplayın</title>
+        <meta name="description" content="Bitki türü, toprak yapısı ve bölgenize göre doğru sulama miktarını dakikalar içinde öğrenin. Türkiye'nin 81 iline özel veriler." />
       </Helmet>
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-[var(--green-light)] to-white py-20 lg:py-32">
-        <div className="absolute inset-0 opacity-5 pointer-events-none">
-          <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-            <pattern id="wheat" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-              <path d="M20 10c0 5-5 10-5 10s5-5 5-10z" fill="currentColor" />
-            </pattern>
-            <rect width="100%" height="100%" fill="url(#wheat)" />
-          </svg>
+      {/* HERO SECTION */}
+      <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-white">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full opacity-[0.03] pointer-events-none">
+           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/pinstriped-suit.png')]"></div>
         </div>
         
         <div className="container relative mx-auto px-4 text-center">
-          <h1 className="mb-6 text-5xl font-black tracking-tight sm:text-7xl lg:text-8xl max-w-4xl mx-auto leading-[0.9]">
-            Tarlanızın Gerçek Su İhtiyacını <span className="text-[var(--green-mid)]">Hesapla</span>
-          </h1>
-          <h2 className="mx-auto mb-10 max-w-2xl text-xl text-[var(--text-muted)] sm:text-2xl font-normal">
-            Bitki türü, toprak yapısı ve bölgenize göre doğru sulama miktarını dakikalar içinde öğrenin.
-          </h2>
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--green-light)] text-[var(--green-dark)] font-bold text-sm mb-8 border border-[var(--green-mid)]/20"
+          >
+            <span>🌾</span> 81 İl Destekleniyor
+          </motion.div>
           
-          <div className="flex flex-wrap justify-center gap-6">
-            <div className="flex items-center gap-2 rounded-full bg-white shadow-sm border px-6 py-3">
-              <span className="text-2xl">🌾</span>
-              <span className="font-bold text-[var(--green-dark)]">81 İl Destekleniyor</span>
-            </div>
-            <div className="flex items-center gap-2 rounded-full bg-white shadow-sm border px-6 py-3">
-              <span className="text-2xl">💧</span>
-              <span className="font-bold text-[var(--green-dark)]">10+ Bitki Türü</span>
-            </div>
-            <div className="flex items-center gap-2 rounded-full bg-white shadow-sm border px-6 py-3">
-              <span className="text-2xl">⚡</span>
-              <span className="font-bold text-[var(--green-dark)]">Anında Sonuç</span>
-            </div>
-          </div>
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="mb-8 text-5xl md:text-7xl lg:text-8xl font-black tracking-tight max-w-5xl mx-auto leading-[0.95]"
+          >
+            Tarlanızın Gerçek <span className="text-[var(--green-dark)] italic">Su İhtiyacını</span> Hesaplayın
+          </motion.h1>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="mx-auto mb-12 max-w-2xl text-xl text-stone-600 font-medium"
+          >
+            Bitki türü, toprak yapısı ve bölgenize göre doğru sulama miktarını dakikalar içinde öğrenin.
+          </motion.p>
+
+          {/* Stats badges */}
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.3 }}
+            className="flex flex-wrap justify-center gap-4 mb-20"
+          >
+            {[
+              { text: "81 İl Destekleniyor", emoji: "🌾" },
+              { text: "10+ Bitki Türü", emoji: "💧" },
+              { text: "Anında Sonuç", emoji: "⚡" },
+              { text: "FAO Metodolojisi", emoji: "🌿" },
+            ].map((badge, i) => (
+              <div key={i} className="flex items-center gap-2 bg-white px-5 py-3 rounded-xl shadow-sm border border-stone-100 font-bold text-stone-700">
+                <span className="text-xl">{badge.emoji}</span>
+                <span>{badge.text}</span>
+              </div>
+            ))}
+          </motion.div>
         </div>
       </section>
 
-      {/* Main Calculator Section */}
-      <section className="container mx-auto px-4 py-16 -mt-12">
-        <IrrigationCalculator />
+      {/* TOOL SECTION */}
+      <section className="py-20 bg-stone-50" id="hesaplayici">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 px-4">
+            <h2 className="text-4xl md:text-5xl font-black mb-4">🌿 Sulama Hesaplama Aracı</h2>
+            <p className="text-stone-500 max-w-xl mx-auto">Bilimsel verilerle tarlanız için en verimli sulama planını oluşturun.</p>
+          </div>
+          
+          <IrrigationCalculator />
+        </div>
       </section>
 
-      {/* Trust Section */}
-      <section className="bg-white py-24 border-t">
+      {/* WHY SECTION */}
+      <section className="py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid gap-12 md:grid-cols-3">
-            <div className="text-center space-y-4">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-[var(--green-light)] text-[var(--green-mid)]">
-                <Sprout className="h-8 w-8" />
+            <div className="space-y-4">
+              <div className="w-14 h-14 bg-[var(--green-light)] rounded-2xl flex items-center justify-center text-[var(--green-dark)] shadow-sm">
+                <Sprout className="h-7 w-7" />
               </div>
-              <h3 className="text-2xl font-bold">Türk Çiftçisi İçin Tasarlandı</h3>
-              <p className="text-[var(--text-muted)]">
-                Türkiye'nin 81 ili ve 7 coğrafi bölgesinin iklim verileri sistemimizde yüklüdür.
+              <h3 className="text-2xl font-black tracking-tight">Türk Çiftçisi İçin Tasarlandı</h3>
+              <p className="text-stone-500 leading-relaxed">
+                Türkiye'nin 81 ilinin iklim verileri ve toprak yapıları sistemimizde tam uyumlu çalışır.
               </p>
             </div>
 
-            <div className="text-center space-y-4">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
-                <TrendingUp className="h-8 w-8" />
+            <div className="space-y-4">
+              <div className="w-14 h-14 bg-stone-100 rounded-2xl flex items-center justify-center text-[var(--earth-brown)] shadow-sm">
+                <TrendingUp className="h-7 w-7" />
               </div>
-              <h3 className="text-2xl font-bold">Bilimsel Hesaplama</h3>
-              <p className="text-[var(--text-muted)]">
-                FAO Penman-Monteith metoduna dayalı algoritmamız ile en doğru sonuçları sunuyoruz.
+              <h3 className="text-2xl font-black tracking-tight">Bilimsel Hesaplama</h3>
+              <p className="text-stone-500 leading-relaxed">
+                FAO Penman-Monteith metodunu kullanarak uluslararası tarım standartlarında sonuçlar üretiriz.
               </p>
             </div>
 
-            <div className="text-center space-y-4">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-50 text-orange-600">
-                <Droplets className="h-8 w-8" />
+            <div className="space-y-4">
+              <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 shadow-sm">
+                <Droplets className="h-7 w-7" />
               </div>
-              <h3 className="text-2xl font-bold">Her Cihazda Çalışır</h3>
-              <p className="text-[var(--text-muted)]">
-                Tarlada, traktörde veya evde; telefonunuzdan saniyeler içinde hesaplama yapabilirsiniz.
+              <h3 className="text-2xl font-black tracking-tight">Her Cihazda Çalışır</h3>
+              <p className="text-stone-500 leading-relaxed">
+                Tarlada telefonunuzdan, evde tabletinizden saniyeler içinde tüm hesaplamaları yapabilirsiniz.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Mini Blog Section */}
-      <section className="bg-stone-50 py-24">
-        <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-4xl font-black text-center">Bilgi Kütüphanesi</h2>
+      {/* BLOG CARDS */}
+      <section className="py-24 bg-stone-50">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl font-black mb-16">Eğitim ve Rehberler</h2>
           <div className="grid gap-8 md:grid-cols-3">
             {[
               { 
-                title: "Buğday Ne Kadar Su İster? Tam Rehber", 
-                desc: "Buğdayın kardeşlenme ve başaklanma dönemlerindeki su ihtiyacını öğrenin.", 
-                link: "/rehber", 
-                emoji: "🌾" 
+                title: "🌾 Buğday Ne Kadar Su İster?", 
+                desc: "Buğdayın kardeşlenme ve başaklanma dönemlerindeki su ihtiyacı analizi.", 
+                emoji: "🌾",
+                link: "/rehber"
               },
               { 
-                title: "Ege'de Yaz Sulama Takvimi 2024", 
-                desc: "Ege bölgesindeki sıcaklık artışına göre sulama sıklığınızı nasıl ayarlamalısınız?", 
-                link: "/takvim", 
-                emoji: "☀️" 
+                title: "☀️ Ege'de Yaz Sulama Takvimi 2024", 
+                desc: "Sıcaklık artışına göre sulama sıklığınızı nasıl optimize etmelisiniz?", 
+                emoji: "☀️",
+                link: "/takvim"
               },
               { 
-                title: "Damla Sulama ile %40 Su Tasarrufu", 
-                desc: "Damla sulama sistemlerinin kurulum maliyeti ve geri dönüş süresi analizi.", 
-                link: "/damla-sulama", 
-                emoji: "💧" 
-              },
+                title: "💧 Damla Sulama ile %40 Tasarruf", 
+                desc: "Damla sulama sistemlerinin verimi ve kurulum avantajları hakkında her şey.", 
+                emoji: "💧",
+                link: "/damla-sulama"
+              }
             ].map((card, i) => (
-              <div key={i} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-stone-100">
-                <div className="h-48 bg-[var(--green-light)] flex items-center justify-center text-6xl group-hover:scale-110 transition-transform">
-                  {card.emoji}
-                </div>
-                <div className="p-8 space-y-4">
-                  <h3 className="text-xl font-bold leading-tight">{card.title}</h3>
-                  <p className="text-sm text-[var(--text-muted)] line-clamp-2">{card.desc}</p>
-                  <a href={card.link} className="inline-block font-bold text-[var(--green-mid)] hover:underline">
-                    Devamını Oku →
-                  </a>
-                </div>
+              <div key={i} className="group bg-white p-8 rounded-3xl text-left shadow-sm hover:shadow-xl transition-all border border-stone-100">
+                <div className="text-5xl mb-6 group-hover:scale-110 transition-transform inline-block">{card.emoji}</div>
+                <h3 className="text-2xl font-black mb-4 leading-tight">{card.title}</h3>
+                <p className="text-stone-500 mb-6 text-sm leading-relaxed">{card.desc}</p>
+                <Button variant="link" className="p-0 h-auto font-black text-[var(--green-dark)] hover:no-underline flex items-center gap-2 group/btn">
+                  Devamını Oku <ArrowRight className="h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
+                </Button>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* EXPERT SECTION */}
+      <section className="py-24 bg-white overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto rounded-3xl bg-[var(--green-dark)] p-8 md:p-16 text-white relative">
+            <div className="absolute top-8 right-8 opacity-10">
+               <Quote className="h-32 w-32 fill-current" />
+            </div>
+            <div className="flex flex-col md:flex-row items-center gap-10 relative z-10">
+              <div className="shrink-0">
+                 <img 
+                   src="https://randomuser.me/api/portraits/men/67.jpg" 
+                   alt="Ziraat Mühendisi Ahmet Kaya" 
+                   className="w-32 h-32 rounded-2xl object-cover ring-4 ring-white/20"
+                 />
+              </div>
+              <div className="space-y-6 text-center md:text-left">
+                <div className="flex justify-center md:justify-start gap-1">
+                   {[1,2,3,4,5].map(s => <Star key={s} className="h-4 w-4 fill-yellow-400 text-yellow-400" />)}
+                </div>
+                <p className="text-2xl md:text-3xl font-merriweather italic leading-relaxed">
+                   "Suyu tasarruflu kullanmak sadece ekonomik değil — geleceğimizi korumaktır."
+                </p>
+                <div className="space-y-4">
+                  <div>
+                    <p className="font-extrabold text-xl uppercase tracking-wider">Ahmet Kaya</p>
+                    <p className="text-white/70 font-bold">Ziraat Mühendisi</p>
+                  </div>
+                  <p className="text-white/80 text-sm leading-relaxed max-w-lg">
+                    Ankara Üniversitesi Ziraat Fakültesi mezunudur. 18 yıldır Türkiye'nin farklı bölgelerinde çiftçilere sulama danışmanlığı yapmaktadır. FAO Penman-Monteith metodunu baz alan hesaplama sistemini, küçük çiftçilerin de bilimsel veriye ulaşabilmesi için geliştirmiştir.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-24 bg-stone-50">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <div className="text-center mb-16">
+             <HelpCircle className="h-12 w-12 text-[var(--green-mid)] mx-auto mb-4" />
+             <h2 className="text-4xl font-black">Sıkça Sorulan Sorular</h2>
+          </div>
+          <Accordion type="single" collapsible className="space-y-4">
+            {[
+              { 
+                q: "Damla sulama ne kadar tasarruf sağlar?", 
+                a: "Damla sulama sistemleri, geleneksel salma sulama yöntemlerine kıyasla %30 ile %50 arasında su tasarrufu sağlar. Su doğrudan bitki köküne verildiği için buharlaşma kaybı minimize edilir." 
+              },
+              { 
+                q: "Hangi toprak tipi en az su ister?", 
+                a: "Killi topraklar su tutma kapasitesi en yüksek olan topraklardır, bu nedenle sulama aralıkları daha uzun olabilir. Ancak drenaj sorunu yaşamamak için dikkatli olunmalıdır." 
+              },
+              { 
+                q: "Sulama zamanlaması neden önemli?", 
+                a: "Günün en sıcak saatlerinde (11:00-16:00) sulama yapmak buharlaşma kaybını %20 artırır. En ideal zamanlama sabah gün doğumu veya akşam güneş battıktan sonrasıdır." 
+              },
+              { 
+                q: "FAO metodu nedir?", 
+                a: "FAO Penman-Monteith metodu, bitki su tüketimini (ET) hesaplamak için kullanılan, sıcaklık, nem, rüzgar hızı ve güneş radyasyonu verilerini içeren bilimsel bir standarttır." 
+              }
+            ].map((faq, i) => (
+              <AccordionItem key={i} value={`item-${i}`} className="bg-white px-6 rounded-2xl border border-stone-100 shadow-sm">
+                <AccordionTrigger className="text-lg font-extrabold text-left">{faq.q}</AccordionTrigger>
+                <AccordionContent className="text-stone-500 font-medium leading-relaxed pb-6">
+                  {faq.a}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </section>
+
+      {/* CTA BANNER */}
+      <section className="py-12 bg-white px-4">
+        <div className="container mx-auto max-w-5xl">
+          <div className="bg-[var(--green-mid)] rounded-3xl p-10 md:p-16 text-center text-white relative overflow-hidden">
+             <div className="absolute inset-0 opacity-10">
+               <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/pinstriped-suit.png')]"></div>
+             </div>
+             <motion.div 
+               initial={{ scale: 0.9, opacity: 0 }}
+               whileInView={{ scale: 1, opacity: 1 }}
+               className="relative z-10 space-y-8"
+             >
+               <h2 className="text-4xl md:text-6xl font-black leading-tight max-w-2xl mx-auto">
+                 Tarlasını seven çiftçi suyu doğru kullanır
+               </h2>
+               <Button onClick={() => document.getElementById('hesaplayici')?.scrollIntoView({ behavior: 'smooth'})} className="bg-white text-[var(--green-dark)] hover:bg-stone-100 h-16 px-10 text-xl font-black rounded-2xl shadow-xl transition-all hover:scale-105 active:scale-95 leading-none">
+                 Hemen Hesapla →
+               </Button>
+             </motion.div>
           </div>
         </div>
       </section>

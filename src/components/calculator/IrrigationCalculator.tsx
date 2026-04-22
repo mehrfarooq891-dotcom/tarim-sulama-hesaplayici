@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -6,342 +6,326 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { CROPS, SOILS, PROVINCES, METHODS, calculateIrrigation } from "@/lib/irrigation-logic";
-import { Droplets, Info, RefreshCw, Download, Share2, Lightbulb, CheckCircle2, AlertTriangle } from "lucide-react";
+import { Droplets, Info, RefreshCw, ChevronRight, ChevronLeft, CheckCircle2, AlertTriangle, Lightbulb } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { cn } from "@/lib/utils";
 
 export default function IrrigationCalculator() {
+  const [step, setStep] = useState(1);
   const [crop, setCrop] = useState("bugday");
   const [area, setArea] = useState(10);
   const [unit, setUnit] = useState<'donum' | 'hektar'>('donum');
   const [soil, setSoil] = useState("tinli");
   const [province, setProvince] = useState("Ankara");
   const [method, setMethod] = useState("damla");
-  const [season, setSeason] = useState("yaz");
+  const [season] = useState("yaz"); // Default to summer as most critical
   const [results, setResults] = useState<any>(null);
+
+  const nextStep = () => setStep(prev => Math.min(prev + 1, 5));
+  const prevStep = () => setStep(prev => Math.max(prev - 1, 1));
 
   const handleCalculate = () => {
     const res = calculateIrrigation(crop, soil, province, method, season, area, unit);
     setResults(res);
-    // Scroll to results
-    setTimeout(() => {
-      document.getElementById('results-section')?.scrollIntoView({ behavior: 'smooth' });
-    }, 100);
+    setStep(6); // Result step
   };
 
+  const reset = () => {
+    setStep(1);
+    setResults(null);
+  };
+
+  const steps = [
+    { title: "Bitki Seçin", icon: "🌱" },
+    { title: "Alan", icon: "📏" },
+    { title: "Toprak Tipi", icon: "🌍" },
+    { title: "Bölge/Şehir", icon: "📍" },
+    { title: "Sulama Yöntemi", icon: "🚿" },
+  ];
+
   return (
-    <div className="mx-auto max-w-[1100px] space-y-12">
-      <Card className="border-none shadow-2xl overflow-hidden rounded-[16px]">
-        <CardHeader className="bg-[var(--green-light)] border-b border-[var(--border)] py-8">
-          <CardTitle className="text-3xl font-serif flex items-center gap-3">
-            <span className="text-4xl">🌿</span> Sulama Hesaplama Aracı
+    <div className="mx-auto max-w-[900px] w-full" id="hesapla">
+      <Card className="border shadow-2xl overflow-hidden rounded-2xl bg-white">
+        <CardHeader className="bg-[var(--green-light)] border-b py-6 text-center">
+          <CardTitle className="text-2xl font-merriweather flex items-center justify-center gap-2">
+             🌿 Sulama Hesaplama Aracı
           </CardTitle>
-          <CardDescription className="text-lg text-[var(--text-muted)]">
-            Tarlanızın ve ürününüzün özelliklerini seçerek ihtiyacınız olan suyu hesaplayın.
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="p-8 space-y-10">
-          <div className="grid gap-8 md:grid-cols-2">
-            {/* 1. Bitki Türü */}
-            <div className="space-y-3">
-              <Label htmlFor="crop" className="text-lg font-bold">1. Bitki Türü</Label>
-              <Select value={crop} onValueChange={setCrop}>
-                <SelectTrigger id="crop" className="bg-stone-50 border-2 focus:ring-[var(--green-mid)]">
-                  <SelectValue placeholder="Bitki seçin" />
-                </SelectTrigger>
-                <SelectContent>
-                  {Object.entries(CROPS).map(([key, data]) => (
-                    <SelectItem key={key} value={key}>{data.name}</SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-              <p className="text-sm text-[var(--text-muted)] flex items-center gap-1">
-                <Info className="h-3 w-3" /> {CROPS[crop].tooltip}
-              </p>
-            </div>
-
-            {/* 2. Tarla Büyüklüğü */}
-            <div className="space-y-3">
-              <Label htmlFor="area" className="text-lg font-bold">2. Tarla Büyüklüğü</Label>
-              <div className="flex gap-2">
-                <Input
-                  id="area"
-                  type="number"
-                  value={area}
-                  onChange={(e) => setArea(Number(e.target.value))}
-                  className="bg-stone-50 border-2"
-                  placeholder="Örn: 10"
+          {step <= 5 && (
+            <div className="flex justify-center gap-2 mt-4">
+              {steps.map((s, i) => (
+                <div 
+                  key={i} 
+                  className={cn(
+                    "h-2 w-8 rounded-full transition-all",
+                    step > i ? "bg-[var(--green-dark)]" : "bg-stone-200"
+                  )} 
                 />
-                <div className="flex rounded-lg border-2 overflow-hidden shrink-0">
-                  <button 
-                    onClick={() => setUnit('donum')}
-                    className={cn("px-4 py-2 text-sm font-bold", unit === 'donum' ? "bg-[var(--green-mid)] text-white" : "bg-white")}
-                  >
-                    Dönüm
-                  </button>
-                  <button 
-                    onClick={() => setUnit('hektar')}
-                    className={cn("px-4 py-2 text-sm font-bold", unit === 'hektar' ? "bg-[var(--green-mid)] text-white" : "bg-white")}
-                  >
-                    Hektar
-                  </button>
+              ))}
+            </div>
+          )}
+        </CardHeader>
+        <CardContent className="p-6 md:p-10">
+          <AnimatePresence mode="wait">
+            {step === 1 && (
+              <motion.div
+                key="step1"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                className="space-y-6"
+              >
+                <div className="text-center mb-8">
+                  <h3 className="text-xl font-bold mb-2">Adım 1: Hangi bitkiyi yetiştiriyorsunuz?</h3>
+                  <p className="text-[var(--text-muted)] text-sm">Ürün seçimi sulama ihtiyacını doğrudan belirler.</p>
                 </div>
-              </div>
-              <p className="text-sm text-[var(--text-muted)] flex items-center gap-1">
-                <Info className="h-3 w-3" /> 1 Hektar = 10 Dönüm. Türkiye'de çoğu çiftçi dönüm kullanır.
-              </p>
-            </div>
-
-            {/* 3. Toprak Tipi */}
-            <div className="space-y-3 md:col-span-2">
-              <Label className="text-lg font-bold">3. Toprak Tipi</Label>
-              <RadioGroup value={soil} onValueChange={setSoil} className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {Object.entries(SOILS).map(([key, data]) => (
-                  <Label
-                    key={key}
-                    className={cn(
-                      "flex flex-col items-center gap-3 p-6 rounded-xl border-2 cursor-pointer transition-all hover:border-[var(--green-mid)]",
-                      soil === key ? "border-[var(--green-mid)] bg-[var(--green-light)]" : "bg-white"
-                    )}
-                  >
-                    <RadioGroupItem value={key} className="sr-only" />
-                    <span className="text-3xl">
-                      {key === 'kumlu' ? '🪨' : key === 'tinli' ? '🌍' : '🧱'}
-                    </span>
-                    <span className="font-bold">{data.name}</span>
-                  </Label>
-                ))}
-              </RadioGroup>
-              <p className="text-sm text-[var(--text-muted)] flex items-center gap-1">
-                <Info className="h-3 w-3" /> {SOILS[soil].tooltip}
-              </p>
-            </div>
-
-            {/* 4. Şehir / Bölge */}
-            <div className="space-y-3">
-              <Label htmlFor="province" className="text-lg font-bold">4. Şehir / Bölge</Label>
-              <Select value={province} onValueChange={setProvince}>
-                <SelectTrigger id="province" className="bg-stone-50 border-2">
-                  <SelectValue placeholder="Şehir seçin" />
-                </SelectTrigger>
-                <SelectContent>
-                  {PROVINCES.map((p) => (
-                    <SelectItem key={p.name} value={p.name}>{p.name}</SelectItem>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                  {Object.entries(CROPS).map(([key, data]) => (
+                    <button
+                      key={key}
+                      onClick={() => { setCrop(key); nextStep(); }}
+                      className={cn(
+                        "flex flex-col items-center gap-3 p-4 rounded-xl border-2 transition-all hover:shadow-md",
+                        crop === key ? "border-[var(--green-dark)] bg-[var(--green-light)]" : "border-stone-100 bg-white"
+                      )}
+                    >
+                      <span className="text-3xl">
+                        {key === 'bugday' && '🌾'}
+                        {key === 'misir' && '🌽'}
+                        {key === 'pamuk' && '☁️'}
+                        {key === 'domates' && '🍅'}
+                        {key === 'aycicegi' && '🌻'}
+                        {key === 'patates' && '🥔'}
+                        {key === 'arpa' && '🌾'}
+                        {key === 'sogan' && '🧅'}
+                        {key === 'biber' && '🫑'}
+                        {key === 'kavun' && '🍈'}
+                      </span>
+                      <span className="text-xs font-bold text-center">{data.name}</span>
+                    </button>
                   ))}
-                </SelectContent>
-              </Select>
-              <p className="text-sm text-[var(--text-muted)] flex items-center gap-1">
-                <Info className="h-3 w-3" /> Bölgenizin iklimi sulama süresini etkiler.
-              </p>
-            </div>
+                </div>
+              </motion.div>
+            )}
 
-            {/* 5. Sulama Dönemi */}
-            <div className="space-y-3">
-              <Label className="text-lg font-bold">5. Sulama Dönemi</Label>
-              <RadioGroup value={season} onValueChange={setSeason} className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                {[
-                  { id: "s-spring", value: "ilkbahar", label: "🌸 İlkbahar" },
-                  { id: "s-summer", value: "yaz", label: "☀️ Yaz" },
-                  { id: "s-autumn", value: "sonbahar", label: "🍂 Sonbahar" },
-                ].map((item) => (
-                  <Label
-                    key={item.value}
-                    htmlFor={item.id}
-                    className={cn(
-                      "flex items-center justify-center p-4 rounded-xl border-2 cursor-pointer transition-all text-center font-bold min-h-[52px]",
-                      season === item.value 
-                        ? "border-[var(--green-mid)] bg-[var(--green-light)] text-[var(--green-dark)] shadow-sm" 
-                        : "bg-white border-stone-200 hover:border-stone-300 text-[var(--text-muted)]"
-                    )}
-                  >
-                    <RadioGroupItem value={item.value} id={item.id} className="sr-only" />
-                    {item.label}
-                  </Label>
-                ))}
-              </RadioGroup>
-            </div>
-
-            {/* 5. Sulama Yöntemi */}
-            <div className="space-y-3 md:col-span-2">
-              <Label className="text-lg font-bold">6. Sulama Yöntemi</Label>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {Object.entries(METHODS).map(([key, data]) => (
-                  <button
-                    key={key}
-                    onClick={() => setMethod(key)}
-                    className={cn(
-                      "flex items-center gap-4 p-6 rounded-xl border-2 text-left transition-all",
-                      method === key ? "border-[var(--green-mid)] bg-[var(--green-light)]" : "bg-white hover:border-stone-300"
-                    )}
-                  >
-                    <span className="text-3xl">{key === 'damla' ? '💧' : '🌧️'}</span>
-                    <div>
-                      <p className="font-bold text-lg">{data.name}</p>
-                      <p className="text-xs text-[var(--text-muted)]">{data.tooltip}</p>
-                    </div>
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <Button 
-            onClick={handleCalculate} 
-            className="w-full bg-[var(--green-mid)] hover:bg-[var(--green-dark)] text-xl py-8 rounded-xl shadow-lg hover:scale-[1.02] active:scale-[0.98]"
-          >
-            💧 Sulama İhtiyacını Hesapla
-          </Button>
-        </CardContent>
-      </Card>
-
-      <AnimatePresence>
-        {results && (
-          <motion.div
-            id="results-section"
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="space-y-8"
-          >
-            <div className="grid gap-6 md:grid-cols-2">
-              {/* Card 1 */}
-              <Card className="border-none shadow-xl bg-[var(--sky-blue)]">
-                <CardContent className="p-8 flex flex-col items-center text-center">
-                  <p className="text-sm font-bold uppercase tracking-widest text-blue-800 mb-2">Günlük Su İhtiyacı</p>
-                  <p className="text-5xl font-mono font-black text-blue-900 mb-2">
-                    {results.dailyLitre.toLocaleString('tr-TR')} <span className="text-2xl">Litre</span>
-                  </p>
-                  <p className="text-[var(--text-muted)]">günlük tarlanız için gereken su</p>
-                  <div className="w-full mt-6 h-3 bg-white/50 rounded-full overflow-hidden">
-                    <div 
-                      className="h-full bg-blue-600" 
-                      style={{ width: `${Math.min(100, (results.dailyLitre / (area * 1000)) * 10)}%` }}
+            {step === 2 && (
+              <motion.div
+                key="step2"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                className="space-y-8"
+              >
+                <div className="text-center mb-8">
+                  <h3 className="text-xl font-bold mb-2">Adım 2: Toplam alan ne kadar?</h3>
+                </div>
+                <div className="max-w-xs mx-auto space-y-6">
+                  <div className="flex justify-center p-1 bg-stone-100 rounded-lg">
+                    <button
+                      onClick={() => setUnit('donum')}
+                      className={cn("flex-1 py-2 font-bold rounded-md transition-all", unit === 'donum' ? "bg-white shadow-sm text-[var(--green-dark)]" : "text-stone-500")}
+                    >Dönüm</button>
+                    <button
+                      onClick={() => setUnit('hektar')}
+                      className={cn("flex-1 py-2 font-bold rounded-md transition-all", unit === 'hektar' ? "bg-white shadow-sm text-[var(--green-dark)]" : "text-stone-500")}
+                    >Hektar</button>
+                  </div>
+                  <div className="space-y-4">
+                    <Label className="text-sm font-bold">Alan Miktarı</Label>
+                    <Input
+                      type="number"
+                      value={area}
+                      onChange={(e) => setArea(Number(e.target.value))}
+                      className="text-center text-2xl font-bold"
                     />
                   </div>
-                </CardContent>
-              </Card>
-
-              {/* Card 2 */}
-              <Card className="border-none shadow-xl bg-stone-900 text-white">
-                <CardContent className="p-8 flex flex-col items-center text-center">
-                  <p className="text-sm font-bold uppercase tracking-widest text-stone-400 mb-2">Haftalık Toplam</p>
-                  <p className="text-5xl font-mono font-black text-white mb-2">
-                    {results.weeklyLitre.toLocaleString('tr-TR')} <span className="text-2xl">Litre</span>
-                  </p>
-                  <p className="text-stone-400">bu hafta için toplam sulama</p>
-                </CardContent>
-              </Card>
-
-              {/* Card 3 */}
-              <Card className="border-none shadow-xl">
-                <CardContent className="p-8 flex flex-col items-center text-center">
-                  <p className="text-sm font-bold uppercase tracking-widest text-[var(--text-muted)] mb-2">Sulama Süresi (Günlük)</p>
-                  <p className="text-5xl font-mono font-black text-[var(--green-dark)] mb-2">
-                    {results.hours} <span className="text-2xl">sa</span> {results.minutes} <span className="text-2xl">dk</span>
-                  </p>
-                  <p className="text-[var(--text-muted)]">{METHODS[method as keyof typeof METHODS].name} yöntemine göre</p>
-                </CardContent>
-              </Card>
-
-              {/* Card 4 */}
-              <Card className={cn("border-none shadow-xl", method === 'damla' ? "bg-[var(--green-light)]" : "bg-orange-50")}>
-                <CardContent className="p-8 flex flex-col items-center text-center">
-                  {method === 'damla' ? (
-                    <>
-                      <CheckCircle2 className="h-12 w-12 text-[var(--green-mid)] mb-4" />
-                      <p className="text-xl font-bold text-[var(--green-dark)]">✓ Verimli sulama seçtiniz!</p>
-                      <p className="text-[var(--text-muted)] mt-2">Damla sulama ile suyunuzu en iyi şekilde koruyorsunuz.</p>
-                    </>
-                  ) : (
-                    <>
-                      <AlertTriangle className="h-12 w-12 text-orange-500 mb-4" />
-                      <p className="text-xl font-bold text-orange-900">Tasarruf Potansiyeli</p>
-                      <p className="text-3xl font-mono font-black text-orange-600 my-2">
-                        {results.savings.toLocaleString('tr-TR')} L
-                      </p>
-                      <p className="text-orange-800 text-sm">Damla sulamaya geçerek haftalık bu kadar su tasarrufu yapabilirsiniz.</p>
-                    </>
-                  )}
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Weekly Schedule Table */}
-            <Card className="border-none shadow-xl overflow-hidden">
-              <CardHeader className="bg-stone-50 border-b">
-                <CardTitle className="text-xl">Haftalık Sulama Takvimi</CardTitle>
-              </CardHeader>
-              <CardContent className="p-0">
-                <div className="overflow-x-auto">
-                  <table className="w-full text-center">
-                    <thead>
-                      <tr className="bg-stone-100 text-sm font-bold">
-                        <th className="py-4 px-2">Pzt</th>
-                        <th className="py-4 px-2">Sal</th>
-                        <th className="py-4 px-2">Çar</th>
-                        <th className="py-4 px-2">Per</th>
-                        <th className="py-4 px-2">Cum</th>
-                        <th className="py-4 px-2">Cmt</th>
-                        <th className="py-4 px-2">Paz</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr className="border-b">
-                        {Array.from({ length: 7 }).map((_, i) => (
-                          <td key={i} className="py-6 px-2">
-                            <span className={cn(
-                              "px-3 py-1 rounded-full text-[10px] font-bold uppercase",
-                              results.schedule === 'TAM' || results.schedule.includes('Günde 2') ? "bg-blue-100 text-blue-700" :
-                              results.schedule === 'ORTA' ? (i % 2 === 0 ? "bg-blue-100 text-blue-700" : "bg-stone-100 text-stone-400") :
-                              "bg-stone-100 text-stone-400"
-                            )}>
-                              {results.schedule === 'TAM' || results.schedule.includes('Günde 2') ? 'SULAMA' : 
-                               results.schedule === 'ORTA' ? (i % 2 === 0 ? 'SULAMA' : 'YOK') : 'YOK'}
-                            </span>
-                          </td>
-                        ))}
-                      </tr>
-                    </tbody>
-                  </table>
+                  <Button onClick={nextStep} className="w-full bg-[var(--green-dark)] h-14">
+                    Devam Et <ChevronRight className="ml-2 h-4 w-4" />
+                  </Button>
+                  <button onClick={prevStep} className="w-full text-stone-400 text-sm font-bold flex items-center justify-center gap-1 group overflow-hidden">
+                    <ChevronLeft className="h-4 w-4 group-hover:-translate-x-1 transition-transform" /> Geri Dön
+                  </button>
                 </div>
-              </CardContent>
-            </Card>
+              </motion.div>
+            )}
 
-            {/* Akıllı Tavsiye Box */}
-            <div className="bg-[var(--green-light)] rounded-2xl p-8 border-2 border-[var(--green-mid)] flex gap-6 items-start">
-              <div className="h-12 w-12 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm">
-                <Lightbulb className="h-6 w-6 text-[var(--green-mid)]" />
-              </div>
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold text-[var(--green-dark)]">Uzman Tavsiyesi</h3>
-                <p className="text-[var(--text-primary)] leading-relaxed">
-                  {soil === 'kumlu' && "Kumlu toprağınız suyu hızlı geçirdiği için günde 2 kez kısa sulama, 1 kez uzun sulamadan daha etkilidir."}
-                  {province === 'Konya' && "Konya'nın karasal ikliminde Temmuz ayında buharlaşma yüksektir. Sabah 06:00–08:00 arası sulama yapın."}
-                  {method === 'yagmurlama' && "Damla sulamaya geçiş yaparsanız yıllık su faturanızı %35 azaltabilirsiniz."}
-                  {soil !== 'kumlu' && province !== 'Konya' && method !== 'yagmurlama' && 
-                    `${CROPS[crop].name} bitkiniz için ${season} döneminde düzenli nem takibi çok önemlidir. Toprağın 10cm altını kontrol ederek sulama yapın.`}
-                </p>
-              </div>
-            </div>
+            {step === 3 && (
+              <motion.div
+                key="step3"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                className="space-y-8"
+              >
+                <div className="text-center mb-8">
+                  <h3 className="text-xl font-bold mb-2">Adım 3: Toprak yapınız nasıl?</h3>
+                  <p className="text-[var(--text-muted)] text-sm">Toprak yapısı su tutma kapasitesini belirler.</p>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  {Object.entries(SOILS).map(([key, data]) => (
+                    <button
+                      key={key}
+                      onClick={() => { setSoil(key); nextStep(); }}
+                      className={cn(
+                        "flex flex-col items-center gap-4 p-8 rounded-xl border-2 transition-all hover:bg-stone-50",
+                        soil === key ? "border-[var(--green-dark)] bg-[var(--green-light)]" : "border-stone-100 bg-white"
+                      )}
+                    >
+                      <span className="text-4xl">
+                        {key === 'kumlu' ? '🏖️' : key === 'tinli' ? '🌍' : '🧱'}
+                      </span>
+                      <div className="text-center">
+                        <p className="font-bold">{data.name}</p>
+                        {key === 'tinli' && <span className="text-[10px] text-green-700 bg-green-100 px-2 py-0.5 rounded-full uppercase font-black">İdeal</span>}
+                      </div>
+                    </button>
+                  ))}
+                </div>
+                <button onClick={prevStep} className="w-full text-stone-400 text-sm font-bold flex items-center justify-center gap-1">
+                  <ChevronLeft className="h-4 w-4" /> Geri Dön
+                </button>
+              </motion.div>
+            )}
 
-            {/* Action Buttons */}
-            <div className="flex flex-wrap gap-4">
-              <Button variant="outline" className="flex-1 min-h-[52px] gap-2 border-2" onClick={() => window.print()}>
-                <Download className="h-4 w-4" /> PDF İndir
-              </Button>
-              <Button variant="outline" className="flex-1 min-h-[52px] gap-2 border-2 text-green-600 border-green-200 hover:bg-green-50">
-                <Share2 className="h-4 w-4" /> WhatsApp'ta Paylaş
-              </Button>
-              <Button variant="outline" className="flex-1 min-h-[52px] gap-2 border-2" onClick={() => setResults(null)}>
-                <RefreshCw className="h-4 w-4" /> Yeni Hesaplama
-              </Button>
-            </div>
+            {step === 4 && (
+              <motion.div
+                key="step4"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                className="space-y-8"
+              >
+                <div className="text-center mb-8">
+                  <h3 className="text-xl font-bold mb-2">Adım 4: Bölgenizi Seçin</h3>
+                  <p className="text-[var(--text-muted)] text-sm">İklim verilerini bölgenize göre ayarlıyoruz.</p>
+                </div>
+                <div className="max-w-sm mx-auto space-y-6">
+                  <Select value={province} onValueChange={setProvince}>
+                    <SelectTrigger className="h-14 text-lg">
+                      <SelectValue placeholder="Şehir seçin" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {PROVINCES.map((p) => (
+                        <SelectItem key={p.name} value={p.name}>{p.name}</SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  <Button onClick={nextStep} className="w-full bg-[var(--green-dark)] h-14">
+                    Devam Et <ChevronRight className="ml-2 h-4 w-4" />
+                  </Button>
+                  <button onClick={prevStep} className="w-full text-stone-400 text-sm font-bold flex items-center justify-center gap-1">
+                    <ChevronLeft className="h-4 w-4" /> Geri Dön
+                  </button>
+                </div>
+              </motion.div>
+            )}
 
-            <p className="text-center text-xs text-[var(--text-muted)] italic">
-              Bu sonuçlar Penman-Monteith yöntemi ile hesaplanmıştır. Yerel koşullar farklılık gösterebilir.
-            </p>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            {step === 5 && (
+              <motion.div
+                key="step5"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                className="space-y-8"
+              >
+                <div className="text-center mb-8">
+                  <h3 className="text-xl font-bold mb-2">Adım 5: Sulama Yöntemi</h3>
+                </div>
+                <div className="grid gap-4">
+                  {[
+                    { id: 'damla', name: '💧 Damla Sulama', desc: '%30-50 Tasarruf Sağlar' },
+                    { id: 'yagmurlama', name: '🌧️ Yağmurlama', desc: 'Geniş Alanlar İçin' },
+                    { id: 'salma', name: '🚿 Salma Sulama', desc: 'Geleneksel Yöntemler' }
+                  ].map((m) => (
+                    <button
+                      key={m.id}
+                      onClick={() => setMethod(m.id)}
+                      className={cn(
+                        "flex items-center justify-between p-6 rounded-xl border-2 transition-all",
+                        method === m.id ? "border-[var(--green-dark)] bg-[var(--green-light)]" : "border-stone-100 bg-white"
+                      )}
+                    >
+                      <div className="text-left">
+                        <p className="font-bold text-lg">{m.name}</p>
+                        <p className="text-xs text-[var(--text-muted)]">{m.desc}</p>
+                      </div>
+                      {method === m.id && <div className="h-6 w-6 rounded-full bg-[var(--green-dark)] flex items-center justify-center text-white text-[10px]">✓</div>}
+                    </button>
+                  ))}
+                </div>
+                <Button onClick={handleCalculate} className="w-full bg-[var(--green-dark)] h-16 text-lg font-black tracking-tight">
+                  💧 HESAPLAMAYI BİTİR
+                </Button>
+                <button onClick={prevStep} className="w-full text-stone-400 text-sm font-bold flex items-center justify-center gap-1">
+                  <ChevronLeft className="h-4 w-4" /> Geri Dön
+                </button>
+              </motion.div>
+            )}
+
+            {step === 6 && results && (
+              <motion.div
+                key="results"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="space-y-8"
+              >
+                <div className="text-center mb-8">
+                  <span className="inline-block px-3 py-1 rounded-full bg-green-100 text-green-700 text-xs font-black uppercase mb-4 tracking-widest animate-bounce">Hesaplama Hazır</span>
+                  <h3 className="text-3xl font-black mb-2 text-[var(--green-dark)]">Sonuçlarınız</h3>
+                </div>
+
+                <div className="grid gap-6 sm:grid-cols-2">
+                  <Card className="border-none bg-[var(--sky-blue)] shadow-lg overflow-hidden">
+                    <CardContent className="p-8 text-center">
+                      <p className="text-xs font-black uppercase tracking-widest text-blue-800 mb-4 opacity-70">Günlük Su İhtiyacı</p>
+                      <p className="text-5xl font-mono font-black text-blue-900 leading-none">
+                        {results.dailyLitre.toLocaleString('tr-TR')}
+                      </p>
+                      <p className="text-blue-700 font-bold mt-2">Litre / Gün</p>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="border-none bg-stone-900 shadow-lg text-white">
+                    <CardContent className="p-8 text-center">
+                      <p className="text-xs font-black uppercase tracking-widest text-stone-400 mb-4 opacity-70">Haftalık Toplam</p>
+                      <p className="text-5xl font-mono font-black text-white leading-none">
+                        {results.weeklyLitre.toLocaleString('tr-TR')}
+                      </p>
+                      <p className="text-stone-400 font-bold mt-2">Litre / Hafta</p>
+                    </CardContent>
+                  </Card>
+                </div>
+
+                {method !== 'damla' && (
+                  <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl p-6 flex flex-col items-center text-center gap-2">
+                    <AlertTriangle className="h-8 w-8 text-orange-500" />
+                    <p className="font-bold text-orange-900">Tasarruf Potansiyeli!</p>
+                    <p className="text-sm text-orange-800">Damla sulamaya geçerek haftalık <span className="font-black text-lg text-orange-600">{results.savings.toLocaleString('tr-TR')} Litre</span> su tasarrufu yapabilirsiniz.</p>
+                  </div>
+                )}
+
+                <div className="bg-[var(--green-light)] rounded-2xl p-6 flex items-start gap-4 border-2 border-[var(--green-dark)]">
+                  <Lightbulb className="h-6 w-6 text-[var(--green-dark)] shrink-0 mt-1" />
+                  <div className="space-y-1">
+                    <h4 className="font-extrabold text-[var(--green-dark)]">Tavsiye</h4>
+                    <p className="text-sm text-[var(--green-dark)] opacity-90 leading-relaxed font-semibold">
+                      {results.schedule === 'ORTA' ? "Sulama işlemini gün aşırı yapmanız kök gelişimini destekler." : "Bitkiniz yüksek su istiyor, sulamayı sabah erken veya akşam geç saatlerde yapın."}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-4">
+                  <Button variant="outline" className="flex-1 min-h-[56px] border-2" onClick={() => window.print()}>
+                     Raporu İndir
+                  </Button>
+                  <Button onClick={reset} className="flex-1 min-h-[56px] bg-[var(--green-dark)]">
+                    <RefreshCw className="mr-2 h-4 w-4" /> Yeniden Hesapla
+                  </Button>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </CardContent>
+      </Card>
     </div>
   );
 }

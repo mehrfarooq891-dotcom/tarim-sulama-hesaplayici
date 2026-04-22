@@ -15,6 +15,7 @@ export const CROPS: Record<string, CropData> = {
   biber: { name: "Biber", kc: 1.05, tooltip: "Biber kökleri yüzeydedir, az ama sık sulama tercih edilmelidir." },
   kavun: { name: "Kavun/Karpuz", kc: 0.95, tooltip: "Olgunlaşma döneminde suyun azaltılması şeker oranını artırır." },
   arpa: { name: "Arpa", kc: 0.80, tooltip: "Arpa, buğdaya göre daha az su ile yetinebilir." },
+  sogan: { name: "Soğan", kc: 1.00, tooltip: "Soğan sığ köklüdür ve düzenli toprak nemi ister." },
 };
 
 export interface SoilData {
@@ -42,6 +43,7 @@ export const REGIONS = {
 export const METHODS = {
   damla: { name: "Damla Sulama", efficiency: 0.90, tooltip: "Damla sulama %30-50 su tasarrufu sağlar. En verimli yöntemdir." },
   yagmurlama: { name: "Yağmurlama", efficiency: 1.20, tooltip: "Yağmurlama geniş alanlarda tercih edilir, buharlaşma kaybı daha yüksektir." },
+  salma: { name: "Salma Sulama", efficiency: 1.60, tooltip: "Geleneksel vahşi sulama yöntemidir. Su kaybı en yüksek seviyededir." },
 };
 
 export const PROVINCES = [
