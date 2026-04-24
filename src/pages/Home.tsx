@@ -84,35 +84,35 @@ export default function Home() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid gap-12 md:grid-cols-3">
-            <div className="space-y-4">
-              <div className="w-14 h-14 bg-[var(--green-light)] rounded-2xl flex items-center justify-center text-[var(--green-dark)] shadow-sm">
-                <Sprout className="h-7 w-7" />
-              </div>
-              <h3 className="text-2xl font-black tracking-tight">Türk Çiftçisi İçin Tasarlandı</h3>
-              <p className="text-stone-500 leading-relaxed">
-                Türkiye'nin 81 ilinin iklim verileri ve toprak yapıları sistemimizde tam uyumlu çalışır.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="w-14 h-14 bg-stone-100 rounded-2xl flex items-center justify-center text-[var(--earth-brown)] shadow-sm">
-                <TrendingUp className="h-7 w-7" />
-              </div>
-              <h3 className="text-2xl font-black tracking-tight">Bilimsel Hesaplama</h3>
-              <p className="text-stone-500 leading-relaxed">
-                FAO Penman-Monteith metodunu kullanarak uluslararası tarım standartlarında sonuçlar üretiriz.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 shadow-sm">
-                <Droplets className="h-7 w-7" />
-              </div>
-              <h3 className="text-2xl font-black tracking-tight">Her Cihazda Çalışır</h3>
-              <p className="text-stone-500 leading-relaxed">
-                Tarlada telefonunuzdan, evde tabletinizden saniyeler içinde tüm hesaplamaları yapabilirsiniz.
-              </p>
-            </div>
+                    <div className="space-y-4">
+                      <div className="w-14 h-14 bg-[var(--green-light)] rounded-2xl flex items-center justify-center text-[var(--green-dark)] shadow-sm">
+                        <Sprout className="h-7 w-7" />
+                      </div>
+                      <h3 className="text-2xl font-black tracking-tight">Türk Çiftçisi İçin Tasarlandı</h3>
+                      <p className="text-stone-500 leading-relaxed">
+                        81 il iklim verisi sisteminizde tam uyumlu çalışır.
+                      </p>
+                    </div>
+        
+                    <div className="space-y-4">
+                      <div className="w-14 h-14 bg-stone-100 rounded-2xl flex items-center justify-center text-[var(--earth-brown)] shadow-sm">
+                        <TrendingUp className="h-7 w-7" />
+                      </div>
+                      <h3 className="text-2xl font-black tracking-tight">Bilimsel Hesaplama</h3>
+                      <p className="text-stone-500 leading-relaxed">
+                        FAO Penman-Monteith metodunu kullanarak uluslararası tarım standartlarında sonuçlar üretiriz.
+                      </p>
+                    </div>
+        
+                    <div className="space-y-4">
+                      <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 shadow-sm">
+                        <Droplets className="h-7 w-7" />
+                      </div>
+                      <h3 className="text-2xl font-black tracking-tight">Her Cihazda Çalışır</h3>
+                      <p className="text-stone-500 leading-relaxed">
+                        Tarlada telefonunuzdan saniyeler içinde tüm hesaplamaları yapabilirsiniz.
+                      </p>
+                    </div>
           </div>
         </div>
       </section>
@@ -165,7 +165,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center gap-10 relative z-10">
               <div className="shrink-0">
                  <img 
-                   src="https://randomuser.me/api/portraits/men/67.jpg" 
+                   src="https://i.postimg.cc/wTJgBYRh/ahmet-kaya.png" 
                    alt="Ziraat Mühendisi Ahmet Kaya" 
                    className="w-32 h-32 rounded-2xl object-cover ring-4 ring-white/20"
                  />

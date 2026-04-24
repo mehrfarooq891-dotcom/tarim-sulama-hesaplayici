@@ -161,21 +161,23 @@ export default function IrrigationCalculator() {
                   <p className="text-[var(--text-muted)] text-sm">Toprak yapısı su tutma kapasitesini belirler.</p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  {Object.entries(SOILS).map(([key, data]) => (
+                  {[
+                    { id: 'kumlu', name: 'Kumlu toprak', icon: '🏖️' },
+                    { id: 'tinli', name: 'Tınlı toprak (ideal)', icon: '🌍' },
+                    { id: 'killi', name: 'Killi toprak', icon: '🧱' }
+                  ].map((s) => (
                     <button
-                      key={key}
-                      onClick={() => { setSoil(key); nextStep(); }}
+                      key={s.id}
+                      onClick={() => { setSoil(s.id); nextStep(); }}
                       className={cn(
                         "flex flex-col items-center gap-4 p-8 rounded-xl border-2 transition-all hover:bg-stone-50",
-                        soil === key ? "border-[var(--green-dark)] bg-[var(--green-light)]" : "border-stone-100 bg-white"
+                        soil === s.id ? "border-[var(--green-dark)] bg-[var(--green-light)]" : "border-stone-100 bg-white"
                       )}
                     >
-                      <span className="text-4xl">
-                        {key === 'kumlu' ? '🏖️' : key === 'tinli' ? '🌍' : '🧱'}
-                      </span>
+                      <span className="text-4xl">{s.icon}</span>
                       <div className="text-center">
-                        <p className="font-bold">{data.name}</p>
-                        {key === 'tinli' && <span className="text-[10px] text-green-700 bg-green-100 px-2 py-0.5 rounded-full uppercase font-black">İdeal</span>}
+                        <p className="font-bold">{s.name}</p>
+                        {s.id === 'tinli' && <span className="text-[10px] text-green-700 bg-green-100 px-2 py-0.5 rounded-full uppercase font-black">İdeal</span>}
                       </div>
                     </button>
                   ))}

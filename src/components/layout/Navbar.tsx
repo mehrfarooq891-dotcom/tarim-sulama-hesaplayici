@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Droplets, Menu, X, Calculator, BookOpen, Calendar, Info, HelpCircle } from "lucide-react";
+import { Droplets, Menu, X, Calculator, BookOpen, Calendar, Info, HelpCircle, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,7 @@ const navItems = [
   { name: "Sulama Takvimi", path: "/takvim", icon: Calendar },
   { name: "Damla Sulama", path: "/damla-sulama", icon: Droplets },
   { name: "SSS", path: "/sss", icon: HelpCircle },
+  { name: "İletişim", path: "/iletisim", icon: Mail },
 ];
 
 export default function Navbar() {

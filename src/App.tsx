@@ -8,6 +8,7 @@ import Guide from "./pages/Guide";
 import Calendar from "./pages/Calendar";
 import DripIrrigation from "./pages/DripIrrigation";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -25,6 +26,7 @@ export default function App() {
                 <Route path="/takvim" element={<PageWrapper><Calendar /></PageWrapper>} />
                 <Route path="/damla-sulama" element={<PageWrapper><DripIrrigation /></PageWrapper>} />
                 <Route path="/hakkimizda" element={<PageWrapper><About /></PageWrapper>} />
+                <Route path="/iletisim" element={<PageWrapper><Contact /></PageWrapper>} />
                 <Route path="/sss" element={<PageWrapper><FAQ /></PageWrapper>} />
               </Routes>
             </AnimatePresence>
