@@ -180,10 +180,10 @@ export default function Home() {
                 <div className="space-y-4">
                   <div>
                     <p className="font-extrabold text-xl uppercase tracking-wider">Ahmet Kaya</p>
-                    <p className="text-white/70 font-bold">Ziraat Mühendisi</p>
+                    <p className="text-white/70 font-bold">Kurucu & Ziraat Mühendisi</p>
                   </div>
                   <p className="text-white/80 text-sm leading-relaxed max-w-lg">
-                    Ankara Üniversitesi Ziraat Fakültesi mezunudur. 18 yıldır Türkiye'nin farklı bölgelerinde çiftçilere sulama danışmanlığı yapmaktadır. FAO Penman-Monteith metodunu baz alan hesaplama sistemini, küçük çiftçilerin de bilimsel veriye ulaşabilmesi için geliştirmiştir.
+                    Ankara Üniversitesi Ziraat Fakültesi mezunudur. 20 yılı aşkın süredir Türkiye'nin farklı bölgelerinde çiftçilere sulama danışmanlığı yapmaktadır. FAO Penman-Monteith metodunu baz alan hesaplama sistemini, küçük çiftçilerin de bilimsel veriye ulaşabilmesi için geliştirmiştir.
                   </p>
                 </div>
               </div>
@@ -196,7 +196,6 @@ export default function Home() {
       <section className="py-24 bg-stone-50">
         <div className="container mx-auto px-4 max-w-3xl">
           <div className="text-center mb-16">
-             <HelpCircle className="h-12 w-12 text-[var(--green-mid)] mx-auto mb-4" />
              <h2 className="text-4xl font-black">Sıkça Sorulan Sorular</h2>
           </div>
           <Accordion type="single" collapsible className="space-y-4">

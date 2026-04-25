@@ -3,7 +3,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Mail, MessageSquare, Send } from "lucide-react";
+import { Mail, MessageSquare, Send, MapPin, Phone } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function Contact() {
@@ -68,16 +68,38 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Section 3 — Info box */}
+      {/* Section 3 — Info boxes */}
       <section className="pb-24 bg-white">
-        <div className="container mx-auto px-4 max-w-2xl text-center">
-          <div className="inline-flex items-center gap-4 p-8 bg-[var(--green-light)] rounded-3xl border-2 border-[var(--green-mid)]/20 shadow-sm">
-            <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center shrink-0 shadow-sm">
-               <Mail className="h-6 w-6 text-[var(--green-mid)]" />
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div className="p-8 bg-[var(--green-light)] rounded-3xl border-2 border-[var(--green-mid)]/10 shadow-sm flex flex-col items-center gap-4">
+              <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                 <Mail className="h-6 w-6 text-[var(--green-mid)]" />
+              </div>
+              <div>
+                <p className="text-xs font-bold text-stone-500 uppercase tracking-widest mb-1">E-posta</p>
+                <a href="mailto:bilgi@tarimsulama.com" className="text-lg font-black text-[var(--green-dark)] hover:underline">bilgi@tarimsulama.com</a>
+              </div>
             </div>
-            <div className="text-left">
-              <p className="text-sm font-bold text-stone-500 uppercase tracking-widest leading-none mb-1">E-posta ile ulaşın</p>
-              <a href="mailto:contact@toolsvault.com" className="text-xl font-black text-[var(--green-dark)] hover:underline">contact@toolsvault.com</a>
+            
+            <div className="p-8 bg-[var(--green-light)] rounded-3xl border-2 border-[var(--green-mid)]/10 shadow-sm flex flex-col items-center gap-4">
+              <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                 <Phone className="h-6 w-6 text-[var(--green-mid)]" />
+              </div>
+              <div>
+                <p className="text-xs font-bold text-stone-500 uppercase tracking-widest mb-1">Telefon</p>
+                <a href="tel:+903124440534" className="text-lg font-black text-[var(--green-dark)] hover:underline">+90 (312) 444 0 534</a>
+              </div>
+            </div>
+
+            <div className="p-8 bg-[var(--green-light)] rounded-3xl border-2 border-[var(--green-mid)]/10 shadow-sm flex flex-col items-center gap-4">
+              <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                 <MapPin className="h-6 w-6 text-[var(--green-mid)]" />
+              </div>
+              <div>
+                <p className="text-xs font-bold text-stone-500 uppercase tracking-widest mb-1">Adres</p>
+                <p className="text-sm font-black text-[var(--green-dark)]">Cyberpark B Blok 402, Bilkent, Ankara</p>
+              </div>
             </div>
           </div>
         </div>

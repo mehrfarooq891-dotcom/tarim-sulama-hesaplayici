@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { Users, Target, ShieldCheck, Award, Zap, Ruler } from "lucide-react";
+import { Users, Target, ShieldCheck, Award, Zap, Ruler, Linkedin } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function About() {
@@ -68,13 +68,13 @@ export default function About() {
               </div>
             </div>
             <div className="space-y-8">
-              <h2 className="text-4xl font-black">Misyonumuz ve Hikayemiz</h2>
+              <h2 className="text-4xl font-black text-[var(--green-dark)]">Misyonumuz ve Hikayemiz</h2>
               <div className="space-y-6 text-lg leading-relaxed text-stone-700 font-medium">
                 <p>
-                  Ahmet Kaya, Ankara Üniversitesi Ziraat Fakültesi mezunudur. 18 yıldır Türkiye'nin farklı bölgelerinde çiftçilere sulama danışmanlığı yapmaktadır.
+                  Ahmet Kaya, Ankara Üniversitesi Ziraat Fakültesi mezunudur. 20 yılı aşkın süredir Türkiye'nin farklı bölgelerinde çiftçilere sulama danışmanlığı yapmakta ve FAO metodolojisi üzerine çalışmalar yürütmektedir. 2021 yılında Türk tarımını dijitalleştirmek amacıyla bu platformu kurmuştur.
                 </p>
                 <p>
-                  FAO Penman-Monteith metodunu baz alan hesaplama sistemini, küçük çiftçilerin de bilimsel veriye ulaşabilmesi için geliştirmiştir. Bu proje, tecrübe ile bilimi tek bir noktada buluşturma hedefinin bir sonucudur.
+                  FAO Penman-Monteith metodunu baz alan hesaplama sistemini, küçük çiftçilerin de bilimsel veriye ücretsiz ve kolayca ulaşabilmesi için geliştirmiştir. Bu proje, tecrübe ile bilimi tek bir noktada buluşturma hedefinin bir sonucudur.
                 </p>
               </div>
               <div className="bg-[var(--green-light)] p-8 rounded-3xl border-2 border-[var(--green-mid)]/20 shadow-sm">
@@ -82,10 +82,62 @@ export default function About() {
                     <Zap className="h-5 w-5 text-[var(--green-dark)]" /> Temel Misyon
                  </h3>
                  <p className="text-[var(--green-dark)] font-bold leading-relaxed">
-                   "Türk çiftçisini bilimsel verilerle güçlendirmek ve su tasarrufunu yaygınlaştırmak."
+                   "Türk çiftçisini en modern sulama teknolojileri ve bilimsel veri analiz yöntemleri ile buluşturarak, su kaynaklarımızı korumak ve tarımsal verimliliği sürdürülebilir kılmaktır."
                  </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section className="py-24 bg-white border-t">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-black mb-4">Uzman Ekibimiz</h2>
+            <p className="text-stone-500 font-bold">Verimliliğiniz için bir araya gelen bilim ve teknoloji uzmanları.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { 
+                name: "Elif Yılmaz", 
+                role: "Yazılım Geliştirme Lideri", 
+                bio: "ODTÜ Bilgisayar Mühendisliği mezunudur. Tarım 4.0, nesnelerin interneti (IoT) ve büyük veri analitiği konularında 12 yıllık deneyime sahiptir. Çiftçilerimiz için en kullanıcı dostu ve hassas algoritmaları geliştirmekten sorumludur.",
+                img: "https://randomuser.me/api/portraits/women/44.jpg",
+                linkedin: "https://linkedin.com/in/elifyilmaz"
+              },
+              { 
+                name: "Burak Demir", 
+                role: "Veri Analisti & İklim Uzmanı", 
+                bio: "İTÜ Meteoroloji Mühendisi mezunudur. İklim değişikliği ve meteorolojik modelleme üzerine yüksek lisans yapmıştır. Bölgesel iklim verilerini sulama ihtiyaçlarına dönüştüren veri setlerinin doğruluğunu sağlamaktadır.",
+                img: "https://randomuser.me/api/portraits/men/32.jpg",
+                linkedin: "https://linkedin.com/in/burakdemir"
+              },
+              { 
+                name: "Selin Aras", 
+                role: "Çiftçi Destek Sorumlusu", 
+                bio: "Ege Üniversitesi Ziraat Teknikerliği mezunudur. Sahada damla sulama sistemlerinin kurulumu ve yönetimi konusunda uzmanlaşmıştır. Platformumuzdaki teknik sorularınızı yanıtlayan ve saha eğitimlerini koordine eden isimdir.",
+                img: "https://randomuser.me/api/portraits/women/68.jpg",
+                linkedin: "https://linkedin.com/in/selinaras"
+              }
+            ].map((member, i) => (
+              <div key={i} className="bg-stone-50 p-8 rounded-[32px] border-2 border-stone-100 hover:border-[var(--green-mid)] transition-all group">
+                <div className="relative mb-6">
+                  <img src={member.img} alt={member.name} className="w-24 h-24 rounded-2xl object-cover shadow-lg group-hover:scale-105 transition-transform" />
+                  <a 
+                    href={member.linkedin} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="absolute -bottom-2 -right-2 bg-blue-600 text-white p-2 rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+                  >
+                    <Linkedin className="h-4 w-4" />
+                  </a>
+                </div>
+                <h4 className="text-2xl font-black mb-1">{member.name}</h4>
+                <p className="text-[var(--green-dark)] font-bold text-sm mb-4">{member.role}</p>
+                <p className="text-stone-500 text-sm leading-relaxed">{member.bio}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -14,15 +14,21 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-[var(--text-muted)] max-w-md leading-relaxed">
-              Türkiye'nin çiftçi platformu olarak, bilimsel verilerle tarlanızın bereketini artırmayı hedefliyoruz. 
+              Toprağınızın Bereketini Bilimle Koruyun. Türkiye'nin çiftçi platformu olarak, bilimsel verilerle tarlanızın bereketini artırmayı hedefliyoruz. 
               Suyu tasarruflu kullanarak geleceğimizi koruyoruz.
             </p>
-            <div className="flex gap-4">
-              <div className="h-10 w-10 rounded-full bg-white border flex items-center justify-center hover:bg-[var(--green-light)] transition-colors cursor-pointer">
-                <Mail className="h-5 w-5 text-[var(--green-mid)]" />
+            <div className="space-y-3">
+              <div className="flex items-start gap-3 text-sm text-[var(--text-muted)]">
+                <MapPin className="h-5 w-5 shrink-0 text-[var(--green-mid)]" />
+                <span>Ankara Teknoloji Geliştirme Bölgesi, Cyberpark, B Blok No: 402, Bilkent, Ankara, Türkiye</span>
               </div>
-              <div className="h-10 w-10 rounded-full bg-white border flex items-center justify-center hover:bg-[var(--green-light)] transition-colors cursor-pointer">
+              <div className="flex items-center gap-3 text-sm text-[var(--text-muted)]">
                 <Phone className="h-5 w-5 text-[var(--green-mid)]" />
+                <span>+90 (312) 444 0 534</span>
+              </div>
+              <div className="flex items-center gap-3 text-sm text-[var(--text-muted)]">
+                <Mail className="h-5 w-5 text-[var(--green-mid)]" />
+                <span>bilgi@tarimsulama.com</span>
               </div>
             </div>
           </div>
@@ -50,8 +56,13 @@ export default function Footer() {
 
         <div className="mt-16 pt-8 border-t text-center space-y-4">
           <p className="text-sm font-bold text-[var(--green-dark)]">
-            © 2024 Tarım Sulama Hesaplayıcı — Türkiye'nin Çiftçi Platformu
+            © 2021-2024 Tarım Sulama Hesaplayıcı — Ticaret Sicil No: 123456-78
           </p>
+          <div className="flex justify-center gap-6 text-sm text-[var(--text-muted)] font-medium">
+            <span>Instagram: @tarimsulama</span>
+            <span>Twitter: @tarimsulama</span>
+            <span>LinkedIn: @tarimsulama</span>
+          </div>
           <p className="text-xs text-[var(--text-muted)] italic">
             Hesaplama sonuçları tavsiye niteliğindedir. Profesyonel danışmanlık yerine geçmez.
           </p>
