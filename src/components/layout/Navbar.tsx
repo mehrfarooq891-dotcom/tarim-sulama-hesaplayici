@@ -9,6 +9,7 @@ const navItems = [
   { name: "Bitki Rehberi", path: "/rehber", icon: BookOpen },
   { name: "Sulama Takvimi", path: "/takvim", icon: Calendar },
   { name: "Damla Sulama", path: "/damla-sulama", icon: Droplets },
+  { name: "Blog", path: "/blog", icon: BookOpen },
   { name: "SSS", path: "/sss", icon: HelpCircle },
   { name: "İletişim", path: "/iletisim", icon: Mail },
 ];

@@ -10,6 +10,8 @@ import DripIrrigation from "./pages/DripIrrigation";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import { motion, AnimatePresence } from "motion/react";
 
 export default function App() {
@@ -28,6 +30,8 @@ export default function App() {
                 <Route path="/hakkimizda" element={<PageWrapper><About /></PageWrapper>} />
                 <Route path="/iletisim" element={<PageWrapper><Contact /></PageWrapper>} />
                 <Route path="/sss" element={<PageWrapper><FAQ /></PageWrapper>} />
+                <Route path="/blog" element={<PageWrapper><Blog /></PageWrapper>} />
+                <Route path="/blog/:slug" element={<PageWrapper><BlogPost /></PageWrapper>} />
               </Routes>
             </AnimatePresence>
           </main>

@@ -40,6 +40,7 @@ export default function Footer() {
               <li><Link to="/rehber" className="text-[var(--text-muted)] hover:text-[var(--green-mid)]">Bitki Rehberi</Link></li>
               <li><Link to="/takvim" className="text-[var(--text-muted)] hover:text-[var(--green-mid)]">Sulama Takvimi</Link></li>
               <li><Link to="/damla-sulama" className="text-[var(--text-muted)] hover:text-[var(--green-mid)]">Damla Sulama</Link></li>
+              <li><Link to="/blog" className="text-[var(--text-muted)] hover:text-[var(--green-mid)]">Blog</Link></li>
               <li><Link to="/sss" className="text-[var(--text-muted)] hover:text-[var(--green-mid)]">Sık Sorulan Sorular</Link></li>
             </ul>
           </div>
