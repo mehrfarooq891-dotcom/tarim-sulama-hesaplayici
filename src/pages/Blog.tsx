@@ -12,6 +12,16 @@ const blogPosts = [
     author: "Ahmet Kaya",
     category: "Bitki Besleme",
     image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    id: 2,
+    title: "Domates İçin Damla Sulama Rehberi",
+    slug: "domates-icin-damla-sulama-rehberi",
+    excerpt: "Domates yetiştiriciliğinde su yönetimi, meyve kalitesini ve çatlamayı doğrudan etkiler. Fide döneminden hasada profesyonel sulama stratejileri...",
+    date: "5 Mayıs 2026",
+    author: "Ahmet Kaya",
+    category: "Sulama Teknikleri",
+    image: "https://images.unsplash.com/photo-1591857177580-dc3121bfe267?q=80&w=1000&auto=format&fit=crop"
   }
 ];
 

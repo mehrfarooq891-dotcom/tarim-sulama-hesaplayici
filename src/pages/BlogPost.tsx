@@ -102,6 +102,84 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "domates-icin-damla-sulama-rehberi": {
+    title: "Domates İçin Damla Sulama Rehberi",
+    date: "5 Mayıs 2026",
+    author: "Ahmet Kaya",
+    readTime: "15 dk okuma",
+    image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=2000&auto=format&fit=crop",
+    category: "Sulama Teknikleri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          Domates yetiştiriciliğinde su, meyvenin hem miktarını hem de kalitesini belirleyen en temel girdidir. "Domates damla sulama" sistemleri, bitkinin kök bölgesine kontrollü su vererek hem verimi artırır hem de su israfını önler.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">Giriş: Domates Neden Damla Sulama İster?</h2>
+        <p>
+          Domates bitkisi, düzensiz sulamaya karşı oldukça hassastır. Klasik salma sulama yöntemleri, kök bölgesinde aşırı nemlenmeye ve ardından hızlı kurumaya neden olur. Bu durum meyvelerde çatlamaya ve çiçek burnu çürüklüğü gibi fizyolojik hastalıklara yol açar. <strong>Domates damla sulama</strong> yöntemi, toprak nemini sürekli ideal seviyede tutarak bitkinin stres yaşamasını engeller.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">Gelişim Evrelerine Göre Domates Sulama Planı</h2>
+        <p>
+          Domatesin su tüketimi, büyüme hızına ve meyve yüküne paralel olarak değişim gösterir. İşte evre evre sulama stratejileri:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">1. Fide Dönemi ve Şaşırtma Sonrası</h3>
+        <p>
+          Fideler toprağa dikildikten sonra verilen "can suyu" hayati önem taşır. Bu aşamada toprağın nemli tutulması ancak aşırı sulanmaması gerekir. Aşırı su, köklerin tembelleşmesine ve yüzeyde kalmasına neden olur. Az miktarda ama düzenli su vererek köklerin derine inmesi teşvik edilmelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">2. Çiçeklenme Dönemi</h3>
+        <p>
+          İlk çiçek salkımları göründüğünde su ihtiyacı artar. Ancak bu dönemde yapılacak aşırı sulama, bitkinin vegetatif (boya) kaçmasına ve çiçek dökmesine neden olabilir. Toprak nemi dengeli tutulmalı, bitkinin gün ortasında pörsümesine izin verilmemelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">3. Meyve Bağlama ve Büyüme Dönemi</h3>
+        <p>
+          <strong>Su tüketiminin zirve yaptığı dönemdir.</strong> Meyveler ceviz büyüklüğüne ulaştıktan sonra su ihtiyacı maksimuma çıkar. Bu dönemde yapılacak bir aksama, meyvelerin küçük kalmasına veya içlerinin boş olmasına neden olur. Günlük su tüketimi, hava sıcaklığına bağlı olarak bitki başına 3-7 litreye kadar çıkabilir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">4. Olgunlaşma ve Hasat Dönemi</h3>
+        <p>
+          Meyveler kızarmaya başladığında sulama sıklığı hafifçe azaltılmalıdır. Bu, meyvedeki şeker oranını (Brix) artırır ve meyveden gelen aromanın güçlenmesini sağlar. Ancak hasat süresince bitkinin tamamen kurumasına asla izin verilmemelidir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">Günlük Su İhtiyacı ve Hesaplama</h2>
+        <p>
+          Domatesin günlük su ihtiyacı hesaplanırken; bitkinin büyüklüğü, güneşlenme süresi ve toprak yapısı dikkate alınmalıdır. Genel bir kural olarak:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Serin Günler:</strong> Bitki başına 1.5 - 2.5 Litre/gün</li>
+          <li><strong>Sıcak Yaz Günleri:</strong> Bitki başına 4 - 6 Litre/gün</li>
+          <li><strong>Sıcak ve Rüzgarlı Günler:</strong> Bitki başına 7 Litre ve üzeri</li>
+        </ul>
+        <p>
+          Ancak bu rakamlar geneldir. Kesin sonuç için <strong>FAO Penman-Monteith</strong> formülü kullanılmalıdır. Hesaplayıcımız, bölgenizdeki buharlaşma hızını (ETo) alarak domates katsayısı (Kc) ile çarpar ve size net saniyeyi söyler.
+        </p>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+           <h4 className="text-xl font-black mb-4">Dikkat Edin: Çatlama Sorunu</h4>
+           <p className="text-[var(--green-dark)] font-bold mb-0">
+             Domateslerde en sık görülen çatlama sorunu, toprağın çok kuruması ve ardından verilen aşırı sudur. Damla sulama ile toprağı sürekli nemli tutarak bu sorunu %90 oranında çözebilirsiniz.
+           </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6">Damla Sulama Sisteminde Gübreleme (Fertigasyon)</h2>
+        <p>
+          Damla sulamanın en büyük avantajı, gübreyi suyla birlikte tam kök bölgesine verebilmektir. Domates; gelişme döneminde Azot (N), çiçeklenme ve meyve bağlamada Fosfor (P) ve meyve tadı-rengi için yoğun Potasyum (K) ister. Damla sulama tankı kullanarak bu elementleri ihtiyaca göre dozlamak verimi %30 artırır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">Sonuç</h2>
+        <p>
+          Domates yetiştiriciliği sabır ve dikkat ister. Doğru kurulmuş bir <strong>domates damla sulama</strong> sistemi, bu yolculukta sizin en yakın dostunuzdur. Suyu bitkinin ihtiyacı kadar vererek hem yüksek kaliteli ürünler alabilir hem de ülkemizin sınırlı su kaynaklarını koruyabilirsiniz.
+        </p>
+        <p>
+          Kendi tarlanızın verileriyle hesaplama yapmak için sitemizdeki ücretsiz araçları kullanmayı unutmayın!
+        </p>
+      </div>
+    )
   }
 };
 
