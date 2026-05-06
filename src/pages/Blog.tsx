@@ -1,3 +1,4 @@
+import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Calendar, User, ArrowRight } from "lucide-react";
@@ -11,7 +12,7 @@ const blogPosts = [
     date: "3 Mayıs 2026",
     author: "Ahmet Kaya",
     category: "Bitki Besleme",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=100&w=2560&auto=format&fit=crop"
   },
   {
     id: 2,
@@ -21,11 +22,27 @@ const blogPosts = [
     date: "5 Mayıs 2026",
     author: "Ahmet Kaya",
     category: "Sulama Teknikleri",
-    image: "https://images.unsplash.com/photo-1591857177580-dc3121bfe267?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1591857177580-dc3121bfe267?q=100&w=2560&auto=format&fit=crop"
+  },
+  {
+    id: 3,
+    title: "Mısır Sulama Takvimi 2026",
+    slug: "misir-sulama-takvimi-2026",
+    excerpt: "Yüksek verimli mısır hasadı için kritik büyüme evrelerine göre sulama zamanlaması. V6-V10'dan tane dolumuna profesyonel takvim rehberi...",
+    date: "6 Mayıs 2026",
+    author: "Ahmet Kaya",
+    category: "Tarla Bitkileri",
+    image: "https://images.unsplash.com/photo-1530507629858-e4977d30e9e0?q=100&w=2560&auto=format&fit=crop"
   }
 ];
 
+const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=100&w=2560&auto=format&fit=crop";
+
 export default function Blog() {
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+    e.currentTarget.src = FALLBACK_IMAGE;
+  };
+
   return (
     <div className="bg-white min-h-screen">
       <Helmet>
@@ -53,10 +70,11 @@ export default function Blog() {
                 to={`/blog/${post.slug}`}
                 className="group flex flex-col bg-white border-2 border-stone-100 rounded-[32px] overflow-hidden hover:border-[var(--green-mid)] hover:shadow-xl transition-all duration-300"
               >
-                <div className="aspect-[16/9] overflow-hidden">
+                <div className="aspect-[16/9] overflow-hidden bg-stone-100">
                   <img 
                     src={post.image} 
                     alt={post.title} 
+                    onError={handleImageError}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>

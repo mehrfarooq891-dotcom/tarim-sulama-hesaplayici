@@ -1,7 +1,10 @@
+import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useParams, Link } from "react-router-dom";
 import { Calendar, User, Clock, ChevronLeft, Share2, Tag, BookOpen } from "lucide-react";
 import { motion } from "motion/react";
+
+const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=100&w=2560&auto=format&fit=crop";
 
 const postsData: Record<string, any> = {
   "bugday-sulamasi-ne-zaman-yapilir-2026-rehberi": {
@@ -9,7 +12,7 @@ const postsData: Record<string, any> = {
     date: "3 Mayıs 2026",
     author: "Ahmet Kaya",
     readTime: "12 dk okuma",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=2000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=100&w=2560&auto=format&fit=crop",
     category: "Bitki Besleme",
     content: (
       <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
@@ -108,7 +111,7 @@ const postsData: Record<string, any> = {
     date: "5 Mayıs 2026",
     author: "Ahmet Kaya",
     readTime: "15 dk okuma",
-    image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=2000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1591857177580-dc3121bfe267?q=100&w=2560&auto=format&fit=crop",
     category: "Sulama Teknikleri",
     content: (
       <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
@@ -180,12 +183,86 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "misir-sulama-takvimi-2026": {
+    title: "Mısır Sulama Takvimi 2026",
+    date: "6 Mayıs 2026",
+    author: "Ahmet Kaya",
+    readTime: "14 dk okuma",
+    image: "https://images.unsplash.com/photo-1530507629858-e4977d30e9e0?q=100&w=2560&auto=format&fit=crop",
+    category: "Tarla Bitkileri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          Mısır yetiştiriciliğinde rekor verimlere ulaşmanın yolu, bitkinin biyolojik saatine uyum sağlamaktan geçer. 2026 mısır sulama takvimi, iklim verilerini ve bitki fizyolojisini birleştirerek tarlanızı susuzluktan, cebinizi gereksiz maliyetten korur.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">Giriş: Mısırda Su Yönetimi Neden Hayatidir?</h2>
+        <p>
+          Mısır, fotosentez kapasitesi en yüksek bitkilerden biridir (C4 bitkisi). Bu yüksek kapasite, beraberinde ciddi bir su ihtiyacı getirir. Ancak mısır, her dönemde aynı miktarda su istemez. <strong>Mısır sulama takvimi</strong>, bitkinin "suya en çok ihtiyaç duyduğu" anları belirleyerek verim kaybını önlemeyi amaçlar. Yanlış zamanda yapılan sulama, suyun israfına; geç kalan sulama ise koçan kaybına neden olur.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">Büyüme Evrelerine Göre Mısırın Su İhtiyacı</h2>
+        <p>
+          Mısırın yaşam döngüsü vejetatif (V) ve generatif (R) evrelerden oluşur. 2026 sezonunda hassas tarım yapmak isteyen çiftçilerimiz için evre evre sulama gereklilikleri şöyledir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">1. Erken Büyüme ve V6-V10 Dönemi</h3>
+        <p>
+          Bitkinin 6 ile 10 yapraklı olduğu bu evre, potansiyel koçan büyüklüğünün ve sıra sayısının belirlendiği dönemdir. Bitki boyu hızla artar. <strong>V6-V10 dönemi</strong>ndeki su stresi, koçan taslağının küçük kalmasına neden olur. Toprağın üst katmanının kurumasına izin verilmemeli, köklerin henüz derinleşmediği unutulmamalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">2. Püskül Çıkarma ve Tozlaşma (VT-R1)</h3>
+        <p>
+          <strong>Mısır için en kritik dönemdir.</strong> Püsküllerin çıkmaya başladığı ve tepe püskülünün toz verdiği bu 10-15 günlük süreçte mısır, günlük en yüksek su tüketimine ulaşır (günlük 8-10 mm). Bu dönemde yaşanacak 2 günlük bir susuzluk, tanelerin koçana düzgün dizilmemesine ve boş koçan oluşumuna yol açar.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">3. Tane Dolumu (R2-R5)</h3>
+        <p>
+          Tozlaşma sonrası taneler süt olumuna girer. <strong>Tane dolumu</strong> evresinde su ihtiyacı hala yüksektir. Su, sütün içindeki nişastanın yoğunlaşması ve tanenin ağırlık kazanması (hektolitre) için gereklidir. Sıcak yaz aylarında bu dönemde yapılacak eksik sulama, tanelerin büzüşmesine ve verim kaybına neden olur.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">2026 İklim Şartlarında Sulama Sıklığı</h2>
+        <p>
+          <strong>Sulama sıklığı</strong>, takvimden ziyade toprak yapısı ve buharlaşma hızı (ET) ile belirlenmelidir. 2026 yaz öngörüleri, bölgesel sıcaklık dalgalarının mısır tarlalarında "ani kuruma" riski yaratacağını gösteriyor.
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Hafif (Kumlu) Topraklar:</strong> 3-5 günde bir hafif sulama.</li>
+          <li><strong>Orta (Tınlı) Topraklar:</strong> 7-10 günde bir derin sulama.</li>
+          <li><strong>Ağır (Killi) Topraklar:</strong> 10-14 günde bir çok derin sulama.</li>
+        </ul>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+           <h4 className="text-xl font-black mb-4">Uzman Notu: Sabah mı Gece mi?</h4>
+           <p className="text-[var(--green-dark)] font-bold mb-0">
+             Mısır yaprakları geniş olduğu için gündüz sulamasında buharlaşma kaybı çok yüksektir. En yüksek verim, rüzgarın az olduğu gece veya sabaha karşı yapılan sulamalardan elde edilir.
+           </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6">FAO Standartları ve Hassas Reçete</h2>
+        <p>
+          FAO verilerine göre mısırın toplam yetişme süresince 500-800 mm suya ihtiyacı vardır. Yağışlar bu miktarı karşılamıyorsa, aradaki fark sulama ile verilmelidir. Penman-Monteith metodolojisini kullanan uygulamamız üzerinden tarlanızın koordinatlarını girerek, toprağınızın su tutma kapasitesine göre bugün ne kadar su vermeniz gerektiğini görebilirsiniz.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">Sonuç</h2>
+        <p>
+          <strong>Mısır sulama takvimi 2026</strong> rehberimizin özeti şudur: Erken dönemde gelişim desteği, tepe püskülünde maksimum su ve tane dolumunda düzenli nem. Bilimsel veriden uzak yapılan sulamalar ya bitkinizi boğar ya da susuz bırakır. Tarlanızın dilinden anlamak için teknolojik araçları kullanmaktan çekinmeyin.
+        </p>
+        <p>
+          Modern mısır yetiştiriciliği hakkında daha fazla bilgi ve günlük sulama asistanınız için Tarım Sulama Hesaplayıcı her zaman yanınızda.
+        </p>
+      </div>
+    )
   }
 };
 
 export default function BlogPost() {
   const { slug } = useParams();
   const post = slug ? postsData[slug] : null;
+
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+    e.currentTarget.src = FALLBACK_IMAGE;
+  };
 
   if (!post) {
     return (
@@ -208,7 +285,12 @@ export default function BlogPost() {
       {/* Hero Header */}
       <section className="relative h-[60vh] min-h-[400px] flex items-end">
         <div className="absolute inset-0 z-0">
-          <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
+          <img 
+            src={post.image} 
+            alt={post.title} 
+            onError={handleImageError}
+            className="w-full h-full object-cover" 
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
         </div>
         <div className="container mx-auto px-4 relative z-10 pb-20 max-w-4xl">
