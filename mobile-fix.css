@@ -1,0 +1,138 @@
+/* mobile-fix.css - Advanced Mobile Responsiveness and Clean Layout Adjustments */
+
+/* Reset & safety fallback to prevent any horizontal scroll on screens down to 320px */
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base Responsive Elements */
+img, video, canvas, iframe {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Force tabular data to be fully scrollable on mobile so they don't break the layout */
+table {
+  display: block !important;
+  width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+}
+
+/* Mobile viewport spacing constraints */
+@media (max-width: 768px) {
+  /* Let containers breathe but never exceed the screen width */
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Grid & Flex layouts should stack cleanly when appropriate */
+  .grid {
+    max-width: 100% !important;
+  }
+  
+  /* Ensure large titles scale down gracefully avoiding word wrap issues */
+  h1 {
+    font-size: 2.25rem !important; /* ~36px */
+    line-height: 1.15 !important;
+    letter-spacing: -0.02em !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+  }
+  
+  h2 {
+    font-size: 1.75rem !important; /* ~28px */
+    line-height: 1.2 !important;
+    letter-spacing: -0.01em !important;
+  }
+
+  h3 {
+    font-size: 1.35rem !important; /* ~22px */
+    line-height: 1.25 !important;
+  }
+
+  /* Buttons & links to comply with the 44px minimum tap target rule */
+  button, 
+  a.btn, 
+  .btn,
+  .button,
+  input, 
+  select, 
+  textarea,
+  [role="button"] {
+    min-height: 44px;
+  }
+
+  /* Exclude links inside paragraphs/headings from forcing 44px block height */
+  p a, li a, h1 a, h2 a, h3 a, h4 a, .prose a {
+    min-height: auto !important;
+    display: inline !important;
+  }
+
+  /* Specific spacing tweaks for inputs inside forms to allow better touching */
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    font-size: 16px !important; /* Prevents auto-zoom on iOS */
+    padding: 0.75rem 1rem !important;
+  }
+
+  /* Adjust calculator crop selection grid on small phones */
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.5rem !important;
+  }
+}
+
+/* Extra small device optimizations (iPhone SE, etc. 320px - 375px) */
+@media (max-width: 480px) {
+  /* Tighten padding inside cards to maximize workspace area */
+  .p-6, .p-8, .p-10, .md\:p-10 {
+    padding: 1rem !important;
+  }
+  
+  .pt-32 {
+    padding-top: 6rem !important;
+  }
+  
+  .pb-20, .py-20, .py-24 {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+
+  /* Header and Navigation items padding */
+  .pt-24 {
+    padding-top: 5.5rem !important;
+  }
+
+  /* Adjust hero margins */
+  .mb-20 {
+    margin-bottom: 2.5rem !important;
+  }
+  .mb-16 {
+    margin-bottom: 2rem !important;
+  }
+
+  /* Align stats items on narrow devices beautifully */
+  .flex-wrap {
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+
+  /* Fix navigation title or logo from wrapping awkwardly */
+  nav .text-xl {
+    font-size: 1.1rem !important;
+  }
+}
