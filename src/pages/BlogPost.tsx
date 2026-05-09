@@ -75,7 +75,7 @@ const postsData: Record<string, any> = {
         </p>
         <h3 className="text-2xl mt-8 mb-4">Gece Sulamasının Avantajları</h3>
         <p>
-          Güneşin kavurucu etkisinin olmadığı gece ve sabahın erken saatlerinde yapılan sulama, suyun evaporasyon yoluyla kaybolmasını %30'a kadar azaltır. Ayrıca bitkinin suyu absorbe etmesi için daha uzun bir serinlik süresi sağlar.
+          Güneşın kavurucu etkisinin olmadığı gece ve sabahın erken saatlerinde yapılan sulama, suyun evaporasyon yoluyla kaybolmasını %30'a kadar azaltır. Ayrıca bitkinin suyu absorbe etmesi için daha uzun bir serinlik süresi sağlar.
         </p>
 
         <h2 className="text-3xl mt-12 mb-6">Toprak Yapısı ve Su Miktarı</h2>
@@ -151,7 +151,7 @@ const postsData: Record<string, any> = {
 
         <h2 className="text-3xl mt-12 mb-6">Günlük Su İhtiyacı ve Hesaplama</h2>
         <p>
-          Domatesin günlük su ihtiyacı hesaplanırken; bitkinin büyüklüğü, güneşlenme süresi ve toprak yapısı dikkate alınmalıdır. Genel bir kural olarak:
+          Domatesın günlük su ihtiyacı hesaplanırken; bitkinin büyüklüğü, güneşlenme süresi ve toprak yapısı dikkate alınmalıdır. Genel bir kural olarak:
         </p>
         <ul className="list-disc pl-8 space-y-3">
           <li><strong>Serin Günler:</strong> Bitki başına 1.5 - 2.5 Litre/gün</li>
@@ -185,71 +185,276 @@ const postsData: Record<string, any> = {
     )
   },
   "misir-sulama-takvimi-2026": {
-    title: "Mısır Sulama Takvimi 2026",
-    date: "6 Mayıs 2026",
+    title: "Mısır Sulama Takvimi 2026: Rekor Verim İçin Bilimsel Rehber",
+    date: "7 Mayıs 2026",
     author: "Ahmet Kaya",
-    readTime: "14 dk okuma",
-    image: "https://images.unsplash.com/photo-1530507629858-e4977d30e9e0?q=100&w=2560&auto=format&fit=crop",
+    readTime: "35 dk okuma",
+    image: "https://images.unsplash.com/photo-1551730459-92db2a308d6a?q=100&w=2560&auto=format&fit=crop",
     category: "Tarla Bitkileri",
     content: (
       <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
         <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
-          Mısır yetiştiriciliğinde rekor verimlere ulaşmanın yolu, bitkinin biyolojik saatine uyum sağlamaktan geçer. 2026 mısır sulama takvimi, iklim verilerini ve bitki fizyolojisini birleştirerek tarlanızı susuzluktan, cebinizi gereksiz maliyetten korur.
+          Mısır yetiştiriciliğinde 2026 sezonu, değişen iklim dinamikleri ve hassas tarım teknolojilerinin entegrasyonu ile yeni bir döneme giriyor. Rekor verimlere ulaşmanın yolu, sadece çok su vermek değil, bitkinin biyolojik saatine uyum sağlayan profesyonel bir **mısır sulama takvimi** uygulamaktan geçer.
         </p>
 
-        <h2 className="text-3xl mt-12 mb-6">Giriş: Mısırda Su Yönetimi Neden Hayatidir?</h2>
+        <h2 className="text-3xl mt-12 mb-6">Giriş: Mısırda Su Yönetimi ve Ekonomik Verimlilik</h2>
         <p>
-          Mısır, fotosentez kapasitesi en yüksek bitkilerden biridir (C4 bitkisi). Bu yüksek kapasite, beraberinde ciddi bir su ihtiyacı getirir. Ancak mısır, her dönemde aynı miktarda su istemez. <strong>Mısır sulama takvimi</strong>, bitkinin "suya en çok ihtiyaç duyduğu" anları belirleyerek verim kaybını önlemeyi amaçlar. Yanlış zamanda yapılan sulama, suyun israfına; geç kalan sulama ise koçan kaybına neden olur.
+          Mısır, fotosentez kapasitesi en yüksek bitkilerden biri (C4 bitkisi) olması sebebiyle, enerji üretimi için muazzam miktarda suya ihtiyaç duyar. Ancak bu ihtiyaç, bitkinin yaşam döngüsü boyunca doğrusal değildir. Yanlış zamanda yapılan sulama, hem suyun israfına hem de bitki köklerinin tembelleşmesine neden olurken; kritik bir evredeki bir günlük gecikme, koçan veriminde geri döndürülemez kayıplara yol açabilir. 2026 yılında, girdi maliyetlerinin arttığı bir ortamda, her bir damla suyun verime dönüşmesi için bilimsel bir strateji şarttır.
         </p>
 
-        <h2 className="text-3xl mt-12 mb-6">Büyüme Evrelerine Göre Mısırın Su İhtiyacı</h2>
+        <h2 className="text-3xl mt-12 mb-6">Büyüme Evrelerine Göre Mısırın Su İhtiyacı: Adım Adım Rehber</h2>
         <p>
-          Mısırın yaşam döngüsü vejetatif (V) ve generatif (R) evrelerden oluşur. 2026 sezonunda hassas tarım yapmak isteyen çiftçilerimiz için evre evre sulama gereklilikleri şöyledir:
+          Mısırın yaşam döngüsü vejetatif (V) ve generatif (R) evrelerden oluşur. Başarılı bir **mısır sulama takvimi**, bu evrelerin her birinde topraktaki nem oranını bitkinin kapasitesine göre ayarlar.
         </p>
 
-        <h3 className="text-2xl mt-8 mb-4">1. Erken Büyüme ve V6-V10 Dönemi</h3>
+        <h3 className="text-2xl mt-8 mb-4">1. Çimlenme ve Erken Gelişim (VE - V5)</h3>
         <p>
-          Bitkinin 6 ile 10 yapraklı olduğu bu evre, potansiyel koçan büyüklüğünün ve sıra sayısının belirlendiği dönemdir. Bitki boyu hızla artar. <strong>V6-V10 dönemi</strong>ndeki su stresi, koçan taslağının küçük kalmasına neden olur. Toprağın üst katmanının kurumasına izin verilmemeli, köklerin henüz derinleşmediği unutulmamalıdır.
+          Tohumun toprağa düşmesinden ilk 5 yapraklı döneme kadar olan bu süreçte mısırın su tüketimi düşüktür. Ancak bu dönem, kök sisteminin mimarisinin belirlendiği aşamadır. Toprağın bu aşamada aşırı sulanması (su altında kalması), köklerin derinlere inmek yerine yüzeyde kalmasına neden olur. Bu durum, sezon sonundaki sıcak dalgalarına karşı bitkiyi savunmasız bırakır. Hedefimiz, kökleri "su aramaya" teşvik ederek derine inmelerini sağlamaktır.
         </p>
 
-        <h3 className="text-2xl mt-8 mb-4">2. Püskül Çıkarma ve Tozlaşma (VT-R1)</h3>
+        <h3 className="text-2xl mt-8 mb-4">2. Kritik Eşik: V6 - V10 Dönemi</h3>
         <p>
-          <strong>Mısır için en kritik dönemdir.</strong> Püsküllerin çıkmaya başladığı ve tepe püskülünün toz verdiği bu 10-15 günlük süreçte mısır, günlük en yüksek su tüketimine ulaşır (günlük 8-10 mm). Bu dönemde yaşanacak 2 günlük bir susuzluk, tanelerin koçana düzgün dizilmemesine ve boş koçan oluşumuna yol açar.
+          Bitki diz hizasına geldiğinde, yani **V6-V10 dönemi**ne girdiğinde, mısırın biyolojik makinesi hızlanır. Bu dönemde mısır, gelecekteki koçanın kaç sıra olacağını ve koçan taslağının uzunluğunu belirlemeye başlar. 
+        </p>
+        <p>
+          Eğer V6 ve V10 arasında bitki su stresine girerse, koçandaki sıra sayısı kalıcı olarak azalır. Bu dönemde gövde uzaması da (internod mesafesi) maksimumdur. 2026 sulama planınızda, bu evrede toprak neminin tarla kapasitesinin %50'sinin altına düşmesine asla izin vermemelisiniz. Bitki boyunun kısa kalması, fotosentez yapacak yaprak alanının azalması demektir.
         </p>
 
-        <h3 className="text-2xl mt-8 mb-4">3. Tane Dolumu (R2-R5)</h3>
+        <h3 className="text-2xl mt-8 mb-4">3. Hızlı Büyüme ve Geç Vejetatif Evre (V12 - VT)</h3>
         <p>
-          Tozlaşma sonrası taneler süt olumuna girer. <strong>Tane dolumu</strong> evresinde su ihtiyacı hala yüksektir. Su, sütün içindeki nişastanın yoğunlaşması ve tanenin ağırlık kazanması (hektolitre) için gereklidir. Sıcak yaz aylarında bu dönemde yapılacak eksik sulama, tanelerin büzüşmesine ve verim kaybına neden olur.
+          V12 evresinden tepe püskülü çıkarma anına kadar mısır, günlük su tüketiminde dramatik bir artış yaşar. Yaprak alanı genişlemiş, bitkinin transpirasyon (terleme) hızı maksimuma yaklaşmıştır. Bu dönem, bitkinin generatif döneme (üreme) hazırlık yaptığı "enerji toplama" evresidir.
         </p>
 
-        <h2 className="text-3xl mt-12 mb-6">2026 İklim Şartlarında Sulama Sıklığı</h2>
+        <h3 className="text-2xl mt-8 mb-4">4. En Kritik Kavşak: Püskül Çıkarma ve Tozlaşma (VT - R1)</h3>
         <p>
-          <strong>Sulama sıklığı</strong>, takvimden ziyade toprak yapısı ve buharlaşma hızı (ET) ile belirlenmelidir. 2026 yaz öngörüleri, bölgesel sıcaklık dalgalarının mısır tarlalarında "ani kuruma" riski yaratacağını gösteriyor.
+          <strong>Mısır yetiştiriciliğinde hatanın telafisi olmayan dönem burasıdır.</strong> Tepe püskülünün (VT) göründüğü ve mısır püsküllerinin (Silking - R1) çıktığı 10-15 günlük süreçte bitki, toplam su ihtiyacının en büyük kısmını kullanır. 
+        </p>
+        <p>
+          **Püskül çıkarma** döneminde yaşanacak sadece 2-3 günlük bir susuzluk, polenlerin kurumasına veya ipeklerin (püsküllerin) çıkışının gecikmesine neden olur. Eğer tepe püskülü toz saçar ama mısır püskülleri susuzluktan dolayı henüz çıkmamışsa, tozlaşma gerçekleşmez ve koçanın uçları boş kalır. Bu dönemde günlük su tüketimi mısır bitkisi başına 10 mm (metrekareye 10 litre) seviyesine kadar çıkabilir. 2026 sezonunda modern sensörler kullanarak bu evrede toprağı sürekli doymuş (ancak drenajı yapılmış) seviyede tutmak hayati önemdedir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">5. Verimi Tartan Dönem: Tane Dolumu (R2 - R5)</h3>
+        <p>
+          Tozlaşma başarılı bir şekilde tamamlandıktan sonra taneler "sulu olum" veya "süt olum" evresine girer. **Tane dolumu** süreci, mısırın hektolitre ağırlığını ve dolayısıyla tondaki kazancınızı belirler. 
+        </p>
+        <p>
+          R2 (Kabarcık), R3 (Süt) ve R4 (Hamur) dönemlerinde su noksanlığı, tanelerin cılız kalmasına ve koçanın ucundaki tanelerin geri emilmesine (abortion) yol açar. Birçok çiftçi tozlaşma bittiğinde sulamayı azaltma hatasına düşer. Oysa tane dolumunda su, fotosentez ürünlerinin yapraklardan taneye taşınmasını sağlayan "nakliye aracıdır". Nakliye durursa, verim de durur.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">Sulama Sıklığı Nasıl Belirlenmelidir?</h2>
+        <p>
+          **Sulama sıklığı**, sabit bir takvimden ziyade "dinamik bir denklemdir". 2026 yılı için önerilen sıklıklar şu faktörlere göre değişmelidir:
         </p>
         <ul className="list-disc pl-8 space-y-3">
-          <li><strong>Hafif (Kumlu) Topraklar:</strong> 3-5 günde bir hafif sulama.</li>
-          <li><strong>Orta (Tınlı) Topraklar:</strong> 7-10 günde bir derin sulama.</li>
-          <li><strong>Ağır (Killi) Topraklar:</strong> 10-14 günde bir çok derin sulama.</li>
+          <li><strong>Toprak Bünyesi:</strong> Kumlu topraklarda su tutma kapasitesi düşük olduğu için 3-4 günde bir az miktarda sulama; killi-tınlı topraklarda ise 8-10 günde bir daha derin sulama tercih edilmelidir.</li>
+          <li><strong>Hava Durumu (Evapotranspirasyon):</strong> Sıcaklığın 35 dereceyi aştığı ve nemin düştüğü günlerde, bitki yapraklarının kıvrılması (pine-apple effect) sulamanın geç kaldığını gösteren bir sinyaldir.</li>
+          <li><strong>Yöntem:</strong> Damla sulama sistemlerinde her gün veya gün aşırı sulama yapılırken, yağmurlama sistemlerinde bu süre daha geniştir.</li>
         </ul>
 
         <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
-           <h4 className="text-xl font-black mb-4">Uzman Notu: Sabah mı Gece mi?</h4>
+           <h4 className="text-xl font-black mb-4">2026 İklim Uyarısı: Gece Sulaması</h4>
            <p className="text-[var(--green-dark)] font-bold mb-0">
-             Mısır yaprakları geniş olduğu için gündüz sulamasında buharlaşma kaybı çok yüksektir. En yüksek verim, rüzgarın az olduğu gece veya sabaha karşı yapılan sulamalardan elde edilir.
+             Artan küresel sıcaklıklar nedeniyle gündüz yapılan yağmurlama sulamalarda suyun %30-40'ı daha bitkiye ulaşmadan havada buharlaşmaktadır. 2026 sezonunda su verimliliğini artırmak için gece saat 22:00 ile sabah 06:00 arası sulama yapmak, su tasarrufu ve bitki serinliği açısından en etkili yöntemdir.
            </p>
         </div>
 
-        <h2 className="text-3xl mt-12 mb-6">FAO Standartları ve Hassas Reçete</h2>
+        <h2 className="text-3xl mt-12 mb-6">FAO Penman-Monteith ve Hassas Tarım Teknolojileri</h2>
         <p>
-          FAO verilerine göre mısırın toplam yetişme süresince 500-800 mm suya ihtiyacı vardır. Yağışlar bu miktarı karşılamıyorsa, aradaki fark sulama ile verilmelidir. Penman-Monteith metodolojisini kullanan uygulamamız üzerinden tarlanızın koordinatlarını girerek, toprağınızın su tutma kapasitesine göre bugün ne kadar su vermeniz gerektiğini görebilirsiniz.
+          Geleneksel yöntemlerle "parmak testi" yaparak sulama zamanı belirlemek artık yeterli değildir. **Mısır sulama takvimi** oluştururken Penman-Monteith metodolojisi, güneş radyasyonu, rüzgar hızı ve bağıl nemi kullanarak gerçek su kaybını milimetrik olarak hesaplar.
+        </p>
+        <p>
+          Uygulamamızdaki hesaplama modülü, bu karmaşık denklemleri arka planda çalıştırarak mısırınızın o gün tarladan ne kadar su "uçurduğunu" size söyler. Bitki katsayıları (Kc), mısırın V6 döneminde 0.40 iken, püskül çıkarma döneminde 1.20'ye fırlar. Yani bitki, referans buharlaşmadan %20 daha fazla su tüketir. Bu farkı bilmeyen bir çiftçinin verim kaybı yaşaması kaçınılmazdır.
         </p>
 
-        <h2 className="text-3xl mt-12 mb-6">Sonuç</h2>
+        <h2 className="text-3xl mt-12 mb-6">Modern Sulama Sistemlerinin Karşılaştırılması</h2>
         <p>
-          <strong>Mısır sulama takvimi 2026</strong> rehberimizin özeti şudur: Erken dönemde gelişim desteği, tepe püskülünde maksimum su ve tane dolumunda düzenli nem. Bilimsel veriden uzak yapılan sulamalar ya bitkinizi boğar ya da susuz bırakır. Tarlanızın dilinden anlamak için teknolojik araçları kullanmaktan çekinmeyin.
+          Mısırda hangi sistemin kullanılacağı, tarlanın topografyası ve su kaynağına bağlıdır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Damla Sulama:</strong> En yüksek verim ve su tasarrufu sağlar. Gübreyi suyla verme (fertigasyon) imkanı sunar. Gövde yanıklığı riskini azaltır.</li>
+          <li><strong>Yağmurlama (Center Pivot/Lineer):</strong> İşçilik maliyetini düşürür, geniş alanlar için uygundur. Ancak yüksek sıcaklıkta buharlaşma kaybı dezavantajdır.</li>
+          <li><strong>Salma (Karıklı) Sulama:</strong> Su israfı çok yüksektir, tarlada nem dengesi sağlamak zordur. 2026 sürdürülebilirlik hedefleri doğrultusunda terk edilmesi önerilen bir yöntemdir.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6">Sonuç: FAO Verileri ve Gelecek Öngörüleri</h2>
+        <p>
+          <strong>Mısır sulama takvimi 2026</strong> rehberimizin ana fikri "doğru miktar, doğru zaman" prensibidir. FAO verilerine göre mısırın toplam yetişme süresince 500-800 mm suya ihtiyacı vardır. Yağışlar bu miktarı karşılamıyorsa, aradaki fark sulama ile verilmelidir. Penman-Monteith metodolojisini kullanan uygulamamız üzerinden tarlanızın koordinatlarını girerek, toprağınızın su tutma kapasitesine göre bugün ne kadar su vermeniz gerektiğini görebilirsiniz.
         </p>
         <p>
-          Modern mısır yetiştiriciliği hakkında daha fazla bilgi ve günlük sulama asistanınız için Tarım Sulama Hesaplayıcı her zaman yanınızda.
+          Özetle; erken dönemde kök geliştirme, V6-V10 evresinde koçan yapısını koruma, püskül çıkarmada maksimum su desteği ve tane dolumunda kesintisiz nem yönetimi rekor verimin anahtarıdır. Bilimsel veriden uzak yapılan sulamalar ya bitkinizi boğar ya da susuz bırakır.
+        </p>
+        <p>
+          Tarımda şansa yer yoktur, sadece ölçülebilir veriler vardır. Siz de tarlanızın verim potansiyelini maksimize etmek için sitemizdeki günlük sulama asistanını kullanabilir, bitkinizin dilinden anlayan profesyonel bir üreticiye dönüşebilirsiniz. 2026 sezonunun tüm üreticilerimiz için bol bereketli ve karlı geçmesini dileriz.
+        </p>
+        <p>
+          Hemen hesaplama yapmak için <Link to="/" className="text-[var(--green-mid)] font-black decoration-2 underline">Buraya Tıklayın</Link> ve tarlanızın susuz kalmadığından emin olun!
+        </p>
+      </div>
+    )
+  },
+  "turkiyede-damla-sulama-kurulum-maliyeti-2026": {
+    title: "Türkiye'de Damla Sulama Kurulum Maliyeti 2026",
+    date: "9 Mayıs 2026",
+    author: "Mehmet Çelik",
+    readTime: "20 dk okuma",
+    image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=100&w=2560&auto=format&fit=crop",
+    category: "Sulama Maliyetleri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          Türkiye'de tarımsal verimliliği artırmak ve sınırlı su kaynaklarını korumak amacıyla modern sulama sistemlerine geçiş her geçen gün daha fazla önem kazanmaktadır. 2026 yılı itibarıyla, iklim değişikliği ve azalan yeraltı su seviyeleri, geleneksel salma sulama yerine modern yöntemleri zorunlu hale getirmiştir. Bu bağlamda, üreticilerin en çok araştırdığı konuların başında <strong>damla sulama maliyeti</strong> gelmektedir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">1. Giriş: Tarımda Su Yönetimi ve Damla Sulamanın Önemi</h2>
+        <p>
+          Tarımsal üretimde girdilerin (mazot, gübre, işçilik) arttığı 2026 sezonunda, suyu ve gübreyi en verimli şekilde kullanmak hayatta kalma meselesidir. Damla sulama sistemleri, geleneksel yöntemlere kıyasla %50'ye varan su tasarrufu sağlamasının yanı sıra gübreleme işlemini suyla birlikte tam olarak kök bölgesine ulaştırarak (fertigasyon) gübre maliyetlerini de %40 azaltır.
+        </p>
+        <p>
+          Sistemin ilk kurulum maliyeti yüksek gibi görünse de, artan verim (%20 ila %50 arası artış) and asgariye inen işçilik giderleri sayesinde <strong>damla sulama maliyeti</strong> genellikle 1 ila 2 üretim sezonu içinde kendisini tamamen amorti etmektedir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">2. 2026 Yılında Dönüm (Dekar) Başına Ortalama Damla Sulama Maliyeti</h2>
+        <p>
+          Bir tarlada damla sulama sistemi kurmanın maliyeti sabit değildir. Dönüm (1000 m²) başına yansıyan <strong>damla sulama maliyeti</strong>, tarlanın şekline, ekilen ürünün cinsine (meyve ağacı, mısır, domates, pancar vb.), kullanılacak boru kalitesine ve lateral (damlatıcı boru) aralıklarına göre değişiklik gösterir.
+        </p>
+        <p>
+          2026 yılı piyasa verilerine göre, her şey dahil (filtre, ana boru, lateraller, vanalar, fittings elemanları ve işçilik) dönüm başına ortalama maliyetler şu şekildedir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Sıra Arası Geniş Olan Kültürler (Meyve Bahçeleri, Zeytinlikler - 5x5m veya 6x6m):</strong> Dönüm başına maliyet <strong>7.500 TL – 11.000 TL</strong> arasındadır. Daha az lateral boru kullanıldığı için malzeme maliyeti daha uygundur.</li>
+          <li><strong>Sıra Arası Dar Olan Tarla Bitkileri (Mısır, Patates, Pancar - 70cm):</strong> Dönüm başına maliyet <strong>13.000 TL – 18.500 TL</strong> arasındadır. Yoğun ince veya kalın duvarlı lateral boru çekilmesi malzeme miktarını doğrudan artırır.</li>
+          <li><strong>Sebze Tarımı (Domates, Biber, Çilek vb. - 40cm - 50cm çift sıra):</strong> Dönüm başına maliyet <strong>15.000 TL – 22.000 TL</strong> arasındadır. Yüksek sıklıkta damlatıcı boruya ve hassas filtreleme sistemine ihtiyaç duyulur.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6">3. Şehre ve Bölgeye Göre Damla Sulama Kurulum Maliyetleri 2026</h2>
+        <p>
+          Türkiye'deki farklı tarım merkezlerinde damla sulama malzemelerine ulaşım kolaylığı, yerel işçilik ücretleri ve su kaynağının niteliği pazar fiyatlarını doğrudan etkilemektedir. Örneğin, derin kuyulardan su basılan İç Anadolu'da filtre ve hidrofor üniteleri daha karmaşık seçilirken, nehir-kanal suyu kullanılan Ege ve Akdeniz'de disk ve kum-çakıl filtre sistemleri yaygındır.
+        </p>
+        <p>
+          İşte Türkiye'nin önde gelen tarım şehirlerine göre 10 dönüm (1 hektar) alan için tahmini <strong>damla sulama maliyeti</strong> karşılaştırma tablosu:
+        </p>
+
+        <div className="overflow-x-auto my-8 border border-stone-200 rounded-2xl">
+          <table className="min-w-full divide-y divide-stone-200">
+            <thead className="bg-stone-50">
+              <tr>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-500 uppercase tracking-widest">Şehir</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-500 uppercase tracking-widest">Bölgesel Özellik / Su Kaynağı</th>
+                <th className="px-6 py-4 text-right text-xs font-bold text-stone-500 uppercase tracking-widest">10 Dönüm Ortalama Kurulum Maliyeti (2026)</th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-stone-100">
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Konya</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Yeraltı Derin Kuyu (150-250m) ve Kum Çakıl Filtre</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-dark)]">135.000 TL – 175.000 TL</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Şanlıurfa</td>
+                <td className="px-6 py-4 text-sm text-stone-600">GAP Kanal Suyu (Yüksek mil oranı sebebiyle disk filtre şart)</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-dark)]">125.000 TL – 160.000 TL</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Adana</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Seyhan/Ceyhan Sulama Kanalları ve Yoğun Gübreleme Tankı</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-dark)]">130.000 TL – 165.000 TL</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">İzmir</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Kuyu Suyu / Baraj Suyu ve Damlama Sulama Sistemleri</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-dark)]">115.000 TL – 150.000 TL</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Bursa</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Meyve Bahçesi Yoğunluklu (Az lateral boru, uzun ömürlü malzeme)</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-dark)]">95.000 TL – 130.000 TL</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Diyarbakır</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Kuru Tarımdan Suluya Geçiş (Ana hat çekim maliyeti yüksek)</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-dark)]">130.000 TL – 170.000 TL</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p className="mt-4">
+          Bu fiyat varyasyonlarının temel sebepleri şunlardır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Su Kaynağının Kalitesi:</strong> Sulama suyunun mil, çamur veya kireç oranı yüksekse çok kademeli filtre grubu kurulması gerekir. Bu da ana kontrol ünitelerinin fiyatını %40 oranında artırır.</li>
+          <li><strong>Topografya:</strong> Eğimli engebeli arazilerde, her damlatıcıdan eşit miktarda su çıkmasını sağlayan <strong>basınç ayarlı (PC - Pressure Compensating)</strong> lateral boruların kullanılması zorunludur. PC borular standart borulara göre %45 daha pahalıdır.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6">4. Damla Sulama Sistemi Kurulum Adımları</h2>
+        <p>
+          Doğru kurulmayan bir damla sulama sistemi, tarlanın yarısının susuz kalmasına, diğer yarısının ise göllenmesine yol açar. Bu durum verimi düşürür ve yapılan yatırımı ziyan eder. Profesyonel bir damla sulama sistemi kurulumu şu 5 adımdan oluşur:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">Adım 1: Arazi Keşfi ve Su Kaynağının Analizi</h3>
+        <p>
+          Kurulumdan önce, tarlanın en yüksek ve en alçak noktaları belirlenir. Su kaynağının (kuyu, akarsu, kanal) debisi (saatte kaç ton su verdiği) ve basıncı ölçülür. Suyun kimyasal yapısı analiz edilerek filtre seçimi yapılır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">Adım 2: Mühendislik ve Projelendirme (Hidrolik Hesaplamalar)</h3>
+        <p>
+          Tarlanın boyutlarına ve bitki türüne göre boru çapları hesaplanır. Örneğin ana boru hattı kaç inç olmalı? (Genellikle 75-110 mm arası). Laterallerin uzunluğu ne kadar olmalı? (Önerilen maksimum uzunluk 16 mm boru için 100 metredir). Bu adımda basınç kayıpları hesaplanarak pompanın gücü ile tarladaki bölme sayısı (sektörler) ayarlanır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">Adım 3: Kontrol Ünitesi ve Filtre Grubunun Montajı</h3>
+        <p>
+          Su kaynağının hemen çıkışına sırasıyla; vana, gübre tankı (fertigasyon), hidrosiklon ve disk/elek filtre monte edilir. Bu ünite sistemin "kalbidir". Filtrelerin yetersiz olması durumunda tarladaki yüzlerce küçük delik (damlatıcı) kireç ve milden dolayı tıkanır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">Adım 4: Ana ve Yan Boru Hatlarının Çekilmesi</h3>
+        <p>
+          PVC veya Polietilen (PE) esaslı ana borular tarlanın kenarına veya toprak altına yerleştirilir. Ana borudan yan hatlara geçişte küresel veya selenoid vanalar yerleştirilerek sulama bölgeleri (sektörler) oluşturulur ve su basıncı eşit olarak bölünür.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">Adım 5: Lateral Damlatıcı Boruların Serilmesi ve Test</h3>
+        <p>
+          Bitki sıralarının yanına lateral borular serilir. Boruların uçları kapatılır. Sisteme su verilerek basınç kaçakları kontrol edilir. Manometreler ile basıncın ideal çalışma aralığında (genellikle 1 ila 1.5 bar) olup olmadığı doğrulanır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">5. Devlet Destekleri ve Hibeler 2026: Maliyeti Nasıl Düşürebilirsiniz?</h2>
+        <p>
+          Artan girdi maliyetlerine karşı devlet, modern basınçlı sulama sistemlerine geçişi teşvik etmek amacıyla ciddi destekler sağlamaktadır. 2026 yılında üreticiler bu desteklerden faydalanarak <strong>damla sulama maliyeti</strong> bütçelerini %50 oranında düşürebilmektedir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">1. Tarım ve Orman Bakanlığı %50 Bireysel Sulama Hibeleri (KKYDP)</h3>
+        <p>
+          Her yıl düzenlenen Kırsal Kalkınma Yatırımlarının Desteklenmesi Programı (KKYDP) kapsamında, tarla içi modern basınçlı sulama sistemleri (damla ve yağmurlama) alımlarına <strong>%50 hibe desteği</strong> verilmektedir. Çiftçi Kayıt Sistemi'ne (ÇKS) kayıtlı olan tüm üreticiler başvuru yapabilir. Dosya hazırlama, malzeme alımı ve mühendislik projeleri bu hibe kapsamındadır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">2. Ziraat Bankası Sıfır Faizli (Sübvansiyonlu) Tarım Kredileri</h3>
+        <p>
+          Ziraat Bankası ve Tarım Kredi Kooperatifleri aracılığıyla, damla sulama sistemi kurulumu için <strong>%100 faiz indirimli (faizsiz)</strong> modern basınçlı sulama kredisi kullandırılmaktadır. Genellikle 5 ila 7 yıla kadar yayılan elverişli geri ödeme imkanları ve ilk yıl ödemesiz dönem seçeneği sunulur. Çiftçi, üründen kazandığı para ile kredi taksitlerini rahatça ödeyebilmektedir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">3. TKDK IPARD III Destekleri</h3>
+        <p>
+          IPARD programı uygulanan illerde, tarımsal işletmelerin fiziki varlıklarına yönelik yatırımlar kapsamında sulama altyapısı iyileştirmelerine %50 ila %70 arasında değişen oranlarda geri ödemesiz hibeler sunularak <strong>damla sulama maliyeti</strong> yükü büyük ölçüde hafifletilmektedir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">6. Damla Sulama Yatırımında Dikkat Edilmesi Gereken Kritik Hatalar</h2>
+        <p>
+          Yatırım bütçenizi en verimli şekilde kullanmak ve beklenmedik ek maliyetlerle karşılaşmamak için şu hususlara dikkat etmelisiniz:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Çok Ucuz, Kayıt Dışı Malzemeden Kaçının:</strong> Geri dönüştürülmüş plastiklerden üretilen merdiven altı lateral borular güneş ışığına (UV) dayanıksızdır ve ilk sezonda çatlar. Bu durum, amortisman süresini uzatır ve gerçek <strong>damla sulama maliyeti</strong> faturanızı ikiye katlar.</li>
+          <li><strong>Filtreyi Küçük Seçmeyin:</strong> Tıkanan damlatıcıları temizlemek imkansıza yakındır. Tek tek boruları değiştirmek zorunda kalırsınız. Suyunuz kirliyse otomatik ters yıkamalı filtre sistemlerine yatırım yapın.</li>
+          <li><strong>Tarımsal Sulama Hesaplayıcılardan Yardım Alın:</strong> Tarlanıza ne kadar su vermeniz gerektiğini tahmin etmek yerine, sitemizde bulunan <strong>FAO Penman-Monteith</strong> tabanlı bilimsel hesaplama aracımızı kullanarak günlük bazda ne kadar su vermeniz gerektiğini tam olarak saniye saniye hesaplayın. Bu sayede gereksiz pompa çalıştırma elektrik faturasından kurtulursunuz.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6">7. Sonuç: Damla Sulama Bir Masraf Değildir, Yatırımdır</h2>
+        <p>
+          2026 tarım vizyonunda su, paradan daha değerlidir. Dönüm başına ödeyeceğiniz <strong>damla sulama maliyeti</strong> bir gider kalemi değil; tarlanızın geleceğine, toprağınızın sağlığına ve cebinizin bereketine yapılan kalıcı bir yatırımdır.
+        </p>
+        <p>
+          Verimli gübre kullanımı, asgari yabancı ot gelişimi, yüksek oranda su tasarrufu ve pazar değeri yüksek kaliteli homojen ürün hasadı düşünüldüğünde, damla sulama sistemleri kendisini en kısa sürede ödeyen yegane tarım teknolojisidir. Devletinizin sunduğu %50 hibeleri ve faizsiz kredileri yakından takip ederek, bu dönüşümü 2026 yılında bütçenizi sarsmadan kolayca gerçekleştirebilirsiniz.
+        </p>
+        <p>
+          Tarlanız için en doğru sulama sürelerini ve su miktarlarını hesaplamak için sitemizin ana sayfasındaki <strong>Hassas Sulama Hesaplayıcıyı</strong> tamamen ücretsiz olarak deneyebilirsiniz. Bol bereketli ve yüksek verimli hasatlar dileriz!
         </p>
       </div>
     )

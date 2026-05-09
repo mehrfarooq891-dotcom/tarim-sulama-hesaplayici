@@ -33,6 +33,16 @@ const blogPosts = [
     author: "Ahmet Kaya",
     category: "Tarla Bitkileri",
     image: "https://images.unsplash.com/photo-1530507629858-e4977d30e9e0?q=100&w=2560&auto=format&fit=crop"
+  },
+  {
+    id: 4,
+    title: "Türkiye'de Damla Sulama Kurulum Maliyeti 2026",
+    slug: "turkiyede-damla-sulama-kurulum-maliyeti-2026",
+    excerpt: "2026 yılında Türkiye genelinde dönüm başına damla sulama maliyeti ne kadar? Şehre göre güncel fiyat karşılaştırmaları, adım adım kurulum süreci ve devletin %50 hibe programları...",
+    date: "9 Mayıs 2026",
+    author: "Mehmet Çelik",
+    category: "Sulama Maliyetleri",
+    image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=100&w=2560&auto=format&fit=crop"
   }
 ];
 
