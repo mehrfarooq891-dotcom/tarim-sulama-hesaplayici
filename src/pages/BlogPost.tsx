@@ -458,6 +458,256 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "toprak-tipine-gore-sulama-miktari-nasil-hesaplanir": {
+    title: "Toprak Tipine Göre Sulama Miktarı Nasıl Hesaplanır?",
+    date: "10 Mayıs 2026",
+    author: "Dr. Elif Yılmaz",
+    readTime: "25 dk okuma",
+    image: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=100&w=2560&auto=format&fit=crop",
+    category: "Toprak Bilgisi",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          Tarımsal üretimde başarının sırrı, bitkinin ihtiyaç duyduğu suyu doğru zamanda ve doğru miktarda vermektir. Ancak tarlanıza ne kadar su uygulamanız gerektiği sadece bitki türüne veya hava durumuna değil, doğrudan doğruya toprağın yapısına bağlıdır. Bilimsel ve sürdürülebilir bir tarım için <strong>toprak tipi sulama</strong> ilişkisini anlamak ve su tutma kapasitesine göre matematiksel hesaplamalar yapmak rekor verimin anahtarıdır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">1. Giriş: Toprak ve Su Arasındaki Biyofiziksel İlişki</h2>
+        <p>
+          Toprak, sadece bitki köklerini sabitleyen statik bir materyal değil; katı parçacıklar, hava boşlukları ve nem kanallarından oluşan yaşayan dinamik bir matriksdir. Her tarlanın toprağı, milimetrenin binde biri büyüklüğündeki kil tanelerinden, gözle görülebilen iri kum tanelerine kadar farklı boyutlarda parçacıklar içerir. 
+        </p>
+        <p>
+          2026 yılı iklim projeksiyonları ve azalan su kaynakları göz önüne alındığında, tarımda rastgele yapılan sulamalar hem su israfına hem de toprağın çoraklaşmasına neden olmaktadır. İşte bu yüzden, her üreticinin kendi tarlasına özel bir <strong>toprak tipi sulama</strong> programı oluşturması ve toprağının fiziksel sınırlarına göre su miktarını milimetrik hesaplaması gerekir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6">2. Toprak Tiplerini Tanıyalım: Killi, Kumlu, Tınlı Topraklar</h2>
+        <p>
+          Toprağın bünyesi (tekstürü), içerdiği kum, mil ve kil oranına göre belirlenir. Bu üç temel bileşenin farklı kombinasyonları, toprağın gözenek yapısını ve dolayısıyla suyun toprak içerisindeki hareket hızını belirler. Sulama planlamasında en yaygın karşılaştığımız üç ana toprak tipi şunlardır:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4">A) Kumlu Toprak (Hafif Bünyeli Topraklar)</h3>
+        <p>
+          Kumlu topraklar, %85 ve daha fazla oranda kum parçacığı içerir. Gözenekleri (makro gözenekler) oldukça iridir. Bu nedenle su toprağa girdiğinde yerçekiminin de etkisiyle hızla süzülür ve derinlere doğru hareket eder. 
+        </p>
+        <p>
+          <strong>Kumlu toprakların özellikleri:</strong>
+        </p>
+        <ul className="list-disc pl-8 space-y-2">
+          <li><strong>Su Tutma Kapasitesi:</strong> Çok düşüktür. Suyu bünyesinde tutacak küçük kılcal kanallardan yoksundur.</li>
+          <li><strong>Drenaj ve Havalanma:</strong> Çok mükemmeldir. Toprak havalanması yüksek olduğu için kökler oksijensiz kalmaz.</li>
+          <li><strong>Sulama Yaklaşımı:</strong> Suyu hızla sızdırdığı için bu topraklarda "Az Miktar - Sık Aralık" (küçük sulama derinlikleri ile sık uygulama) yöntemi izlenmelidir. Tek seferde çok su vermek gübrenin ve suyun yıkanarak kök bölgesinden uzaklaşmasına (leaching) yol açar.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4">B) Killi Toprak (Ağır Bünyeli Topraklar)</h3>
+        <p>
+          Killi topraklar, ağırlıkça %40 ve üzerinde çok ince kil taneciği içerir. Kil tanecikleri mikroskobik boyutlarda olduğundan aralarındaki boşluklar (mikro gözenekler) olağanüstü küçüktür. Bu kılcal boşluklar suyu adeta bir sünger gibi emer ve bırakmaz.
+        </p>
+        <p>
+          <strong>Killi toprakların özellikleri:</strong>
+        </p>
+        <ul className="list-disc pl-8 space-y-2">
+          <li><strong>Su Tutma Kapasitesi:</strong> Çok yüksektir. Muazzam miktarda su depolayabilir.</li>
+          <li><strong>Drenaj ve Havalanma:</strong> Zayıftır. Islandığında şişer, gözenekler kapanır ve suyun tarlada göllenmesine yol açar. Geç kurur ve kuruduğunda beton gibi sertleşerek derin yarıklar oluşturur.</li>
+          <li><strong>Sulama Yaklaşımı:</strong> Suyu çok yavaş emdiği için (sızma hızı düşüktür) sulama hızı düşük tutulmalıdır. "Çok Miktar - Seyrek Aralık" şeklinde sulanırlar. Hızlı su verilirse yüzey akışına geçerek erozyona sebep olur. Göllenme ise köklerin oksijensiz kalıp çürümesine (havasızlık/asfiksi) yol açar.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4">C) Tınlı Toprak (Orta Bünyeli İdeal Topraklar)</h3>
+        <p>
+          Tınlı topraklar tarımsal üretim için altın standarttır. Yaklaşık olarak eşit oranlarda kum, mil ve kil karışımından oluşurlar. Ne kumlu toprak kadar gevşek ve su sızdıran, ne de killi toprak kadar ağır ve havasız olan dengeli bir yapıya sahiptirler.
+        </p>
+        <p>
+          <strong>Tınlı toprakların özellikleri:</strong>
+        </p>
+        <ul className="list-disc pl-8 space-y-2">
+          <li><strong>Su Tutma Kapasitesi:</strong> İdeal seviyededir. Bitkinin kolayca alabileceği suyu en mükemmel şekilde saklar.</li>
+          <li><strong>Drenaj ve Havalanma:</strong> Dengelidir. Köklerin ihtiyacı olan su, hava ve besin elementlerini bir arada sunar.</li>
+          <li><strong>Sulama Yaklaşımı:</strong> Standart planlamalara en iyi yanıtı veren topraklardır. Orta düzeyde sulama sıklığı ve sulama derinliğiyle yüksek verimlilik sunar.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6">3. Su Tutma Kapasitesi (Water Holding Capacity) Nedir?</h2>
+        <p>
+          Toprağın su tutma kapasitesi, toprağın yerçekimi kuvvetine karşı bünyesinde tutabildiği maksimum su miktarıdır. Bu kapasiteyi yöneten ve sulama hesaplamalarında bilmemiz gereken üç kritik fiziki nokta vardır:
+        </p>
+
+        <div className="bg-stone-50 border border-stone-200 rounded-3xl p-8 my-8 space-y-6">
+          <div>
+            <h4 className="text-xl font-black text-[var(--green-dark)]">1. Tarla Kapasitesi (TK):</h4>
+            <p className="text-stone-600 font-bold mb-0">Toprak bol suyla sulandıktan ve serbest süzülme suyu yerçekimiyle tamamen uzaklaştıktan sonra toprak gözeneklerinde kalan nem miktarıdır. Toprağın doygun olduğu ancak köklerin nefes alabildiği en sağlıklı üst sınırdır.</p>
+          </div>
+          <div className="border-t border-stone-200 pt-6">
+            <h4 className="text-xl font-black text-[var(--green-dark)]">2. Daimi Solma Noktası (SN):</h4>
+            <p className="text-stone-600 font-bold mb-0">Topraktaki suyun bitki kökleri tarafından emilemeyecek kadar sıkı tutulduğu kritik alt sınırdır. Toprakta bu sınırın altında su olsa bile bitki bunu çekemez ve geri dönüşümsüz olarak solmaya başlar.</p>
+          </div>
+          <div className="border-t border-stone-200 pt-6">
+            <h4 className="text-xl font-black text-[var(--green-dark)]">3. Kullanılabilir Su Kapasitesi (KSK):</h4>
+            <p className="text-stone-600 font-bold mb-0">Tarla Kapasitesi ile Daimi Solma Noktası arasındaki farktır (KSK = TK - SN). Bitkinin tarladan rahatça çekip büyüme için kullanabileceği net su rezervidir.</p>
+          </div>
+        </div>
+
+        <p>
+          Aşağıdaki tabloda farklı toprak tiplerinin yüzde düzeyinde kuru toprak ağırlığına göre ortalama su tutma kapasitesi değerleri derlenmiştir:
+        </p>
+
+        <div className="overflow-x-auto my-8 border border-stone-200 rounded-2xl">
+          <table className="min-w-full divide-y divide-stone-200">
+            <thead className="bg-stone-50">
+              <tr>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-500 uppercase tracking-widest">Toprak Tipi</th>
+                <th className="px-6 py-4 text-right text-xs font-bold text-stone-500 uppercase tracking-widest">Tarla Kapasitesi (TK - % ağırlık)</th>
+                <th className="px-6 py-4 text-right text-xs font-bold text-stone-500 uppercase tracking-widest">Daimi Solma Noktası (SN - % ağırlık)</th>
+                <th className="px-6 py-4 text-right text-xs font-bold text-stone-500 uppercase tracking-widest">Kullanılabilir Su Kapasitesi (KSK - % ağırlık)</th>
+                <th className="px-6 py-4 text-right text-xs font-bold text-stone-500 uppercase tracking-widest">Hacim Ağırlığı (As - g/cm³)</th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-stone-100">
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Kumlu Toprak</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">8% – 12%</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">3% – 5%</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-mid)]">5% – 7%</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-500">1.50 – 1.65</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Tınlı (İdeal) Toprak</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">20% – 26%</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">8% – 12%</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-mid)]">12% – 14%</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-500">1.30 – 1.45</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Killi (Ağır) Toprak</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">32% – 40%</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">18% – 24%</td>
+                <td className="px-6 py-4 text-right text-sm font-bold text-[var(--green-mid)]">14% – 16%</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-500">1.10 – 1.25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6">4. Toprak Tipine Göre Sulama Miktarı Matematiksel Formülü</h2>
+        <p>
+          Tarlaya her sulamada verilecek net su derinliğini (dn) milimetre (mm veya l/m²) cinsinden hesaplamak için ziraat mühendisleri tarafından kullanılan temel hidrolik formül şudur:
+        </p>
+        
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-6 border-2 border-[var(--green-mid)]/20 text-center shadow-inner">
+          <p className="text-2xl font-black text-[var(--green-dark)] tracking-wider mb-2">
+            dn = [ (TK - SN) × As × D × ry ] / 10
+          </p>
+        </div>
+
+        <p className="mt-4">
+          Buradaki terimlerin anlamı ve birimleri şu şekildedir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>dn:</strong> Net sulama suyu miktarı (mm). 1 milimetre sulama suyu, 1 metrekareye verilen 1 litre suya (l/m²) eşittir.</li>
+          <li><strong>TK:</strong> Toprağın kuru ağırlık yüzdesi cinsinden Tarla Kapasitesi (%).</li>
+          <li><strong>SN:</strong> Toprağın kuru ağırlık yüzdesi cinsinden Daimi Solma Noktası (%).</li>
+          <li><strong>As:</strong> Toprağın Hacim Ağırlığı (g/cm³). Toprağın sıkışıklığına ve gözenekliğine göre değişir. Ağır topraklarda düşüktür, kumlu topraklarda yüksektir.</li>
+          <li><strong>D:</strong> Bitkinin etkili kök derinliği (cm). Örneğin; genç fideler için 20-30 cm alınırken, yetişkin mısır veya meyve ağaçları için bu değer 60-90 cm olarak seçilir.</li>
+          <li><strong>ry:</strong> İzin verilen kullanılabilir su tüketim payı (onluk oran şeklinde yazılır, örn. %50 tüketim için 0.50 alınır). Bitkilerin toprak suyunu çekerken stresi girmeden çekebileceği güvenli eşiktir. Çoğu kültür bitkisinde bu oran %40 ila %50 civarındadır.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6">5. Bilimsel ve Pratik Örnekler (Pratik Hesaplamalar)</h2>
+        <p>
+          Formülün tarlada nasıl hayata geçirileceğini anlamak için farklı <strong>toprak tipi sulama</strong> senaryoları üzerinden pratik hesaplamalar yapalım. Üç senaryoda da etkili kök derinliğini (D) <strong>60 cm</strong>, izin verilen nem tüketim oranını (ry) ise <strong>%50 (0.50)</strong> olarak kabul edeceğiz.
+        </p>
+
+        <div className="space-y-10 my-10">
+          {/* ÖRNEK 1 */}
+          <div className="border hover:border-[var(--green-mid)] transition-colors p-8 rounded-[32px] bg-white group">
+            <h3 className="text-2xl font-black text-stone-900 group-hover:text-[var(--green-dark)] transition-colors mb-4">Pratik Örnek 1: Kumlu Toprak Üzerinde Patates Sulaması</h3>
+            <p className="text-stone-500 font-bold">
+              Kumlu toprağa sahip bir tarlada TK = %10, SN = %4, Hacim Ağırlığı As = 1.6 g/cm³ olsun.
+            </p>
+            <div className="bg-stone-50 p-6 rounded-2xl font-mono text-sm leading-relaxed text-stone-700 my-4 border">
+              TK = 10<br />
+              SN = 4<br />
+              As = 1.6 g/cm³<br />
+              D = 60 cm<br />
+              ry = 0.50 (Yarısı tükenince sulama yapılacak)<br />
+              <br />
+              dn = ((10 - 4) * 1.6 * 60 * 0.50) / 10<br />
+              dn = (6 * 1.6 * 30) / 10<br />
+              dn = 288 / 10 = 28.8 mm (metrekare başına 28.8 litre)
+            </div>
+            <p className="text-stone-600 mb-0">
+              <strong>Sonucun Analizi:</strong> Kumlu toprakta, köklerin bulunduğu 60 cm derinlikteki güvenli su havuzumuz sadece <strong>28.8 mm</strong>'dir. Bu da demek oluyor ki, eğer yaz döneminde günlük buharlaşma (ETc) ortalama 8 mm ise, bu tarla yaklaşık <strong>3.5 günde bir (28.8 / 8 = 3.6 gün)</strong> sulanmalıdır. Sık, fakat küçük sulama derinlikleri uygulanmalıdır.
+            </p>
+          </div>
+
+          {/* ÖRNEK 2 */}
+          <div className="border hover:border-[var(--green-mid)] transition-colors p-8 rounded-[32px] bg-white group">
+            <h3 className="text-2xl font-black text-stone-900 group-hover:text-[var(--green-dark)] transition-colors mb-4">Pratik Örnek 2: Killi Toprakta Meyve Ağacı Sulaması</h3>
+            <p className="text-stone-500 font-bold">
+              Ağır killi toprağa sahip bir bahçede TK = %34, SN = %20, Hacim Ağırlığı As = 1.2 g/cm³ olsun.
+            </p>
+            <div className="bg-stone-50 p-6 rounded-2xl font-mono text-sm leading-relaxed text-stone-700 my-4 border">
+              TK = 34<br />
+              SN = 20<br />
+              As = 1.2 g/cm³<br />
+              D = 60 cm<br />
+              ry = 0.50<br />
+              <br />
+              dn = ((34 - 20) * 1.2 * 60 * 0.50) / 10<br />
+              dn = (14 * 1.2 * 30) / 10<br />
+              dn = 504 / 10 = 50.4 mm (metrekareye 50.4 litre)
+            </div>
+            <p className="text-stone-600 mb-0">
+              <strong>Sonucun Analizi:</strong> Killi toprakta su havuzumuz <strong>50.4 mm</strong> ile neredeyse kumlu toprağın iki katı büyüklüktedir. Günlük buharlaşmanın 8 mm olduğu aynı hava koşullarında, bu tarlanın sulama döngüsü <strong>6-7 günde bire (50.4 / 8 = 6.3 gün)</strong> çıkar. Tek seferde daha yüksek miktarda su verilebilir ancak killi yapının suyu emmesi için sulama debisi düşük tutulmalıdır.
+            </p>
+          </div>
+
+          {/* ÖRNEK 3 */}
+          <div className="border hover:border-[var(--green-mid)] transition-colors p-8 rounded-[32px] bg-white group">
+            <h3 className="text-2xl font-black text-stone-900 group-hover:text-[var(--green-dark)] transition-colors mb-4">Pratik Örnek 3: Tınlı Toprakta Mısır Sulaması</h3>
+            <p className="text-stone-500 font-bold">
+              Orta bünyeli dengeli tınlı bir toprakta TK = %24, SN = %12, Hacim Ağırlığı As = 1.4 g/cm³ katalım.
+            </p>
+            <div className="bg-stone-50 p-6 rounded-2xl font-mono text-sm leading-relaxed text-stone-700 my-4 border">
+              TK = 24<br />
+              SN = 12<br />
+              As = 1.4 g/cm³<br />
+              D = 60 cm<br />
+              ry = 0.50<br />
+              <br />
+              dn = ((24 - 12) * 1.4 * 60 * 0.50) / 10<br />
+              dn = (12 * 1.4 * 30) / 10<br />
+              dn = 504 / 10 = 50.4 mm (Metrekareye 50.4 litre)
+            </div>
+            <p className="text-stone-600 mb-0">
+              <strong>Sonucun Analizi:</strong> Tınlı toprakta su havuzumuz killi toprağa benzer şekilde oldukça yüksek seviyede olup <strong>50.4 mm</strong> su depolama kapasitesine erişmiştir. Üstelik bu toprak, killi toprak gibi kökleri boğmaz veya havasız bırakmaz; aynı zamanda gözenekleri kumlu toprak gibi gevşek olmadığından suyun sızmasını engeller. Tınlı toprakta bitki kökleri suyu çok daha az enerji sarf ederek emer. Bu da en yüksek verimliliğe giden doğal yoldur.
+            </p>
+          </div>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6">6. Toprak Nemini Tarlada Tespit Etmenin Kolay Yolları</h2>
+        <p>
+          Matematiksel formüllerin yanı sıra tarlada toprağın nem durumunu gözlemlemek için çiftçiler tarafından uygulanan pratik teknikler bulunmaktadır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>"Toprak Topu" (Dokunma) Testi:</strong> Bitkinin kök bölgesinden (yaklaşık 20-30 cm derinden) bir avuç toprak alın ve elinizle sıkın.
+            <ul className="list-circle pl-6 mt-2 space-y-1">
+              <li>Eğer toprak sıktığınızda top halinde kalmıyor, hemen dağılıyorsa toprak aşırı kurudur ve daimi solma noktasına yaklaşmıştır; <strong>derhal sulanmalıdır.</strong></li>
+              <li>Eğer sıktığınızda top haline geliyor ancak dokunduğunuzda hafifçe çatlıyorsa nem düzeyi mükemmeldir; <strong>sulama henüz gerekli değildir.</strong></li>
+              <li>Eğer sıktığınızda çamur gibi elinize yapışıyor ve su sızdırıyorsa toprak doymuş alan sınırındadır; <strong>sulama yapılmamalıdır.</strong></li>
+            </ul>
+          </li>
+          <li><strong>Tansiyometre Kullanımı:</strong> Topraktaki nemin kökler tarafından ne kadar kuvvetle çekildiğini bildiren kılcal cihazlardır. Toprağın emiş basıncını santibar (cb) olarak gösterirler. Bilimsel sulamada en faydalı yardımcılardandır.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6">7. Sonuç: Akıllı Sulama İle Toprağı ve Geleceği Koruyun</h2>
+        <p>
+          Her bir dekar tarlanın kendine has karakteristiği olduğunu unutmamak gerekir. Rastgele yapılan <strong>toprak tipi sulama</strong> planlaması, tarlanın verimini düşürürken toprağın kimyasal tuzlanmasına ve taban suyunun yükselmesine yol açar.
+        </p>
+        <p>
+          2026 yılında Türk ziraatinde sürdürülebilirliği desteklemek üzere geliştirdiğimiz bilimsel hesaplama algoritmaları, toprağınızın killi, kumlu veya tınlı yapısını analiz ederek meteorolojik verilerle eşleştirir ve size en ideal sonuçları sunar.
+        </p>
+        <p>
+          Uygulamamızın ana sayfasında yer alan <strong>Hassas Sulama Hesaplayıcımızı</strong> kullanarak, kendi tarlanızın toprak tipini ve ürün tipini seçebilir, bugün tarlanıza vermeniz gereken net su derinliğini saniyeler içinde tamamen ücretsiz olarak öğrenebilirsiniz. Kaynaklarımızı tüketmeden, bilimin izinde bol ve bereketli hasatlar dileriz!
+        </p>
+      </div>
+    )
   }
 };
 

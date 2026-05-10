@@ -43,6 +43,16 @@ const blogPosts = [
     author: "Mehmet Çelik",
     category: "Sulama Maliyetleri",
     image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=100&w=2560&auto=format&fit=crop"
+  },
+  {
+    id: 5,
+    title: "Toprak Tipine Göre Sulama Miktarı Nasıl Hesaplanır?",
+    slug: "toprak-tipine-gore-sulama-miktari-nasil-hesaplanir",
+    excerpt: "Killi, kumlu ve tınlı toprakların su tutma kapasiteleri nasıldır? Toprak tipine göre doğru sulama miktarı hesaplama yöntemleri, bilimsel formüller ve pratik hesaplama örnekleri...",
+    date: "10 Mayıs 2026",
+    author: "Dr. Elif Yılmaz",
+    category: "Toprak Bilgisi",
+    image: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=100&w=2560&auto=format&fit=crop"
   }
 ];
 
