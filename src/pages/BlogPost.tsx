@@ -704,7 +704,202 @@ const postsData: Record<string, any> = {
           2026 yılında Türk ziraatinde sürdürülebilirliği desteklemek üzere geliştirdiğimiz bilimsel hesaplama algoritmaları, toprağınızın killi, kumlu veya tınlı yapısını analiz ederek meteorolojik verilerle eşleştirir ve size en ideal sonuçları sunar.
         </p>
         <p>
-          Uygulamamızın ana sayfasında yer alan <strong>Hassas Sulama Hesaplayıcımızı</strong> kullanarak, kendi tarlanızın toprak tipini ve ürün tipini seçebilir, bugün tarlanıza vermeniz gereken net su derinliğini saniyeler içinde tamamen ücretsiz olarak öğrenebilirsiniz. Kaynaklarımızı tüketmeden, bilimin izinde bol ve bereketli hasatlar dileriz!
+          Uygulamamızın ana sayfasında yer alan <strong>Hassas Sulama Hesaplayıcımızı</strong> kullanarak, kendi tarlanızın toprak tipini ve ürün tipini seçebilir, bugün tarlanıza vermeniz gereken net su derinliğini saniyeler içinde tamamen ücretsiz olarak öğrenebilirsiniz. Kaynaklarimizi tüketmeden, bilimin izinde bol ve bereketli hasatlar dileriz!
+        </p>
+      </div>
+    )
+  },
+  "zeytin-agaci-sulama-rehberi-mevsime-gore-su-ihtiyaci": {
+    title: "Zeytin Ağacı Sulama Rehberi — Mevsime Göre Su İhtiyacı",
+    date: "12 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "12 dk okuma",
+    image: "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?q=100&w=2560&auto=format&fit=crop",
+    category: "Ağaç Sulama",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium font-sans">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Zeytin ağacı (Olea europaea), Akdeniz tarımının can damarıdır. Kuraklığa dayanıklılığı bir efsane olsa da, modern tarımda yüksek verim ve kaliteli ürün elde etmek için kontrollü ve bilimsel bir <strong>zeytin sulama</strong> rejimine ihtiyaç duyulduğu kesinleşmiştir. Doğru zamanda ve miktardaki sulama, meyve kalitesini, tane iriliğini, sürgün uyanışını ve asıl önemlisi zeytinyağındaki polifenol miktarı ile sızma kalitesini doğrudan etkiler.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Zeytinde Su Yönetimi ve Toprak Türünün Önemi</h2>
+        <p>
+          Zeytin bahçenizin kurulu olduğu arazinin yapısı, suyun kök bölgesinde ne kadar süreyle kalacağını tayin eden ana unsurdur. Sulama yapılmadan önce toprağın fiziksel özellikleri ve <strong>su tutma kapasitesi</strong> mutlaka göz önünde bulundurulmalıdır. Farklı toprak türleri zeytin ağacının kök fizyolojisiyle farklı etkileşimlere girer:
+        </p>
+        <ul className="list-disc pl-8 space-y-3 mb-6">
+          <li>
+            <strong>Killi Toprak (Ağır Yapılı Toprak):</strong> Su tutma kapasitesi son derece büyüktür ancak havayolları dardır. Zeytin kökleri aşırı yaş ve doymuş havasız topraklarda uzun kalırsa kök çürüklüğü gelişimine maruz kalabilir. Bu nedenle killi topraklarda sulama aralıkları uzun tutulmalı, drenaja azami özen gösterilmelidir.
+          </li>
+          <li>
+            <strong>Kumlu Toprak (Hafif Yapılı Toprak):</strong> Suyu tutma kabiliyeti oldukça düşüktür; süzek yapısı suyun ve besin maddelerinin hızla derin tabakalara sızmasına yol açar. Bu topraklarda az miktarda ama çok sık aralıklarla sulama yapılarak köklerin nemli çevrede kalması sağlanmalıdır.
+          </li>
+          <li>
+            <strong>Tınlı Toprak (İdeal Dengeli Toprak):</strong> Zeytin ağacının en sevdiği, süzeklikle su tutmanın muhteşem dengelendiği yapıdır. Kök solunumunu engellemeden suyu dengeli bir biçimde muhafaza eder ve yüksek randımanlı meyve gelişimini tetikler.
+          </li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Mevsime Göre Zeytin Ağacı Su İhtiyacı</h2>
+        <p>
+          Zeytin tarımında verimin sırrı, ağacın fenolojik (gelişimsel) evrelerindeki su taleplerini saptamaktan doğar. Su gereksinimi yılın farklı dilimlerinde büyük değişiklikler gösterir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-bold text-stone-900">A) Yaz Dönemi (Çekirdek Sertleşmesi ve Meyve Büyümesi)</h3>
+        <p>
+          Zeytinde suya duyarlılığın en yüksek olduğu, buharlaşmanın tavan yaptığı dönem <strong>yaz</strong> aylarıdır (Haziran - Ağustos arası). Bu evrede iki ana fizyolojik sınır bulunur:
+        </p>
+        <ol className="list-decimal pl-8 space-y-2 mb-4">
+          <li><strong>Haziran ve Temmuz (Çekirdek Sertleşmesi):</strong> Meyvenin çekirdek dokuları bu süreçte tam olarak sertleşir. Bu aşamada bitkide su stresi yaşanması meyvenin buruşup dökülmesine veya küçük kalarak pazar değerini kaybetmesine neden olur.</li>
+          <li><strong>Ağustos (Yağ Sentezi ve Hücre İrimesi):</strong> Çekirdeği sertleşen meyvede yağ birikimi ve etli kısmın büyümesi hız kazanır. Düzenli <strong>zeytin sulama</strong> sayesinde bitkinin fotosentez gücü düşmez, böylece hem dekar başı tonaj artar hem de meyve içindeki net yağ yüzdesi yükselir.</li>
+        </ol>
+
+        <h3 className="text-2xl mt-8 mb-4 font-bold text-stone-900">B) Sonbahar ve Hasat Dönemi (Yağlanmanın Tamamlanması)</h3>
+        <p>
+          Eylül ve Ekim aylarında zeytin renk dönümüne (yeşilden mor/siyaha) girer ve yağ sentezinin en kritik birikim devresi yaşanır. Bu <strong>hasat dönemi</strong> öncesinde yapılacak sulamaların yönetimi zeytinyağı kalitesine yön verir:
+        </p>
+        <p>
+          Hasattan yaklaşık 2-3 hafta önce fazla sulamalar durdurulmalıdır. Ağacın hasat öncesinde aşırı deregede sulanması, toplanan meyvelerdeki su oranının artmasına ve yağa işleme sırasında randımanın düşük görünmesine yol açar. Ayrıca fazla su, yağdaki aromatik polifenollerin dökülerek zayıf bir asit profili kalmasına sebep olabilir. Ancak, aşırı kurak giden sonbaharlarda meyve büzüşmesini engellemek için hafif can suları verilebilir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-bold text-stone-900">C) Kış Dönemi (Dinlenme Evresi ve Su Birikimi)</h3>
+        <p>
+          Zeytin ağacı <strong>kış</strong> mevsiminde vejetatif faaliyetlerini askıya alarak kış uykusuna dalar. Doğal yağışlar bu süreçte toprak profilini neme doyurmak için yeterlidir. Dolayısıyla ek sulamaya gerek duyulmaz. Kış döneminde köklerin suya boğulması ağaçların direncini düşürerek don zararlarını tetikleyebilir. Sadece sıra dışı kuraklık yaşanan kışlarda, toprak taban nemini korumak için çok kısıtlı seviyede kontrol yapılmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-bold text-stone-900">D) İlkbahar Dönemi (Filizlenme ve Çiçeklenme)</h3>
+        <p>
+          Mart-Mayıs aralığında zeytinler yeni sürgün uyanışına girer ve çiçek gözlerini oluşturur. Kış yağışlarının noksan kaldığı yıllarda bu dönemde yapılacak hafif bir sulama tomurcuk zenginliğini artırır, böylece döküntüsüz ve gür çiçek açımını pekiştirir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Zeytinlikler İçin Altın Değerinde Damla Sulama Tavsiyeleri</h2>
+        <p>
+          Geleneksel salma sulama veya vahşi sulama yöntemleri, zeytin ağacının kök boğazında mantar oluşumuna (Verticillium ve Phytophthora gibi) doğrudan davetiye çıkarır. Suyu koruyan, tuzu azaltan ve yüksek verim sağlayan en iyi yöntem damla sulamadır.
+        </p>
+        <p>
+          Zeytin bahçenizde uygulayabileceğiniz uzman <strong>damla sulama tavsiyeleri</strong> aşağıdadır:
+        </p>
+        <div className="bg-stone-50 border border-stone-200 rounded-3xl p-8 my-8 space-y-6">
+          <div className="flex gap-4 items-start">
+            <span className="bg-[var(--green-mid)] text-white font-black text-center w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+            <div>
+              <h4 className="text-xl font-bold text-stone-900 mb-2">Çift Sıra Lateral Boru Çekin:</h4>
+              <p className="text-stone-600 mb-0">Yaşlı ağaçların kökleri geniştir. Tek sıra boru yetersiz nemlenme alanı yaratır. Ağaç sırasının her iki yanından, gövdeden 1 metre mesafeyle sarkan çift lateral hat döşemek en mantıklı adımdır.</p>
+            </div>
+          </div>
+          <div className="border-t border-stone-200 pt-6 flex gap-4 items-start">
+            <span className="bg-[var(--green-mid)] text-white font-black text-center w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+            <div>
+              <h4 className="text-xl font-bold text-stone-900 mb-2">Gövdeden Uzak Kalın:</h4>
+              <p className="text-stone-600 mb-0">Damlatıcı memelerini gövde dibine yığmayın. Gövdenin nemli kalması kök boğazı çürümelerine zemin hazırlar. Islatmayı ağacın taç izdüşümünde homojen yaymak en sağlıklısıdır.</p>
+            </div>
+          </div>
+          <div className="border-t border-stone-200 pt-6 flex gap-4 items-start">
+            <span className="bg-[var(--green-mid)] text-white font-black text-center w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+            <div>
+              <h4 className="text-xl font-bold text-stone-900 mb-2">Basınç Ayarlı (PC) Damlatıcı Seçimi:</h4>
+              <p className="text-stone-600 mb-0">Engebeli veya meyilli arazilerde, her bir ağacın satır başından satır sonuna dek eşit debide (örneğin saatte tam 4 litre) su alabilmesi için basınç kompanse edici (PC) damlama borularını tercih edin.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Zeytin Su Tüketim Yüzdeleri ve Planlama Tablosu</h2>
+        <p>
+          Aşağıdaki tabloda, Akdeniz iklim bölgesinde yer alan olgun bir zeytin ağacının gelişim evrelerine göre su tüketim payı ve sulama önem düzeyi gösterilmektedir:
+        </p>
+        <div className="overflow-x-auto my-8 border border-stone-200 rounded-2xl">
+          <table className="min-w-full divide-y divide-stone-200">
+            <thead className="bg-stone-50">
+              <tr>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-500 uppercase tracking-widest">Büyüme Evresi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-500 uppercase tracking-widest">Zaman Aralığı</th>
+                <th className="px-6 py-4 text-right text-xs font-bold text-stone-500 uppercase tracking-widest">Su Payı (%)</th>
+                <th className="px-6 py-4 text-center text-xs font-bold text-stone-500 uppercase tracking-widest">Öncelik Derecesi</th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-stone-100">
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Uyanış ve Göz Kabarması</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Mart - Nisan</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">%15 - %20</td>
+                <td className="px-6 py-4 text-center"><span className="bg-yellow-100 text-yellow-800 text-xs font-bold px-3 py-1 rounded-full">Orta</span></td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Salkım Oluşumu ve Çiçek</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Mayıs</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">%10 - %15</td>
+                <td className="px-6 py-4 text-center"><span className="bg-red-100 text-red-800 text-xs font-bold px-3 py-1 rounded-full">Kritik</span></td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Çekirdek Sertleşme Safhası</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Haziran - Temmuz</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">%35 - %40</td>
+                <td className="px-6 py-4 text-center"><span className="bg-red-100 text-red-800 text-xs font-bold px-3 py-1 rounded-full">Çok Yüksek</span></td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Yağ Entegrasyonu ve Etlenme</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Ağustos - Eylül</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">%25 - %30</td>
+                <td className="px-6 py-4 text-center"><span className="bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full">Yüksek</span></td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-stone-900">Hasat Öncesi Dengelenme</td>
+                <td className="px-6 py-4 text-sm text-stone-600">Ekim - Kasım</td>
+                <td className="px-6 py-4 text-right text-sm text-stone-600">%5 - %10</td>
+                <td className="px-6 py-4 text-center"><span className="bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full">Hafif/Kısıtlı</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Bilimsel Metotlarla Günlük Su Hesaplama Formülü</h2>
+        <p>
+          Ziraat mühendisleri, zeytin ağacının günlük net su tüketimini (ET_bitki) hesaplarken referans evapotranspirasyon hızı ile bitki ve taç katsayılarını çarparak kesin bir formül elde ederler:
+        </p>
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-6 border-2 border-[var(--green-mid)]/20 text-center shadow-inner">
+          <p className="text-2xl font-black text-[var(--green-dark)] tracking-wider mb-2">
+            ET_bitki = ET_o × K_c × K_r
+          </p>
+        </div>
+        <p className="mb-4">Bu değişkenlerin açılımları şöyledir:</p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>ET_o:</strong> Milimetre cinsinden günlük referans bitki buharlaşma parametresi.</li>
+          <li><strong>K_c:</strong> Zeytin bitki katsayısı (yazın ortalama 0.55 civarında seyreder).</li>
+          <li><strong>K_r:</strong> Ağacın kaplama oranı katsayısı (sıra araları ve taç izdüşüm alanına bağlıdır).</li>
+        </ul>
+
+        <div className="border hover:border-[var(--green-mid)] transition-colors p-8 rounded-[32px] bg-white group my-6">
+          <h3 className="text-2xl font-black text-stone-900 group-hover:text-[var(--green-dark)] transition-colors mb-4">Pratik Örnek Hesaplama</h3>
+          <p className="text-stone-500 font-bold">
+            Temmuz ayında, günlük referans buharlaşma miktarının 8 mm olduğunu varsayalım. Sürgün taç çapı 4 metre (yaklaşık 12.5 m² alan) büyüklüğündeki olgun bir zeytin ağacımız için K_c = 0.55 ve örtü faktörü K_r = 0.60 olarak belirlensin:
+          </p>
+          <div className="bg-stone-50 p-6 rounded-2xl font-mono text-sm leading-relaxed text-stone-700 my-4 border">
+            ET_o = 8 mm/gün<br />
+            K_c = 0.55<br />
+            K_r = 0.60<br />
+            Taç Alanı = 12.5 m²<br />
+            <br />
+            Günlük Su Tüketimi (ET_bitki) = 8 × 0.55 × 0.60 = 2.64 mm/gün<br />
+            Ağaç Başına Günlük İhtiyaç = 2.64 mm × 12.5 m² = 33 Litre / ağaç / gün
+          </div>
+          <p className="text-stone-600 mb-0">
+            <strong>Analiz Sonucu:</strong> Bu ağaca her gün için 33 litre su ulaştırılmalıdır. Haftalık 2 sulama yapılıyorsa, sulama günü başına ağaç başına düşmesi gereken miktar <strong>(33 × 7) / 2 = 115.5 litredir.</strong> Bu su, tınlı topraklarda damla borularının yaklaşık 3.5-4 saat açık tutulmasıyla gövdeden sızmadan ağaca tam olarak yedirilir.
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Sulamanın Zeytinyağı Organoleptik Özelliklerine Faydası</h2>
+        <p>
+          Suyun zeytinyağı asiditesini "sulandırdığı" ve seyreltiği anlayışı tamamen yanlıştır. Bilimsellikten uzak bu inanışın aksine kontrollü sulama:
+        </p>
+        <ul className="list-disc pl-8 space-y-3 mb-6">
+          <li><strong>Yüksek Polifenol Korunumu:</strong> Kontrollü kısıntılı sulama (CDI), ağacın aşırı strese girmeden hafif fizyolojik zorlanma hissetmesini sağlar. Bu şokla ağaç, yağa acılık ve şifalı yakıcılık veren antioksidan polifenolleri sentezler.</li>
+          <li><strong>Asit Değeri Kararlılığı:</strong> Kuraklık nedeniyle dökülen ve topraktan toplanan zeytinlerin asidi yüksek olur. Ağaçta diri kalarak hasat edilen sağlıklı zeytinin yağı kusursuz bir asit kararlılığı (%0.2 - %0.5) gösterir.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç: Akıllı Gelecek İçin Bilimsel Tarım</h2>
+        <p>
+          Zeytin tarımında verimin ve asırlık ömrün sınırlarını zorlamak, ancak doğru <strong>zeytin sulama</strong> rejimleri kurmakla gerçekleşir. 2026 yılı tarım ufkunda, doğanın dengelerini gözeterek suyu milimetrik ölçeklemek hem üreticilerimizi kalkındıracak hem de kıymetli su kaynaklarımızı koruyacaktır.
+        </p>
+        <p>
+          Hemen web sitemizin ana sayfasındaki <strong>Akıllı Tarım Sulama Hesaplayıcımızı</strong> ziyaret edip tarlanızın toprak türünü, ürün cinsini ve konumunuzun günlük buharlaşma değerlerini girerek ihtiyaç duyduğunuz net sulama miktarını saniyeler içinde ücretsiz ve bilimsel formüllerle hesaplayabilirsiniz!
         </p>
       </div>
     )

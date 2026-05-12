@@ -53,6 +53,16 @@ const blogPosts = [
     author: "Dr. Elif Yılmaz",
     category: "Toprak Bilgisi",
     image: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=100&w=2560&auto=format&fit=crop"
+  },
+  {
+    id: 6,
+    title: "Zeytin Ağacı Sulama Rehberi — Mevsime Göre Su İhtiyacı",
+    slug: "zeytin-agaci-sulama-rehberi-mevsime-gore-su-ihtiyaci",
+    excerpt: "Yaz, kış ve hasat dönemi zeytin sulama planlaması. Zeytincilikte en yüksek yağ kalitesi ve yüksek verim için kritik damla sulama tavsiyeleri...",
+    date: "12 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Ağaç Sulama",
+    image: "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?q=100&w=2560&auto=format&fit=crop"
   }
 ];
 
