@@ -12,7 +12,7 @@ const blogPosts = [
     date: "3 Mayıs 2026",
     author: "Ahmet Kaya",
     category: "Bitki Besleme",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=100&w=2560&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const blogPosts = [
     date: "5 Mayıs 2026",
     author: "Ahmet Kaya",
     category: "Sulama Teknikleri",
-    image: "https://images.unsplash.com/photo-1591857177580-dc3121bfe267?q=100&w=2560&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const blogPosts = [
     date: "6 Mayıs 2026",
     author: "Ahmet Kaya",
     category: "Tarla Bitkileri",
-    image: "https://images.unsplash.com/photo-1530507629858-e4977d30e9e0?q=100&w=2560&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const blogPosts = [
     date: "9 Mayıs 2026",
     author: "Mehmet Çelik",
     category: "Sulama Maliyetleri",
-    image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=100&w=2560&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const blogPosts = [
     date: "10 Mayıs 2026",
     author: "Dr. Elif Yılmaz",
     category: "Toprak Bilgisi",
-    image: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=100&w=2560&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 6,
@@ -62,11 +62,11 @@ const blogPosts = [
     date: "12 Mayıs 2026",
     author: "Zir. Müh. Ahmet Kaya",
     category: "Ağaç Sulama",
-    image: "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?q=100&w=2560&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
-const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=100&w=2560&auto=format&fit=crop";
+const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80";
 
 export default function Blog() {
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
@@ -104,7 +104,7 @@ export default function Blog() {
                   <img 
                     src={post.image} 
                     alt={post.title} 
-                    onError={handleImageError}
+                    onError={post.id === 5 ? undefined : handleImageError}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>

@@ -464,7 +464,7 @@ const postsData: Record<string, any> = {
     date: "10 Mayıs 2026",
     author: "Dr. Elif Yılmaz",
     readTime: "25 dk okuma",
-    image: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=100&w=2560&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1628352081506-83c43123a6b9?auto=format&fit=crop&w=800&q=80",
     category: "Toprak Bilgisi",
     content: (
       <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
