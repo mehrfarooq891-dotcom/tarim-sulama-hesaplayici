@@ -63,6 +63,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Ağaç Sulama",
     image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 7,
+    title: "Kuraklık Döneminde Çiftçi Ne Yapmalı? Sulama Stratejileri",
+    slug: "kuraklik-doneminde-ciftci-ne-yapmali-sulama-stratejileri",
+    excerpt: "İklim krizinin ve azalan su kaynaklarının gölgesinde modern tarım için hayati rehber. Kuraklığa karşı su tasarrufu, damla sulama yöntemleri ve dayanıklı bitki seçimi...",
+    date: "13 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sulama Stratejileri",
+    image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
