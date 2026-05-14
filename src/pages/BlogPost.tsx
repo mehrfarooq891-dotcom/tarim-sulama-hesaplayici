@@ -1010,6 +1010,165 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "patates-sulama-miktari-ve-takvimi": {
+    title: "Patates Sulama Miktarı ve Takvimi: Bilimsel Sulama Rehberi",
+    date: "14 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "16 dk okuma",
+    image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80",
+    category: "Yumru Tarımı",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          Patates (Solanum tuberosum) tarımında maksimum dekar verimine ulaşmak ve pazar değeri yüksek, içi dolu, şekli düzgün yumrular elde etmek tesadüflere bırakılamaz. Saçak kök yapısıyla neme karşı son derece duyarlı olan patates bitkisinin su yönetimini bilimsel bir çerçeveye oturtmak, karlı bir üretimin anahtarıdır. Bu kapsamlı rehberde, patates bitkisinin kritik büyüme dönemleri boyunca su ihtiyaçlarını, can damarı niteliğindeki günlük su ihtiyacı katsayılarını ve modern sulama yöntemleri ile su tasarrufunun püf noktalarını milim milim inceledik.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Patates Tarımında ve Yumru Gelişiminde Suyu Doğru Yönetmenin Önemi</h2>
+        <p>
+          Patates, besin zincirinin en temel karbonhidrat ve enerji kaynaklarından biridir. Ülkemizde ve dünyada geniş üretim alanlarına sahip olan patatesin fizyolojik yapısı, onu diğer tarla bitkilerinden ayıran hassas bir özelliğe sahiptir: Sığ ve sınırlı saçak kök sistemi. Patates köklerinin %85 ila %90'ı toprağın ilk 30-45 cm'lik katmanında yoğunlaşmıştır. Bu durum, bitkinin derinlerdeki yer altı sularından faydalanma kabiliyetini sınırlar ve onu toprağın hemen üst tabakasındaki nem dalgalanmalarına karşı son derece kırılgan hale getirir.
+        </p>
+        <p>
+          Kontrollü ve planlı bir <strong>patates sulama</strong> programı yapılmadığında, toprak neminin aşırı düşmesi veya aşırı yükselmesi bitkide doğrudan fizyolojik stres yaratır. Nemin yetersiz olduğu dönemlerde stolon gelişimi durur, yumru irileşmesi kesintiye uğrar ve yumrularda şekilsizleşmeler gözlenir. Aşırı su verilmesi durumunda ise kök bölgesinin havasız kalması (anoksi), yumru kabuğundaki lentisellerin (gözeneklerin) aşırı açılmasına, bakteriyel ve mantari kök çürüklüğü hastalıklarına davetiye çıkarır. Dolayısıyla, patates tarımında suyun miktarını ve sıklığını tam ihtiyaca göre belirlemek hayati önem taşır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Patates Bitkisinin Kritik Büyüme Dönemleri</h2>
+        <p>
+          Patates bitkisinin ömrü boyunca yaşadığı fizyolojik dönüşümler, su ihtiyacının derecesini de belirler. Sulama stratejinizi planlarken, bitkinin hangi gelişim aşamasında olduğunu bilmeli ve sulama takviminizi bu <strong>büyüme dönemleri</strong> kapsamında şekillendirmelisiniz:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Filizlenme ve Çıkış Dönemi (I. Evre):</strong> Dikimle başlayan ve filizlerin toprak yüzeyine ulaşarak yeşil aksam oluşturmaya başladığı evredir. Bu dönemde bitkinin ana güç kaynağı tohumluk yumrunun kendi bünyesindeki su ve besin rezervleridir. Çıkış öncesi aşırı su verilmesi, toprağın soğumasına, balçıklaşmasına ve sonuç olarak tohumların çürümesine (Karabacak hastalığı vb.) yol açar. Bu dönemde hafif nem yeterlidir.</li>
+          <li><strong>Vejetatif Gelişme Dönemi (II. Evre):</strong> Gövde, yaprak dalları ve toprak altında stolonların (yumrunun bağlanacağı uzantılar) hızla boy attığı dönemdir. Yaprak alanının (taç yapısının) genişlediği bu safhada fotosentez hızı artar ve bitki yavaş yavaş dışarıdan düzenli suya ihtiyaç duymaya başlar.</li>
+          <li><strong>Yumru Bağlama (Tuber İnisiasyonu) Dönemi (III. Evre):</strong> Ekşimenin başlamasıyla stolon uçlarının şişerek minik patates yumrularına (fındık-ceviz büyüklüğünde) dönüştüğü, bitki hayatının en kritik 10-15 günlük dönemidir. Bu evrede meydana gelecek su stresi, bağlanacak yumru sayısını radikal biçimde azaltır. Toprak nemi sürekli tarla kapasitesinin %70-80 seviyesinde tutulmalıdır.</li>
+          <li><strong>Yumru Büyüme (İrileşme) Dönemi (IV. Evre):</strong> Hücre bölünmesi ve genişlemesiyle birlikte yumruların nişasta depolayarak hacimsel ve kütlesel olarak en hızlı büyüdüğü evredir. Su tüketiminin zirve yaptığı, <strong>günlük su ihtiyacı</strong> miktarının en yüksek olduğu dönem bu dönemdir. Bu safhada yaşanacak su düzensizlikleri yumrularda bölünmelere, iç boşalmasına (kovuklaşma) ve büyüme durduğu için ardından gelen sulamayla birlikte şekilsiz yan yumru vermelere (ikincil büyüme) sebep olur.</li>
+          <li><strong>Olgunlaşma ve Hasat Hazırlığı (V. Evre):</strong> Yaprakların sararmaya ve kurumaya başladığı, yumrudaki nişastanın olgunlaştığı ve kabuğun kalınlaştığı (pudra verme/kabuk bağlama) son dönemdir. Hasattan 2 ila 3 hafta önce sulama tamamen kesilmelidir. Bu sayede yumru kabuğu olgunlaşarak depolama ömrünü uzatır ve holds (mekanik hasarlara) karşı direnç kazanır.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Patatesin Evrelere Göre Günlük Su İhtiyacı ve Kc Katsayıları</h2>
+        <p>
+          Farklı gelişim aşamalarda patatesin su tüketim miktarı değişkenlik gösterir. Tarımsal sulamada bitkinin gerçek su tüketimini (ET) hesaplamak için konumun referans buharlaşma hızı (ETo) ile patatese özel bitki katsayısı (Kc) çarpılır. 
+        </p>
+        <p>
+          Güvenli bir <strong>patates sulama</strong> planı kurmak isteyen çiftçilerimizin dikkate alması gereken <strong>günlük su ihtiyacı</strong> değerleri şu şekildedir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Erken Dönem (0-30 Gün):</strong> Bitki küçük, toprak yüzeyi büyük oranda açıktır. Günlük su tüketimi düşüktür; ortalama 1.5 - 2.5 mm arasındadır. Bu aşamada bitki katsayısı (Kc) 0.45-0.50 civarında seyreder.</li>
+          <li><strong>Hızlı Vejetatif Gelişim (30-50 Gün):</strong> Yaprak örtüsü tarlayı kaplamaya başlar. Günlük su tüketimi 3.0 - 4.5 mm seviyelerine tırmanır (Kc: 0.75 - 0.85).</li>
+          <li><strong>Yumru Bağlama ve Tam Gelişme (50-80 Gün):</strong> Bitki tarlayı %100 oranında örtmüştür ve yumrular oluşmaktadır. Günlük su tüketimi zirveye fırlar; iklime bağlı olarak günlük 6.0 - 8.0 mm (dönüm başına günde 6 ila 8 ton su) aralığında su tüketilir. Bu dönemde Kc katsayısı en yüksek değerine ulaşır (Kc: 1.15).</li>
+          <li><strong>İrileşme ve Olgunlaşma Başlangıcı (80-110 Gün):</strong> Yumrular son boyutuna ulaşırken yaprak faaliyetleri yavaşlar. Günlük su tüketimi 3.5 - 4.5 mm seviyelerine geriler (Kc: 0.80 - 0.90).</li>
+          <li><strong>Hasat Öncesi Sararma (110+ Gün):</strong> Yapraklerin fotosentezi biter. Günlük su tüketimi 1.5 - 2.0 mm'nin altına hızla çöker (Kc: 0.20 - 0.35).</li>
+        </ul>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+          <h4 className="text-xl font-black mb-4">Bir Dönüm Patates İçin Sezonluk Toplam Su Bütçesi:</h4>
+          <p className="font-bold text-[var(--green-dark)] leading-relaxed">
+            Patates bitkisinin dikimden hasada kadar ihtiyaç duyduğu toplam saf su miktarı bölgenin iklim koşullarına, rüzgara ve toprak yapısına göre 500 mm ile 750 mm (dönüm başına 500 ila 750 ton su) arasında değişim gösterir. Bu ihtiyacın ne kadarının doğal yağışlarla karşılandığı hesap edilmeli, geriye kalan açık mutlaka planlı sulama suyundan verilmelidir.
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Patates Tarımında En Etkili Sulama Yöntemleri</h2>
+        <p>
+          Patatesin hassas kök fizyolojisi göz önüne alındığında, suyun tarlaya nasıl dağıtılacağı verim oranını doğrudan belirler. Patateste yaygın kullanılan modern ve geleneksel <strong>sulama yöntemleri</strong> şunlardır:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Damla Sulama Sistemi (En Verimli Yöntem)</h3>
+        <p>
+          Damla sulama, suyu ve suda çözülebilen gübreleri (azot, potasyum, kalsiyum vb.) doğrudan patates köklerinin bulunduğu dar banta yavaş ve düşük basınçla ileten en rasyonel sistemdir. <strong>patates sulama</strong> yöntemleri arasında su kullanım etkinliğini %95-98 ile en tepeye çıkaran bu sistem, yaprakları ıslatmadığı için mildiyö ve yaprak lekesi hastalıklarının gelişim şansını asgariye indirir. Toprağın kaymak tabakası oluşturmasını ve sıkışmasını önleyerek, yumruların rahatça büyüyeceği gevşek ve havadar bir toprak yapısı sunar.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Pivot ve Yağmurlama Sulama</h3>
+        <p>
+          Geniş düzlüklerdeki büyük patates tarlalarında oldukça yaygındır. Homojen bir su dağılımı sağlar ve toprağın nemini hızlıca tarla kapasitesine ulaştırır. Ancak rüzgarlı havalarda homojenlik bozulabilir ve suyu havaya püskürttüğü için buharlaşma kaybı görece yüksektir. En büyük dezavantajı ise yaprak sirkülasyonunu ıslatmasıdır. Yağmurlama yönteminde hastalık riskini düşürmek adına, sulama gece geç saatlerde veya sabahın ilk ışıklarında yapılmalı, yaprakların günün sıcak saatlerine girmeden kurumuş olması sağlanmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">C) Karık (Karıklara Sızdırma) Sulama</h3>
+        <p>
+          Geleneksel ve su sarfiyatı çok yüksek bir yöntemdir. Suyu kontrol etmek zordur, suyun dağılım homojenliği çok geridedir ve tarlanın baş kısmı çamurken son kısmı kuru kalabilir. Patateste köklerin boğulmasına ve yüksek tuz birikimine yol açtığı için ticari modern işletmelerde kesinlikle önerilmemektedir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Patates Sulama Takvimi ve Evre-Evre Yönetim Matrisi</h2>
+        <p>
+          Aşağıdaki bilimsel tabloda, optimum verim hedeflenen bir patates üretiminde büyüme dönemlerine göre bitki katsayıları, tahmini sulama aralıkları ve su ihtiyacı kritik seviyeleri listelenmiştir:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Gelişim Evresi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Bitki Katsayısı (Kc)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Günlük Su Tüketimi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Sıklık (Kumlu/Tınlı)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Verim Duyarlılığı</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Çıkış / Erken Dönem</td>
+                <td className="px-6 py-4">0.40 - 0.50</td>
+                <td className="px-6 py-4">1.5 - 2.5 mm</td>
+                <td className="px-6 py-4">7 - 10 günde bir</td>
+                <td className="px-6 py-4 text-amber-600 font-bold">Düşük (Aşırı sudan kaçın)</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Vejetatif Gelişme</td>
+                <td className="px-6 py-4">0.70 - 0.85</td>
+                <td className="px-6 py-4">3.0 - 4.5 mm</td>
+                <td className="px-6 py-4">5 - 7 günde bir</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">Orta</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Yumru Bağlama</td>
+                <td className="px-6 py-4">1.00 - 1.10</td>
+                <td className="px-6 py-4">5.0 - 6.5 mm</td>
+                <td className="px-6 py-4">3 - 4 günde bir</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Çok Yüksek (Kritik)</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Yumru İrileşme</td>
+                <td className="px-6 py-4">1.15</td>
+                <td className="px-6 py-4">6.0 - 8.0 mm</td>
+                <td className="px-6 py-4">3 - 4 günde bir</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Zirve (Maksimum Hassas)</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Olgunlaşma</td>
+                <td className="px-6 py-4">0.30 - 0.40</td>
+                <td className="px-6 py-4">1.5 - 2.0 mm</td>
+                <td className="px-6 py-4">Sulamayı kesin</td>
+                <td className="px-6 py-4 text-stone-500 font-bold">Düşük (Kabuk bağlama için)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Patates Sulamasında Altın Bilgiler ve Sık Yapılan Yanlışlar</h2>
+        <p>
+          Sahadaki pratik deneyimler ve ziraat mühendislerinin araştırmaları, sulama hatalarının yarattığı deforma yumruların patatesin pazar kalitesini ciddi oranda düşürdüğünü kanıtlamaktadır. Aşağıdaki altın kurallara dikkat etmek hasat başarınızı katlayacaktır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Yumru İrileşmede Su Kesikliğine Son Verin:</strong> Patates bitkisi yumrularını büyütürken birkaç gün dahi olsa susuz kalırsa hücre büyümesi yavaşlar ve yumru kabuğu sertleşir. Bu kuraklığın ardından bol su verildiğinde, yumru içi tekrar büyümek isteyecek fakat sertleşmiş kabuk buna izin veremeyecek ve patates ortadan ikiye derinlemesine <strong>çatlayacaktır</strong>. Benzer şekilde boğumlu/bel vermiş veya çatallı patateslerin arkasındaki yegane sebep bu düzensiz sulamalardır.</li>
+          <li><strong>Gündüz Sıcağında Sulamayı Yasaklayın:</strong> Güneşin tam tepede olduğu öğle saatlerinde yağmurlama yapmak suyun %35-40'ının havaya gitmesine neden olur. Ayrıca mercek etkisi yaratan su damlaları yaprakların kavrulmasına ve patates solgunluk hastalıklarının tarlada hızla sirayet etmesine neden olur.</li>
+          <li><strong>Hasat Öncesi Erken Kesim Kuralı:</strong> Hasat tarihinden en az 15-20 gün önce suyu kesmek, kabuk kalitesi için yasal seviyedir. Islak topraktan sökülen patateslerin yumru kabuğu çok ince ve soyulmaya elverişli olur. Bu durum depolamada büzülmeye, nem kaybına ve nakliyede patateslerin yaralanarak mantar kapmasına yol açar.</li>
+          <li><strong>Toprak Nemini Tansiyometre İle İzleyin:</strong> İmkanlar elverdiğince, tarlaya yerleştirilecek 30 ve 60 cm'lik iki farklı derinliğe sahip tansiyometrelerle (toprak nem ölçer) nem seviyesini gözleyin. Nem seviyesinin 25-30 cb (centibar) değerlerinin altına inmesine izin vermeden bir sonraki sulamayı başlatın.</li>
+        </ul>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">Yüksek Kazanç İçin Akıllı Formülasyon</h4>
+          <p className="font-bold text-white/90">
+            Patates, girdiği her toprakta yüksek verim potansiyeline sahip bir altın yumrudur. Onu doğru zamanda ve dengeli bir şekilde sulamak, tarladaki su faturanızı düşürürken, dekar bazında 4 tondan 6.5 tona kadar uzanan rekor verimlerin kilidini açacaktır. Bilime güvenin, tarlanızdaki her bir damla suyun değerini bilin!
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç</h2>
+        <p>
+          Özetle; patates tarımında başarılı bir <strong>patates sulama</strong> stratejisi, bitkinin sığ köklerini sürekli canlı ve neme doygun tutmayı, ancak aynı zamanda çürümeye yol açacak aşırı sudan kaçınmayı gerektirir. Büyüme dönemleri boyunca günlük su ihtiyacı katsayılarına göre planlanmış bir damla sulama altyapısı kurmak, sürdürülebilirliğin ve karlı çiftçiliğin nihai formülüdür.
+        </p>
+        <p>
+          Tarlanızın koordinatlarına, toprak tipine ve patatesinizin mevcut gelişim evresine özel olarak bugün kaç dakika ve metreküp sulama yapmanız gerektiğini bilimsel yöntemlerle hesaplamak ister misiniz? Hemen ana sayfamıza geçiş yaparak <strong>Tarım Sulama Hesaplayıcımızı</strong> kullanmaya başlayın, ürününüzün su bütçesini dijital olarak zahmetsizce yönetin!
+        </p>
+      </div>
+    )
   }
 };
 

@@ -73,6 +73,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sulama Stratejileri",
     image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 8,
+    title: "Patates Sulama Miktarı ve Takvimi: Bilimsel Sulama Rehberi",
+    slug: "patates-sulama-miktari-ve-takvimi",
+    excerpt: "Patates yetiştiriciliğinde yüksek verim ve ideal yumru kalitesi elde etmenin tüm detayları. Büyüme dönemlerine göre günlük su ihtiyacı ve modern sulama yöntemleri...",
+    date: "14 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Yumru Tarımı",
+    image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
