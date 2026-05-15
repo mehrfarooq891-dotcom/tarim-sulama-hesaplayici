@@ -83,6 +83,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Yumru Tarımı",
     image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 9,
+    title: "Ayçiçeği Sulama Rehberi 2026",
+    slug: "aycicegi-sulama-rehberi-2026",
+    excerpt: "Ayçiçeği tarımında çimlenmeden hasada kadar bilimsel sulama takvimi. Türkiye iklimi koşullarında maksimum yağ oranı ve verim için en etkili sulama teknikleri...",
+    date: "15 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Tarla Bitkileri",
+    image: "https://images.unsplash.com/photo-1595971294624-80bcf9d1eb21?auto=format&fit=crop&w=800&q=80"
   }
 ];
 

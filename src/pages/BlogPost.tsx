@@ -1169,6 +1169,159 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "aycicegi-sulama-rehberi-2026": {
+    title: "Ayçiçeği Sulama Rehberi 2026: Çimlenmeden Hasada Bilimsel Takvim",
+    date: "15 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "17 dk okuma",
+    image: "https://images.unsplash.com/photo-1595971294624-80bcf9d1eb21?auto=format&fit=crop&w=800&q=80",
+    category: "Tarla Bitkileri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          Ayçiçeği (Helianthus annuus), Türkiye tarımında bitkisel ham yağ ihtiyacını karşılayan en stratejik ürünlerin başında gelmektedir. Derin kazık kök yapısı nedeniyle kuraklığa son derece dayanıklı bir tarla bitkisi olarak kabul edilse de, 2026 yılı iklim koşullarında dekar başına maksimum dane verimi ve yüksek yağ oranı elde etmek bilimsel yöntemlerle planlanmış bir <strong>ayçiçeği sulama</strong> programına doğrudan bağlıdır. Bu rehberde, çimlenmeden hasada kadar ayçiçeği sulama takvimi ve Türkiye iklimi şartlarında uygulanabilecek en etkili su tasarrufu tekniklerini inceledik.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Ayçiçeği Tarımında Doğru Sulamanın ve Nem Seviyesinin Önemi</h2>
+        <p>
+          Ayçiçeği bitkisi, büyümesinin ilk evrelerinde oldukça kanaatkar davranabilir. Ancak sanılanın aksine, bitkinin vejetatif büyümesinden çiçeklenmeye, tabla oluşumundan çekirdek dolumuna kadar uzanan süreçte belirli nem seviyelerine duyduğu ihtiyaç kritiktir. Yanlış veya eksik planlanan bir <strong>ayçiçeği sulama</strong> rejimi, boş çekirdek oranını artırarak dekar verimini düşürür ve sanayicinin en çok önem verdiği çekirdekteki net yağ yüzdesini aşağıya çeker.
+        </p>
+        <p>
+          Ülkemizde ayçiçeği çoğunlukla kuru şartlarda (yağışa bağlı) yetiştirilse de, sulanan alanlarda verimin kuru alanlara kıyasla %50 ila %150 oranında arttığı bilimsel saha araştırmalarıyla kanıtlanmıştır. Doğru zamanlama ile yapılan sulama, bitkinin boylenmesini, yaprak alan endeksini, tabla çapını ve dolayısı ile bin tane ağırlığını optimize eder. Aynı zamanda bitkinin sıcak rüzgarlara karşı fizyolojik direncini de pekiştirir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Türkiye İklimi ve Bölgesel Ayçiçeği Sulama İhtiyaçları</h2>
+        <p>
+          Türkiye'nin farklı tarım havzalarındaki yağış rejimleri ve sıcaklık farkları, <strong>ayçiçeği sulama</strong> takvimlerini doğrudan etkiler. Başarılı bir planlama için <strong>Türkiye iklimi</strong> altındaki bölgesel dinamikleri iyi okumak gerekir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Trakya ve Marmara Havzası:</strong> Türkiye'deki ayçiçeği üretiminin kalbi olan Trakya'da kış ve ilkbahar yağışları çimlenme için genellikle yeterlidir. Ancak son yıllarda Temmuz ve Ağustos aylarında yaşanan aşırı sıcak dalgaları bitkiyi tam çiçeklenme ve dolum aşamasında yakalamaktadır. Bu havzada yapılacak en az 1 veya 2 canlandırıcı sulama, verimi garanti altına almanın en etkili yoludur.</li>
+          <li><strong>İç Anadolu Havzası:</strong> Yıllık ortalama yağışın 300-400 mm bandında kaldığı İç Anadolu'da, ayçiçeği yetiştirmek kesinlikle düzenli sulamayı zorunlu kılar. Bu bölgede yağış açığını kapatmak için çimlenmeden hasada kadar en az 3 ila 4 sulama seansı organize edilmelidir.</li>
+          <li><strong>Ege ve Akdeniz Havzaları:</strong> Birinci ürün veya buğday hasadı sonrası ikinci ürün olarak ekilebilen bu bölgelerde, aşırı buharlaşma hızı (evapotranspirasyon) ve tavan yapan yaz sıcakları nedeniyle sulama aralıkları dar tutulmalı, toprak nemi sürekli izlenmelidir.</li>
+          <li><strong>Güneydoğu Anadolu (GAP) Bölgesi:</strong> GAP kanallarından gelen suyla canlanan bu bölgede, aşırı kuru hava ve kuru rüzgarlar nedeniyle transpirasyon (bitki terlemesi) çok yüksektir. Bu durum, günlük mm cinsinden su ihtiyacını diğer bölgelere göre %30 oranında artırır.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Ayçiçeğinin Gelişim Evreleri ve Su Stresine Karşı Hassasiyeti</h2>
+        <p>
+          Ayçiçeğinin vejetasyon süresi ortalama 110-130 gün sürer. Bu süreçte bitki her an aynı miktarda su tüketmez. Planlı <strong>ayçiçeği sulama</strong> yönetimi için kritik büyüme evreleri şunlardır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Filizlenme ve Çıkış Dönemi (I. Evre):</strong> Toprağın tavında olması çimlenme hızını belirler. Tohumun şişmesi ve toprak yüzeyine sağlıklı çıkması için hafif nem kafi gelir. Türkiye iklimi genelinde bu dönemde genellikle ilkbahar yağışları yeterlidir.</li>
+          <li><strong>Erken Gelişme ve Yapraklanma Dönemi (II. Evre):</strong> Bitki 6-8 yapraklı olana kadar köklerini derinlere göndermeye çalışır. Bu evrede hafif su kısıtı uygulanması kök fizyolojisini olumlu etkiler, kökleri derin su tabakalarına erişmeye teşvik eder.</li>
+          <li><strong>Yıldız Tabla (Tomurcuk) Oluşumu (III. Evre):</strong> Gövde ucunda küçük yeşil tabla taslağının belirdiği andır. Ayçiçeğinin suya açlığının başladığı ilk tehlikeli dönemeçtir. Bu evredeki susuzluk, bitki başının (tablanın) küçük kalmasına neden olur.</li>
+          <li><strong>Çiçeklenme Dönemi (IV. Evre - En Kritik Aşama):</strong> Çiçeklerin sarı taç yapraklar açtığı ve dölleme dönemine girdiği evredir. Bu dönemde toprak neminin yetersiz olması döllemeyi sekteye uğratır ve tablanın ortasındaki çekirdeklerin boş (boş kof dane) kalmasına neden olur. Toplam verim kaybının %50'sini bu dönemdeki su stresi oluşturur.</li>
+          <li><strong>Tane Doldurma ve Süt Olum Dönemi (V. Evre):</strong> Çekirdeğin içinin dolduğu ve yağ sentezinin tavan yaptığı evredir. Bu aşamadaki sulamalar bin tane ağırlığını yükseltir ve yağ randımanını doğrudan tırmandırır.</li>
+          <li><strong>Fizyolojik Olgunlaşma ve Hasat Hazırlığı (VI. Evre):</strong> Tablalar sararır, yapraklar kurur. Hasada 2-3 hafta kala sulama tamamen durdurularak nem oranının makul seviyeye (%9-10) inmesi sağlanır.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Çimlenmeden Hasada Kadar Ayçiçeği Sulama Takvimi</h2>
+        <p>
+          Sürdürülebilir ve verimli bir üretim için hazırladığımız, bitkinin büyüme seyri ve su tüketim katsayılarını (Kc) gösteren bilimsel sulama planlaması:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Büyüme Dönemi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Ekim Sonrası Tahmini Gün</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Bitki Katsayısı (Kc)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Toprak Nemi Hedefi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Yıllık Sulama Önceliği</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Çimlenme ve Çıkış</td>
+                <td className="px-6 py-4">0 - 20 Gün</td>
+                <td className="px-6 py-4">0.30 - 0.40</td>
+                <td className="px-6 py-4">Tarla Kapasitesi %50-60</td>
+                <td className="px-6 py-4 text-stone-400 font-bold">Düşük (Yağışlar yeterli)</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Vejetatif Gelişme</td>
+                <td className="px-6 py-4">20 - 45 Gün</td>
+                <td className="px-6 py-4">0.60 - 0.75</td>
+                <td className="px-6 py-4">Tarla Kapasitesi %60-65</td>
+                <td className="px-6 py-4 text-blue-500 font-bold">Orta (Kök derinleşmesi için)</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Yıldız Tabla Oluşumu</td>
+                <td className="px-6 py-4">45 - 60 Gün</td>
+                <td className="px-6 py-4">0.90 - 1.05</td>
+                <td className="px-6 py-4">Tarla Kapasitesi %70-75</td>
+                <td className="px-6 py-4 text-amber-600 font-bold">Yüksek (1. Kritik Sulama)</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Tam Çiçeklenme</td>
+                <td className="px-6 py-4">60 - 80 Gün</td>
+                <td className="px-6 py-4">1.10 - 1.15</td>
+                <td className="px-6 py-4">Tarla Kapasitesi %80-85</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Zirve (Hayati Sulama - Can Damarı)</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Tane Doldurma</td>
+                <td className="px-6 py-4">80 - 105 Gün</td>
+                <td className="px-6 py-4">0.85 - 0.95</td>
+                <td className="px-6 py-4">Tarla Kapasitesi %70-70</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Çok Yüksek (Yağ Oranı Artırıcı)</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Fizyolojik Olgunluk</td>
+                <td className="px-6 py-4">105+ Gün</td>
+                <td className="px-6 py-4">0.20 - 0.35</td>
+                <td className="px-6 py-4">Doğal Kuruma %10-15</td>
+                <td className="px-6 py-4 text-stone-400 font-bold">Sulamayı Kesin</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Modern Ayçiçeği Sulama Yöntemleri ve Verim Analizleri</h2>
+        <p>
+          Tarlanızdaki suyun bitkiye ulaştırılma biçimi, hem harcayacağınız su faturasını hem de bitki patolojisini bizzat tayin eder. Ayçiçeğinde başlıca sulama alternatifleri şunlardır:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Damla Sulama (Yüksek Teknolojili ve Tasarruflu)</h3>
+        <p>
+          Uygulandığı tarlalarda su kayıplarını %95-98 oranında engelleyen damla sulama yöntemi, ayçiçeği tarımı için de devrimsel sonuçlar yaratmaktadır. Su doğrudan bitkinin kazık kök merkezine damladığı için yabancı otların gelişimini ekarte eder. Bitki yaprakları ıslatılmadığı için Mildiyö (Plasmopara halstedii) ve Tabla Çürüklüğü (Sclerotinia sclerotiorum) gibi nem seven mantar etmenlerinin yayılmasını bütünüyle bloke eder. Dekara gübre uygulamasını da (damlama borularından sıvı gübreleme ile) bitkiye milimetrik olarak ulaştırır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Yağmurlama Sulama (Pivot veya Mobil Borular)</h3>
+        <p>
+          Özellikle çıkış dönemi ve erken yapraklanma safhasında toprağa homojen nem dağıtmak yönünden verimlidir. Ancak çiçeklenme safhasında ve tabla oluşumunda yağmurlama sulama yapılması, ayçiçeği tablalarında su göllenmelerine sebep olabilir. Bu durum tablaların çürümesine veya polenlerin yıkanarak döllenme zafiyeti yaşamasına kapı açabilir. Eğer yağmurlama sistemi kullanılıyorsa, sulama mutlaka serin havalarda (gece veya gün doğumu) uygulanmalıdır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Su Tasarrufu Püf Noktaları ve Aşırı Sulamanın Zararları</h2>
+        <p>
+          Çiftçilerimiz arasında yaygın olan "Ne kadar çok sularsam o kadar çok mahsul alırım" inancı ayçiçeğinde çok büyük maliyet ve verim felaketlerine neden olabilir. Aşırı <strong>ayçiçeği sulama</strong> yapılması şu riskleri beraberinde getirir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Gövde Zafiyeti ve Yatması (Lodging):</strong> Aşırı sulanan topraklarda bitki hızlıca ve zayıf lif yapısıyla boylanır. Tabla da ağırlaştığında hafif rüzgarlarda bile ayçiçeği gövdeleri ortadan kırılarak yere yatabilir ve bu mekanik hasar hasadı imkansız kılar.</li>
+          <li><strong>Yağ Oranının Çökmesi:</strong> Aşırı su, ayçiçeği çekirdeğinde yağ sentezini baskılar ve protein birikimini artırır. Bu durum, sanayiciye satacağınız ürünün yağ randıman derecesini düşürerek tonaj başına kazancınızı sekteye uğratır.</li>
+          <li><strong>Kök Boğulması ve Çürüme:</strong> Killi topraklarda suyun göllenmesi köklerin solunum yapmasını engeller, bitkiyi sarartır ve boğarak tamamen kurutabilir.</li>
+        </ul>
+        <p>
+          Bu sebeple maksimum <strong>su tasarrufu</strong> sağlamak adına toprak yapısını analiz etmek, gece sulamalarına öncelik vermek ve organik madde takviyesiyle toprağın süngerimsi yapısını güçlendirerek nemi hapis altında tutmak gerekir.
+        </p>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">2026 Sezonu İçin Kritik Tavsiye</h4>
+          <p className="font-bold text-white/90">
+            Ayçiçeği tarımında altın kural: Tabla teşekkülü, Çiçeklenme başlangıcı ve Süt olum evresi olmak üzere, yılda en azından 3 kez kritik dönem sulamasını kaçırmamak dekar başarısını tescilleyecektir. İklim krizine karşı suyumuzu akıllıca kullanalım, tarlamızın bütçesini kontrol altında tutalım!
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç</h2>
+        <p>
+          2026 ve gelecek tarım yıllarında, kuru tarım alışkanlıklarını bir kenara bırakıp iklim verileri ve toprak analizlerine dayalı modern <strong>ayçiçeği sulama</strong> yöntemlerini hayata geçiren üreticiler daima bir adım önde olacaktır. Doğru evrede, tam kıvamında verilecek su, geleceğimizin güvencesi olan topraklarımızı ve su havzalarımızı ayakta tutacaktır.
+        </p>
+        <p>
+          Ektiğiniz ayçiçeği varyetesinin, tarlanızın toprak dokusunun ve bölgenizdeki güncel meteorolojik verilerin ışığında tarlanıza bugün vermeniz gereken net su miktarını dakika bazında hassas bir şekilde hesaplamak ister misiniz? Hemen ana sayfamızı ziyaret ederek <strong>Tarımsal Sulama Hesaplama Aracımızı</strong> kullanın, suyunuzu milimetrik yöneterek kazancınızı katlayın!
+        </p>
+      </div>
+    )
   }
 };
 
