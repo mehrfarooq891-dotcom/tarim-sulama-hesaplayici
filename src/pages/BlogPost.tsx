@@ -1322,6 +1322,111 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "fao-penman-monteith-metodu-nedir": {
+    title: "FAO Penman-Monteith Metodu Nedir? Çiftçi İçin Basit Anlatım",
+    date: "18 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "18 dk okuma",
+    image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=2560&q=100",
+    category: "Sulama Bilimi",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          Tarımda "ne zaman ve ne kadar sulama yapmalıyım?" sorusunun dünyadaki en güvenilir cevabı <strong>FAO sulama metodu</strong> olarak bilinen Penman-Monteith denklemidir. Karmaşık matematiksel formüllerden oluşsa da, aslında mantığı her çiftçinin anlayabileceği kadar basittir: "Güneş, rüzgar ve nem tarlamdan ne kadar su çaldı?" Bu rehberde, bu bilimsel yöntemi teknik terimlerden arındırarak pratik örneklerle inceleyeceğiz.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. FAO Penman-Monteith Metodu Nedir?</h2>
+        <p>
+          FAO (Birleşmiş Milletler Gıda ve Tarım Örgütü), 1990'ların başında dünyanın her yerinde, her türlü iklimde doğru sonuç verecek bir standart sulama hesabı geliştirmek üzere uzmanları topladı. Sonuç olarak ortaya çıkan <strong>FAO Penman-Monteith metodu</strong>, bitkilerin gözeneklerinden dışarı attığı su (terleme) ile topraktan buharlaşan suyun toplamını yani "Evapotranspirasyonu" hesaplar.
+        </p>
+        <p>
+          Bu metoda neden "Altın Standart" deniyor? Çünkü önceki yöntemlerin aksine bu metod; sadece sıcaklığa bakmaz. Sıcaklık yüksek olsa bile nem de yüksekse buharlaşmanın azalacağını, rüzgarın ise buharlaşmayı nasıl hızlandırdığını fiziksel olarak hesaplar. Özetle tarlanızın "su bilançosunu" çıkaran dünyanın en dürüst muhasebecisidir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Metodun Temel Mantığı: Referans Bitki (ETo)</h2>
+        <p>
+          Formülün temelinde "Referans Evapotranspirasyon" (ETo) dediğimiz bir değer vardır. Bilim insanları hesabı basitleştirmek için hayali bir tarla hayal ederler: Boyu her zaman 12 cm olan, her tarafı yeşil ve gür otlarla (çimle) kaplı, asla susuz kalmayan bir tarla.
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>ETo Değeri:</strong> Eğer meteoroloji istasyonu "Bugün ETo 6 mm" diyorsa, bu şu anlama gelir: "Eğer tarlanız o hayali 12 cm'lik çimle kaplı olsaydı, bugün 6 mm su kaybedecekti."</li>
+          <li><strong>Hesaplamadaki Faktörler:</strong> Güneş radyasyonu (en büyük enerji kaynağı), hava sıcaklığı, havadaki nem oranı ve rüzgar hızı.</li>
+        </ul>
+        <p>
+          Siz domates ekiyorsanız, doğrudan ETo değerini kullanamazsınız. Çünkü domatesin yaprak yapısı, boyu ve su tüketimi o hayali çimden farklıdır. İşte burada devreye Bitki Katsayısı (Kc) girer.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Bitki Katsayısı (Kc) ile Kişiselleştirme</h2>
+        <p>
+          Her bitkinin, gelişim dönemine göre bir katsayısı vardır. <strong>FAO sulama metodu</strong> şu basit çarpma işlemini kullanır:
+          <br /><br />
+          <span className="block p-4 bg-stone-50 border-l-4 border-[var(--green-mid)] font-black text-lg text-center">
+            Gerçek Su İhtiyacı (ETc) = Referans Buharlaşma (ETo) x Bitki Katsayısı (Kc)
+          </span>
+        </p>
+        <p>
+          <strong>Örnekleyelim:</strong>
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Başlangıç Dönemi:</strong> Mısır ektiniz, henüz iki yapraklı. Toprak büyük ölçüde boş. Kc değeri küçüktür (yaklaşık 0.30). ETo 10 mm ise, mısırınız sadece 3 mm su tüketir.</li>
+          <li><strong>Gelişme Dönemi:</strong> Mısır boylandı, her yer yaprak oldu. Kc değeri yükselir (yaklaşık 1.20). ETo yine 10 mm ise, mısırınız 12 mm su tüketir. Yani o hayali çimden daha fazla suya ihtiyaç duyar.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Çiftçi Bu Metodu Nasıl Kullanır?</h2>
+        <p>
+          Eskiden bu hesabı yapmak için yüzlerce sayfalık tablolar ve karmaşık hesap makineleri gerekirdi. Bugün ise teknoloji işi bizim yerimize yapıyor. Bir çiftçi olarak izlemeniz gereken adımlar şunlardır:
+        </p>
+        <ul className="list-decimal pl-8 space-y-4">
+          <li><strong>Hava Verisi Alın:</strong> Tarlanıza en yakın resmi meteoroloji istasyonundan ETo değerini öğrenin. (Tarım Sulama Hesaplayıcı uygulamamız bunu sizin yerinize koordinat bazlı yapar).</li>
+          <li><strong>Bitki Dönemini Belirleyin:</strong> Bitkiniz hangi aşamada? (Yeni ekim mi? Çiçeklenme mi? Hasat öncesi mi?)</li>
+          <li><strong>Hesaplayın:</strong> ETo değeri ile o günkü bitki katsayınızı çarpın.</li>
+          <li><strong>Sulamayı Planlayın:</strong> Çıkan sonuç (örneğin 5 mm) tarlanızın o gün 1 dekarda 5 ton su kaybettiğini söyler. Yağış varsa bu miktardan düşün, yoksa sulama ile bu açığı kapatın.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Pratik Örnekler: Gerçek Hayatta FAO Metodu</h2>
+        
+        <div className="my-8 p-6 bg-[var(--green-light)]/30 rounded-3xl border border-[var(--green-mid)]/20 shadow-sm">
+          <h4 className="text-xl font-black mb-4">Senaryo: Konya'da Gece Sulaması Yapan Bir Mısır Çiftçisi</h4>
+          <p className="text-stone-700 leading-relaxed">
+            <strong>Hava Durumu:</strong> Çok sıcak, rüzgarlı bir Temmuz günü. ETo değeri 11 mm açıklandı.<br />
+            <strong>Bitki:</strong> Mısır, püskül çıkarma döneminde (Kc = 1.20).<br />
+            <strong>Hesap:</strong> 11 mm x 1.20 = 13.2 mm.<br />
+            <strong>Sonuç:</strong> Mısır o gün dekarda 13.2 ton su kaybetmiştir. Çiftçi eğer tarlasını 3 günde bir suluyorsa, 3 günlük kayıp 39.6 ton olacaktır. Bu bilimsel veri sayesinde çiftçi tarlasına eksik su verip verimi düşürmez veya fazla su verip elektrik faturasını şişirmez.
+          </p>
+        </div>
+
+        <div className="my-8 p-6 bg-amber-50 rounded-3xl border border-amber-200 shadow-sm">
+          <h4 className="text-xl font-black mb-4">Senaryo: Antalya'da Serada Domates</h4>
+          <p className="text-stone-700 leading-relaxed">
+            <strong>Hava Durumu:</strong> Nemli, kapalı bur gün. ETo değeri düşük: 2.5 mm.<br />
+            <strong>Bitki:</strong> Domates, meyve büyütme döneminde (Kc = 1.15).<br />
+            <strong>Hesap:</strong> 2.5 mm x 1.15 = 2.87 mm.<br />
+            <strong>Sonuç:</strong> Hava serin olduğu için bitki çok az su tüketmiştir. Çiftçi bu durumda "havalar iyi gidiyor" diyerek rutin sulamasını iptal edebilir veya miktarını yarıya indirerek ciddi bir su ve enerji tasarrufu sağlar.
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Neden Geleneksel Yöntemler Yerine FAO Metodu?</h2>
+        <p>
+          Birçok çiftçimiz tarlayı parmağıyla kontrol ederek veya bitki yapraklarının pörsümesini bekleyerek sulama zamanına karar verir. Ancak bu "belirtiler" ortaya çıktığında bitki zaten stres altına girmiş ve verim potansiyelini kaybetmeye başlamıştır. 
+        </p>
+        <p>
+          <strong>FAO sulama metodu</strong> kullanarak yapılan sulama;
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Gizli Açlığı Önler:</strong> Bitkinin susadığını biz görmeden çok önce formül görür.</li>
+          <li><strong>Gübre Yıkanmasını Durdurur:</strong> Toprağın su tutma kapasitesinden fazla su vererek pahalı gübrelerin yer altına kaçmasını engeller.</li>
+          <li><strong>Hastalıkları Azaltır:</strong> Bitkiyi gereksiz nemden koruyarak mantar hastalıklarının (mantar, pas, külleme) önüne geçer.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç</h2>
+        <p>
+          <strong>FAO sulama metodu</strong> artık sadece ziraat mühendislerinin laboratuvarlarda kullandığı bir formül değildir. 2026 yılı tarım teknolojileri sayesinde bu metod her çiftçinin cebindeki akıllı telefona kadar girmiştir. İklim krizinin kapımızda olduğu, suyun her damlasının altın değerinde olduğu bu dönemde şansa veya tahmine dayalı tarım yapılamaz.
+        </p>
+        <p>
+          Siz de bugün tarlanızın kaç mm suya ihtiyacı olduğunu öğrenmek, <strong>su tasarrufu</strong> yaparken veriminizi %30-40 oranında artırmak istiyorsanız tarlanızın koordinatlarını sistemimize kaydedin. "Tarım Sulama Hesaplayıcı" tarlanızın Penman-Monteith hesabını her gün otomatik yapsın, size sadece vanayı açmak kalsın.
+        </p>
+      </div>
+    )
   }
 };
 

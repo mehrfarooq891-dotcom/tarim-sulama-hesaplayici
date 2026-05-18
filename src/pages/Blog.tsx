@@ -93,6 +93,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Tarla Bitkileri",
     image: "https://images.unsplash.com/photo-1595971294624-80bcf9d1eb21?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 10,
+    title: "FAO Penman-Monteith Metodu Nedir? Çiftçi İçin Basit Anlatım",
+    slug: "fao-penman-monteith-metodu-nedir",
+    excerpt: "Dünya standartlarında sulama hesabı nasıl yapılır? FAO sulama metodu olan Penman-Monteith denkleminin mantığını ve tarlanızda nasıl kullanacağınızı öğrenin...",
+    date: "18 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sulama Bilimi",
+    image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
