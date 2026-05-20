@@ -103,6 +103,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sulama Bilimi",
     image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 11,
+    title: "Yağmurlama mı Damla Sulama mı? Hangisi Daha İyi?",
+    slug: "yagmurlama-mi-damla-sulama-mi",
+    excerpt: "Tarlanız için en doğru sulama yöntemi hangisi? Yağmurlama damla sulama karşılaştırma tablosu, sistem maliyeti, tasarruf-verimlilik oranları ve bitki türlerine göre seçim kılavuzu...",
+    date: "20 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sistem Karşılaştırma",
+    image: "https://images.unsplash.com/photo-1563514227147-6d2ff8655200?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
