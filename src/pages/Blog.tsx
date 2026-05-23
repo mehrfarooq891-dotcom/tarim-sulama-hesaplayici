@@ -113,6 +113,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sistem Karşılaştırma",
     image: "https://images.unsplash.com/photo-1563514227147-6d2ff8655200?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 12,
+    title: "Pamuk Sulama Takvimi ve Su İhtiyacı",
+    slug: "pamuk-sulama-takvimi-ve-su-ihtiyaci",
+    excerpt: "Pamuk tarımında yüksek lif kalitesi ve dekar verimi için sulama zamanlaması. Ege ve Akdeniz bölgelerinde damla sulama yöntemiyle su yönetimi ve kritik büyüme dönemleri...",
+    date: "23 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Endüstri Bitkileri",
+    image: "https://images.unsplash.com/photo-1594489428504-5c0c480a15fd?auto=format&fit=crop&w=800&q=80"
   }
 ];
 

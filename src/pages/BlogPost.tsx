@@ -1629,6 +1629,157 @@ const postsData: Record<string, any> = {
         </div>
       </div>
     )
+  },
+  "pamuk-sulama-takvimi-ve-su-ihtiyaci": {
+    title: "Pamuk Sulama Takvimi ve Su İhtiyacı: Çukurova ve Ege İçin Bilimsel Rehber",
+    date: "23 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "19 dk okuma",
+    image: "https://images.unsplash.com/photo-1594489428504-5c0c480a15fd?auto=format&fit=crop&w=2560&q=100",
+    category: "Endüstri Bitkileri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          \"Beyaz altın\" olarak adlandırılan pamuk (Gossypium hirsutum), tekstil ve yağ sanayinin vazgeçilmez hammaddesidir. Yüksek ekonomik değere sahip bu bitkiden en yüksek lif kalitesini ve dekar verimini almak, doğru tasarlanmış bir <strong>pamuk sulama</strong> programına bağlıdır. Ege ve Akdeniz gibi kavurucu yaz sıcaklarının yaşandığı bölgelerde, bilinçsiz veya eksik sulamalar koza dökümüne ve lif boyunun kısalmasına yol açar. Bu rehberimizde, pamuğun gelişim evreleri, bölge iklimlerine göre su tüketimi ve modern damla sulama stratejilerini tüm detaylarıyla inceledik.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Pamuk Tarımında Suyun Hayati Rolü ve Fizyolojik Önemi</h2>
+        <p>
+          Pamuk bitkisi, kazık kök yapısı yardımıyla toprağın derinliklerindeki neme ulaşma yeteneğine sahip olsa da, aslında yüksek miktarda terleme (transpirasyon) yapan ve yeşil aksamı geniş bir bitkidir. Bir pamuk bitkisinin ömrü boyunca tükettiği su miktarı iklim şartlarına bağlı olarak 600 mm ila 950 mm arasında değişir. Bu büyük su bütçesinin doğru yönetilmesi, pamuk liflerinin taranabilirliğini, mukavemetini ve en önemlisi \"çırçır randımanını\" bizzat belirler.
+        </p>
+        <p>
+          Toprakta yaşanan su eksikliği (su stresi), bitkinin büyüme hormonlarını baskılayarak büyüme noktalarını köreltir. Bunun sonucunda bitki boyu kısa kalır, tarak adı verilen çiçek tomurcukları solarak dökülür ve açan koza sayısı radikal biçimde azalır. Öte yandan, gereğinden fazla ve kontrolsüz yapılan sulamalar da pamukta \"vejetatif büyümeyi\" (boya kaçma) teşvik eder; bitki tüm enerjisini dala ve yaprağa vererek koza tutmayı unutur. Bu nedenle dengeli <strong>pamuk sulama</strong> yönetimi, altın oran kuralına dayanmalıdır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Pamuğun Kritik Büyüme Dönemleri ve Su Hassasiyeti</h2>
+        <p>
+          Pamuk bitkisi gelişim süreci boyunca su tüketim hızı bakımından homojen bir rota izlemez. Çiftçilerimizin sulama vanalarını açarken bitkinin içinde bulunduğu <strong>büyüme dönemleri</strong> ve fizyolojisini çok iyi analiz etmesi gerekir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Çimlenme ve Erken Fide Dönemi (Ekimden 25-30 Gün Sonrasına Kadar)</h3>
+        <p>
+          Tohumun toprakla buluşup çimlenebilmesi için toprak sıcaklığının en az 15-16 °C olması ve yeterli tav neminin bulunması şarttır. Bu evrede bitkinin su tüketimi çok düşüktür. Eğer kış/ilkbahar yağışları yetersizse hafif bir can suyu veya ekim öncesi tava sulaması (salaklama) yapılabilir. Çıkış sonrasında ise bitkinin ilk 3-4 hafta boyunca fazla sulanmaması istenir. Erken sulama toprağı soğutarak kök çürüklüğü (\"çökerten\" hastalığı) riskini artırdığı gibi, fideyi tembelliğe alıştırır. Hafif su kısıtı uygulandığında fide, nemi bulmak amacıyla kökünü toprağın 1-1.5 metre derinliklerine kadar uzatır; bu da güçlü bir çapa ve dayanıklı gövde mimarisi demektir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Tarak Oluşum Dönemi (Yaklaşık 30 - 60. Günler)</h3>
+        <p>
+          İlk tarakların (çiçek tomurcuklarının) belirmesiyle pamukta hızlı büyüme dönemi başlar. Yaprak alanı genişledikçe bitkinin günlük su tüketim hızı yükselişe geçer. Taraklanma aşamasında bitkiye su stresi yaşatılması, tarak dökülmesine sebep olacağından bu dönem kritik bir kırılmadır. Toprağın faydalı su kapasitesinin %50'nin altına düşmesine müsaade edilmemelidir. Ege ve Akdeniz'de bu dönemin sonuna doğru ilk ana sulama (can sulaması) planlanır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">C) Çiçeklenme ve Koza Gelişimi (60 - 100. Günler - En Hassas Dönem)</h3>
+        <p>
+          Pamuğun can damarı bu evredir. Sarı ve kırmızı çiçeklerin tarlayı kapladığı, ardından koza taslaklarının büyümeye başladığı 40 günlük bu periyot, pamuğun toplam su ihtiyacının %60-70'ini tükettiği zirve aşamadır. Temmuz ve Ağustos aylarına denk gelen bu dönemde transpirasyon zirve yapar. Bu evrede yaşanacak tek bir günlük susuzluk bile bitkinin savunma mekanizması olarak koza döşemesini (koza silmesini) tetikler. Bu dönemde toprak nemi sürekli yüksek tutulmalı, damla sulama sistemi kuruluysa haftalık su uygulamaları aksatılmamalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">D) Koza Açma ve Olgunlaşma Dönemi (100. Gün ve Sonrası)</h3>
+        <p>
+          Kozaların çatlayarak beyaz pamuk elyaflarının dışarı çıktığı safhadır. Bu dönemde su tüketimi yavaş yavaş azalır. Aşırı sulama bu safhada koza açmasını geciktirir, liflerin kalitesini bozar, lekelenmelere (sarı leke) sebep olur ve hasat makinelerinin tarlaya girmesini zorlaştırır. Hasattan yaklaşık 3 ila 4 hafta önce sulama tamamen kesilerek yaprakların kuruması ve kozaların doğal olarak açılması sağlanmalıdır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Türkiye'deki Pamuk Havzaları: Ege Bölgesi ve Akdeniz Bölgesi Karşılaştırması</h2>
+        <p>
+          Türkiye'de pamuk tarımı denince akla ilk gelen iki büyük dev havza; <strong>Ege Bölgesi</strong> ve <strong>Akdeniz Bölgesi</strong> (özellikle Çukurova, Amik Ovası ve Hatay yöresi) ekolojileridir. İklim koşulları ve toprak özellikleri sulama sıklığını doğrudan belirler:
+        </p>
+        <p>
+          <strong>Akdeniz Bölgesi (Çukurova ve Çevresi):</strong> Akdeniz ikliminin etkisiyle Çukurova'da yaz ayları sadece sıcak değil, aynı zamanda aşırı derecede nemlidir. Yüksek nispi nem, bitkideki transpirasyon hızını bazen dengelese de, geceleri düşmeyen sıcaklıklar bitkinin solunum hızını artırır ve gece de enerji tüketmesine neden olur. Çukurova toprakları genellikle killi ve ağır bünyelidir; su tutma kapasiteleri çok yüksektir. Bu topraklarda kuyu veya kanal sulamalarında göllenme problemleri yaşanmaması için sulama miktarı hassas planlanmalıdır. Ayrıca yüksek nem, havza genelinde Verticillium solgunluğu ve kırmızı örümcek gibi hastalık/zararlı baskısını artırdığından, bitki üstünü ıslatmayan sulama yöntemleri seçilmelidir.
+        </p>
+        <p>
+          <strong>Ege Bölgesi (Büyük Menderes ve Gediz Havzaları):</strong> Aydın, İzmir ve Manisa gibi merkezleri kapsayan Ege Havzası'nda yaz sıcakları karasal rüzgarlarla birleşerek kuru bir sıcak hava dalgası yaratır. Akdeniz'e kıyasla nem oranının daha düşük olması, buharlaşma hızını (ETo) inanılmaz derecede yukarı taşır. Ege ovalarında topraklar genellikle tınlı, kumlu-tınlı ve geçirgendir. Bu durum, suyun topraktan hızla süzülmesine yol açar. Bu fizyolojik gerçeklik nedeniyle Ege Bölgesi'nde pamuk sulama aralıkları Akdeniz'e oranla biraz daha dar tutulmalı, hafif ama sık sulamalar tercih edilerek bitkinin solgunluk noktasına girmesi engellenmelidir. Lif elastikiyeti ve mukavemeti açısından Ege pamuğunun ünü, bu hassas nem dengesinin kurulmasıyla doğrudan ilişkilidir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Neden Pamukta Damla Sulama? Geleceğin Çözümü</h2>
+        <p>
+          Geleneksel salma (vahşi) sulama yöntemleri miktar bazında çok su tüketmesine rağmen, pamukta ciddi kayıplara neden olur. Pamuk gövdesi ve kök boğazı aşırı suya karşı çok hassastır. Toprağın çamurlaşması köklerin havasız kalarak sararmasına (fizyolojik döküm) yol açar. İşte bu noktada <strong>damla sulama</strong> pamuk yetiştiricileri için bir can simidi haline gelmiştir.
+        </p>
+        <p>
+          <strong>Damla Sulamanın Pamuk Tarımındaki Somut Faydaları:</strong>
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Mükemmel Lif Kalitesi:</strong> Kök bölgesindeki nem miktarı gün boyunca stabil kaldığından bitki hiçbir zaman turgor basıncı krizine girmez. Bu sayede pamuk elyafı (lif) kesintisiz uzar, mikroner değeri ve lif mukavemeti birinci sınıf seviyeye ulaşır.</li>
+          <li><strong>%40-50 Su Tasarrufu:</strong> Özellikle su kısıtının yaşandığı Ege ve Çukurova havzalarında, kısıtlı kaynaktan maksimum verim alınmasını sağlar. Buharlaşma sıfıra yakındır.</li>
+          <li><strong>Yatık Büyümenin Engellenmesi:</strong> Damla sulama köke milimetrik su sunduğu için sıra aralarını kuru bırakır. Aşırı azot ve su birleşimiyle tetiklenen kontrolsüz boylanma engellenir, yatma riski bertaraf edilir.</li>
+          <li><strong>Gübrelemede (Fertigasyon) Tam İsabet:</strong> Pamuğun azot, fosfor ve potasyum ihtiyacı, damlama boruları içerisinden şerbet halinde doğrudan emici tüylere gönderilir. Gübre kaybı %10'un altına iner.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Pamuk İçin Bilimsel Sulama Takvimi (Referans Tablo)</h2>
+        <p>
+          Aşağıdaki tablo, normal iklim koşullarında ekimden hasada kadar pamuk bitkisinin su tüketim katsayıları (Kc) ve sulama stratejilerini göstermektedir:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Bitki Büyüme Evresi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Tahmini Gün Sayısı</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Bitki Katsayısı (Kc)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Damla Sulama Sıklığı</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Sulama Stratejisi</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Çimlenme ve Çıkış</td>
+                <td className="px-6 py-4">0 - 25 Gün</td>
+                <td className="px-6 py-4">0.15 - 0.25</td>
+                <td className="px-6 py-4">Gerekirse 1 kez</td>
+                <td className="px-6 py-4 text-stone-500">Tohum yatağı nemlendirilir, fazla sudan kaçınılır.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Tarak Başlangıcı</td>
+                <td className="px-6 py-4">25 - 55 Gün</td>
+                <td className="px-6 py-4">0.35 - 0.75</td>
+                <td className="px-6 py-4">8 - 10 günde bir</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">İlk sulama (can suyu). Kökleşmeyi teşvik için hafif su kısıtı.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Çiçeklenme & Koza</td>
+                <td className="px-6 py-4">55 - 95 Gün</td>
+                <td className="px-6 py-4">0.95 - 1.20</td>
+                <td className="px-6 py-4">4 - 6 günde bir (Yoğun)</td>
+                <td className="px-6 py-4 text-red-600 font-bold">En kritik evre! Kesinlikle susuz bırakılmamalıdır.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Koza Açılma Dönemi</td>
+                <td className="px-6 py-4">95 - 120 Gün</td>
+                <td className="px-6 py-4">0.70 - 0.40</td>
+                <td className="px-6 py-4">12 - 15 günde bir</td>
+                <td className="px-6 py-4 text-amber-600 font-bold">Sulama miktarı azaltılır. Lif olgunlaşması desteklenir.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Hasat Öncesi</td>
+                <td className="px-6 py-4">120+ Gün</td>
+                <td className="px-6 py-4">0.20 - 0.15</td>
+                <td className="px-6 py-4">Sulamayı Kesin</td>
+                <td className="px-6 py-4 text-stone-400 font-bold">Hasattan 25-30 gün önce su sıfırlanır, yapraklar dökülür.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Pamuk Sularken Sık Yapılan Hatalar ve Altın Kurallar</h2>
+        <p>
+          Saha tecrübelerimiz, birçok pamuk üreticisinin bazı alışkanlıklar nedeniyle tonaj kaybettiğini göstermektedir. İşte tarlanızda dikkat etmeniz gereken hayati noktalar:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Gece Sulamasına Öncelik Verin:</strong> Gündüz sıcağında yapılan sulamalarda buharlaşma kaybı tavan yapar. Su damlacıkları mercek görevi görerek pamuk yapraklarında yanıklara yol açabilir. Sulamayı akşam serinliğinde başlatıp sabaha karşı bitirmek su tasarrufunu %20 artırır.</li>
+          <li><strong>İlk Sulamayı Çok Erken Yapmayın:</strong> \"Pamuk tarlası ilk sulamayı isteyene kadar bağırmalıdır\" sözü bir ziraat doğrusudur. Bitkinin yaprak rengi koyu mavi-yeşile dönmeden ve öğlen sıcağında hafifçe pörsüme belirtisi görmeden ilk suyu vermeyin. Erken sulanan pamuk tembel büyür.</li>
+          <li><strong>Hasat Öncesi Suyu Zamanında Kesin:</strong> Çırçır fabrikalarının en sevmediği pamuk, ıslak hasat edilmiş pamuktur. Hasattan 3-4 hafta önce kesilmeyen su kozaların çürümesine ve elyaflarda mukavemet kaybına sebebiyet verir.</li>
+        </ul>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">Pamuk Üreticileri İçin 2026 Teknolojisi</h4>
+          <p className="font-bold text-white/90">
+            Ege veya Akdeniz'de olmanız fark etmeksizin, değişen hava sıcaklıkları karşısında tarlanızın o gün kaç litre suya ihtiyaç duyduğunu ezbere bilemezsiniz. Hemen ana sayfamıza gidin, tarlanızın konumunu haritadan seçin ve pamuk çeşidinizi belirtin. Akıllı Sulama Hesaplayıcımız, bölgenizdeki meteorolojik istasyon verileri ile FAO standartlarını harmanlayarak tarlanız için günlük milimetrik su ihtiyacını çıkarsın!
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç</h2>
+        <p>
+          Pamuk tarımında sürdürülebilirlik ve kârlılık, suyu ne kadar çok verdiğinizle değil, ne kadar akıllıca yönettiğinizle ölçülür. Bilimsel bir <strong>pamuk sulama</strong> takvimi uygulamak ve modern damla sulama altyapısı yatırımlarına yönelmek, çiftçimizi yüksek maliyetlerden koruyacaktır. Bu topraklar hepimizin; her bir damla suyu koruyarak beyaz altınımızın bereketini nesiller boyu sürdürelim!
+        </p>
+      </div>
+    )
   }
 };
 
