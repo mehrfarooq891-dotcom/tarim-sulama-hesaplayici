@@ -123,6 +123,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Endüstri Bitkileri",
     image: "https://images.unsplash.com/photo-1594489428504-5c0c480a15fd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 13,
+    title: "Sulama Sistemleri: Türler, Avantajlar ve Dezavantajlar",
+    slug: "sulama-sistemleri-turler-avantajlar-ve-dezavantajlar",
+    excerpt: "Hangi sulama sistemi tarlanız için en uygunu? Damla, yağmurlama, karık ve salma sulama yöntemlerini maliyet, su tasarrufu, verimlilik ve bitki türleri açısından karşılaştırıyoruz...",
+    date: "24 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sistem Karşılaştırma",
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
