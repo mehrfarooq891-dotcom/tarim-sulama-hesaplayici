@@ -1978,6 +1978,172 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "biber-sulama-rehberi-gunlik-su-ihtiyaci-ve-sulama-sikligi": {
+    title: "Biber Sulama Rehberi — Günlük Su İhtiyacı ve Sulama Sıklığı",
+    date: "27 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "24 dk okuma",
+    image: "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=2560&q=100",
+    category: "Sebze Yetiştiriciliği",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic">
+          Sebze yetiştiriciliğinde üreticilerimizi ve hobi bahçıvanlarını en çok zorlayan, bitki fizyolojisine en hassas tepkiyi veren mahsullerden biri şüphesiz biberdir. Lezzetli, diri ve pazar değeri yüksek ürünler elde etmenin sırrı ise profesyonelce kurgulanmış bir <strong>biber sulama</strong> programından geçer. Biber bitkisi yüzeysel kök yapısı ve yüksek su hassasiyeti nedeniyle ne susuzluğa ne de aşırı suya tahammül edebilir. Peki biber ne sıklıkla sulanır? Günlük su tüketimi gelişim aşamalarına göre nasıl değişir? Bu derinlemesine rehberde, biber yetiştiriciliğinde fide döneminden hasada kadar tüm adımları, su gereksinimlerini ve pratik sulama tüyolarını inceleyeceğiz.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Biber Bitkisinin Suya Karşı Fizyolojik Tepkisi ve Kök Yapısı</h2>
+        <p>
+          Biber (Capsicum annuum), her ne kadar sıcağı çok seven bir yaz sebzesi olsa da, domates veya kavun gibi bitkilerle karşılaştırıldığında oldukça zayıf ve yüzeysel bir kök sistemine sahiptir. Köklerinin %70-80'i toprağın ilk 20-30 santimetrelik üst tabakasında yer alır. Bu kök mimarisi nedeniyle biber bitkisi derin toprak katmanlarındaki yedek nemden faydalanamaz. Toprak yüzeyinin kuruması, bitkinin saniyeler içinde su stresine girmesine yol açar.
+        </p>
+        <p>
+          Toprak nemsiz kaldığında biber yaprakları pörsür, hücre turgor basıncı düşer ve fotosentez hızı yavaşlar. Ancak tam tersi durumda, toprağın aşırı çamurlaşması ve suyun göllenmesi de biber için ölümcüldür. Kökler oksijensiz kaldığı an biber solgunluk (kök boğazı çürüklüğü olan Phytophthora) hastalığına yakalanır ve aniden kurur. Bu nedenle başarılı bir <strong>biber sulama</strong> programı kurmanın temel kuralı, toprağı daima "tava" tınında, yani nemli ama havadar tutmaktır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Gelişim Dönemlerine Göre Biber Sulama Stratejisi</h2>
+        <p>
+          Biber bitkisinin ömrü boyunca su tüketim grafiği düz bir çizgide gitmez. Ekim veya dikimden başlayarak hasat sonuna kadar takip edilmesi gereken üç hayati <strong>büyüme dönemi</strong> bulunur:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Fide Dönemi ve Can Suyu Uygulaması</h3>
+        <p>
+          Biber yetiştiriciliği genellikle viyollerde yetiştirilen fidelerin tarlaya veya seraya şaşırtılması (dikilmesi) ile başlar. Dikim esnasında fidenin kök toprağı ile tarla toprağının bütünleşmesi için mutlaka bolca can suyu verilmelidir. Can suyunu takiben, fidelerin kök bağlayıp toprağa tutunmasını izleyen ilk 10-15 gün boyunca çok mecbur kalmadıkça sulama yapılması önerilmez.
+        </p>
+        <p>
+          <strong>Neden Erken Sulamadan Kaçınmalıyız?</strong> Bu erken dönemde toprağın hırpalanıp sürekli sulanması fideyi tembelliğe alıştırır. Kökler su aramak için aşağıya doğru uzanmak yerine yüzeyde kalır. Suyu kısıp toprağı hafifçe çatlattığımızda ise fide, hayatta kalma içgüdüsüyle kazık köklerini derinlere salar. Güçlü bir kök sistemi, yazın kavurucu sıcaklarında bitkiyi susuzluk stresinden koruyan en büyük güvenceniz olacaktır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Çiçeklenme Dönemi ve Hassas Denge</h3>
+        <p>
+          Fideler boy atıp ilk çiçek tomurcuklarını açmaya başladığında, sulama sıklığı ve miktarı en kritik karara ulaşır. Bu dönem biberin şakaya gelmeyen dönemidir.
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Aşırı Sulamanın Zararı:</strong> Çiçeklenme döneminde gereğinden fazla su verilmesi, bitkinin vejetatif (yani dala, yaprağa) büyümesini aşırı kamçılar. Bitki çiçeklerini beslemeyi bırakarak dökülmesini tetikler.</li>
+          <li><strong>Yetersiz Sulamanın Zararı:</strong> Çiçeklenme aşamasında toprağın susuz kalması bitkiye stres yükler. Biber kendini korumak için ilk olarak çiçeklerini kurutarak döker; çünkü çiçek yetiştirmek yüksek enerji ve su harcar.</li>
+        </ul>
+        <p>
+          <strong>Altın Kural:</strong> Çiçeklenme evresinde süzme tırnak büyüklüğünde nem sürekli korunmalı, hafif ama sık sulamalarla topraktaki nem dalgalanmaları önlenmelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">C) Meyve Bağlama ve Olgunlaşma Dönemi (Maksimum Su Tüketimi)</h3>
+        <p>
+          Dökülen çiçek yapraklarının altından yeşil küçük biber taslakları görünmeye başladığı an, biberin su bütçesi zirveye ulaşır. Meyvelerin hücresel bölünme ile büyüdüğü bu periyot boyunca toprakta tek bir gün dahi kuruluk yaşanmamalıdır.
+        </p>
+        <p>
+          Meyveler irileşip hasat olgunluğuna erişene kadar geçen dönemde düzenli ve yeterli miktarda su verilmelidir. Bu evre biberin su kaybının (evapotranspirasyonunun) en yüksek olduğu sıcak temmuz ve ağustos aylarına denk gelir. Yetersiz sulama, biber meyvelerinin şeklinin bozulmasına, büzüşmesine, duvar kalınlığının azalmasına ve en önemlisi çiçek burnu çürüklüğü (meyve ucunun kararıp çürümesi) hastalığına yol açar.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Biber Türlerine Göre Sulama ve Acılık Dengesi</h2>
+        <p>
+          Ekeceğiniz biber çeşidi sulama önceliğinizi ve hasat kalitenizi doğrudan etkiler. Piyasada en konjonktürel olan <strong>bitki türleri</strong> üzerinden sulama etkilerine göz atalım:
+        </p>
+        <ul className="list-disc pl-8 space-y-4">
+          <li><strong>Kapya (Salçalık) Biber:</strong> Kalın etli yapısı nedeniyle oldukça yüksek su ve gübre tüketir. Meyve büyüme aşamasında yaşayacağı susuzluk, kabuğun kalınlaşıp selülozlaşmasına ve salça kalitesinin düşmesine yol açar.</li>
+          <li><strong>Sivri ve Çarliston Biber:</strong> Sık sulama ile taze, gevrek ve düzgün şekilli olurlar. Sulama düzensizlikleri meyvenin kıvrılmasına (bastonlaşma) neden olarak pazar değerini kaybettirir.</li>
+          <li><strong>Acı (Şili/Süs) Biberler:</strong> Biberlerdeki acılık \"Kapsaisin\" adı verilen bir maddeden kaynaklanır. Eğer biberin daha acı olmasını istiyorsanız, meyve bağlama evresinden sonra bitkiye kontrollü bir şekilde su stresi uygulayabilirsiniz. Az sulanan biber, savunma mekanizması olarak kapsaisin üretimini artırır ve aşırı acılaşır. Tatlı biberlerde ise tam tersine, hiç susuz bırakılmadan düzenli sulama yapılarak acılaşmalarının önüne geçilir.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Biber Sulama Takvimi — Günlük ve Haftalık Su İhtiyacı</h2>
+        <p>
+          Biber bitkisinin ideal gelişim evrelerine ve ortalama sıcaklıklara göre hazırlanmış, sulama sıklığı referans tablomuz şöyledir:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Gelişim Dönemi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Tahmini Gün Aralığı</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Ortalama Günlük Su Tüketimi (m²/Litre)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">İdeal Sulama Sıklığı (Yaz Sıcağında)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Açıklama & Strateji</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Fide Kurulumu & Uyum</td>
+                <td className="px-6 py-4">1 - 15 Gün</td>
+                <td className="px-6 py-4">1.5 - 2.5 Litre</td>
+                <td className="px-6 py-4">3 - 4 günde bir</td>
+                <td className="px-6 py-4">Kökleşmeyi teşvik etmek için can suyu harici su kısıtlanmalıdır.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Aktif Yeşil Aksam Büyüme</td>
+                <td className="px-6 py-4">15 - 45 Gün</td>
+                <td className="px-6 py-4">3.0 - 4.5 Litre</td>
+                <td className="px-6 py-4">2 - 3 günde bir</td>
+                <td className="px-6 py-4">Dengeli büyüme sağlanır. Boya kaçmayı engellemek için gözlem yapılır.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Çiçeklenme Başlangıcı</td>
+                <td className="px-6 py-4">45 - 65 Gün</td>
+                <td className="px-6 py-4">4.0 - 5.5 Litre</td>
+                <td className="px-6 py-4">2 günde bir</td>
+                <td className="px-6 py-4 text-amber-600 font-bold">Çiçek dökümünü önlemek için toprak nem dalgalanmalarına dikkat edilir.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Meyve İrileşme & Olgunluk</td>
+                <td className="px-6 py-4">65 - 100 Gün</td>
+                <td className="px-6 py-4 text-green-700 font-bold">6.0 - 8.5 Litre</td>
+                <td className="px-6 py-4 text-green-700 font-bold">Her gün veya Gün aşırı</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">Zirve su ihtiyacı! Çiçek burnu çürümelerine izin verilmez.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Hasat Periyodu Araları</td>
+                <td className="px-6 py-4">100+ Gün</td>
+                <td className="px-6 py-4">4.5 - 6.0 Litre</td>
+                <td className="px-6 py-4">2 - 3 günde bir</td>
+                <td className="px-6 py-4">Her elle toplamadan sonra yeni sürgünleri uyarmak için su verilir.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Sulama Yöntemlerinin Karşılaştırılması: Biberde Hangisi İyi?</h2>
+        <p>
+          Biber sulamasında kullanılacak yöntemin seçimi, hem işletme maliyetini belirler hem de hastalık risklerini doğrudan yönetir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Damla Sulama Sistemi (Zorunlu Tercih)</h3>
+        <p>
+          Biber tarımında dünyada kabul görmüş tek rasyonel sulama yöntemi damla sulamadır:
+        </p>
+        <ul className="list-disc pl-8 space-y-2">
+          <li><strong>Maksimum Verimlilik:</strong> Suyu doğrudan kök boğazına ilettiği için buharlaşma sıfırdır.</li>
+          <li><strong>Gübreleme Entegrasyonu:</strong> Biberin aşırı derecede sevdiği Potasyum ve Kalsiyum elementleri, damla sulama boruları yardımıyla doğrudan köklere zerk edilebilir.</li>
+          <li><strong>Mantar Hastalığı Kontrolü:</strong> Yapraklar kesinlikle ıslanmaz, sera nemi dengede kalır ve ilaçlama masrafı minimize edilir.</li>
+          <li><strong>Düşük Maliyet ve Enerji Tasarrufu:</strong> Düşük pompa basıncı elektrik faturasını kayda değer miktarda düşürür.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Yağmurlama ve Salma Sulama Yöntemleri (Kaçınılması Gerekenler)</h3>
+        <p>
+          Biber bitkisini yağmurlama sprinkler başlıkları ile sulamak, yaprakları sürekli sırılsıklam bırakacağı için külleme ve yaprak lekesi hastalıklarını tarlada adeta patlatır. Bitkinin çiçek tozlarını ıslatarak dökllenmeyi ve meyve tutumunu engeller. Salma (vahşi) sulama ise köklerin aniden çamur içinde kalarak boğulmasına bir davettir ve solgunluk (kök boğazı çürüklüğü) nedeniyle kurumasına yol açar. Bu nedenle her iki geleneksel yöntem de biber tarımı için büyük riskler barındırır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Biber Yetiştiricileri İçin Pratik Tavsiyeler & Altın Kurallar</h2>
+        <p>
+          Tarlanızda veya bahçenizde biber sularken uygulayabileceğiniz en hayati pratik ve bilimsel tavsiyeler şunlardır:
+        </p>
+        <ol className="list-decimal pl-8 space-y-4">
+          <li><strong>Erken Sabah Saatlerini Seçin:</strong> Sulamayı kesinlikle gündüzün yakıcı sıcağında yapmayın. En ideal saatler sabah 05:00 - 08:30 arasıdır. Toprağın serin olduğu bu vakitlerde su kayıpsız emilir. Akşam sulamaları da yapılabilir ancak gece boyu kalan aşırı sera içi nem mantar gelişimini hızlandırabilir.</li>
+          <li><strong>Kalsiyum Dengesine Dikkat Edin:</strong> Biberlerde sıkça görülen ve meyve altlarının siyahlaşıp kurumasına sebep olan \"çiçek burnu çürüklüğü\" kalsiyum eksikliğinden olur. İlginç olan, kalsiyum toprakta olsa dahi bitki onu ancak suyla taşıyabilir. Düzensiz sulama yapıldığında kalsiyum meyveye ulaşamaz ve biberler çürür. Sulamayı aksatmayın!</li>
+          <li><strong>Toprağınızı Elle Kontrol Edin:</strong> Dijital sensörleriniz yoksa, toprağın 10 cm derinliğine parmağınızı sokun. Avucunuza aldığınız toprak sıktığınızda dağılmadan köfte kıvamında kalıyorsa nem oranı iyidir. Çamur gibi akıyorsa fazla sulamışsınızdır, toz gibi dağılıyorsa biberleriniz acilen su bekliyor demektir.</li>
+          <li><strong>Çapalamayı İhmal Etmeyin:</strong> Sulama sonrasında kaymak tabakasının kırılması ve köklerin hava alması için hafif yüzeysel çapa uygulamaları yapın. \"Bir çapa, iki sulamaya bedeldir\" atasözü özellikle kökü nazik biber bitkisi için tam bir altın kuraldır.</li>
+        </ol>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">Yapay Zeka Destekli Biber Sulama Programı</h4>
+          <p className="font-bold text-white/90">
+            Farklı bölgelerin rüzgarı, nemi ve sıcaklığı karşısında biberlerinize ne kadar su vermeniz gerektiğinden emin olamıyor musunuz? Hemen ana sayfamızdaki Akıllı Tarımsal Sulama Hesaplayıcımızı kullanın! Tarlanızın konum koordinatlarını işaretleyin, biber türünüzü seçin ve sistemimiz tarlanız için FAO standartlarında Penman-Monteith hesabını saniyeler içinde tamamen ücretsiz çıkarsın!
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç</h2>
+        <p>
+          Biber yetiştiriciliği yüksek kazanç vaat eden ancak yoğun özen gerektiren teknik bir tarım dalıdır. Bilimsel referanslara dayalı, gelişim evrelerine uygun bir <strong>biber sulama</strong> programı yürüterek bitkilerinizi hastalıklardan koruyabilir, pazar değerini iki katına çıkarabilir ve su kaynaklarımızı sürdürülebilir kılabilirsiniz. Unutmayın, bereketli topraklar ancak doğru sulama yöntemleriyle geleceğe aktarılabilir!
+        </p>
+      </div>
+    )
   }
 };
 

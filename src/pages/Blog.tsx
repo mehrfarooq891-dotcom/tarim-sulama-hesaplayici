@@ -133,6 +133,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sistem Karşılaştırma",
     image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 14,
+    title: "Biber Sulama Rehberi — Günlük Su İhtiyacı ve Sulama Sıklığı",
+    slug: "biber-sulama-rehberi-gunlik-su-ihtiyaci-ve-sulama-sikligi",
+    excerpt: "Biber tarımında yüksek verim ve acılık dengesi için sulama nasıl olmalı? Fide, çiçeklenme ve meyve bağlama dönemlerinde biber sulama sıklığı, günlük su ihtiyacı ve pratik tavsiyeler...",
+    date: "27 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sebze Yetiştiriciliği",
+    image: "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
