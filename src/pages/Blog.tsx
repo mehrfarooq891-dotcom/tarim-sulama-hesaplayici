@@ -143,6 +143,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sebze Yetiştiriciliği",
     image: "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 15,
+    title: "Türkiye'de Sulama Destekleri 2026 — Devlet Yardımları Rehberi",
+    slug: "turkiyede-sulama-destekleri-2026",
+    excerpt: "2026 yılı sulama hibe ve destekleri nelerdir? Tarım Bakanlığı ve TKDK (IPARD III) hibe oranları, damla ve yağmurlama projelerinde başvuru şartları ve başvuru takvimi...",
+    date: "28 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Devlet Destekleri",
+    image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=800&q=80"
   }
 ];
 

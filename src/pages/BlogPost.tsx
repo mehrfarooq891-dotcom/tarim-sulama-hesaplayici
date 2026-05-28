@@ -1948,7 +1948,7 @@ const postsData: Record<string, any> = {
           Damla sulama sistemlerine yapılan yatırım; su kullanımını yarı yarıya düşürdüğü için kuyu pompasının enerji tüketimini de doğrudan yarı yarıya düşürür. Ayrıca fertigasyon sistemi sayesinde tarlada kullanılacak toplam kimyasal gübre miktarı yaklaşık %30-40 oranında azalır. Gübre köke milimetrik sızdırıldığı için boşa gitmez. Yabancı ot gelişimi engellendiğinden çapa ve yabancı ot ilacı masrafları büyük ölçüde ortadan kalkar.
         </p>
         <p>
-          En önemlisi de verim artışıdır. Su kısıtına girmeyen, düzenli nem ile beslenen bitkilerden elde edilen dekar verimi %30 ila %50 oranında artar. Tüm bu parametreler yan yana getirilerek hesaplandığında, damla sulama altyapısı kendisini ortalama <strong>1.5 ila 2 tarım sezonunda</strong> tamamen amorti eder ve sonraki yıllarda çiftçinin net kazanç oranını katlayarak artırmaya devam eder.
+          En önemlisi de verim artışıdır. Su kısıtına girmeyen, düzenli nem ile beslenen bitkilerden elde edilen dekar verimi %30 ila %50 oranında artar. Tüm bu parametreler yan yana getirilerek hesaplandığında, damla sulama altyapısı kendisini ortalama 1.5 ila 2 tarım sezonunda tamamen amorti eder ve sonraki yıllarda çiftçinin net kazanç oranını katlayarak artırmaya devam eder.
         </p>
 
         <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Bitki Türleri Hangi Sistemleri Tercih Ediyor?</h2>
@@ -1959,7 +1959,7 @@ const postsData: Record<string, any> = {
           <li><strong>Meyve Bahçeleri ve Bağlar:</strong> Zeytin, badem, ceviz, narenciye, elma, armut, kiraz ve üzüm bağlarında kesinlikle damla sulama altyapısı kullanılmalıdır. Ağaçların gövdesine püskürtülen yağmurlama suları, kök boğazı çürüklüklerine ve yaprak mantarları dalgalanmalarına yol açar.</li>
           <li><strong>Sebzeler ve Yumrulu Bitkiler:</strong> Domates, biber, patlıcan, hıyar, patates, kavun, karpuz ve soğan gibi narin bitkiler için damla sulama tek seçenektir. Çilek yetiştiriciliğinde de damla sulama kaliteyi doğrudan ikiye katlar.</li>
           <li><strong>Tarla Endüstri Bitkileri:</strong> Mısır, şeker pancarı, pamuk ve ayçiçeği gibi sıra arası geniş bitkilerde damla sulama mükemmel verim sağlar. Ancak ilk tesis maliyetini azaltmak isteyen ve arazisi düz olan çiftçiler yağmurlama sulamayı da ikinci ürün mısırda veya pancarda başarıyla kullanabilir.</li>
-          <li><strong>Sık Ekilen Tahıllar ve Yem Bitkileri:</strong> Buğday, arpa, yulaf, yonca ve korunga gibi tüm tarlaya sıklıkla yayılan ve sıra arası olmayan yem bitkilerinde yağmurlama sulama sistemleri en rasyonel ve verimli çözümdür.</li>
+          <li><strong>Sık Ekilen Tahıllar ve Yem Bitkileri:</strong> Buğday, arpa, yulaf, yonca ve korunga gibi tüm tarlaya sıklıkla yayılan ve sıra arası olmayan yem bitkilerinde yağmurlama sulama sistemleri en rasyonel ve verimli çözmüdür.</li>
         </ul>
 
         <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
@@ -1969,7 +1969,7 @@ const postsData: Record<string, any> = {
           </p>
         </div>
 
-        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç ve Gelecek Projeksiyonu</h2>
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç Belgesi ve Gelecek Projeksiyonu</h2>
         <p>
           2026 yılı ve sonrasında tarımsal üretimin devamlılığı, suyumuzu ne kadar koruyabildiğimizle doğrudan orantılıdır. Geleneksel salma sulama alışkanlıklarından bir an önce kurtulup, modern basınçlı <strong>sulama sistemleri</strong> yatırımlarını hayata ulaştırmak tüm çiftçilerimizin ortak görevidir. Sürdürülebilir bir gelecek ve yüksek kazançlı hasatlar için topraklarımızı bilimle sulayalım.
         </p>
@@ -2040,7 +2040,7 @@ const postsData: Record<string, any> = {
         <ul className="list-disc pl-8 space-y-4">
           <li><strong>Kapya (Salçalık) Biber:</strong> Kalın etli yapısı nedeniyle oldukça yüksek su ve gübre tüketir. Meyve büyüme aşamasında yaşayacağı susuzluk, kabuğun kalınlaşıp selülozlaşmasına ve salça kalitesinin düşmesine yol açar.</li>
           <li><strong>Sivri ve Çarliston Biber:</strong> Sık sulama ile taze, gevrek ve düzgün şekilli olurlar. Sulama düzensizlikleri meyvenin kıvrılmasına (bastonlaşma) neden olarak pazar değerini kaybettirir.</li>
-          <li><strong>Acı (Şili/Süs) Biberler:</strong> Biberlerdeki acılık \"Kapsaisin\" adı verilen bir maddeden kaynaklanır. Eğer biberin daha acı olmasını istiyorsanız, meyve bağlama evresinden sonra bitkiye kontrollü bir şekilde su stresi uygulayabilirsiniz. Az sulanan biber, savunma mekanizması olarak kapsaisin üretimini artırır ve aşırı acılaşır. Tatlı biberlerde ise tam tersine, hiç susuz bırakılmadan düzenli sulama yapılarak acılaşmalarının önüne geçilir.</li>
+          <li><strong>Acı (Şili/Süs) Biberler:</strong> Biberlerdeki acılık "Kapsaisin" adı verilen bir maddeden kaynaklanır. Eğer biberin daha acı olmasını istiyorsanız, meyve bağlama evresinden sonra bitkiye kontrollü bir şekilde su stresi uygulayabilirsiniz. Az sulanan biber, savunma mekanizması olarak kapsaisin üretimini artırır ve aşırı acılaşır. Tatlı biberlerde ise tam tersine, hiç susuz bırakılmadan düzenli sulama yapılarak acılaşmalarının önüne geçilir.</li>
         </ul>
 
         <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Biber Sulama Takvimi — Günlük ve Haftalık Su İhtiyacı</h2>
@@ -2126,21 +2126,164 @@ const postsData: Record<string, any> = {
         </p>
         <ol className="list-decimal pl-8 space-y-4">
           <li><strong>Erken Sabah Saatlerini Seçin:</strong> Sulamayı kesinlikle gündüzün yakıcı sıcağında yapmayın. En ideal saatler sabah 05:00 - 08:30 arasıdır. Toprağın serin olduğu bu vakitlerde su kayıpsız emilir. Akşam sulamaları da yapılabilir ancak gece boyu kalan aşırı sera içi nem mantar gelişimini hızlandırabilir.</li>
-          <li><strong>Kalsiyum Dengesine Dikkat Edin:</strong> Biberlerde sıkça görülen ve meyve altlarının siyahlaşıp kurumasına sebep olan \"çiçek burnu çürüklüğü\" kalsiyum eksikliğinden olur. İlginç olan, kalsiyum toprakta olsa dahi bitki onu ancak suyla taşıyabilir. Düzensiz sulama yapıldığında kalsiyum meyveye ulaşamaz ve biberler çürür. Sulamayı aksatmayın!</li>
+          <li><strong>Kalsiyum Dengesine Dikkat Edin:</strong> Biberlerde sıkça görülen ve meyve altlarının siyahlaşıp kurumasına seb op olan "çiçek burnu çürüklüğü" kalsiyum eksikliğinden olur. İlginç olan, kalsiyum toprakta olsa dahi bitki onu ancak suyla taşıyabilir. Düzensiz sulama yapıldığında kalsiyum meyveye ulaşamaz ve biberler çürür. Sulamayı aksatmayın!</li>
           <li><strong>Toprağınızı Elle Kontrol Edin:</strong> Dijital sensörleriniz yoksa, toprağın 10 cm derinliğine parmağınızı sokun. Avucunuza aldığınız toprak sıktığınızda dağılmadan köfte kıvamında kalıyorsa nem oranı iyidir. Çamur gibi akıyorsa fazla sulamışsınızdır, toz gibi dağılıyorsa biberleriniz acilen su bekliyor demektir.</li>
-          <li><strong>Çapalamayı İhmal Etmeyin:</strong> Sulama sonrasında kaymak tabakasının kırılması ve köklerin hava alması için hafif yüzeysel çapa uygulamaları yapın. \"Bir çapa, iki sulamaya bedeldir\" atasözü özellikle kökü nazik biber bitkisi için tam bir altın kuraldır.</li>
+          <li><strong>Çapalamayı İhmal Etmeyin:</strong> Sulama sonrasında kaymak tabakasının kırılması ve köklerin hava alması için hafif yüzeysel çapa uygulamaları yapın. "Bir çapa, iki sulamaya bedeldir" atasözü özellikle kökü nazik biber bitkisi için tam bir altın kuraldır.</li>
         </ol>
 
         <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
           <h4 className="text-2xl font-black mb-4 text-white">Yapay Zeka Destekli Biber Sulama Programı</h4>
           <p className="font-bold text-white/90">
-            Farklı bölgelerin rüzgarı, nemi ve sıcaklığı karşısında biberlerinize ne kadar su vermeniz gerektiğinden emin olamıyor musunuz? Hemen ana sayfamızdaki Akıllı Tarımsal Sulama Hesaplayıcımızı kullanın! Tarlanızın konum koordinatlarını işaretleyin, biber türünüzü seçin ve sistemimiz tarlanız için FAO standartlarında Penman-Monteith hesabını saniyeler içinde tamamen ücretsiz çıkarsın!
+            Farklı bölgelerin rüzgarı, nemi ve sıcaklığı karşısında biberlerinize ne kadar su vermeniz gerektiğinden emin olamıyor musunuz? Hemen ana sayfamızdaki Akıllı Tarımsal Sulama Hesaplayıcimizi kullanın! Tarlanızın konum koordinatlarını işaretleyin, biber türünüzü seçin ve sistemimiz tarlanız için FAO standartlarında Penman-Monteith hesabını saniyeler içinde tamamen ücretsiz çıkarsın!
           </p>
         </div>
 
         <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Sonuç</h2>
         <p>
           Biber yetiştiriciliği yüksek kazanç vaat eden ancak yoğun özen gerektiren teknik bir tarım dalıdır. Bilimsel referanslara dayalı, gelişim evrelerine uygun bir <strong>biber sulama</strong> programı yürüterek bitkilerinizi hastalıklardan koruyabilir, pazar değerini iki katına çıkarabilir ve su kaynaklarımızı sürdürülebilir kılabilirsiniz. Unutmayın, bereketli topraklar ancak doğru sulama yöntemleriyle geleceğe aktarılabilir!
+        </p>
+      </div>
+    )
+  },
+  "turkiyede-sulama-destekleri-2026": {
+    title: "Türkiye'de Sulama Destekleri 2026 — Devlet Yardımları Rehberi",
+    date: "28 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "25 dk okuma",
+    image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=2560&q=100",
+    category: "Devlet Destekleri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Türkiye&apos;de tarımda modernizasyonun lokomotifi devlet teşvikleridir. Küresel ısınmanın yarattığı kuraklık tehlikesine karşı su kaynaklarımızı akıllıca korumak amacıyla, 2026 yılında kamu hibe ve destek mekanizmaları zirveye ulaşmıştır. Bu profesyonel kılavuzda, Tarım ve Orman Bakanlığı&apos;nın bireysel hibelerinden <strong>TKDK destekleri</strong> (IPARD III) kapsamındaki dev bütçelere kadar tüm <strong>sulama destekleri 2026</strong> imkanlarını, <strong>başvuru şartları</strong> ve projelendirme süreçlerini ayrıntılarıyla mercek altına aldık.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Küresel Su Krizi Karşısında Devletin 2026 Sulama Vizyonu</h2>
+        <p>
+          Doğru ve verimli sulama yöntemlerinin yaygınlaştırılması artık sadece çiftçinin kârlılığı için değil, Türkiye&apos;nin milli gıda güvenliği için de stratejik bir zorunluluktur. Geleneksel vahşi sulama yöntemlerinin topraklarımızı çoraklaştırdığı ve su bütçemizi tükettiği gerçeğinden hareketle, devlet politikası kuru tarımdan sulu tarıma geçişte modern basınçlı altyapılara tam destek kararı almıştır.
+        </p>
+        <p>
+          2026 yılında hayata geçirilen hibe paketleri, özellikle fosil yakıtlardan (mazot) kurtulup güneş enerjisi (GES) destekli modern damlama ve yağmurlama teknolojilerine geçiş yapmak isteyen üretici örgütlerine, şirketlere ve şahıs işletmelerine devasa bütçeler sunmaktadır. <strong>Sulama destekleri 2026</strong> projeleri, ziraat mühendislerinin kontrollü raporlarıyla hazırlanmakta ve milli bütçeler ile Avrupa Birliği ortak fonları üzerinden finanse edilmektedir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Tarım ve Orman Bakanlığı Bireysel Basınçlı Sulama Destekleri (%50 Hibe)</h2>
+        <p>
+          Kırsal Kalkınma Yatırımlarının Desteklenmesi Programı (KKYDP) kapsamında her yıl yürürlüğe giren Bireysel Sulama Sistemi Altyapı Hibeleri, hırdavatçıdan çiftçiye kadar her segmente doğrudan dokunmaktadır. Bu destek modeli kapsamında, kabul edilen projelerin KDV hariç mal alım tutarının <strong>yüzde 50&apos;si (yarısı)</strong> devlet tarafından karşılıksız hibe olarak üreticiye ödenmektedir.
+        </p>
+        <p>
+          <strong>Hibe Limitleri ve Kapsam:</strong> 2026 yılı için bireysel başvurularda üst limitler revize edilmiş durumdadır. Proje büyüklüğünün üst tavanı tekil üreticiler için 1.000.000 TL ila 3.000.000 TL arasında değişen bölgesel katsayılara göre belirlenmektedir. Bu hibe türü, özellikle kendi tarlasında butik veya endüstriyel boyutta sebze, meyve veya hububat yetiştiren çiftçiler için bürokrasi yükü en hafif olan ve en hızlı sonuçlanan devlet desteğidir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. TKDK Destekleri (IPARD III Programı) ve Bölgesel Yatırım Teşvikleri</h2>
+        <p>
+          Tarım ve Kırsal Kalkınmayı Destekleme Kurumu (TKDK), Avrupa Birliği fonları (IPARD III) aracılığıyla Türkiye tarım tarihindeki en büyük finansal kaldıraçlardan birini yönetmektedir. TKDK sulama yatırımlarında hibe oranları projenin lokasyonuna, başvuru sahibinin yaşına ve tüzel kişilik durumuna göre <strong>%50 ila %75 arasında</strong> değişmektedir.
+        </p>
+        <p>
+          <strong>Neden TKDK Tercih Edilmeli?</strong> 
+        </p>
+        <p>
+          Tarım ve Orman Bakanlığı&apos;nın bireysel desteklerine göre çok daha yüksek bütçeli projelere (10 Milyon TL ve üzerine kadar) onay veren TKDK, aynı zamanda projede kullanılacak tüm makine, boru, otomasyon, filtre ve güneş paneli alımlarında <strong>KDV Muafiyeti</strong> sağlamaktadır. Bu durum yatırımcının ilk günden %20 ekstra kâr etmesi anlamına gelir. Genç çiftçiler (40 yaş altı) ve kadın girişimciler başvuru puanlamasında öncelik hakkına ve ek hibe yüzdelerine sahiptir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Sulama Teşvikleri Kapsamında Hangi Sistemler Destekleniyor?</h2>
+        <p>
+          Devlet yardımlarından faydalanabilmek için projelendireceğiniz yatırımın, su tasarrufu sağlayan tescilli teknolojiler içermesi şarttır. Vahşi veya salma sulama gibi geleneksel projelere tek bir kuruş dahi hibe verilmemektedir. 2026 yılında resmi olarak <strong>hangi sistemler destekleniyor</strong> listesini aşağıda sıraladık:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Tarla İçi Damla Sulama Sistemleri:</strong> Polietilen borular, damlatıcılar, kireç önleyici asit üniteleri ve kontrol panelleri.</li>
+          <li><strong>Tarla İçi Yağmurlama Sulama Sistemleri:</strong> Sprinkler nozzles, yan hat boruları, bağlantı aparatları ve debi kontrol valfleri.</li>
+          <li><strong>Tarla İçi Mikro-Yağmurlama (Mini-Sprink) Sistemleri:</strong> Özellikle sera altı yetiştiriciliği, fide alanları ve bodur meyve bahçeleri için tasarlanan hassas sisleme/sulama sistemleri.</li>
+          <li><strong>Lineer ve Center Pivot Sulama Sistemleri:</strong> Binlerce dönümlük büyük ölçekli mısır, buğday veya patates tarlalarında kendi kendine hareket edebilen devasa dairesel/çizgisel robotik sulama hatları.</li>
+          <li><strong>Yeraltı Damla Sulama Altyapıları:</strong> Suyun ve gübrenin doğrudan toprak altından, buharlaşma riski sıfıra indirilerek köke verilmesini sağlayan, ömrü 15 yılı bulan ultra modern gömülü sistemler.</li>
+          <li><strong>Güneş Enerjili (Solar / GES) Sulama Sistemleri:</strong> Elektrik şebekesinden bağımsız, güneş enerjili pompalar, inverterler ve panel montaj sehpaları. 2026 teşvik mevzuatında bu kaleme ekstradan +10 öncelik puanı verilmektedir.</li>
+          <li><strong>Akıllı Tarımsal Otomasyon ve Sensör Ağları:</strong> Toprak nem ölçerler, otomatik meteoroloji istasyonları, selenoid vanalar ve yapay zeka destekli sulama zamanlayıcıları.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Devlet Teşvikli Sulama Yatırımı İçin Gerekli Başvuru Şartları Nelerdir?</h2>
+        <p>
+          Hibe onay komitesinden geçebilmek ve bütçeyi tarlanıza getirebilmek için sağlamanız gereken belirli <strong>başvuru şartları</strong> mevzuatta kesin hatlarla çizilmiştir:
+        </p>
+        <ol className="list-decimal pl-8 space-y-3">
+          <li><strong>ÇKS (Çiftçi Kayıt Sistemi) Aktif Üyeliği:</strong> Başvuru yapılacak tarlanın o yıla ait tarımsal üretim desenini gösteren güncel ÇKS belgesi zorunludur.</li>
+          <li><strong>Resmi Su Arama ve Kuyusu İzinleri:</strong> Sulama yapılacak su kaynağının yasal statüde olması gerekir. DSİ (Devlet Su İşleri)&apos;nden alınmış &quot;Yeraltı Suyu Kullanma Kullanım Belgesi&quot; veya akarsulardan su alma hakkını gösteren resmi tahsis evrakı projenin ilk şartıdır.</li>
+          <li><strong>Mülkiyet ve Tapu Durumu:</strong> Tarlanın tapusu başvuru sahibine ait olmalıdır. Eğer arazi kiralıksa, kiralama sözleşmesinin noterde yapılmış olması ve genellikle en az 5 ila 10 yıl süreli olması (TKDK için 5, bazı büyük projeler için 10 yıl) gerekir.</li>
+          <li><strong>Ziraat Mühendisi Onaylı Sulama Projesi:</strong> Lisanslı ve yetkili bir Ziraat Mühendisi (Tarımsal Yapılar ve Sulama mezunu) tarafından hazırlanmış, tarlanın eğimi, toprak yapısı, suyun kalitesi, boru çapı hesapları ve hidrolik basınç analizlerini içeren teknik proje dosyasının bulunması.</li>
+          <li><strong>Vergi ve SGK Borcu Bulunmaması:</strong> Başvuru sahibinin kamuya vadesi geçmiş herhangi bir vergi ya da sosyal güvenlik borcunun olmaması gerekmektedir.</li>
+        </ol>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Sulama Destek Ölçütleri Karşılaştırma Tablosu</h2>
+        <p>
+          Destek veren kurumlar arasındaki temel farkları, limitleri ve fırsatları anlamanız için hazırladığımız karşılaştırma tablosu:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Kriter / Destek Kurumu</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Tarım ve Orman Bak. (KKYDP)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">TKDK (IPARD III)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Cumhurbaşkanlığı & İl Özel İdare</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Temel Hibe Oranı</td>
+                <td className="px-6 py-4 text-green-700 font-bold">%50 Net</td>
+                <td className="px-6 py-4 text-green-700 font-bold">%50 - %75 (Genç/Kadın avantajlı)</td>
+                <td className="px-6 py-4">%40 - %60 (Bölgeye göre değişir)</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">KDV Muafiyeti Var mı?</td>
+                <td className="px-6 py-4 text-red-600">Yok (KDV çiftçi tarafından ödenir)</td>
+                <td className="px-6 py-4 text-green-700 font-bold">Mevcut (%20 Ekstra Yatırım Avantajı)</td>
+                <td className="px-6 py-4">Genellikle Yok</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">GES Projesi Entegrasyonu</td>
+                <td className="px-6 py-4">Destekleniyor (%50 Hibe)</td>
+                <td className="px-6 py-4 text-green-700 font-bold">Tam Entegre Destek (Yüksek Limit)</td>
+                <td className="px-6 py-4">Sadece Kooperatiflere Hibeli</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Arazi Kiralama Şartı</td>
+                <td className="px-6 py-4">Minimum 5 Yıllık Mukavele</td>
+                <td className="px-6 py-4">Minimum 5-7 Yıllık Kesintisiz Kira</td>
+                <td className="px-6 py-4 font-bold">Sadece Mülk Sahibi Tapu</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Proje Hazırlama Süresi</td>
+                <td className="px-6 py-4">15 - 30 Gün (Hızlı Onay)</td>
+                <td className="px-6 py-4 text-amber-600 font-bold">3 - 6 Ay (Akredite Danışman Şartı)</td>
+                <td className="px-6 py-4">Bölgesel Duyuruya Bağlı</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">7. Hibe Başvurusu Yaparken Sık Yapılan Hatalar ve Altın Öneriler</h2>
+        <p>
+          Çiftçilerimizin veya yatırımcı firmaların hazırladığı projelerin büyük bir kısmı, çok basit ama hayati detaylar nedeniyle elenmektedir. Onay oranınızı artırmak için şu hususları kesinlikle gözden kaçırmayın:
+        </p>
+        <ul className="list-disc pl-8 space-y-4">
+          <li><strong>Yetersiz Pompa Gücü Hesabı:</strong> Projede sunulan boru uzunluğu ve çapı ile satın alınacak dalgıç pompanın motor gücü hidrolik olarak birbiriyle uyumlu olmalıdır. Aşırı güçlü pompa seçip bütçeyi şişirmek ya da yetersiz debide pompa seçmek projenin teknik kurulda ret almasına veya revizyona gitmesine engel oluşturur.</li>
+          <li><strong>Geçersiz ÇKS/Tapu Hissesi:</strong> Çok hisseli arazilerde, diğer hissedarlardan alınacak muvafakatnamelerin tescilsiz veya eksik imzalı olması başvuruyu doğrudan iptal ettirir.</li>
+          <li><strong>Fatura ve Proforma Uyumsuzluğu:</strong> Tedarikçi firmalardan alınacak proforma faturalardaki teknik boru kodları, vanaların milimetre cinsinden değerleri ve proje çizimindeki teknik ibareler harfi harfine eşleşmelidir.</li>
+        </ul>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)]">Tarım Danışmanı Tavsiyesi</h4>
+          <p className="font-bold text-stone-700 leading-relaxed">
+            2026 yılında sulama yatırımı yapmayı düşünüyorsanız, devlet hibelerinin takvimlerini beklemeden 3-4 ay öncesinden DSİ su kullanım izinlerinizi ve tarlanızın toprak analizlerini tamamlayın. Hibeler açıklandığında genellikle başvuru süresi 30 ila 45 gün gibi çok kısa bir dilimle sınırlandırılmaktadır. Hazır bekleyen projelerin onaylanma şansı daima %90 daha fazladır.
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">8. Sonuç ve Gelecek Yatırım Planı</h2>
+        <p>
+          <strong>Sulama destekleri 2026</strong> imkanlarından doğru bir şekilde faydalanmak, ilk kurulum yükünüzü yarı yarıya hafifletirken tarlanızda ömürlük bir akıllı tarım devrimi yapmanızı sağlar. Modern borular, güneş panelleri ve otomatize vanalar sayesinde su israfını sonlandırıp kazancınızı güvenceye alın.
+        </p>
+        <p>
+          Tarlanıza kurmayı planladığınız yeni sulama sistemi için gereken toplam boru uzunluğu, debi ihtiyacı ve bitki su tüketim bütçelerini önceden bilimsel olarak hesaplamaya ne dersiniz? Hibe projenizi hazırlamadan önce hemen ana sayfamıza dönerek <strong>Akıllı Tarımsal Sulama Hesaplama Sistemimizi</strong> ücretsiz kullanın, devlet projenize en doğru teknik verileri zemin hazırlayarak başlayın!
         </p>
       </div>
     )
