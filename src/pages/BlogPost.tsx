@@ -2287,6 +2287,173 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "sogan-sulama-takvimi-ve-su-ihtiyaci": {
+    title: "Soğan Sulama Takvimi ve Su İhtiyacı: Bilimsel ve Pratik Rehber",
+    date: "29 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "25 dk okuma",
+    image: "https://images.unsplash.com/photo-1618512416390-58c06e7888ff?auto=format&fit=crop&w=2560&q=100",
+    category: "Sebze Yetiştiriciliği",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Soğan yetiştiriciliği, yüksek pazar değeri ve mutfakların vazgeçilmez bir ürünü olması yönüyle Türkiye tarımında son derece kritik ve karlı bir yere sahiptir. Ancak, tarlanızdan yüksek dekar verimi ve raf ömrü uzun, pürüzsüz baş yapısına sahip kaliteli soğanlar hasat etmenin en temel şartı, bilimsel kurallara uygun olarak tasarlanmış bir <strong>soğan sulama</strong> programı uygulamaktır. Soğan bitkisi, yüzeysel kök yapısı nedeniyle toprak nemine aşırı derecede duyarlıdır. Bu kapsamlı ziraat rehberinde; soğan bitkisinin yaşam döngüsü boyunca su ihtiyaçlarını, büyüme dönemlerine göre sulama zamanlamasını, kritik hasat öncesi sulama stratejilerini ve toprak nemi yönetiminin inceliklerini bilimsel veriler eşliğinde öğreneceksiniz.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Soğan Bitkisinin Fizyolojik Kök Yapısı ve Toprak Nemi İlişkisi</h2>
+        <p>
+          Soğan (Allium cepa), tek çenekli (monokotiledon) ve saçak köklü bir bitkidir. Bu morfolojik yapı, soğan bitkisini su yönetimi açısından en hassas sebzelerden biri haline getirmektedir. Soğanın saçak kökleri toprağın derinliklerine inemez; köklerin yaklaşık %80 ile %90'ı toprağın sadece ilk 20-30 cm'lik (aktif kök bölgesi) yüzey tabakasında yoğunlaşır. Köklerin yanal yayılımı da oldukça sınırlıdır.
+        </p>
+        <p>
+          Bu zayıf kök mimarisi sebebiyle, soğan bitkisi derin toprak katmanlarında saklı duran yedek nem rezervlerinden kesinlikle faydalanamaz. Dolayısıyla üst katmandaki <strong>toprak nemi</strong> düzeyi düştüğü anda, bitki derin bir su stresine girer. Toprak neminin tarla kapasitesinin %60-70 seviyesinin altına inmesine izin verilmemelidir. Nemsiz kalan topraklarda yaprak gelişimi durur, stomalar kapanarak fotosentez hızı kesilir ve sonuçta küçük, pazar değeri düşük soğan başları oluşur.
+        </p>
+        <p>
+          Bunun aksine, toprağın aşırı ıslak olması, göllenmesi ve havasız kalması da soğan kökleri için yıkıcıdır. Oksijensiz kalan kökler hızla çürür, bitki besin elementlerinin emilimi durur ve pembe kök çürüklüğü (Phoma terrestris) ile taban çürüklüğü (Fusarium) gibi tehlikeli mantar hastalıkları tarlayı tamamen sarabilir. Bu nedenle başarılı bir <strong>soğan sulama</strong> planlaması, toprağı çamurlaştırmadan daima optimum düzeyde nemli tutmayı hedefleyen hassas bir dengeyi esas alır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Soğan Sulama Takvimi: Kritik Büyüme Dönemleri</h2>
+        <p>
+          Soğan tarımında toplam su ihtiyacı iklim koşullarına, ekim zamanına (arşınlık/tohumdan veya arpacıktan/kıska) ve toprak tipine göre değişmekle birlikte, bitki sezon boyunca ortalama 400-600 mm net suya ihtiyaç duyar. Bu ihtiyacın karşılanması, soğanın farklı <strong>büyüme dönemleri</strong> baz alınarak takvimlendirilmelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Çimlenme ve Çıkış Dönemi</h3>
+        <p>
+          Soğan tohumla doğrudan tarlaya ekildiğinde, tohumların şişip çimlenebilmesi ve toprak yüzeyine sağlıklı çıkabilmesi için ilk 2-3 haftalık evrede üst toprak katmanının sürekli nemli tutulması elzemdir. Bu evrede hafif ama sık aralıklarla sulama yapılmalıdır. Tohumların ekim derinliği sığ (1.5 - 2 cm) olduğundan, rüzgar ve güneş etkisiyle bu tabaka çok hızlı kurur. Tohum kabuğunun sertleşmeden kırılmasını sağlamak için toprak nemi titizlikle korunmalı, kaymak tabakası oluşumuna karşı gerekirse mini sprinkler veya hafif yağmurlama sulama tercih edilmelidir. Arpacık (kıska) dikiminde ise çıkış daha hızlı olduğundan bu evre daha kolay atlatılır, ancak yine de toprak tavında dikim yapılması ve ilk can suyunun geciktirilmeden verilmesi şarttır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Vejetatif (Yaprak Gelişim) Dönemi</h3>
+        <p>
+          Çıkış tamamlandıktan sonra bitki hızla yaprak üretmeye başlar. Bu dönemde soğan sulama sıklığı toprağın bünyesine bağlı olarak haftada 1-2 sefer şeklinde ayarlanır. Soğanın toplam yaprak sayısı ile nihai baş büyüklüğü arasında doğrudan doğrusal bir ilişki vardır. Bitki ne kadar çok ve sağlıklı yaprak yaparsa, fotosentez kapasitesi o kadar yüksek olur ve baş bağlama döneminde yumruya o kadar fazla karbonhidrat depolar. Dolayısıyla yaprak gelişim döneminde bitkinin susuzluk stresine maruz kalması yaprak sayısını kısıtlayarak verimde kalıcı kayba yol açar. Bu evrede azotlu gübrelemenin de suyla birlikte verilmesi (fertigasyon) bitkinin yeşil aksam gücünü katlar.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">C) Baş (Yumru) Oluşum ve Şişme Dönemi (En Kritik Aşama)</h3>
+        <p>
+          Yaprakların tabanlarında kalınlaşma başlayıp baş veya yumru oluşum evresine girildiğinde, bitkinin günlük su tüketimi zirve noktasına ulaşır. Bu dönem genellikle gün uzunluğunun arttığı ve havaların ısındığı Haziran-Temmuz aylarına denk gelir. Soğanın su tüketim katsayısı (Kc) bu aşamada 1.05 seviyesine ulaşır ki bu, bitkinin en yüksek miktarda terleme (evapotranspirasyon) yaptığı andır.
+        </p>
+        <p>
+          Baş şişme döneminde yapılacak herhangi bir sulama aksaması, başların küçük kalmasına veya soğanların \"çift başlı\" (bölünmüş) olmasına neden olur. Ayrıca düzensiz sulama (yani toprağın çok kuruyup ardından aşırı sulanması turgor dengesini bozarak) soğanlarda iç çatlamalara ve pazar değerinin tamamen kaybolmasına yol açar. Toprak nemi sürekli izlenmeli, kumlu topraklarda 2-3 günde bir, ağır killi topraklarda ise 5-7 günde bir düzenli sulama periyotları aksatılmadan sürdürülmelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">D) Olgunlaşma ve Hasat Dönemi</h3>
+        <p>
+          Başlar istenen büyüklüğe ulaştıktan sonra yaprakların renkleri koyudan sarıya dönmeye başlar ve yaprak boyunları yumuşayarak devrilir (soğanların yatması). Bu fizyolojik süreç, soğanın büyümesini tamamladığını ve gıdayı tamamen başa depoladığını gösterir. Bu evrede su tüketimi hızla düşer. Bu aşamadaki su yönetimi tamamen depolama ömrünü belirler.
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Gelişim Evresi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Kritik Süreç</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">İdeal Toprak Nemi Seviyesi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Kritik Su Tasarruf Rolü</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Çimlenme ve Çıkış</td>
+                <td className="px-6 py-4">0 - 20 Gün</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">%75 - %80 Tarla Kapasitesi</td>
+                <td className="px-6 py-4">Sığ ekilen tohumların kurumasını ve kaymak tabakasını engeller.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Vejetatif Gelişme</td>
+                <td className="px-6 py-4">20 - 60 Gün</td>
+                <td className="px-6 py-4 text-green-700">%65 - %70 Tarla Kapasitesi</td>
+                <td className="px-6 py-4">Maksimum yaprak sayısına ulaşarak fotosentez alanını genişletir.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Baş Yapısı Oluşumu ve Şişme</td>
+                <td className="px-6 py-4">60 - 110 Gün</td>
+                <td className="px-6 py-4 text-red-600 font-bold">%70 - %75 Tarla Kapasitesi (Asla Susuz Kalmamalı)</td>
+                <td className="px-6 py-4">Başların iri, tek düze ve dolgun olmasını sağlar, iç çatlamaları önler.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Olgunlaşma ve Yaprak Devrilmesi</td>
+                <td className="px-6 py-4">110 - 130 Gün</td>
+                <td className="px-6 py-4 text-amber-600">%40 - %50 Tarla Kapasitesi (Sulama Azaltılır)</td>
+                <td className="px-6 py-4">Yumrunun dış kabuk bağlamasını ve hasada hazırlanmasını destekler.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Hasat Öncesi Dönem</td>
+                <td className="px-6 py-4">Hasattan 2-3 Hafta Önce</td>
+                <td className="px-6 py-4 text-red-700 font-bold">%0 - %30 (Sulama Tamamen Kesilir)</td>
+                <td className="px-6 py-4">Depolama kalitesini artırır, çürümeyi ve erken filizlenmeyi önler.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Hasat Öncesi Sulama Yönetimi: Su Ne Zaman Kesilmeli?</h2>
+        <p>
+          Soğan yetiştiriciliğinde üreticilerin depo kalitesi yönünden en sık düştüğü hata, olgunlaşmakta olan soğanları hasat gününe kadar sulamaya devam etmektir. <strong>Hasat öncesi sulama</strong> zamanlaması, soğanın uzun süre depolanıp zarar görmeden saklanabilmesi, yani \"raf ömrü\" için en belirleyici kriterdir.
+        </p>
+        <p>
+          Tarladaki soğanların yaklaşık %15 ile %25'inin yaprak boyunları doğal olarak kırılıp devrildiğinde (yatma belirtisi), son derece önemli olan <strong>soğan sulama</strong> işlemi tamamen sonlandırılmalıdır. Genellikle bu süre, planlanan söküm hasat tarihinden yaklaşık 15 ila 21 gün öncesine denk gelir.
+        </p>
+        <p>
+          Bu kritik dönemde sulamanın tamamen kesilmesinin ziraat bilimindeki gerekçeleri şunlardır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Dış Kabuk Kalitesi:</strong> Suyun kesilmesiyle birlikte soğan başı, kendisini koruyan ve pazar değerini belirleyen o rengarenk, gevrek dış kabuk katmanlarını (curing - olgunlaşma aşaması) sağlıklı bir şekilde sentezler. Geç sulanan soğanların dış kabukları kalınlaşamaz, çabuk soyulur ve iç eti mantari enfeksiyonlara açık hale gelir.</li>
+          <li><strong>Mantar ve Bakteri Hastalıklarının Önlenmesi:</strong> Hasat döneminde toprağın hala çamur veya aşırı nemli olması, baş soğanlarda fungal boyun çürüklüğü (Botrytis allii) ve bakteriyel iç çürüklük (Erwinia) risklerini tavan yaptırır. Bu hastalıklar tarlada fark edilmeyebilir ancak depoda tüm mahsulün çürümesine yol açar.</li>
+          <li><strong>Erken Filizlenme ve Depolama Sürgünleri:</strong> Hasat öncesi fazla su alan ve dinlenmeye geçemeyen soğanların uyku (dormansi) süresi kısalır. Bu soğanlar depoya konulduktan kısa süre sonra yeşillenmeye ve filizlenmeye başlayarak pazar niteliğini tamamen yitirir.</li>
+        </ul>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)]">Uzman Ziraat Mühendisi Tavsiyesi</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Eğer tarlanızda hasat öncesindeki son 2-3 haftalık dilimde sağanak yağışlar bekleniyorsa, sökümü mutlaka öne çekin veya toprağın drenaj kanallarını açık tutarak suyun hızla tahliye olmesini sağlayın. Islak topraktan sökülen soğanların mutlaka tarlada rüzgar alan gölgelik bir alanda 5-7 gün kurutulması (namlu yapma) gerekir. Asla ıslak kalmış soğanları doğrudan çuvallara koyup depolara sevk etmeyin.
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Soğan Sulama İçin En Etkili Sulama Teknolojileri</h2>
+        <p>
+          Soğandan hem su tasarrufu sağlamak hem de dekar başına 6-8 ton gibi yüksek verimler almak için geleneksel salma/vahşi sulama yöntemlerinden kesinlikle uzak durulmalıdır. Soğan tarımında uygulanan başlıca modern sulama teknolojileri şunlardır:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Damla Sulama Sistemi (En İdeal Çözüm)</h3>
+        <p>
+          Toprak nemini en iyi şekilde koruyan ve gübreleme kolaylığı sunan damla sulama yöntemi soğan yetiştiriciliğinde standart haline gelmiştir. Sıra aralığı 20-30 cm olacak şekilde ayarlanan soğan yataklarında (lateral boru hatlarında), damlatıcılar genellikle 20 cm aralıklarla yerleştirilir. Damlatıcı debisinin saatte 1.0 - 1.6 litre olması idealdir.
+        </p>
+        <p>
+          Damla sulamanın avantajları:
+        </p>
+        <ul className="list-disc pl-8 space-y-2">
+          <li>Sadece bitki kök bölgesini ıslatarak yabancı ot gelişimini minimize eder.</li>
+          <li>Yapraklar kuru kaldığı için mildiyö ve pas gibi tehlikeli yaprak hastalıklarının önünü keser.</li>
+          <li>Sıvı gübrelerin (özellikle fosfor, potasyum ve kalsiyum) doğrudan suyla verilmesini (fertigasyon) sağlar.</li>
+          <li>Su kullanımını geleneksel yöntemlere kıyasla %50 oranında azaltarak enerji ve su tasarrufu sağlar.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Yağmurlama (Sprinkler) Sulama Sistemi</h3>
+        <p>
+          Özellikle tohum ekimi sonrasında homojen çimlenme elde etmek ve geniş arazilerde işçilik maliyetlerini düşürmek için yağmurlama sulama da yaygın kullanılır. Ancak yaprakların sürekli ıslanması hastalık riskini artırır. Eğer yağmurlama kullanılacaksa, sulamalar mutlaka sabahın çok erken saatlerinde yapılmalıdır ki, rüzgar ve güneş ile yapraklar öğlene kadar tamamen kuruyabilsin. Baş bağlama evresinden sonra yağmurlama yapılması, tazyikli suyun yaprakları kırma ve devirme riski nedeniyle pek önerilmez.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Toprak Nemi Ölçümü ve Kontrol Yöntemleri</h2>
+        <p>
+          Bilimsel bir <strong>soğan sulama</strong> programı yürütebilmek için topraktaki nem miktarı düzenli takip edilmelidir. Bunun için iki ana metot kullanılır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Tansiyometreler ve Nem Sensörleri:</strong> Akıllı tarım teknolojilerinin başında gelen nem sensörleri, soğanın aktif kök derinliği olan 15 cm ve 30 cm derinliklerine yerleştirilir. Sensörlerden gelen veriler, toprak tansiyonunun 20-30 santibar (cb) arasında kalıp kalmadığını gösterir. 40-50 cb seviyeleri aşılıyor ise soğan bitkisinin acilen sulanması gerekir.</li>
+          <li><strong>Pratik Avuç Sıkma (Elle Kontrol) Testi:</strong> Teknolojik aletleriniz yoksa, soğanın kök bölgesinden (15-20 cm derinlikten) bir avuç toprak alın ve avucunuzda sıkın. Toprak dağılmadan şeklini koruyor ve elinizde hafif ıslaklık bırakıyorsa nem seviyesi mükemmeldir (tarla kapasitesindedir). Toprak sıkıldığında toz gibi ufalanıyorsa veya parmaklarınızın arasından dökülüyorsa bitki su stresine girmiştir. Toprak sıktığınızda çamur gibi suyu süzülüyorsa aşırı sulama yapılmıştır ve drenaj sorunu olabilir.</li>
+        </ul>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">Toprak Nemini ve Su İhtiyacını Dijital Yönetin!</h4>
+          <p className="font-bold text-white/90 font-sans">
+            Tarlanızın toprak yapısına, bulunduğunuz şehrin güncel hava sıcaklığına ve soğanlarınızın hangi büyüme aşamasında olduğuna göre bugün kaç mm sulama yapmanız gerektiğini tam ziraat mühendisliği standartlarında öğrenmek ister misiniz? Hemen ana sayfamıza dönerek tamamen ücretsiz <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> kullanın, suyunuzu milimetrik yöneterek hasat veriminizi zirveye taşıyın!
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">6. Sonuç ve Bereketli Hasat Planı</h2>
+        <p>
+          Sürdürülebilir tarımın her şeyden daha önemli hale geldiği 2026 yılında, suyumuzu tasarruflu ve akıllıca yönetmek hem geleceğimiz hem de çiftçimizin cebi için kaçınılmaz bir zorunluluktur. Doğru büyüme dönemleri analizi çerçevesinde yürütülen, hasat öncesi sulama takvimine harfiyen uyan ve düzenli <strong>toprak nemi</strong> ölçümlerine dayalı bir <strong>soğan sulama</strong> programı ile tarlanızın bereketini katlayabilirsiniz. Bereketli topraklar, sürdürülebilir gelecek ve bilinçli sulama ile üretmeye devam edelim!
+        </p>
+      </div>
+    )
   }
 };
 

@@ -153,6 +153,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Devlet Destekleri",
     image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 16,
+    title: "Soğan Sulama Takvimi ve Su İhtiyacı",
+    slug: "sogan-sulama-takvimi-ve-su-ihtiyaci",
+    excerpt: "Soğan yetiştiriciliğinde yüksek verim ve kaliteli baş gelişimi için kritik büyüme dönemleri, toprak nemi yönetimi ve hasat öncesi sulama takvimi. Bilimsel soğan sulama yöntemleri...",
+    date: "29 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sebze Yetiştiriciliği",
+    image: "https://images.unsplash.com/photo-1618512416390-58c06e7888ff?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
