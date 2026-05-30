@@ -2454,6 +2454,167 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "arpa-sulama-rehberi-kislik-ve-yazlik-arpa-icin-sulama-tavsiyeleri": {
+    title: "Arpa Sulama Rehberi — Kışlık ve Yazlık Arpa İçin Sulama Tavsiyeleri",
+    date: "30 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "30 dk okuma",
+    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=2560&q=100",
+    category: "Tahıl Yetiştiriciliği",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Arpa (Hordeum vulgare), binlerce yıldır Anadolu topraklarının en kadim, en stratejik tahıllarından biridir. Genellikle kuraklığa dayanıklı bir bitki olarak bilinse de, modern ziraat teknikleri göstermektedir ki, dengeli ve bilimsel bir <strong>arpa sulama</strong> programı uygulanması dekar başına alınan tane verimini doğrudan ikiye hatta üçe katlayabilmektedir. Arpa tarımında hem kışlık hem de yazlık çeşitlerin kendilerine özgü su tüketim alışkanlıkları ve kritik büyüme evreleri bulunmaktadır. Bu bilimsel ve pratik rehberde, kışlık ve yazlık arpanın su ihtiyaçlarını, büyüme dönemlerine göre sulama zamanlamasını, bölgelere göre değişen su miktarı gereksinimlerini ve toprağın nem dengesini nasıl yöneteceğinizi tüm ayrıntılarıyla ele alacağız.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Arpada Su Tüketimi ve Kritik Büyüme Dönemleri</h2>
+        <p>
+          Arpa bitkisi, buğdaya göre daha kısa bir vejetasyon süresine sahiptir ve suya olan hassasiyeti belirli büyüme dönemlerinde en üst seviyeye ulaşır. Toplamda sezon boyunca arpanın net su ihtiyacı 350-500 mm arasındadır. Bu miktarın bir kısmı doğal yağışlarla karşılansa da, yağışların yetersiz kaldığı yarı kurak bölgelerimizde yapay sulama desteği kaçınılmaz hale gelir. <strong>Arpa sulama</strong> takvimini belirleyen en kritik fizyolojik evreler şunlardır:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Çimlenme ve Çıkış Dönemi</h3>
+        <p>
+          Tohumun toprakla buluşmasından hemen sonra çimlenebilmesi için toprak neminin uygun düzeyde olması gerekir. Kışlık ekimlerde genellikle sonbahar yağışları bu can suyunu karşılar. Ancak kurak geçen sonbahar aylarında veya yazlık arpa ekiminde, tohumun toprak altında bekleyip çürümesini önlemek ve homojen bir çıkış elde etmek amacıyla hafif bir çıkış sulaması yapılması gerekebilir. Bu dönemde suun gereğinden fazla verilmesi toprağın havasız kalmasına ve tohumların zayi olmasına yol açar.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Kardeşlenme Dönemi</h3>
+        <p>
+          Kardeşlenme, arpanın dip kısımlarından yeni sürgünler oluşturarak başak taşıyacak sap sayısını belirlediği kritik bir evredir. Bu dönemde yaşanacak bir su stresi, bitkinin kardeş sayısını doğrudan azaltarak nihai başak yoğunluğunu düşürür. Dolayısıyla toprak neminin yeterli düzeyde tutulması, dekar veriminin temelini oluşturur. Kışlık arpa bu dönemi genellikle kış aylarında yağışlar altında geçirirken, yazlık arpada bu evre ilkbahara denk gelir ve sulama desteği gerekebilir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">C) Sapa Kalkma Dönemi (En Duyarlı İkinci Aşama)</h3>
+        <p>
+          Bitkinin dikey boy kazandığı, boğumların oluştuğu ve başak taslağının sap içinde hızla geliştiği sapa kalkma dönemi, arpanın günlük su tüketiminin hızla tırmandığı bir evredir. Bu dönemde yetersiz nem, bitki boyunun kısa kalmasına, sapın zayıflamasına ve başaktaki başakçık sayısının azalmasına yol açar. Eğer ilkbahar yağışları yetersiz ise, bu evrede mutlaka birinci sulama suyu tarlaya tatbik edilmelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">D) Başaklanma ve Çiçeklenme Dönemi (Zirve Su İhtiyacı)</h3>
+        <p>
+          Başakların kından tamamen çıktığı ve çiçeklenmenin başladığı bu evre, <strong>arpa sulama</strong> programlarındaki en kritik dönemeçtir. Bitkinin suya en hassas olduğu andır. Bu aşamada meydana gelecek susuzluk, tozlaşmayı olumsuz etkiler, başakçıkların kısır kalmasına sebep olur ve sonuçta başaktaki dane sayısını ciddi şekilde düşürür. Toprak nemi bu dönemde tarla kapasitesinin %60'ının altına asla inmemelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">E) Süt ve Sarı Olum Dönemi (Dane Dolumu)</h3>
+        <p>
+          Çiçeklenmenin ardından tanenin içine nişasta ve besin elementlerinin depolandığı, süt olum ve sarı olum evreleri başlar. Bu dönemde tarlanın nemsiz kalması tanelerin cılız, büzüşük ve zayıf olmasına (hektolitre ağırlığının düşük kalmasına) neden olur. Süt olumda verilecek hafif bir sulama, tanelerin dolgun ve iri olmasını sağlar. Ancak sarı olum evresine girildikten sonra sulama tamamen kesilmelidir. Hasat öncesi geç sulama yapmak, yatmaya, tanenin kararmasına, mantar hastalıklarına ve arpanın sanayide/bira sektöründe istenmeyen yüksek protein oranlarına ulaşmasına yol açabilir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Kışlık ve Yazlık Arpa Arasında Sulama Rejimi Farklılıkları</h2>
+        <p>
+          Türkiye'de arpa üretimi ekim zamanına göre kışlık ve yazlık olmak üzere iki ana gruba ayrılır. Bu iki tipin kök gelişim süreçleri ve iklimsel koşulları farklı olduğundan <strong>arpa sulama</strong> rejimleri de değişir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Kışlık Arpa:</strong> Sonbaharda ekilir ve kışı toprak altında veya kardeşlenme başlangıcında geçirir. Kışlık arpa, güçlü bir kök sistemi geliştirir ve kış ile erken ilkbahar yağışlarından azami derecede faydalanır. Bu nedenle kışlık arpa genellikle daha az sulama suyuna ihtiyaç duyar. Çoğu zaman İç Anadolu gibi bölgelerde ilkbahar sonu (sapa kalkma/başaklanma evresinde) tek bir sulama veya mevsimin çok kurak gitmesi durumunda iki sulama yüksek verim için yeterli olmaktadır.</li>
+          <li><strong>Yazlık Arpa:</strong> Erken ilkbaharda ekilir ve vejetasyon süresi kışlık arpa kadar uzun değildir. Hızlı büyümek zorundadır. Kök sistemi kışlık arpa kadar derinlere inemez. Bu durum yazlık arpayı kuraklığa karşı çok daha dayanıksız hale getirir. Yazlık arpa yetiştiriciliğinde ilkbahar ve erken yaz sulamaları çok daha hayati öneme sahiptir. Toprak nemi sürekli takip edilmeli, sapa kalkma, başaklanma ve süt olum dönemlerinde sulamalar aksatılmadan, toprak yapısına göre 2 veya 3 kez sulama yapılmalıdır.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Türkiye Bölgelerine Göre Arpa Sulama Stratejileri</h2>
+        <p>
+          Türkiye'nin farklı tarım havzalarındaki yağış rejimleri ve sıcaklık eğrileri, <strong>arpa sulama</strong> ihtiyaçlarını doğrudan şekillendirir. Bölgelerimize göre en rasyonel sulama yaklaşımları şu şekildedir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) İç Anadolu Bölgesi</h3>
+        <p>
+          İç Anadolu, Türkiye arpa üretiminin kalbidir. Yıllık yağış ortalaması 300-400 mm civarındadır ve yağışların büyük kısmı kış ile ilkbahar aylarında düşer. Bölgede kışlık arpa yaygındır. Genellikle nisan sonu ve mayıs aylarındaki ilkbahar kuraklıkları bitkiyi strese sokar. İç Anadolu'da yüksek verim (dekar başına 500-700 kg) elde etmek için sapa kalkma döneminde (Mayıs ortası) 1 sulama ve başaklanma döneminde (Mayıs sonu - Haziran başı) 1 sulama olmak üzere toplam 2 sulama yapılması standart bir uygulamadır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Güneydoğu Anadolu Bölgesi</h3>
+        <p>
+          Güneydoğu Anadolu'da sıcaklıklar ilkbahar aylarından itibaren çok hızlı yükselir ve buharlaşma (evapotranspirasyon) oranları tavan yapar. Bölgede arpa hızlı gelişir ve erken hasat edilir. Sıcak esen rüzgarların taneyi kurutmasını (sam yeli etkisi) önlemek için nisan ayında sapa kalkma ve başaklanma evrelerinde mutlaka sulama yapılmalıdır. Güneydoğu'da genellikle toprak yapısına göre 2 ila 3 sulama önerilir. Sunulacak su miktarı buharlaşma kaybını telafi edecek kadar yüksek olmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">C) Doğu Anadolu ve Geçit Bölgeleri</h3>
+        <p>
+          Doğu Anadolu'da kışlar sert ve uzun, ilkbahar ise geç gelir. Bu bölgede genellikle yazlık arpa yetiştiriciliği de yaygındır. Kış yağışlarının erimesiyle toprak ilkbahar başında neme doygundur. Ancak haziran ve temmuz aylarındaki hızlı sıcaklık artışlarında sapa kalkma ve başaklanma evreleri sulanmalıdır. Genellikle yüksek rakımlarda 1 veya 2 sulama yeterli olurken, killi-tınlı toprak yapılarında nem uzun süre muhafaza edilir.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. İdeal Su Miktarı ve Toprak Nemi Yönetimi</h2>
+        <p>
+          Her bir sulamada tarlaya verilecek net <strong>su miktarı</strong>, toprağın bünyesine (kumlu, tınlı, killi), o dönemdeki buharlaşma hızına ve kök derinliğine göre hesaplanır. Arpanın aktif kök derinliği 60-90 cm arasındadır; ancak su ve besin alımının en yoğun olduğu bölge ilk 30-40 cm'lik katmandır.
+        </p>
+        <p>
+          Genel bir kural olarak, killi ve tınlı topraklarda her bir sulamada dekar başına 60-80 m³ (60-80 mm) su verilmesi önerilir. Kumlu topraklarda ise su tutma kapasitesi düşük olduğu için su miktarı azaltılmalı (dekar başına 40-50 m³) ama sulama sıklığı artırılmalıdır. Sulama yaparken toprağın doygunluk seviyesine getirilmesi ama tarlada su birikintileri (göllenme) oluşmasına izin verilmemesi gerekir. Göllenen sular arpa köklerini boğarak sararmaya ve kardeş ölümüne neden olur.
+        </p>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)]">Teknik Ziraat Notu: Protein ve Verim Dengesi</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Yemlik arpa yetiştiriyorsanız, yüksek protein oranı istenir, bu nedenle hafif bir su stresi kabul edilebilir. Ancak maltlık (bira sanayi) arpa yetiştiriyorsanız, protein oranının düşük (%9-11 arası) olması beklenir. Maltlık arpada başaklanma ve süt olum dönemlerinde düzenli sulama yapmak, taneyi dolgunlaştırıp protein konsantrasyonunu düşürerek pazar değerini artırır.
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Arpa Tarımında Kullanılan Modern Sulama Sistemleri</h2>
+        <p>
+          Arpa tarımı geniş alanlarda yapıldığı için işçilik ve su verimliliği yüksek sistemler tercih edilmelidir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Yağmurlama Sulama (En Yaygın ve Verimli Yöntem):</strong> Arpada en ideal sulama yöntemidir. Tarla yüzeyinin tamamına homojen su dağılımı sağlar. Rüzgarsız günlerde, özellikle sabah erkenden veya akşamüstü çalıştırılan sprinkler sistemleri evaporasyon kayıplarını minimuma indirir. Yağmurlama başlıklarının basınç değerleri toprağı aşındırmayacak şekilde (3-4 bar) ayarlanmalıdır.</li>
+          <li><strong>Pivot ve Lineer Sulama Sistemleri:</strong> Çok büyük arazilerde (100 dekar ve üzeri) işçiliği sıfıra indiren dairesel (Center Pivot) sistemler yüksek su tasarrufu ve hassas otomasyon sunar. Güneydoğu ve İç Anadolu'daki devasa tahıl işletmelerinde tercih edilir.</li>
+          <li><strong>Salma / Karık Sulama (Önerilmeyen Yöntem):</strong> Su israfına yol açması, tarlada düzensiz ıslanmaya bağlı olarak bazı bölgelerde kök çürüklüğüne, bazı bölgelerde ise kuraklığa sebep olması nedeniyle arpa üretiminde modern ziraatte artık yeri yoktur. Toprağın erozyona uğramasına ve tuzlanmaya da zemin hazırlar.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">6. Arpa Sulama Takvimi Karşılaştırma Tablosu</h2>
+        <p>
+          Arpa üreticilerimizin sulama kararlarını en hızlı şekilde verebilmeleri için hazırladığımız pratik takvim tablosu:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Gelişim Evresi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Toprak Nemi Kriteri</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Önerilen Su Miktarı (Dekara)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Verime / Tane Kalitesine Doğrudan Etkisi</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Kardeşlenme</td>
+                <td className="px-6 py-4">%60 Tarla Kapasitesi</td>
+                <td className="px-6 py-4">40 - 50 m³</td>
+                <td className="px-6 py-4">Metrekaredeki verimli başak sayısını ve kardeş adedini belirler.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Sapa Kalkma</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">%65 - %70 Tarla Kapasitesi</td>
+                <td className="px-6 py-4">60 - 70 m³</td>
+                <td className="px-6 py-4">Sap boyunu ve başakta oluşacak dane taslağı kapasitesini artırır.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Başaklanma / Çiçeklenme</td>
+                <td className="px-6 py-4 text-red-600 font-bold">%70 - %75 Tarla Kapasitesi (Çok Kritik)</td>
+                <td className="px-6 py-4">70 - 80 m³</td>
+                <td className="px-6 py-4">Dane tutumunu maksimize eder, kısırlığı engeller ve verimi zirveye taşır.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Süt Olum Evresi</td>
+                <td className="px-6 py-4 text-green-700">%50 - %60 Tarla Kapasitesi</td>
+                <td className="px-6 py-4">40 - 50 m³</td>
+                <td className="px-6 py-4">Tanenin cılız kalmasını önler, hektolitre ağırlığını ve dolgunluğu yükseltir.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Sarı Olum ve Hasat</td>
+                <td className="px-6 py-4 text-red-700 font-bold">Nem İzlenmez (Su Tamamen Kesilir)</td>
+                <td className="px-6 py-4">0 m³ (Sulama Yok)</td>
+                <td className="px-6 py-4">Yatmayı engeller, tanede aşırı nem birikimini ve çürümeyi önler.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">Arpa Tarlanız İçin Akıllı Su Hesabı Yapın!</h4>
+          <p className="font-bold text-white/90 font-sans">
+            Tarlanızın koordinatlarına bağlı yıllık yağış verilerini, ekili arpa çeşidinizin (kışlık/yazlık) güncel vejetasyon evresini ve toprak tipinizi sisteme girerek bugün vermeniz gereken su miktarını milimetrik ölçebilir misiniz? Hemen ana sayfamıza dönün ve tamamen ücretsiz olan <strong>Akıllı Tarımsal Sulama Hesaplama Sistemimizi</strong> kullanmaya başlayarak tasarruf edin, veriminizi garantileyin!
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">7. Sonuç ve Bereketli Hasat Planlaması</h2>
+        <p>
+          2026 yılı tarımsal üretim şartlarında, iklim değişikliği ve azalan su kaynakları göz önünde bulundurulduğunda, bilinçli ve kontrollü bir <strong>arpa sulama</strong> programı yürütebilmek üreticilerimiz için en büyük rekabet avantajıdır. Doğru büyüme dönemleri takip edilerek, gelişim evresi ihtiyaçlarına uygun su miktarı verilmesi hem toprağın yapısını korur hem de dekar başına rekor düzeyde verimli hasatlar yapmanızı sağlar. Bilimi ve teknolojiyi tarlanıza taşıyarak su israfını sonlandırın, bereketli kazançlara kapı aralayın!
+        </p>
+      </div>
+    )
   }
 };
 

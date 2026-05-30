@@ -163,6 +163,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sebze Yetiştiriciliği",
     image: "https://images.unsplash.com/photo-1618512416390-58c06e7888ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 17,
+    title: "Arpa Sulama Rehberi — Kışlık ve Yazlık Arpa Sulama Tavsiyeleri",
+    slug: "arpa-sulama-rehberi-kislik-ve-yazlik-arpa-icin-sulama-tavsiyeleri",
+    excerpt: "Arpa yetiştiriciliğinde yüksek tane verimi ve ideale yakın protein oranları yakalamak için kritik büyüme dönemleri, kışlık ve yazlık arpada su miktarı ve bölgeye göre planlama...",
+    date: "30 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Tahıl Yetiştiriciliği",
+    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
