@@ -2615,6 +2615,162 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "kavun-ve-karpuz-sulama-rehberi": {
+    title: "Kavun ve Karpuz Sulama Rehberi: Kaliteli ve Şeker Oranı Yüksek Meyve Yetiştirme İpuçları",
+    date: "31 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "30 dk okuma",
+    image: "https://images.unsplash.com/photo-1589927986089-35812388d1f4?auto=format&fit=crop&w=2560&q=100",
+    category: "Sebze Yetiştiriciliği",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Karpuz (Citrullus lanatus) ve kavun (Cucumis melo), kabakgiller (Cucurbitaceae) familyasının yaz aylarında sofralarımızı süsleyen en tatlı, en ferahlatıcı üyeleridir. Meyvelerinin ağırlıkça %90 ile %92'si sudan oluşan bu bitkiler, tarladaki gelişim süreçleri boyunca su dengesine karşı fevkalade hassastır. Yanlış, kontrolsüz ve düzensiz yapılan sulamalar meyvelerde çatlamaya, tatsızlığa (brix değerinin düşmesine) veya mantari kök çürüklüklerine yol açarak verimi sıfıra indirebilir. Bu bağlamda, profesyonel düzeyde tasarlanmış bir <strong>kavun karpuz sulama</strong> programı sadece yüksek tonaj elde etmek için değil, aynı zamanda pazar değerini belirleyen asıl değerler olan tat, aroma, kabuk kalınlığı ve nakliye dayanıklılığını yakalamak için de mutlak bir zorunluluktur. Bu kapsamlı ziraat rehberinde; kavun ve karpuz fidelerinin dikiminden hasat anına kadar olan tüm kritik sulama evrelerini, modern sulama yöntemlerini ve bilimsel sulama tekniklerini en ince ayrıntısıyla inceleyeceğiz.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Kabakgillerin Kök Fizyolojisi ve Toprak Nem Dengesi</h2>
+        <p>
+          Kavun ve karpuz bitkileri kök morfolojileri açısından oldukça dinamik bir yapıya sahiptir. Bitki, gelişiminin ilk evresinde güçlü bir kazık kök oluşturur. Bu kazık kök yapısı toprağın 1-1.5 metre derinliklerine kadar hızla inme kabiliyetine sahiptir. Ancak bitkinin aktif su ve besin elementi alışverişini gerçekleştiren asıl emici kökleri (saçak kökler) toprak yüzeyinin ilk 30-40 cm'lik katmanında yoğunlaşır.
+        </p>
+        <p>
+          Bu kök sistemi nedeniyle, toprak neminin sürekli kontrol edilmesi ve köklerin havasız bırakılmaması gerekir. Toprağın aşırı çamur ve göllenme halinde olması, toprak gözeneklerindeki oksijeni tamamen yok edeceğinden saçak köklerin nefes alamayarak çürümesine sebep olur. Özellikle Fusarium solgunluğu ve Phytophthora kök boğazı çürüklüğü gibi tehlikeli toprak kökenli mantarlar, aşırı nemli ve havasız topraklarda hızla aktif hale gelmektedir. Öte yandan, uzun süren susuzluk evreleri de köklerin kurumasına ve bitkinin gelişiminin tamamen sekteye uğramasına neden olur. Başarılı bir <strong>kavun karpuz sulama</strong> programının temel vizyonu, aktif kök bölgesindeki toprak nemini daima tarla kapasitesinin %60 ile %75 arasında dengede tutmaktır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Kavun ve Karpuz Sulama Takvimi: Kritik Büyüme Dönemleri</h2>
+        <p>
+          Kavun ve karpuzun yaşam döngüsü boyunca suya olan talebi statik değildir; bitki gelişim hızı ve biyolojik evrelerine göre farklı miktarlarda su talep eder. Sezon boyunca bitkilerin toplam su ihtiyacı iklim koşullarına, ekim/dikim tarihine ve toprak tipine bağlı olarak ortalama 450-650 mm net su düzeyindedir. İşte bitkinin evrelerine göre adım adım sulama takvimi:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Fide ve Tarlaya Kurulum Dönemi</h3>
+        <p>
+          Kavun ve karpuz yetiştiriciliğinde günümüzde genellikle hazır viyol fideleri kullanılmaktadır. Fidenin tarlaya dikimi (şaşırtılması) sırasında can suyu verilmesi en kritik ilk adımdır. Dikim yapılan gün fide başına yaklaşık 1-2 litre can suyu sızdırılmalıdır. <strong>Fide</strong> dikiminden sonraki ilk 7-10 günlük süreçte can suyu nemi takip edilir. Fidenin toprağa uyum sağlaması ve yabancı köklerin yeni toprağını sarabilmesi için hafif nemli bir ortam oluşturulur.
+        </p>
+        <p>
+          Ancak fidelerin kök tuttuğundan emin olunduktan hemen sonra \"kök teşvik stresi\" adı verilen özel bir ziraat tekniği uygulanır. Bu teknikte fideler çiçeklenme döneminin başına kadar olabildiğince az sulanır. Buradaki temel bilimsel amaç, bitkiyi su aramaya zorlayarak kazık köklerini toprağın çok daha derin katmanlarına göndermesini sağlamaktır. Erken evrede aşırı ve sık sulanan bir kavun/karpuz fidesi tembelleşerek yüzeysel bir kök yapısı geliştirir; bu durum meyve büyütme döneminde bitkinin sıcağa karşı direncini tamamen kırar ve erken pörsümelere sebep olur.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Kollanma ve Çiçeklenme Dönemi</h3>
+        <p>
+          Fidelerin tarlada sürgün vermeye (kollanmaya) başlamasıyla birlikte bitkinin büyüme hızı ivme kazanır. Sürgünlerin tarlayı sarmaya başladığı ve ilk sarı çiçeklerin görüldüğü bu dönemde toprak nemi yakından incelenmelidir. <strong>Çiçeklenme</strong> dönemi, kavun karpuz yetiştiriciliğindeki en hassas denge aşamasıdır.
+        </p>
+        <p>
+          Çiçeklerin açmaya başladığı, dişi ve erkek çiçeklerin belirdiği çiçeklenme evresinde aşırı sulama yapmaktan kesinlikle kaçınılmalıdır. Bu dönemde yoğun su verilmesi, bitkinin vejetatif olarak aşırı coşmasına, yani meyve bağlamak yerine sürekli yaprak ve kol çıkarmasına sebep olur. Ayrıca aşırı sulama çiçek dökümlerini tavan yaptırır ve tozlaşmayı sağlayan arıların çiçeklere gitmesini engelleyen tarlada aşırı rutubetli bir mikroklima oluşturur. Tozlaşmanın sağlıklı gerçekleşmesi ve arıların tarlaya rahat gelmesi için çiçeklenme döneminde sulama aralıkları açılmalı, toprak hafif nemli ama kuru yüzeyli kalmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Meyve Bağlama ve Meyve Büyüme Dönemleri</h3>
+        <p>
+          Tozlaşmanın tamamlanıp küçük meyvelerin (ceviz veya yumurta büyüklüğünde) belirmesiyle birlikte sulama stratejisi tamamen değişir. İşte bu an, bitkinin suya en çok ihtiyaç duyduğu <strong>meyve büyüme dönemleri</strong> kapısının açıldığı andır. Meyveler bu boyutlara ulaştıktan sonra, bitkinin günlük su tüketim katsayısı (Kc) en üst düzey olan 1.05 - 1.15 seviyelerine fırlar.
+        </p>
+        <p>
+          Meyvelerin hızla büyüdüğü, irileştiği bu evrede yapılacak herhangi bir su kısıtı veya gecikmesi meyvelerin küçük kalmasına, kavunlarda liflenmeye, karpuzlarda ise meyve uçlarında daralmalara ve şekil bozukluklarına sebep olur. Bu dönemde toprak nemi asla düşürülmemelidir; toprak yapısına gore 2 ila 3 günde bir düzenli sulama yapılmalıdır. Sulama rejimi oldukça düzenli ve pürüzsüz olmalıdır. Düzensiz sulamalar (yani toprağın çok kuruyup ardından ani ve aşırı sulanması) meyve kabuğunun iç turgor basıncına dayanamayarak tarlada boylamasına yarılmasına ve patlamasına sebep olur. Çatlamayan ve pürüzsüz kabuklu meyveler için su miktarı stabil tutulmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">D) Olgunlaşma ve Hasat Öncesi Dönem</h3>
+        <p>
+          Meyveler kendilerine has nihai büyüklüğe ulaştıktan sonra dış kabuktaki desenler netleşir, karpuzlarda kulakçık ve sülük kurumaları başlar, kavunlarda ise mis kokulu aroma sentezlenmeye başlar. Bu evrede su tüketimi doğal olarak azalır. Meyvenin içindeki nişastanın şekere (glikoz ve fruktoza) dönüşebilmesi, yani meyvenin tatlanabilmesi için su miktarının kademeli olarak azaltılması şarttır.
+        </p>
+        <p>
+          Hasat söküm tarihinden yaklaşık 10 - 15 gün önce sulama tamamen kesilmelidir. Bu süreçte sulamanın kesilmesi şu kritik faydaları sağlar:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Meyve Şeker Oranı (Brix):</strong> Suyun kesilmesiyle hücrelerdeki şeker konsantrasyonu artar, meyve gerçek tadını ve aromasını bulur. Son güne kadar sulanan karpuzlarda \"kabak lezzeti\" veya sulu ama tatsız bir iç oluşur.</li>
+          <li><strong>Yüksek Nakliye Dayanımı:</strong> Hasat öncesi sulanmayan meyvelerin kabuk hücresel yapısı daha sıkılaşır ve sağlamlaşır. Bu durum, kavun ve karpuzun çürümeden, ezilmeden uzak mesafelerdeki pazarlara kamyonlarla taşınabilmesini sağlar.</li>
+          <li><strong>Çatlama Kontrolü:</strong> Hasat döneminde tarladaki nem fazlalığı veya ani sulama, kavun ve karpuzların en hafif sarsıntıda çatlamasına yol açar. Gelişimi durdurmak için su kesilmelidir.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">3. Damla Sulama Sistemi Entegrasyonu Neden Zorunludur?</h2>
+        <p>
+          Kavun ve karpuz gibi sıra arası geniş (genellikle sıralar arası 1.5 - 2 metre, sıra üzeri 50-70 cm) bitkilerde geleneksel karık veya salma sulama teknikleri tam bir ziraat felaketidir. Bu sebeple modern ziraatte kesinlikle <strong>damla sulama</strong> teknolojisi bir standart olarak uygulanmaktadır.
+        </p>
+        <p>
+          Neden kavun karpuz tarımında damla sulama tercih edilmelidir?
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Hastalık Önleme Gücü:</strong> Kabakgillerin yaprakları mantari patojenlere karşı aşırı hassastır. Yağmurlama veya karık sulama ile yaprakların ıslatılması, külleme (Erysiphe cichoracearum), yalancı mildiyö (Pseudoperonospora cubensis) ve antraknoz hastalıklarının tarlada kontrolsüzce yayılmasına zemin hazırlar. Damla sulamada sadece kök bölgesi sulandığından yapraklar kuru kalır, hastalık masrafları minimize olur.</li>
+          <li><strong>Hassas Fertigasyon:</strong> Kavun ve karpuz gelişim boyunca yoğun fosfor, potasyum, kalsiyum ve azot tüketir. Sıvı gübrelerin doğrudan sulama suyuyla milimetrik olarak bitki köklerine iletilmesini sağlayan fertigasyon tekniği, gübre israfını %40 oranında engellerken meyve tonajını %50 büyütür.</li>
+          <li><strong>Yüksek Su Tasarrufu:</strong> Geniş bitki koridorlarındaki boş toprakları ıslatmayarak suyun sadece bitki sırasına homojen dağılmasını sağlar, yabancı ot tohumlarının çimlenmesini önler. Su ve elektrik faturalarını yarı yarıya düşürür.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">4. Dönemsel Sulama Takvimi Karşılaştırma Tablosu</h2>
+        <p>
+          Kavun ve karpuz tarımı yapan üreticilerimizin sulama kararlarını en doğru şekilde verebilmeleri için ziraat normlarına uygun özet kılavuz tablomuz:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Büyüme Dönemleri</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">İdeal Toprak Nemi Seviyesi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Sulama Sıklığı / Tavsiyesi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Su Miktar Hedefi (Sıra Genişliği Bazında)</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Fide Kurulum Evresi</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">%70 - %75 Tarla Kapasitesi</td>
+                <td className="px-6 py-4">Dikimde yoğun can suyu, ardından 7-10 gün hafif sulamalar.</td>
+                <td className="px-6 py-4">Köklerin toprağa güvenle yapışmasını ve canlanmasını sağlar.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Kollanma (Kök Teşvik Stresi)</td>
+                <td className="px-6 py-4 text-amber-600">%55 - %60 Tarla Kapasitesi</td>
+                <td className="px-6 py-4">Sulamalar olabildiğince azaltılır (Kökler derine teşvik edilir).</td>
+                <td className="px-6 py-4">Kazık kök yapısını 1 metre derinliğe kadar uzatır, gövdeyi güçlendirir.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Çiçeklenme Başlangıcı</td>
+                <td className="px-6 py-4 text-stone-600">%60 - %65 Tarla Kapasitesi</td>
+                <td className="px-6 py-4">Aşırı sulamadan kaçınılır. Çiçek dökümü kontrol altında tutulur.</td>
+                <td className="px-6 py-4">Tozlaşmayı ve arıların tarlaya sorunsuzca gelmesini destekler.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Meyve Büyüme ve Şişme</td>
+                <td className="px-6 py-4 text-red-600 font-bold">%70 - %75 Tarla Kapasitesi (Çok Kritik)</td>
+                <td className="px-6 py-4">Toprak yapısına göre 2-3 günde bir kesintisiz, düzenli sulama.</td>
+                <td className="px-6 py-4">Meyvelerin irileşmesini maksimize eder, iç boşalmasını ve kabuk çatlamasını önler.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Hasat Öncesi Dönem</td>
+                <td className="px-6 py-4 text-red-700 font-bold">%0 - %30 (Sulama Tamamen Kesilir)</td>
+                <td className="px-6 py-4">Hasattan 10-15 gün önce su tamamen kesilmelidir.</td>
+                <td className="px-6 py-4">Meyvede brix (şeker) birikimini zirveye çıkarır, kabuk ve nakliye direncini artırır.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)]">Uzman Ziraat Mühendisi Tavsiyeleri</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Karpuz yetiştiriciliğinde aşırı veya dengesiz sulama meyvelerin \"iç boşalması\" (hollow heart) denilen fizyolojik bir bozukluğa yakalanmasına sebep olur. Aşırı azotlu gübreleme (özellikle üre gübresinin kontrolsüz verilmesi) ve düzensiz su rejimi bu boşluğu tetikler. Meyve bağlama aşamasından sonra kalsiyum bazlı fertigasyon desteği ve dengeli damla sulama ile meyve et bütünlüğünü kusursuz şekilde koruyabilirsiniz.
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">5. Toprak Nemi Ölçüm Yolları ve El ile Pratik Kontrol</h2>
+        <p>
+          Tarlanızda ziraat mühendisliği standartlarında bir <strong>kavun karpuz sulama</strong> planı yürütmek istiyorsanız, topraktaki nem düzeylerini düzenli izlemelisiniz:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Dijital Tansiyometreler:</strong> Fidelerin kök bölgesine (20 cm ve 40 cm derinliğe) yerleştirilen nem sensörleri, toprağın su emme direncini santibar (cb) olarak gösterir. Kavun ve karpuz için sapa kalkma ve meyve şişme dönemlerinde sensor değerlerinin 20-30 cb arasında tutulması istenir. Değerler 45-50 cb seviyesine yaklaştığında bitki acilen sulanmalıdır.</li>
+          <li><strong>Tav Kontrolü (Toprak Sıkma Testi):</strong> Sensörleriniz yoksa, bitki sıra arasından 15-20 cm derinlikten bir avuç toprak çıkarın ve avucunuzla kuvvetlice sıkın. Toprak dağılmadan bir arada kalıyor ve elinize serinlik hissi veriyorsa nem oranı ideal tarla kapasitesindedir. Toprak serbest kaldığı an un ufak oluyor ve dağılıyorsa, bitkiler susuzluk sınırındadır; derhal damla sulama vanalarını açmanız gerekir.</li>
+        </ul>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">Tarla Koordinatlarınıza Özel Sulama Hesabı!</h4>
+          <p className="font-bold text-white/90 font-sans">
+            Tarlanızın toprak tipini, dikmiş olduğunuz kavun veya karpuz çeşidinin güncel vejetasyon evresini (fide, çiçeklenme, meyve şişme) ve bölgenizin anlık sıcaklık derecelerini sisteme girerek bugün vermeniz gereken hassas su miktarını m³ bazında hesaplamak ister misiniz? Hemen ana sayfamıza gidin, tamamen ücretsiz olan <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> kullanın, suyunuzu bilimsel yöneterek hasat kalitenizi garantileyin!
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">6. Sonuç ve Sürdürülebilir Tarım Projeksiyonu</h2>
+        <p>
+          2026 yılı tarımsal vizyonunda, temiz su kaynaklarımızın her zamankinden daha değerli hale geldiği aşikardır. Kavun ve karpuz gibi yüksek tonajlı, suya bağımlı meyve gruplarında kontrollü bir <strong>kavun karpuz sulama</strong> programı uygulamak hem ekolojik geleceğimizi korur hem de yüksek lezzet kalitesiyle alım tüccarlarının tarlanıza akın etmesini sağlar. Bilimsel metotlara sadık kalarak, doğru büyüme evrelerine uygun su yönetimiyle topraklarımızın bereketini sonsuz kılalım!
+        </p>
+      </div>
+    )
   }
 };
 

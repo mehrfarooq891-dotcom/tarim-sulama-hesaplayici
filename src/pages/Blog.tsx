@@ -173,6 +173,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Tahıl Yetiştiriciliği",
     image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 18,
+    title: "Kavun ve Karpuz Sulama Rehberi",
+    slug: "kavun-ve-karpuz-sulama-rehberi",
+    excerpt: "Kavun ve karpuz yetiştiriciliğinde yüksek şeker oranı, çatlamayan meyveler ve ideal lezzet kalitesi için fide, çiçeklenme ve meyve büyüme dönemlerinde hassas damla sulama programı...",
+    date: "31 Mayıs 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sebze Yetiştiriciliği",
+    image: "https://images.unsplash.com/photo-1589927986089-35812388d1f4?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
