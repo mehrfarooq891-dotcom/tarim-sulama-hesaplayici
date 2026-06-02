@@ -2771,6 +2771,170 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "ege-bolgesi-sulama-takvimi-2026": {
+    title: "Ege Bölgesi Sulama Takvimi 2026 — Akdeniz İkliminde Akıllı Su Yönetimi",
+    date: "2 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "30 dk okuma",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2560&q=100",
+    category: "Bölgesel Sulama",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Ege Bölgesi, uçsuz bucaksız verimli ovaları (Menderes, Gediz, Bakırçay), benzersiz mikroklima alanları ve binlerce yıllık tarım mirasıyla Türk tarımının en gözde merkezlerinden biridir. Zeytinden pamuğa, üzümden narenciyeye kadar yüksek değerli pek çok tarım ürünü bu topraklarda hayat bulur. Ancak değişen küresel iklim şartları, azalan baraj doluluk oranları ve su kaynaklarının korunması zorunluluğu, sulama yönetimini kritik bir bilim haline getirmiştir. 2026 sulama sezonunda, sürdürülebilir yüksek verim ve ideal mahsul kalitesi yakalamak için planlı bir <strong>Ege bölgesi sulama</strong> programı uygulamak hayati önem taşımaktadır. Bu rehberimizde; Ege'nin dinamik iklim şartlarını, kavurucu yaz dönemindeki sulama hassasiyetlerini ve bölgenin başat ürünlerine ait bitki bazlı sulama takvimlerini ziraat mühendisliği perspektfiyle ele alacağız.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Ege Bölgesi'nin Coğrafi Yapısı ve Bölgeye Özel İklim Dinamikleri</h2>
+        <p>
+          Doğru bir <strong>Ege bölgesi sulama</strong> planlaması yapabilmek için öncelikle bölgenin morfolojik ve iklimsel haritası iyi analiz edilmelidir. Ege Bölgesi, dağların denize dik uzanması nedeniyle nemli deniz havasının iç kesimlere kadar sokulabildiği, geniş vadi tabanlarına ve zengin havzalara sahiptir. Ancak bu genel durum, bölge içinde belirgin mikroklima farklarının oluşmasını engellemez.
+        </p>
+        <p>
+          Bölgeyi sulama planlaması açısından iki ana bölüme ayırmak mümkündür:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Kıyı Ege Şeridi (İzmir, Aydın, Muğla, Manisa'nın Batısı):</strong> Tipik Akdeniz ikliminin hüküm sürdüğü bu kuşakta yazlar aşırı sıcak ve kurak, kışlar ise ılıman ve yağışlı geçer. Yıllık evapotranspirasyon (toprak ve yapraktan su buharlaşması) oranları haziran ayından itibaren zirve yapar. Kumlu, tınlı ve mil içeren süzek ova toprakları suyu hızla tabana geçirirken, tuzluluk riskine karşı taban suyu kontrolü de gerektirir.</li>
+          <li><strong>Geçit ve İç Ege Kuşağı (Afyonkarahisar, Uşak, Kütahya, Denizli):</strong> Karasallığın etkisinin başladığı bu geçiş bölgelerinde kışlar çok daha sert ve kar yağışlı, yazlar ise kıyıya kıyasla daha serin ve kısa sürer. İlkbahar sonu yağışları iç kesimlerde vejetasyon başlangıcını desteklese de, temmuz ve ağustos aylarında hava sıcaklıklarının yükselmesiyle ciddi sulama ihtiyacı doğar. Bu kuşağın toprak yapısı genellikle daha killi olup su tutma kapasitesi yüksektir, bu da sulama sıklığını azaltırken her sulamada verilecek su miktarının dikkatle hesaplanmasını gerektirir.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Kritik Evre: Ege Ovalarında Kavurucu Yaz Sulaması Yönetimi</h2>
+        <p>
+          Haziran, temmuz ve ağustos ayları Ege’de su talebinin zirve yaptığı, akarsuların ve sulama kanallarının en yoğun kullanıldığı kritik dönemdir. Kuzeyden esen kuruluk veren imbat rüzgarları ve yüksek hava sıcaklıkları (yer yer 40°C ve üzeri), tarlanın nemini hızla yok eder. Bu zorlu yaz döneminde uygulanacak hatalı sulama rejimleri sadece su israfına değil, bitkilerde fizyolojik hastalıklara da davetiye çıkarır.
+        </p>
+        <p>
+          Başarılı bir <strong>yaz sulaması</strong> için şu altın kurallara riayet edilmelidir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Doğru Zamanlama:</strong> Sulamalar kesinlikle gün ortasında, güneş ışınlarının en dik geldiği 11:00 - 16:00 saatleri arasında yapılmamalıdır. Bu saatlerde toprağa verilen suyun büyük kısmı bitki köküne ulaşmadan buharlaşır; ayrıca damla sulama borularının içinde ısınan su kökleri haşlayarak çürütebilir. En ideal sulama zamanı gece yarısı ile sabahın ilk ışıkları (05:00 - 08:00) arasıdır.</li>
+          <li><strong>Rüzgar Faktörü:</strong> Özellikle yağmurlama sulama sistemlerinde rüzgar hızı takip edilmelidir. Kuvvetli rüzgarda yapılan yağmurlama su dağılım homojenliğini bozar, bazı bölgeler susuz kalırken bazı bölgelerde göllenmeler oluşturur. Saatte 10-15 km'yi aşan rüzgarlarda sulama ertelenmelidir.</li>
+          <li><strong>Aşırı Sulama ve Tuzlanma Tehlikesi:</strong> Menderes ve Gediz havzalarında yazın yapılan aşırı salma sulamalar, derinlerdeki tuz tabakasını kılcal hareketle yukarı çekerek toprak yüzeyinde tuzlanmaya sebep olur. Bu durum toprak verimliliğini uzun vadede tamamen öldürür. Yaz boyunca kontrollü ve sızdırma esaslı damla sulama tercih edilmelidir.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Bitki Bazlı Sulama Tavsiyeleri ve Kritik Evreler</h2>
+        <p>
+          Ege Bölgesi'nin bitkisel çeşitliliği, her ürün grubuna özel hassas bir sulama takvimi uygulanmasını zorunlu kılar. İşte bölgenin önde gelen tarım ürünlerine özel <strong>bitki bazlı tavsiyeler</strong>:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Zeytin Ağaçlarında Sulama ve Yağ Randımanı</h3>
+        <p>
+          Zeytin (Olea europaea), kuraklığa en dayanıklı ağaçlardan biri olarak bilinse de modern ziraat göstermektedir ki, zeytinde dane verimini ve yağ oranını maksimize etmenin sırrı dengeli sulamada yatar. Kuru tarım yapılan zeytinliklerde periyodite (var yılı-yok yılı) farkı uçuruma ulaşırken, sulanan zeytinliklerde her yıl düzenli ve kaliteli ürün alınır.
+        </p>
+        <p>
+          Zeytinde sulama takvimi üç kritik döneme odaklanır:
+        </p>
+        <ol className="list-decimal pl-8 space-y-2">
+          <li><strong>Çiçeklenme ve Somak Oluşum Dönemi (Nisan-Mayıs):</strong> Çiçek taslaklarının belirdiği bu dönemde su stresi, çiçek dökümlerini artırır ve meyve tutum oranını düşürür. İlkbahar kurak gidiyorsa mutlaka hafif bir sulama yapılmalıdır.</li>
+          <li><strong>Çekirdek Sertleşme Dönemi (Haziran-Temmuz):</strong> Meyvenin içindeki çekirdeğin sertleştiği bu evre zeytinin su isteğinin hızlandığı andır. Bu dönemdeki susuzluk meyvelerin küçük kalmasına, pörsümesine ve dökülmesine yol açar.</li>
+          <li><strong>Yağ Sentezi ve Dane İrileşme Dönemi (Ağustos-Eylül):</strong> Meyve etindeki yağ sentezinin en yoğun olduğu dönemdir. Ağustos ortalarında yapılacak düzenli sulamalar, danelerin dolgun, pürüzsüz ve yağ randımanının yüksek olmasını sağlar. Hasat öncesi (ekim başında) asit oranını düşük tutmak ve taneleri korumak için sulama yavaşça azaltılarak kesilir.</li>
+        </ol>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Söke ve Menemen Ovalarının İncisi: Pamuk Sulama Stratejisi</h3>
+        <p>
+          Pamuk (Gossypium hirsutum), Ege Bölgesi'nin ekonomik can damarı olan \"beyaz altın\"dır. Pamuk yetiştiriciliğinde suyun miktarı kadar, bitkiye ne zaman uygulanacağı da lif kalitesini doğrudan şekillendirir.
+        </p>
+        <p>
+          Pamuk sulama takviminde ilk sulama ziraat mühendisleri tarafından çok hassas planlanır. Ekimden sonra fide boyutunda erken ve sık sulama yapılması pamuğun vejetatif (gövde ve yaprak) olarak aşırı büyümesine, ancak daha az koza (elma) yapmasına sebep olur. Bu nedenle ilk sulama, bitkinin köklerini derinlere göndermesi için kısıt uygulanarak haziran ortasına kadar geciktirilir. Buna \"lavta sulaması\" denir.
+        </p>
+        <p>
+          Çiçeklenme ve koza geliştirme evresine (Temmuz-Ağustos) girildiğinde ise pamuk suya doymak ister. Bu dönemde toprak nemi tarla kapasitesinin %65-70 seviyesinde tutulmalı, damla sulama yöntemiyle 4-5 günde bir sulama yapılmalıdır. Eylül ayında kozaların açılması ve liflerin kuruması için su miktarı azaltılmalı ve hasattan en az 25-30 gün önce sulama tamamen kesilmelidir. Zamanında kesilmeyen sulama lif kalitesini düşürür, kozaların çürümesine neden olur ve hasat makinelerinin tarlaya girmesini zorlaştırır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">C) Ege Bağcılığı: Sultaniye Üzümünde Salkım ve Şeker Dengesi</h3>
+        <p>
+          Manisa, İzmir ve Denizli'de geniş alanları kaplayan bağcılıkta sulama, salkım uzunluğu ve dane büyüklüğünü belirleyen başat faktördür. Asmalar derin kök yapıları sayesinde kış yağışlarını derinlerde saklar. Ancak yazın yüksek sıcaklıklarında salkımların büzülmemesi için kontrollü sulama yapılmalıdır.
+        </p>
+        <p>
+          Asmalarda çiçeklenme öncesi ve dane irileşme döneminde (mayıs-haziran) düzenli sulama yapılarak salkım yapısı güçlendirilir. Ancak üzümlere renk gelmeye başladığı ve dane içinin tatlandığı \"ben düşme\" evresine (temmuz ortası ve sonrası) girildiğinde sulama miktarı büyük ölçüde kısıtlanır. Bu dönemde aşırı sulama yapılması üzümdeki şeker (brix) oranını düşürerek sofralık ve kurutmalık kalitesini bozar, tanelerin çatlayarak mantar hastalıklarına yakalanmasına yol açar. Damla sulama boruları asma kök boğazından 30-40 cm uzağa çekilerek nemin geniş bir alana sızdırılması sağlanmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">D) Narenciye Bahçelerinde Saçak Kök Nemi Kontrolü</h3>
+        <p>
+          Muğla ve İzmir kıyılarında yaygın olan mandalina, portakal ve limon ağaçları yüzeysel, saçak kök sistemine sahip olmaları nedeniyle toprağın kuru kalmasına tahammül edemezler. Narenciyede yazın yaşanacak ani susuzluk \"Haziran dökümü\" denilen küçük meyve dökümlerini tetikler.
+        </p>
+        <p>
+          Yaz boyunca (Haziran-Eylül) narenciye bahçelerinde damla sulama sistemleri haftada 2 veya 3 gün periyotlarla çalıştırılmalıdır. Sonbahar aylarında ise meyvelerin kabuk kalitesini iyileştirmek, pürüzsüz ve parlak bir görünüm sağlamak için sulama sıklığı azaltılır ama tamamen kesilmez. Aşırı geç sonbahar sulaması ise kış soğuklarına karşı ağacın direncini kırarak dona karşı hassaslaştırır.
+        </p>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Modern Sulama Yöntemlerinin Ege Tarımına Entegrasyonu</h2>
+        <p>
+          Geleneksel vahşi sulama yöntemleri, Ege ovalarındaki verimli toprakların yapısını tahrip etmektedir. 2026 yılı tarım politikalarında su kısıtları göz önüne alındığında, modern sulama sistemlerine geçiş artık opsiyonel değil zorunludur:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Yüzey Altı Damla Sulama (SDI):</strong> Damla sulama borularının toprak altına, bitki kök hizasına gömülmesi yöntemidir. Bu sistem suyun doğrudan emici kök bölgesine iletilmesini sağlayarak yüzeydeki buharlaşma kaybını sıfıra indirir. Ege'nin sert pamuk ve mısır arazilerinde mükemmel sonuçlar verir.</li>
+          <li><strong>Fertigasyon (Gübreli Sulama):</strong> Damla sulama hatlarına entegre edilen gübre tankları vasıtasıyla bitkilerin ihtiyaç duyduğu azot, potas ve fosfor gibi besin maddeleri sulama suyuyla birlikte eritilerek verilir. Bu yöntem bitkinin besin emilim hızını %90'ın üzerine çıkarırken gübre sarfiyatını %40 azaltır.</li>
+          <li><strong>Toprak Nem Sensörleri (Akıllı Tarım):</strong> Tarlanın farklı noktalarına yerleştirilen tansiyometreler ve nem sensörleri, toprağın su gerilimini ölçerek cep telefonunuza anlık veri gönderir. Bu sayede ne zaman ve kaç saat sulama yapmanız gerektiğini bilimsel verilere dayanarak belirler, su israfını tamamen önlersiniz.</li>
+        </ul>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">5. Ege Bölgesi Ürün Bazlı Sulama Takvimi Özet Tablosu (2026)</h2>
+        <p>
+          Ege Bölgesi'ndeki üreticilerimizin sulama kararlarını planlarken başucu rehberi olarak kullanabilecekleri pratik referans tablosu:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Ürün Grubu</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Kritik Gelişim Evresi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Yaz Dönemi Sulama Sıklığı</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Yetersiz Sulamanın Zararları / Etkisi</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Zeytin</td>
+                <td className="px-6 py-4">Çekirdek Sertleşmesi / Yağ Oluşumu (Ağustos)</td>
+                <td className="px-6 py-4">10 - 14 Günde Bir (Toprak tipine göre)</td>
+                <td className="px-6 py-4">Meyvelerin büzüşmesi, zayıf yağ randımanı ve periyoditenin artması.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Pamuk</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">Çiçeklenme Devresi / Koza Gelişimi (Temmuz-Ağustos)</td>
+                <td className="px-6 py-4">4 - 6 Günde Bir (Damla sulamada)</td>
+                <td className="px-6 py-4">Kozaların zamanından önce dökülmesi, lif uzunluğunun ve kalitesinin bozulması.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Bağ (Üzüm)</td>
+                <td className="px-6 py-4">Salkım İrileşme ve Dane Şişme (Haziran-Temmuz başı)</td>
+                <td className="px-6 py-4">7 - 10 Günde Bir (Ben düşmeye kadar)</td>
+                <td className="px-6 py-4">Tanelerin küçük kalması, şeker oranının yapay şekilde aşırı yükselip rekolte kaybı.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Narenciye</td>
+                <td className="px-6 py-4 text-green-700">Çiçek Sonrası Meyve Tutumu (Haziran-Temmuz-Ağustos)</td>
+                <td className="px-6 py-4">3 - 5 Günde Bir (Sık ve düzenli sızdırma)</td>
+                <td className="px-6 py-4">Yoğun meyve dökülmesi, kabukta kalınlaşma ve meyve su oranının düşmesi.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Mısırlık & Yonca</td>
+                <td className="px-6 py-4 text-red-700 font-bold">Koçan Oluşumu / Her Biçim Sonrası</td>
+                <td className="px-6 py-4">5 - 7 Günde Bir (Gelişime göre)</td>
+                <td className="px-6 py-4">Mısırda koçan dolduramama ve uç kuruluğu, yoncada bodur büyüme.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)]">Tarla Notu: Toprak Düzenleyicilerin Nem Tutma Gücü</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Ege kuraklıkları kapıdayken toprağın organik madde oranını artırmak, sulama maliyetlerinizi yarıya indirebilir. Toprağa sonbaharda uygulanacak iyi olgunlaşmış ahır gübresi veya humik-fulvik asit preparatları toprak gözeneklerini gevşeterek su tutma kapasitesini ciddi oranda artırır. Böylece sulama aralıklarınızı uzatabilir ve bitkinin köklerini daha uzun süre serin ve nemli tutabilirsiniz.
+          </p>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">Ege Havzanıza Özel Sulama Miktarı Hesaplayın!</h4>
+          <p className="font-bold text-white/90 font-sans">
+            Tarlanızın bulunduğu Ege il ve ilçesini seçerek, yetiştirdiğiniz zeytin, pamuk veya bağ alanınızın toprak yapısına en uygun günlük su miktarını ve sulama süresini öğrenmek ister misiniz? Hemen ana sayfamıza gidin, tamamen ücretsiz olan <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> kullanın; suyunuzu bilimsel yöneterek hem doğayı koruyun hem de veriminizi zirveye taşıyın!
+          </p>
+        </div>
+
+        <h2 className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">6. Sonuç ve Bereketli Hasatlar Dileyişi</h2>
+        <p>
+          Ege Bölgesi'nin geleceği, tarımda atacağımız sürdürülebilir adımlara bağlıdır. Bilinçsizce açılan vahşi sulama vanaları havzalarımızın kurumasına yol açmaktadır. 2026 tarım yılında ziraat teknolojilerini tarlalarımıza adapte ederek, bitki bazlı sulama takvimlerine sadık kalmak ve sadece gerektiği kadar su takviyesi yapmak en büyük üretici sorumluluğumuzdur. Akılcı yöntemlerle, suyun her damlasını berekete dönüştürelim!
+        </p>
+      </div>
+    )
   }
 };
 

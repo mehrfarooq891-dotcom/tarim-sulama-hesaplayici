@@ -183,6 +183,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sebze Yetiştiriciliği",
     image: "https://images.unsplash.com/photo-1589927986089-35812388d1f4?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 19,
+    title: "Ege Bölgesi Sulama Takvimi 2026",
+    slug: "ege-bolgesi-sulama-takvimi-2026",
+    excerpt: "Ege Bölgesi'nin kendine özel mikroklima özellikleri, zeytin, pamuk, narenciye ve bağcılıkta 2026 yılı sulama takvimi, kritik yaz sulaması ve modern sulama yöntemleri...",
+    date: "2 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Bölgesel Sulama",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
