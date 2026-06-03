@@ -2935,6 +2935,165 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "ic-anadolu-da-sulama-kuru-iklimde-su-tasarrufu-rehberi": {
+    title: "İç Anadolu'da Sulama — Kuru İklimde Su Tasarrufu Rehberi",
+    date: "3 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "35 dk okuma",
+    image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=2560&q=100",
+    category: "Bölgesel Sulama",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          İç Anadolu Bölgesi, geniş düzlükleri, sonsuz bozkırları ve derin tarım mirasıyla ülkemizin tahıl ambarı olarak kabul edilir. Ancak yıllık yağış miktarının 300-400 mm arasında sıkıştığı bu coğrafyada tarım yapmak, doğrudan iklim ve su kısıtlarıyla mücadele etmek demektir. Küresel ısınmanın etkilerini her geçen gün daha doğrudan hissettiğimiz 2026 yılında, sürdürülebilir ve verimli tarımsal üretim için planlı bir <strong>İç Anadolu sulama</strong> programı oluşturmak ulusal gıda arz güvenliğimiz için de vazgeçilmezdir. Bu kapsamlı rehberde, İç Anadolu'nun yarı kurak koşullarında su tasarrufu sağlayan yenilikçi tarım yöntemlerini, toprak nem kontrol mekanizmalarını ve bölgenin can damarı olan buğday ve arpa tarımı için bilimsel sulama tavsiyelerini ayrıntılarıyla inceleyeceğiz.
+        </p>
+
+        <h2 id="iklim-ve-toprak-yapisi" className="text-3xl mt-12 mb-6 font-black text-stone-950">1. İç Anadolu'nun İklim ve Toprak Karakteristiği ve Kuraklık Gerçeği</h2>
+        <p>
+          Bölgede egemen olan yarı kurak karasal iklim; kış aylarında sert soğukları ve kısmi kar yağışlarını beraberinde getirirken, yaz aylarında ise aşırı sıcaklık, düşük bağıl nem ve yüksek düzeyde buharlaşma (evapotranspirasyon) üretir. Bu durum, bitkilerin mevsim süresince ihtiyaç duyduğu su miktarının çok sınırlı bir kısmının doğal yağışlarla karşılanabildiği anlamına gelir. Konya Havzası başta olmak üzere bölgedeki birçok yeraltı su seviyesi (taban suyu) kontrolsüz çekimler nedeniyle her yıl metrelerce aşağı yönde çekilmektedir.
+        </p>
+        <p>
+          Bu sebeple, geleneksel "vahşi sulama" veya sınırsız su kullanımı anlayışı artık tamamen sürdürülemez bir hal almıştır. İç Anadolu'da tarım yapan bir üretici için su yönetimi, her damlanın değerini bilerek hareket etmeyi gerektirir. Bölgenin toprak yapısı genellikle killi-tınlı veya kumlu-killi formdadır. Killi-tınlı topraklar su tutma kapasitelerinin yüksek olması nedeniyle avantajlı görünse de, yanlış sulandığında yüzeyde sert kaymak bağlama eğilimi gösterir. Bu morfolojik yapıya göre bir <strong>İç Anadolu sulama</strong> rejimi kurmak, toprağın nem durumunu dinamik olarak gözlemlemeyi mecbur kılar.
+        </p>
+
+        <h2 id="kuru-iklim-stratejileri" className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Yarı Kurak İklimde Uygulanabilecek Akıllı Kuru İklim Stratejileri</h2>
+        <p>
+          Susuzluğu bir felaket olmaktan çıkarmak için ziraat teknolojilerinin sunduğu modern <strong>kuru iklim stratejileri</strong> sahada eksiksiz uygulanmalıdır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Gece Sulaması Standartı:</strong> Gündüz saatlerinde İç Anadolu düzlüklerinde esen kuru sıcak rüzgarlar yardımıyla ve yüksek güneş radyasyonu nedeniyle, sulama suyunun %30 ila %40'ının bitki köklerine ulaşamadan havaya buharlaştığı gözlenir. Sulamanın akşam güneş battıktan sonra başlayıp sabah erken saatlere kadar (21:00 - 07:00) sürdürülmesi, evaporasyon kayıplarını minimuma indirerek muazzam bir su tasarrufu sağlar.</li>
+          <li><strong>Koruyucu Toprak İşleme ve Doğrudan Ekim:</strong> Toprağı aşırı devirerek işlemek, toprak katmanlarında birikmiş olan kısıtlı nemin buharlaşarak kaybolmasına neden olur. Doğrudan ekim (anıza ekim) ve azaltılmış toprak işleme teknikleri, toprak yüzeyinde bir koruyucu örtü (mulç) vazifesi üstlenen bitki artıklarını muhafaza eder. Bu organik tabaka toprak sıcaklığını dengeler ve su kayıplarını azaltır.</li>
+          <li><strong>Organik Madde Düzeyinin Yükseltilmesi:</strong> Toprağın su tutma kapasitesi organik madde düzeyiyle doğrudan ilişkilidir. Kompost, iyi olgunlaşmış ahır gübresi veya leonardit gibi organik toprak düzenleyicilerin kullanımı, toprak parçacıklarının kümelenmesini kolaylaştırarak su tutma süresini uzatır. Bu durum sulama aralıklarının açılmasını sağlar.</li>
+          <li><strong>Buharlaşmayı Önleyici Rüzgar Perdeleri:</strong> Tarla sınırlarına rüzgar kırıcı ağaçların (örneğin iğde veya selvi) dikilmesi, tarlaya gelen sıcak hava akımlarını yavaşlatır. Bu sayede bitkilerin terleme (transpirasyon) yoluyla su kaybetme hızı gözle görülür şekilde yavaşlatılmış olur.</li>
+        </ul>
+
+        <h2 id="bugday-sulama-tavsiyeleri" className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Buğday Sulama Tavsiyeleri ve En Hassas Büyüme Dönemleri</h2>
+        <p>
+          Buğday (Triticum aestivum), İç Anadolu'nun en yaygın ve ekonomik değeri yüksek ürünüdür. Genellikle kışlık olarak ekilen buğday, kış yağışları ve erken ilkbahar nemi ile vejetasyonunun erken safhalarını tamamlar. Ancak, yüksek rekolte ve ideale yakın ekmeklik un kalitesi elde etmek için kritik zamanlarda sulanması hayati önem taşır. Profesyonel <strong>buğday sulama</strong> programlarında şu evreler adım adım izlenmelidir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">A) Sapa Kalkma Evresi (Birinci Sulama)</h3>
+        <p>
+          Nisan sonu veya mayıs başlarında ilkbahar yağışlarının kesilmesiyle toprakta ani kuruma başlar. Tam bu esnada buğday sapa kalkma dönemine girer ve boğumlar oluşmaya başlar. Bu dönemde toprak neminin yetersiz olması bitkinin boyunun ve dolayısıyla sap veriminin düşük kalmasına, başak taslaklarının içerisindeki başakçık sayısının azalmasına yol açar. Eğer nisan-mayıs aylarında yeterli yağış düşmemişse, ilk sulama bu dönemde muhakkak yapılmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">B) Başaklanma ve Çiçeklenme Dönemi (İkinci ve En Kritik Sulama)</h3>
+        <p>
+          Mayıs sonu veya haziran başında buğdayın başakları kından bütünüyle çıkarak çiçeklenme evresi açılır. Bir buğday tarlasının suya en hassas olduğu, su tüketiminin pik yaptığı dönem burasıdır. Bu evrede bitkinin nemsiz kalması döl tutma oranını bozar, kısırlığı tetikler ve başak ucundaki danelerin oluşmasını engeller. Bu yüzden, sapa kalkmadan sonraki ikinci sulama çiçeklenme başlangıcı ya da başakların görünmesiyle beraber dekar başına ideal hacimlerde tatbik edilmelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900">C) Süt ve Sarı Olum Dönemi (Üçüncü Sulama - Dane Dolumu)</h3>
+        <p>
+          Çiçeklenme sonrası oluşan tanelerin içerisine nişasta dolumu gerçekleşmeye başlar. Süt olum döneminde bitkinin susuz kalması durumunda taneler cılız kalır, buruşur ve "hektolitre ağırlığı" denilen kalite kriteri yerle bir olur. Bu dönemde verilecek hafif bir sulama taneleri dolgunlaştırır, un randımanını artırır. Ancak sarı olum evresine ulaşıldığında sulama tamamen sonlandırılmalıdır. Hasat öncesi geç sulama yapmak buğdayda yatmaya, tane dökülmesine, pas hastalıklarına ve tanelerin kararmasına (kara leke hastalığı) sebebiyet verebilir.
+        </p>
+
+        <h2 id="arpa-sulama-tavsiyeleri" className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Arpa Sulama Tavsiyeleri: Kritik Evreler ve Maltlık-Yemlik Dengesi</h2>
+        <p>
+          Arpa (Hordeum vulgare), buğdaya göre daha kısa bir yetişme süresine sahiptir ve kuraklığa nispeten daha dayanıklıdır. Fakat yüksek verim (dekar başına 600-800 kg) elde etmek için arpa sulamasının da bilimsel takvime bağlanması şarttır. <strong>Arpa sulama</strong> sürecinde şu noktalara azami dikkat gösterilmelidir:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Kardeşlenme Dönemi Nemi:</strong> Arpanın kardeşlenme döneminde (erken ilkbahar) toprak neminin yerinde olması, bir kökten çıkacak başak taşıyıcı kardeş adedini belirler. Kurak geçen kışlardan sonra erken ilkbaharda yapılacak hafif bir sulama, tarladaki kardeş yoğunluğunu doğrudan yukarı taşır.</li>
+          <li><strong>Sapa Kalkma ve Karınlanma Dönemi:</strong> Başak taslaklarının geliştiği sapa kalkma döneminde arpanın su stresi yaşamaması gerekir. Bu dönemde verilecek su miktarı sap dayanıklılığını yapıcı yönde destekler.</li>
+          <li><strong>Başaklanma ve Çiçeklenme Dönemi:</strong> Tıpkı buğdayda olduğu gibi arpanın da suya en hassas olduğu ana evredir. Kurak bölgelerde bu dönemde mutlaka sulama sağlanarak tane tutumu garanti altına alınmalıdır.</li>
+        </ul>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm font-sans">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)] font-sans">Sanayi ve Yemlik Üretiminde Sulama Farkı</h4>
+          <p className="font-bold text-stone-700 leading-relaxed">
+            Eğer bira sanayisi için maltlık arpa yetiştiriyorsanız, tanenin protein oranının %9 ila %11,5 arasında kalması, nişasta oranının ise yüksek olması istenir. Bunu yakalamak için başaklanma ve tane dolum süreçlerinde bitkiyi nemsiz bırakmamak, düzenli ve kontrollü sulama yapmak gerekir. Düzenli su, proteini seyrelterek maltlık kalitesini artırır. Tam aksine, yemlik arpa üretiyorsanız yüksek protein istendiğinden, başaklanma sonrasındaki kısıtlı su uygulamaları protein konsantrasyonunu artırabilir ancak tonaj verimini bir miktar düşürecektir.
+          </p>
+        </div>
+
+        <h2 id="tasarruflu-sulama-teknolojileri" className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Kuru İklimde Modern Sulama Teknolojileri ve Su Tasarrufu</h2>
+        <p>
+          İç Anadolu'da su kaynaklarının kısıtlılığı, tarlaya taşınan suyun en verimli şekilde dağıtılmasını zorunlu kılar. Bölgede vahşi sulama yöntemlerinden karık ve salma sulamalar tamamen dışlanmalı, yerine şu modern sistemler ikame edilmelidir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Yağmurlama (Sprinkler) Sulama Sistemleri</h3>
+        <p>
+          Buğday ve arpa gibi ekim yoğunluğunun çok yüksek olduğu tarla bitkilerinde yağmurlama sulama oldukça elverişlidir. Su, damlacıklar halinde püskürtülerek araziye homojen bir biçimde yayılır. Ancak rüzgarlı günlerde evaporasyon kaybı fazla olduğundan, rüzgar hızının azaldığı gece saatlerinde işletilmesi tasarruf oranını %30'a kadar çıkartır. Yağmurlama memelerinin (başlıklarının) aşınmamış olması ve doğru çalışma basıncında (3-4 bar) tutulması, suyun tarlaya ideal boyutta ulaşması açısından önemlidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Otomatik Pivot (Center Pivot) Sulama Teknolojisi</h3>
+        <p>
+          İç Anadolu'nun geniş mülkiyet sınırlarına sahip büyük tarımsal işletmelerinde Center Pivot (dairesel hareketli sulama makineleri) sistemleri en yüksek su verimliliğini sunar. Kendi ekseni etrafında dönerek tarlayı otomatik bir biçimde sulayan bu devasa sistemler, işçilik ihtiyacını sıfıra indirirken su dağılım eşbiçimliliğini %95'in üzerine çıkarır. Akıllı kontrol panelleri sayesinde günün istenen saatinde, istenen milimetrede hassas sulama olanağı sağlar.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Yüzey Altı Damla Sulama</h3>
+        <p>
+          Yeni nesil ziraat uygulamalarında, yem bitkilerinde (yonca vs.) ve bazı hububat arazilerinde damla sulama borularının toprak altına, pulluk derinliğinin altına gömülmesi yöntemi yaygınlaşmaktadır. Bu sistemde toprak yüzeyinde hiçbir ıslaklık oluşmadığından buharlaşma kaybı sıfıra yaklaşır, yabancı ot gelişimi engellenir ve doğrudan kök bölgesine bitki besin maddeleri milimetrik olarak sevk edilebilir. Gübre tasarrufu da bu yolla en üst düzeye ulaşır.
+        </p>
+
+        <h2 id="sulama-takvimi-tablosu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">6. İç Anadolu Hububat Sulama Karşılaştırma Tablosu</h2>
+        <p>
+          Bölge çiftçilerimizin sahada en hızlı sulama kararlarını alabilmesi için hazırladığımız karşılaştırmalı takvim tablosu:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Bitki Grubu</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">En Kritik Sulama Dönemi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Tasarruflu Sulama Yöntemi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Dekara Hedeflenen Su Hacmi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Yetersiz Sulamadaki Riskler</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Buğday</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Çiçeklenme & Başaklanma Evresi</td>
+                <td className="px-6 py-4">Otomatik Pivot veya Gece Yağmurlaması</td>
+                <td className="px-6 py-4">60 - 75 m³</td>
+                <td className="px-6 py-4">Başaklarda tane kısırlığı, hektolitre düşüşü ve un kalitesinin bozulması.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Arpa (Maltlık)</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">Başaklanma ve Tane Doldurma</td>
+                <td className="px-6 py-4">Düşük Basınçlı Yağmurlama (Gece)</td>
+                <td className="px-6 py-4">55 - 65 m³</td>
+                <td className="px-6 py-4">Tane protein oranının bira sanayii için aşırı yükselmesi ve cılızlık.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Arpa (Yemlik)</td>
+                <td className="px-6 py-4">Sapa Kalkma & Erken Başaklanma</td>
+                <td className="px-6 py-4">Standart Sprinkler Hattı</td>
+                <td className="px-6 py-4">50 - 60 m³</td>
+                <td className="px-6 py-4">Kardeş sayısının azalması, tane saman verimi toplamında rekolte kaybı.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Şeker Pancarı</td>
+                <td className="px-6 py-4">Kök İrileşme ve Yumru Gelişim Dönemi</td>
+                <td className="px-6 py-4">Damla Sulama (Hassas Hatlar)</td>
+                <td className="px-6 py-4">80 - 100 m³</td>
+                <td className="px-6 py-4">Kök şeker polaritesinin düşmesi, yapraklarda solma ve verim kaybı.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Yonca (Yem)</td>
+                <td className="px-6 py-4">Her Biçimden 3-5 Gün Sonra (Can Suyu)</td>
+                <td className="px-6 py-4">Yüzey Altı Damla Sulama (SDI)</td>
+                <td className="px-6 py-4">65 - 75 m³</td>
+                <td className="px-6 py-4">Biçim aralarının uzaması, yeşil ot tonajının azalması ve lif sertliği.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)] font-sans">
+          <h4 className="text-2xl font-black mb-4 text-white font-sans">İç Anadolu Tarım Araziniz İçin Hassas Su Hesabı!</h4>
+          <p className="font-bold text-white/90">
+            Tarlanızın bulunduğu İç Anadolu il ve ilçesini, arpa veya buğday çeşidinizin ekim tarihini ve güncel gelişim evresini seçerek bu hafta vermeniz gereken milimetrik su ihtiyacını hesaplamak ister misiniz? Hemen ana sayfamıza gidin, tamamen ücretsiz kullanabileceğiniz <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> çalıştırın, suyunuzu bilimle yöneterek tasarruf edin ve yüksek verimi garantiyi altına alın!
+          </p>
+        </div>
+
+        <h2 id="sonuc" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">7. Sonuç ve Geleceğe Yönelik Sürdürülebilirlik Vizyonu</h2>
+        <p>
+          İç Anadolu Bölgesi'nde kuraklık geçici bir mevsim olayı değil, kalıcı bir coğrafi gerçektir. 2026 yılı tarım vizyonunun özü, kısıtlı kaynakları en yüksek verimle yönetmekten geçer. Doğru gelişim dönemlerini takip ederek, gece sulamalarını hayata geçirerek, toprak işleme yöntemlerimizi koruyucu tarıma uyarlayarak ve modern sulama altyapısına geçiş yaparak sularımızın her damlasını altın değerinde koruyabiliriz. Unutmayalım ki, tarlada akıtılacak her bilinçli damla su, ülkemizin yarınki gıda güvenliğine verilmiş en büyük güvencedir. Akıllı ziraat metodolojilerini tarlanıza taşıyarak, toprağınızı koruyun ve mahsulünüzü zenginleştirin!
+        </p>
+      </div>
+    )
   }
 };
 

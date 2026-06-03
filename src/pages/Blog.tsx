@@ -193,6 +193,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Bölgesel Sulama",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 20,
+    title: "İç Anadolu'da Sulama — Kuru İklimde Su Tasarrufu Rehberi",
+    slug: "ic-anadolu-da-sulama-kuru-iklimde-su-tasarrufu-rehberi",
+    excerpt: "İç Anadolu'nun yarı kurak iklim şartlarında yüksek buğday ve arpa rekoltesi elde etmek için akıllı su tasarrufu stratejileri, sulama zamanlamaları ve ziraat tavsiyeleri...",
+    date: "3 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Bölgesel Sulama",
+    image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
