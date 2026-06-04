@@ -3094,6 +3094,157 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "akdeniz-bolgesi-sulama-takvimi": {
+    title: "Akdeniz Bölgesi Sulama Takvimi — Kavurucu Sıcaklarda Akıllı Su Yönetimi",
+    date: "4 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "35 dk okuma",
+    image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=2560&q=100",
+    category: "Bölgesel Sulama",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Türkiye’nin yaş meyve ve sebze ambarı olan Akdeniz Bölgesi (Antalya, Mersin, Adana, Hatay, Kahramanmaraş, Osmaniye), bereketli ovaları ve uçsuz bucaksız seralarıyla tarımsal üretimin baş tacıdır. Ancak Akdeniz ikliminin sunduğu bu benzersiz üretim potansiyeli, yaz aylarında kendini hissettiren aşırı buharlaşma ve su kısıtlarıyla büyük bir sınava dönüşür. 2026 tarım sezonunda, akılcı, verimli ve mahsul kalitesini doğrudan yükselten bir <strong>Akdeniz bölgesi sulama</strong> planlaması yürütmek sürdürülebilir tarımın anahtarıdır. Bu rehberimizde; Akdeniz ovalarının kavurucu yaz sıcaklıklarını, bölgenin simge ürünleri domates, biber ve pamuk tarımındaki hassas gelişim dönemlerini ve modern damla sulama tekniklerini ziraat biliminin verileri ışığında ele alacağız.
+        </p>
+
+        <h2 id="akdeniz-yaz-sicakliklari" className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Akdeniz Yaz Sıcaklıkları, Yüksek Buharlaşma ve Evapotranspirasyon Gerçeği</h2>
+        <p>
+          Akdeniz Bölgesi’nde doğru bir sulama stratejisi kurgulamanın ilk adımı, bölgenin iklimsel parametrelerini derinlemesine okumaktır. Akdeniz ikliminde yaz ayları sadece sıcak değil, aynı zamanda son derece kurak geçer. Bölgede haziran ayıyla birlikte yükselişe geçen <strong>yaz sıcaklıkları</strong>, temmuz ve ağustos aylarında gölgede dahi sıklıkla 40°C ve üzerine çıkmaktadır. Çukurova, Amik ve Antalya ovaları gibi deniz seviyesinde yer alan tarım havzalarında bu yüksek sıcaklıklara eşlik eden bunaltıcı nem (bağıl nem), bitkilerin transpirasyon (hızlı terleme) mekanizmalarını altüst eder.
+        </p>
+        <p>
+          Toprak ve bitki yapraklarından kaybolan suyun toplam mikarı olan günlük evapotranspirasyon hızı, bu kavurucu yaz günlerinde dekar başına 8 ila 10 milimetreye (8-10 m³/gün) kadar ulaşabilir. Bu durum, topraktaki mevcut su rezervinin inanılmaz bir hızla tükendiği anlamına gelir. Sıcak esen fön rüzgarları (özellikle Çukurova’da poyraz) yaprakları adeta kavurarak bitkileri geçici solma aşamasından kalıcı solma noktasına sürükleyebilir. Bu amansız iklim baskısı karşısında, geleneksel vahşi veya salma sulama yöntemlerini uygulamak toprağın tuzlanmasına, göllenmesine ve suyun büyük kısmının daha köklere ulaşmadan göğe buharlaşmasına sebep olur. Bu nedenle, Akdeniz’de her damla suyun toprağın derinliklerine sızdırılarak korunması bir zorunluluktur.
+        </p>
+
+        <h2 id="domates-sulama-tavsiyeleri" className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Domates Sulama Tavsiyeleri: Fideden Çiçek dökümüne ve Çatlama Kontrolüne</h2>
+        <p>
+          Domates (Solanum lycopersicum), Akdeniz Bölgesi hem açık tarla hem de örtü altı (sera) yetiştiriciliğinde lider mahsuldür. Domates kök sistemi derinlere inebilse de asıl emici kökleri yüzeyde yoğunlaşır. Bitkinin su talebi vejetasyon evrelerine göre büyük dalgalanmalar gösterir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Fide Dikimi ve Can Suyu Dönemi</h3>
+        <p>
+          Fidelerin araziye dikimini takiben verilecek can suyu, kılcal köklerin toprağa sağlıklıca tutunması için hayatidir. Fide başına 1.5 - 2 litre su verilir. İlk 5-7 gün toprak nemi korunur, ancak fidelerin tutunduğu gözlendikten sonra sulama aralıkları genişletilerek \"kök teşvik stresi\" uygulanır. Bu kısıt, domatesin derin kökler geliştirmesini sağlar.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Çiçeklenme Dönemi ve Çiçek Burnu Çürüklüğü Riski</h3>
+        <p>
+          Domates bitkisinde sarı çiçeklerin belirmesiyle beraber sulama miktarlarında aşırılığa gidilmemelidir. Bu evrede verilecek aşırı su bitkiyi sürekli yaprak ve sürgün yapmaya zorlarken, çiçek döker. Ancak toprak tamamen kurutulursa çiçeklerde döllenme yetersiz kalır.
+        </p>
+        <p>
+          Meyveler küçük yeşil ceviz boyutuna geldiğinde ise su talebi hızla artar. Tam bu dönemdeki susuzluk, bitkinin topraktan kalsiyum (Ca) iyonlarını absorbe etmesini engeller. Kalsiyumun meyve hücre duvarlarına taşınamaması durumunda domateslerin dip kısımlarında çürüme başlar; buna **Çiçek Burnu Çürüklüğü (Blossom-End Rot)** denir. Suyu düzenli ve eşit periyotlarda vermek bu kalitesizliği önler.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Meyve İrileşme ve Kabuk Çatlama Kontrolü</h3>
+        <p>
+          Meyvelerin şiştiği evrede çok hassas ve stabil bir nem rejimi uygulanmalıdır. Toprağın çok kuruyup ardından aniden aşırı sulanması durumunda, meyvenin iç turgor basıncı kabuğun genişleme sınırını aşar ve domatesler tarlada yarılır. Çatlamış domatesler pazar değerini anında kaybederek salçalık veya ıskartaya ayrılır. Meyveler kızarmaya başladığında ise sulama sıklığı kademeli azaltılarak meyvedeki asit-şeker dengesi ve lezzet korunur.
+        </p>
+
+        <h2 id="biber-sulama-tavsiyeleri" className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Biber Sulama Tavsiyeleri: Hassas Saçak Kökler İçin Az ama Sık Sulama İlkesi</h2>
+        <p>
+          Biber (Capsicum annuum), Akdeniz’de sofralık, kapya ve sanayilik olarak yaygın üretilir. Ancak ziraat mühendisleri bilir ki, biber sebzeler arasında kök sistemi en sığ, susuzluğa ve tuzluluğa karşı en dayanıksız türlerin başında gelir. Biber tarımında başarılı bir **biber sulama** programı şu kurallara sadık kalmalıdır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Az Ama Sık Sulama Protokolü:</strong> Biberin emici kökleri toprak yüzeyinin ilk 20-30 santimetresinde kümelenmiştir. Bu sığ yapı nedeniyle biber uzun süreli kuraklıklara dayanamaz. Toprak yüzeyi asla çatlayacak derecede kurumamalıdır. Akdeniz yaz sıcaklıklarında kumlu-tınlı topraklarda damla sulama sistemiyle biber tarlaları 2 günde bir, killi topraklarda ise 3 günde bir hafifçe sulanmalıdır.</li>
+          <li><strong>Kök Boğazı Yanıklığı (Phytophthora capsici) Tehlikesi:</strong> Biber saksı gibi dar kök boğazı yapısına sahiptir. Tarlada su birikmesi veya salma sulama yapılması durumunda kök boğazında biriken su, mantari patojenleri anında aktifleştirir. Bitkiler bütünüyle solarak kurur ve tarlada yama yama ocaklar şeklinde kurumalar başlar. Bu nedenle biber kesinlikle göllendirilmemeli, su kök boğazına doğrudan değmeyen damla sulama yöntemiyle verilmelidir.</li>
+          <li><strong>Meyve Acılığı ve Şekil Bozuklukları:</strong> Sulama aralıklarının düzensiz olması ve bitkinin strese girmesi, biber meyvelerinde **kapsaisin** sentezini artırarak tatlı çeşitlerin bile acılaşmasına yol açar. Ayrıca meyvelerde dikey kıvrılmalar, büzüşmeler ve ince kabuk oluşumu tamamen düzensiz sulamanın yansımalarıdır.</li>
+        </ul>
+
+        <h2 id="pamuk-sulama-tavsiyeleri" className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Pamuk Sulama Tavsiyeleri: Çukurova’nın Beyaz Altınında Can Suyu ve Koza Açma Dengesi</h2>
+        <p>
+          Çukurova Bölgesi, ülkemiz pamuk üretiminin tarihi ve endüstriyel merkezidir. Pamuk (Gossypium hirsutum) bitkisi, gelişme başlangıcında kısıtlı suya ihtiyaç duyarken, çiçek ve koza bağlama döneminde muazzam su tüketir. Pamuk tarımında yüksek lif kalitesi ve kg/dekar verimi elde etmek için şu takvim izlenmelidir:
+        </p>
+        <p>
+          <strong>Lavta (İlk Su) Zamanlaması:</strong> Pamuk fidelerinin çimlenip gelişiminin ilk haftalarında sulamadan kaçınılmalıdır. Bu kısıt, kazık kökün toprağın derinliklerine (1 metre altına) inmesini sağlayarak bitkiyi sağlamlaştırır. Eğer çok kurak gitmiyorsa ilk sulama haziran ayı ortası ya da sonuna kadar geciktirilir.
+        </p>
+        <p>
+          <strong>Çiçeklenme ve Koza Oluşumu (Zirve İhtiyaç Dönemi):</strong> Temmuz ve ağustos aylarında pamuk bitkisi çiçek açar ve koza (elma) doldurmaya başlar. Bu dönemde toprak neminin düşürülmesi kozaların dökülmesine ve lif kalitesinin aşırı kısalmasına sebep olur. Damla sulama kullanan üreticiler haftada bir sulama yaparken, salma/karık sulama yapanlar araziye 15-20 gün aralıklarla su bırakır.
+        </p>
+        <p>
+          <strong>Koza Açma ve Hasat Öncesi Susuzluk:</strong> Eylül ayıyla birlikte pamukta kozaların çatlayıp beyaz liflerin açığa çıkması istenir. Bu dönemde sulama tamamen kesilmelidir. Hasattan en az 25-30 gün önce suyun kesilmesi, liflerin temiz kalmasını, yaşlanmamasını, koza çürümesini engeller ve makineli hasadın önünü açar.
+        </p>
+
+        <h2 id="akdeniz-damla-sulama" className="text-3xl mt-12 mb-6 font-black text-stone-950">5. Akdeniz Tarımında Damla Sulama ve Fertigasyon Entegrasyonu</h2>
+        <p>
+          Geleneksel salma veya vahşi sulama yöntemleri, Akdeniz’in verimli topraklarında drenaj sorunlarına, kireçleşmeye, derin kök çürüklerine ve taban suyunun zararlı seviyede yükselmesine neden olur. Bu sebeple Akdeniz genelinde **damla sulama** altyapısı bir tercih değil, milli bir tarım görevidir.
+        </p>
+        <p>
+          Damla sulama sistemlerinin Akdeniz sebze ve tarla üretimlerine sağladığı temel teknik faydalar şunlardır:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Mantari ve Bakteriyel Hastalıkların Engellenmesi:</strong> Yağmurlama tarzı sulamalar domates ve biber yapraklarını ıslatarak Mildiyö (Phytophthora infestans), Erken Yaprak Yanıklığı (Alternaria solani) ve Bakteriyel Benek hastalığı gibi salgınları tetikler. Damla sulama yaprağı tamamen kuru tuttuğundan kimyasal ilaç sarfiyatını %50 düşürür.</li>
+          <li><strong>Fertigasyon Mukavemeti:</strong> Gübrelerin sulama suyu içinde eritilerek köklere milimetrik sevk edilmesine fertigasyon denir. Akdeniz’in süzek topraklarında bitkinin azot, fosfor ve potasyum emilim hızı bu yolla %90'ın üzerine çıkarken, toprak besin dengesi korunur.</li>
+        </ul>
+
+        <h2 id="sulama-takvimi-tablosu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">6. Akdeniz Bölgesi Ürün Bazlı Sulama Rehber Tablosu (2026)</h2>
+        <p>
+          Akdeniz Bölgesi'ndeki üreticilerimizin sulama kararlarını verirken kullanabilecekleri pratik ziraat rehber tablosu:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Ürün Grubu</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Kritik Gelişim Evresi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Önerilen Yaz Sulama Sıklığı</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Kalite ve Verime Doğrudan Etkisi</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Domates</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Meyve Tutumu ve Meyve İrileşme (Haziran-Temmuz)</td>
+                <td className="px-6 py-4">Damla sulamada 2-3 günde bir düzenli sulama</td>
+                <td className="px-6 py-4">Çiçek burnu çürüklüğünü önler, meyve et kalınlığını artırır, kabuk çatlamasını sıfırlar.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Biber</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">Tüm Meyve Bağlama Süreci (Süreklidir)</td>
+                <td className="px-6 py-4">Sıcak topraklarda 1-2 günde bir hafif sızdırma</td>
+                <td className="px-6 py-4">Kök boğazı yanıklığını engeller, meyvedeki şekil anomalilerini ve acılaşmayı önler.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Pamuk</td>
+                <td className="px-6 py-4 text-amber-600">Çiçeklenme & Koza Doldurma Evresi (Temmuz-Ağustos)</td>
+                <td className="px-6 py-4">4-6 günde bir (damla); 15-18 günde bir (karık)</td>
+                <td className="px-6 py-4">Lif mukavemetini yükseltir, koza dökülmelerini keser ve tonajı ikiye katlar.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Mısır (2. Ürün)</td>
+                <td className="px-6 py-4 text-green-700">Koçan Çıkarma ve Püskül Dönemi</td>
+                <td className="px-6 py-4">5-7 günde bir (toprak nemine göre)</td>
+                <td className="px-6 py-4">Koçan ucu boşalmasını önler, tane doluluk oranını ve verimi zirveye taşır.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Narenciye</td>
+                <td className="px-6 py-4 text-red-700 font-bold">Meyve Şişme ve Süzme Evresi (Ağustos)</td>
+                <td className="px-6 py-4">3-4 günde bir (Kademeli sızdırma)</td>
+                <td className="px-6 py-4">Küçük meyve dökümünü durdurur, kabuk esnekliğini artırır ve meyve suyu oranını yükseltir.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)] font-sans">Mühendis Uyarı Notu: Toprak Sıcaklığı ve Haşlanma</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Özellikle temmuz ve ağustos aylarında hava sıcaklığı 42°C iken gündüz ortasında damla sulama borularını çalıştırmak büyük bir hatadır. Boruların içerisinde bir süre bekleyen durgun su aşırı ısınarak kaynama noktasına yaklaşabilir. Bu sıcak su bitki köklerine ulaştığında emici kılcalları haşlayarak anında öldürür. Akdeniz’de sulamalar daima sabaha karşı ya da geceleri yapılmalı, tesisat boruları içerisinde sıcak su bekletilmemelidir.
+          </p>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)]">
+          <h4 className="text-2xl font-black mb-4 text-white">Akdeniz Tarlanız İçin Akıllı Su Hesabı Yapın!</h4>
+          <p className="font-bold text-white/90 font-sans">
+            Tarlanızın bulunduğu Akdeniz il veya ilçesini seçip yetiştirdiğiniz domates, biber ya da pamuk çeşidinin güncel gelişim evresini sisteme girerek bugün vermeniz gereken su miktarını m³ cinsinden hesaplamak ister misiniz? Hemen ana sayfamıza gidin, tamamen ücretsiz kullanabileceğiniz <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> çalıştırın, su kaynaklarınızı bilimle yöneterek hasat kalitenizi güvence altına alın!
+          </p>
+        </div>
+
+        <h2 id="sonuc" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">7. Sonuç ve Bereketli Yarınlar</h2>
+        <p>
+          Akdeniz Bölgesi’nin bereketli toprakları, küresel iklim krizinin getirdiği kuraklık ve su kıtlığı tehditleri karşısında her zamankinden daha duyarlı hale gelmiştir. 2026 sulama döneminde domates, biber ve pamuk gibi milli öneme sahip tarım ürünlerimizde bilinçli ve programlı bir **Akdeniz bölgesi sulama** programı uygulamak sadece verimi artırmakla kalmaz; aynı zamanda yer altı ve üstü su kaynaklarımızı gelecek nesillere temiz bir şekilde miras bırakmamızı sağlar. Ziraat teknolojilerini, akıllı sensörleri ve modern damlama sistemlerini tarlalarımıza entegre ederek, topraklarımızın bereketini ebedi kılalım!
+        </p>
+      </div>
+    )
   }
 };
 

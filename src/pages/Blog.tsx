@@ -203,6 +203,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Bölgesel Sulama",
     image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 21,
+    title: "Akdeniz Bölgesi Sulama Takvimi",
+    slug: "akdeniz-bolgesi-sulama-takvimi",
+    excerpt: "Akdeniz Bölgesi'nin kavurucu yaz sıcaklıklarında domates, biber ve pamuk tarımında yüksek verim elde etmek için hassas sulama takvimi, damla sulama ve fertigasyon tüyoları...",
+    date: "4 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Bölgesel Sulama",
+    image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
