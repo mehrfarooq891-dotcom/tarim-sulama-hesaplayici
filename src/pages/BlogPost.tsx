@@ -3245,6 +3245,192 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "sulama-pompasi-secimi-nasil-yapilir": {
+    title: "Sulama Pompası Seçimi Nasıl Yapılır? Kapsamlı Seçim, Güç Hesabı ve Tasarruf Rehberi",
+    date: "5 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "40 dk okuma",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=2560&q=100",
+    category: "Sulama Teknolojileri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Tarımsal üretimin her dalında su, can damarıdır. Ancak suyun kaynaktan alınıp tarlaya, oradan da bitkinin kök bölgesine ulaştırılması ciddi bir enerji enerjisi gerektirir. Günümüz tarım ekonomisinde elektrik ve yakıt maliyetleri, toplam üretim giderlerinin en büyük kalemlerinden birini oluşturmaktadır. Bu noktada, doğru bir <strong>sulama pompası seçimi</strong> yapmak, sadece mahsulünüzü susuz bırakmamanın ötesinde, her yıl yüz binlerce liralık enerji tasarrufu sağlamanın ve sistem bileşenlerinin ömrünü uzatmanın bir numaralı anahtarıdır. Bu rehberimizde, ziraat mühendisliği ve hidrolik hesap dinamikleri doğrultusunda, tarlanız için kusursuz sulama pompasını nasıl seçeceğinizi, kilit pompa türlerini, kritik güç hesabı formüllerini ve maliyet avantajı sağlayan tasarruf tüyolarını inceleyeceğiz.
+        </p>
+
+        <h2 id="pompa-turleri" className="text-3xl mt-12 mb-6 font-black text-stone-950">1. Tarımsal Sulamada Popüler Pompa Türleri ve Kullanım Alanları</h2>
+        <p>
+          Doğru bir <strong>sulama pompası seçimi</strong> yapmanın ilk adımı, su kaynağınızın derinliğine, konumuna ve hedeflediğiniz sulama sistemine en uygun pompa türünü belirlemektir. Pompalar, mekanik ve hidrolik tasarımlarına göre temel olarak şu sınıflara ayrılır:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Yatay Milli Santrifüj Pompalar (Yüzey Pompaları)</h3>
+        <p>
+          Su kaynağının yüzeye yakın olduğu (dere, göl, kanal veya maksimum 6-7 metre derinliğe sahip sığ kuyular) durumlar için en ideal tercihtir. Bu pompalar suyu emme borusu vasıtasıyla vakumlayarak çeker ve yüksek basınçla sisteme basar. Kurulumu, bakımı ve işletimi oldukça kolaydır. Ancak emme derinliği fiziksel sınır olan 8 metreyi geçemez; bu derinlikten sonra kavitasyon denilen kabarcık patlamaları oluşur ve pompa su çekemez hale gelir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Dalgıç Pompalar (Submersible Pumps)</h3>
+        <p>
+          Su kaynağının derin kuyular (keson kuyular veya sondaj delikleri) olduğu durumlarda suyun içine tamamen daldırılarak kullanılan yüksek teknolojili pompalardır. Suyu emmek yerine alttan yukarıya doğru güçlü kademeleri vasıtasıyla iterler. Bu nedenle derinlikle ilgili herhangi bir emme sınırı problemi yoktur; yüzlerce metre derinlikteki yeraltı sularını yukarı kolaylıkla basabilirler. Elektrik motoru suyun içinde çalıştığından kendi kendini mükemmel şekilde soğutur ve gürültüsüz çalışır. İlk yatırım maliyeti yüksek olsa da yüksek verimlilikleri nedeniyle derin kuyularda kesinlikle alternatifsizdirler.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Dikey Milli Derin Kuyu Türbin Pompaları</h3>
+        <p>
+          Genellikle geniş tarım arazilerinde ve çok büyük su debisine ihtiyaç duyulan derin kuyularda tercih edilir. Pompa gövdesi ve kademeleri suyun içindeyken, tahrik motoru (elektrik motoru veya traktör miline bağlı şanzıman) yer üstünde bulunur. Uzun bir dikey mil yardımıyla motorun hareketi yer altındaki pompa çarklarına iletilir. Çok stabil ve uzun ömürlü sistemlerdir ancak kurulumu profesyonel vinç ve ekipler gerektirir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">D) Güneş Enerjili (Solar) Sulama Pompaları</h3>
+        <p>
+          Elektrik şebekesinin bulunmadığı veya jeneratör yakıt maliyetinin bütçeyi zorladığı uzak araziler için son derece popüler bir çözümdür. Doğrudan güneş panellerinden alınan Doğru Akım (DC) enerjisi ile çalışan özel sürücülü dalgıç veya yüzey pompalarıdır. Güneşin dik geldiği saatlerde yüksek devirle su basarlar. Depolama tankları veya havuzlar ile entegre edilerek kesintisiz sulama imkanı sunarlar. İşletme (yakıt/elektrik) maliyeti sıfırdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">E) Motorlu (Dizel/Benzinli) Mobil Pompalar</h3>
+        <p>
+          Taşınabilir olmaları sayesinde tarladan tarlaya, dereden kanala rahatlıkla taşınabilirler. Elektrik şebekesinden bağımsız çalışırlar ve sıvı yakıtla çalışırlar. Acil sulama ihtiyaçları veya şebekesiz geçici alanlar için kullanışlıdırlar ancak yüksek yakıt sarfiyatı ve motor gürültüsü uzun vadede operasyonel yük oluşturur.
+        </p>
+
+        <h2 id="guc-hesabi" className="text-3xl mt-12 mb-6 font-black text-stone-950">2. Sulama Pompası Güç Hesabı Nasıl Yapılır? (Adım Adım Hidrolik Formül)</h2>
+        <p>
+          Pompamızın eksik güçte (HP/kW) seçilmesi tarlanın uç noktalarının susuz kalmasıyla sonuçlanırken; gereğinden çok büyük seçilmesi ise fahiş elektrik faturalarına ve boru patlamalarına yol açar. Bilimsel bir <strong>sulama pompası seçimi</strong> için şu üç temel parametre üzerinden güç hesabı yapılmalıdır:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">1. İhtiyaç Duyulan Debi (Q):</h3>
+        <p>
+          Tarlanızda aynı anda sulayacağınız toplam alanın su talebidir. Örneğin, aynı anda 20 dekar damla sulama yapacaksanız ve dekar başına saatte 3 ton su vermeniz gerekiyorsa, pompanızın saatlik debisi en az 60 metreküp (m³/h) veya saniyede 16.6 litre (L/s) olmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">2. Toplam Dinamik Yükseklik (TDY / Hm):</h3>
+        <p>
+          Pompanın suyun üzerine uygulaması gereken toplam basınç miktarını ifade eder ve metre su sütunu (mSS) veya bar cinsinden ölçülür. Formülü şu şekildedir:
+        </p>
+        <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200 text-center font-mono my-6 text-stone-800 text-base md:text-lg">
+          Hm = Statik Yükseklik + Sürtünme Kayıpları + İşletme Basıncı
+        </div>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>Statik Yükseklik:</strong> Su kaynağının dinamik seviyesi ile tarlanın en yüksek noktası arasındaki dikey kot farkıdır. (Örn: Sondaj kuyusunda dinamik su seviyesi 80m aşağıda ve tarla kotu kuyudan 10m yukarıda ise statik yükseklik = 90 metredir).</li>
+          <li><strong>Sürtünme Kayıpları:</strong> Suyun boruların içinden geçerken boru çeperlerine sürtünerek, dirseklerden, filtrelerden ve vanalardan geçerek kaybettiği basınçtır. Boru çapı daraldıkça sürtünme kaybı feci seviyede artar. Genellikle boru hattının her 100 metresi için 1 ila 3 mSS kayıp kabul edilir.</li>
+          <li><strong>İşletme Basıncı:</strong> Damlatıcıların veya yağmurlama başlıklarının sağlıklı çalışması için uç noktada bulunması gereken asgari basınçtır. Damla sulamada bu genellikle 1.0 - 1.5 bar (10-15 mSS), yağmurlama sulamada ise 3.0 - 4.0 bar (30-40 mSS) civarındadır.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">3. Pompa Gücü (P) Hesaplama Formülü:</h3>
+        <p>
+          Gerekli hidrolik parametreleri belirledikten sonra, pompa motor miline verilmesi gereken mekanik gücü (Beygir Gücü - HP veya Kilovat - kW cinsinden) şu formülle hesaplarız:
+        </p>
+        <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200 text-center font-mono my-6 text-stone-800 text-lg md:text-xl">
+          P (HP) = (Q x Hm) / (270 x η)
+        </div>
+        <p>
+          Burada kullanılan değerler:
+        </p>
+        <ul className="list-disc pl-8 space-y-2">
+          <li><strong>Q:</strong> Saniyede litre cinsinden debi (L/s)</li>
+          <li><strong>Hm:</strong> Metre su sütunu cinsinden toplam dinamik yükseklik (mSS)</li>
+          <li><strong>216 veya 270 sabit katsayıları:</strong> Metrik birim dönüştürme katsayılarıdır (270 katsayısı HP gücü verir).</li>
+          <li><strong>η (Eta):</strong> Pompa ve motorun toplam mekanik verimliliğidir. Genellikle dalgıç pompalarda bu oran 0.60 - 0.75 (yüzde 60-75) aralığındadır.</li>
+        </ul>
+        <p className="mt-4 font-bold text-stone-800">
+          Örnek Hesaplama: Saniyede 15 L/s su basan, Hm değeri toplam 90 mSS olan ve toplam verimliliği η = 0.65 olan bir sistem için güç ihtiyacı:
+        </p>
+        <div className="bg-stone-50 p-4 rounded-xl border border-stone-100 text-center font-mono my-4 text-stone-700 font-bold">
+          P (HP) = (15 x 90) / (270 x 0.65) = 1350 / 175.5 = ~7.69 HP (Kullanılması gereken standart motor: 10 HP veya ~7.5 kW)
+        </div>
+
+        <h2 id="enerji-tasarrufu" className="text-3xl mt-12 mb-6 font-black text-stone-950">3. Sulama Sistemlerinde Enerji Tasarrufu Sağlayan Altın İpuçları</h2>
+        <p>
+          Elektrik panonuzun başındaki sayaç her döndüğünde cebinizden para çıkmaktadır. Pompa sistemini akıllıca yapılandırarak <strong>enerji tasarrufu</strong> elde etmek tamamen mümkündür:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Değişken Frekanslı Sürücü (VFD/Frekans Konvertörü) Kullanımı:</strong> Sabit devirli pompalar her zaman maksimum hızda döner. Eğer tarlanın sadece yarısını suluyorsanız vana ile suyu kısarsınız; bu durum motora aşırı yük bindirir ve enerjiyi boşa harcar. VFD sürücüleri, ihtiyaç duyulan basınca göre motorun devrini otomatik yavaşlatır/hızlandırır. Bu sayede enerji maliyetlerinde %30 ila %50'ye varan devasa tasarruflar sağlanır. Ayrıca motorun yumuşak kalkış yapmasını sağlayarak tesisatın ömrünü uzatır.</li>
+          <li><strong>Boru Hatlarında Optimum Çap Seçimi:</strong> Sadece boru hatlarının maliyetinden kısmak için dar çaplı boru döşemek, pompaya yapılacak en büyük kötülüktür. Su dar borudan geçerken aşırı sürtünmeye maruz kalır ve pompa bu gereksiz direnci yenmek için fazladan HP tüketir. Çapı ziraat mühendisi kontrolünde bir boy geniş tutmak sürtünme kaybını yarı yarıya düşürerek daha küçük güçte bir motorla aynı suyu basabilmenizi sağlar.</li>
+          <li><strong>Filtre Gruplarının Temizliği:</strong> Kum, kil ve yosun biriken hidrosiklon ve disk filtreler tıkanarak sistemde yapay direnç noktaları oluşturur. Filtrenin girişi ile çıkışı arasındaki basınç farkı (Delta P) 0.5 barı aştığında filtreler derhal temizlenmelidir. Tıkalı filtreyle çalışmak elektrik sayacını boşuna hızlandırmak demektir.</li>
+          <li><strong>Doğru Pompa Karakteristik Eğrisi (Duty Point):</strong> Her pompanın en yüksek verimle çalıştığı bir çalışma bölgesi vardır. Pompa seçerken, tarlanızın Hm ve Q değerlerinin kesiştiği noktanın pompanın verim eğrisinin tam ortasına (BEP - Best Efficiency Point) gelmesine özen gösterin. Uç sınırlarda çalışan bir pompa çok fazla güç çekerken az su basacaktır.</li>
+        </ul>
+
+        <h2 id="maliyet-analizi" className="text-3xl mt-12 mb-6 font-black text-stone-950">4. Sulama Pompası Yatırımlarında Kapsamlı Maliyet Analizi</h2>
+        <p>
+          Doğru bir <strong>sulama pompası seçimi</strong> yaparken en büyük hatalardan biri sadece ilk satın alma (ekipman) fiyatına bakmaktır. Oysa bir pompanın 10 yıllık ömür döngüsü incelendiğinde, hidrolik mühendisliği analizleri şu gerçeği ortaya koymaktadır:
+        </p>
+        <p className="font-bold text-stone-800">
+          Bir Pompa Ömür Döngüsü Maliyet Dağılımı:
+        </p>
+        <ul className="list-disc pl-8 space-y-2">
+          <li><strong>%10 :</strong> İlk Satın Alma ve Kurulum Maliyeti (CapEx)</li>
+          <li><strong>%5 :</strong> Bakım, Onarım ve Yedek Parça Maliyeti</li>
+          <li><strong>%85 :</strong> Tüketilen Enerji/Elektrik/Yakıt Maliyeti (OpEx)</li>
+        </ul>
+        <p>
+          Yani, ucuz ama verimsiz bir pompa satın alarak başlangıçta yapacağınız %10'luk tasarruf, sadece ilk sezonun sonunda fahiş elektrik faturalarıyla tamamen eriyip gidecektir. Kaliteli, yüksek motor verimliliğine (IE3 ve üzeri standartlar) sahip bir marka seçmek, kendini çok kısa sürede amorti eder.
+        </p>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm font-sans">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)] font-sans">Sistem Amortisman ve Geri Dönüş Örneği (Solar vs. Şebeke)</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Konya Havzası'nda 15 HP gücünde şebeke elektriğiyle günde 8 saat çalışan bir dalgıç pompa, özellikle yaz aylarında aylık ortalama 35.000 TL elektrik faturası üretebilmektedir. Bu sistemin yerine kurulacak 11 kW gücündeki güneş enerjili (Off-Grid Solar DC) sulama sistemi ilk yatırımda yüksek panel maliyeti getirse de, elektrik aboneliği gerektirmeden günde 7-8 saat sıfır yakıt maliyetiyle çalışır. Yaklaşık 2 ila 3 sulama sezonu içerisinde solar sulama sistemi kendini tamamen amorti eder ve kalan yıllarda tarlanızı bedavaya sulamanızı sağlar.
+          </p>
+        </div>
+
+        <h2 id="pompa-karsilastirma-tablosu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">5. Sulama Pompaları Karşılaştırma ve Seçim Tablosu</h2>
+        <p>
+          Farklı tarımsal ihtiyaçlara ve su kaynaklarına göre en ideal pompa tiplerinin hızlı değerlendirme matrisi:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Pompa Sınıfı</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Maksimum Derinlik Sınırı</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Debi Kapasitesi (Verim)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Enerji Kaynağı Esnekliği</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">İdeal Kullanım Alanı</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Santrifüj (Yüzey)</td>
+                <td className="px-6 py-4">Maksimum 7 - 8 Metre</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">Orta - Yüksek</td>
+                <td className="px-6 py-4">Elektrik / Dizel / Traktör Mili</td>
+                <td className="px-6 py-4">Dereden, kanaldan veya sığ keson kuyulardan yakın mesafeli tarla sulaması.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Dalgıç (Deep Well)</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Sınır Yok (300+ Metre)</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Yüksek - Çok Yüksek</td>
+                <td className="px-6 py-4">Elektrik Şebekesi / Jeneratör</td>
+                <td className="px-6 py-4">Sondaj delikleri, derin yeraltı su kaynakları ve her türlü eğimli arazi.</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Solar DC Pompa</td>
+                <td className="px-6 py-4">Maksimum 150 Metre</td>
+                <td className="px-6 py-4 text-green-700">Düşük - Orta (Güneşe bağlı)</td>
+                <td className="px-6 py-4 text-green-700 font-bold">Sadece Güneş Enerjisi (Sıfır Fatura)</td>
+                <td className="px-6 py-4">Elektrik hattı çekilemeyen uzak araziler, hobi bahçeleri ve mikro damlama.</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Dikey Milli Türbin</td>
+                <td className="px-6 py-4">Maksimum 100 Metre</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">Çok Yüksek Debiler</td>
+                <td className="px-6 py-4">Traktör Şaftı / Dizel / Elektrik</td>
+                <td className="px-6 py-4">Geniş ova arazilerinde kooparitif sulamaları veya yoğun yağmurlama pamuk/mısır.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)] font-sans">
+          <h4 className="text-2xl font-black mb-4 text-white font-sans">Tarlanıza En Uygun Pompa Gücünü ve Boru Çapını Hesaplayın!</h4>
+          <p className="font-bold text-white/90">
+            Tarlanızın boyutunu, su kaynağınızın derinliğini ve sulama yönteminizi seçerek, ihtiyacınız olan pompanın asgari gücünü (HP cinsinden) ve sürtünme kaybını en aza indirecek ideal boru çapını saniyeler içinde öğrenmek ister misiniz? Hemen ana sayfamıza gidin, tamamen ücretsiz kullanabileceğiniz <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> çalıştırın; paranızı ve enerjinizi boşa harcamadan bilimle üretin!
+          </p>
+        </div>
+
+        <h2 id="sonuc" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">6. Sonuç ve Güvenli Tercihler İçin Son Öneri</h2>
+        <p>
+          Tarımsal sulamada pompa, tüm sistemin kalbidir. Yanlış tasarlanmış bir kalp, tüm vücudun yorulmasına ve erken yıpranmasına yol açar. Kusursuz bir <strong>sulama pompası seçimi</strong> yapmak; tarlanızın fiziksel ölçümlerini doğru yapmaktan, hidrolik dinamiklere sadık kalarak güç hesabı çıkarmaktan ve özellikle enerji tasarrufunu en üst düzeyde sağlayan ekipmanlara yönelmekten geçer. Pompa tedarikçinizle görüşmeden önce debinizi ve kot farkınızı mutlaka netleştirin, boru çapınızı geniş tutun ve uzun vadeli kâr için verimlilik sınıfı yüksek pompalara yatırım yapın. Bereketli, az maliyetli ve bol kazançlı hasat dönemleri dileriz!
+        </p>
+      </div>
+    )
   }
 };
 

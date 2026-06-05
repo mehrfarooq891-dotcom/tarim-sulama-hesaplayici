@@ -213,6 +213,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Bölgesel Sulama",
     image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 22,
+    title: "Sulama Pompası Seçimi Nasıl Yapılır?",
+    slug: "sulama-pompasi-secimi-nasil-yapilir",
+    excerpt: "Tarımsal sulamada elektrik ve yakıt maliyetlerini en aza indirgeyecek doğru pompa türünün seçimi, güç hesabı formülleri, enerji tasarrufu yöntemleri ve maliyet analizi...",
+    date: "5 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sulama Teknolojileri",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
