@@ -223,6 +223,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sulama Teknolojileri",
     image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 23,
+    title: "Fertigasyon Nedir? Gübre ve Suyu Birlikte Vermek",
+    slug: "fertigasyon-nedir",
+    excerpt: "Modern tarımın en etkili su ve gübre tasarrufu yöntemi olan fertigasyonun ne olduğunu, temel avantajlarını, hangi bitkilere uygun olduğunu ve detaylı maliyet analizlerini inceleyin...",
+    date: "6 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sulama Teknolojileri",
+    image: "https://images.unsplash.com/photo-1628157582853-a796fa650a6a?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
