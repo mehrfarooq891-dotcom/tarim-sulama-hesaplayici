@@ -3595,6 +3595,167 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "sabah-mi-aksam-mi-sulama-yapilmali-dogru-zaman-rehberi": {
+    title: "Sabah mı Akşam mı Sulama Yapılmalı? Bitki Fizyolojisi ve Su Tasarrufu Odaklı Doğru Zaman Rehberi",
+    date: "7 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "45 dk okuma",
+    image: "https://images.unsplash.com/photo-1463123081488-729f60c3c527?auto=format&fit=crop&w=2560&q=100",
+    category: "Sulama Teknolojileri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Bir bitkinin suya olan ihtiyacı, sadece toprakta nem bulunmasıyla sınırlı değildir. Tarımsal üretimde suyun ne kadar etkin kullanılacağını, bitkinin bu sudan ne derece faydalanacağını ve en önemlisi ödediğiniz elektrik veya yakıt faturalarının ne kadarının buharlaşarak havaya karışacağını belirleyen hayati bir soru vardır: <strong>"Sulama zamanı sabah akşam karşılaştırmasında hangisini seçmeliyiz?"</strong> Pek çok çiftçi ve bahçe sahibi için sulama saati, günlük kişisel iş takvimine göre belirlenen sıradan bir rutin gibi görünse de; modern tarım bilimi ve bitki fizyolojisi açısından bu seçim, rekoltenin kalitesine tüy gibi hafif ama balyoz gibi ağır etkiler yapar. Bu kapsamlı rehberimizde; suyun bitkiyle buluşma saatinin hidrolik ve biyolojik temellerini inceleyecek, bitki türlerine ve mevsimlere göre en doğru sulama takvimini oluşturmanın formüllerini ele alacağız.
+        </p>
+
+        <h2 id="bilimsel-aciklama" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">1. Sulama Zamanının Arkasındaki Bilimsel Gerçekler: Bitki Fizyolojisi</h2>
+        <p>
+          Doğru sulama zamanlamasını anlamak için öncelikle doğanın ve bitkilerin gündelik biyolojik döngüsünü (sirkadiyen ritimlerini) anlamamız gerekir. Bir bitki, topraktaki suyu kökleri vasıtasıyla alır ve yapraklarındaki küçük gözenekler olan stomalar (gözenekler) üzerinden buharlaştırarak atmosfere geri verir. Bu işleme <strong>transpirasyon (terleme)</strong> adı verilir. Terleme, bitkinin kendi gövde sıcaklığını soğutmasını sağlarken aynı zamanda toprak altındaki besin elementlerinin yukarıya doğru taşınmasını sağlayan bir hidrolik asansör görevi üstlenir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Neden Öğle Sıcağında Sulama Yapılmaz?</h3>
+        <p>
+          Öğle saatleri (11:00 - 15:00 arası), güneş ışınlarının en dik açıyla geldiği, hava sıcaklığının tavan yaptığı ve nemin en düşük olduğu zaman dilimidir. Bu saatte yapılan sulamada şu üç olumsuz durum yaşanır:
+        </p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>Yüksek Buharlaşma Kaybı:</strong> Borudan veya fıskiyeden çıkan su damlaları henüz toprağa süzülmeden güneşin ve sıcak havanın etkisiyle buharlaşarak kaybolur. Sulama suyunuzun %30 ila %50'si bitkinin köküne dahi değmeden gökyüzüne karışır. Bu, fahiş bir kaynak ve para israfıdır.</li>
+          <li><strong>Termal Şok:</strong> Yoğun sıcaklık altındaki bitki dokuları ve kök bölgesi, aniden verilen soğuk kuyu suyu ile temas ettiğinde fizyolojik bir felç yaşar. Kılcal kökler büzüşür, su alımı durur ve bitki su içinde olmasına rağmen solma belirtileri gösterebilir.</li>
+          <li><strong>Yaprak Yanması (Mercek Etkisi):</strong> Özellikle yağmurlama sulamalarda yaprak üzerinde kalan su damlacıkları, dik gelen güneş ışınlarını bir mercek gibi odaklayarak dokuların lokal olarak yanmasına ve sarı beneklerin oluşmasına neden olur. Bu yanık alanlar patojen mantarlar için açık bir davetiyedir.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Gece Sulamasının Gizli Tehlikesi: Nem ve Mantar Hastalıkları</h3>
+        <p>
+          "Sıcakta sulamamak gerekiyorsa o halde gece yarısı sulayalım" düşüncesi ilk bakışta mantıklı gelse de, bitki sağlığı açısından çok ciddi riskler barındırır. Geceleri hava sıcaklığı düşer, rüzgar azalır ve bağıl nem yükselir. Bu ortamda yapraklar ve gövde üzerinde biriken su damlaları saatlerce kurumadan kalır. 
+        </p>
+        <p>
+          <strong>Külleme, mildiyö, kök çürüklüğü (Phytophthora)</strong> ve çeşitli pas mantarları gibi en tahrip edici bitki hastalıkları, sporlarının çimlenebilmesi için yaprak yüzeyinde kesintisiz 4-6 saatlik bir ıslaklık süresine ihtiyaç duyar. Gece geç saatlerde yapılan sulamalar, bu zararlı mantarlara üremeleri için altın tepside sunulmuş kusursuz bir kuluçka ortamı hazırlar. Ayrıca toprak sürekli çamur kıvamında kalacağı için kökler oksijensiz kalarak çürümeye başlar.
+        </p>
+
+        <h2 id="sabah-sulamasinin-ustunlugu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">2. Sabah Sulamasının Mutlak Üstünlüğü</h2>
+        <p>
+          Tüm bu hidrolik ve biyolojik dengeler alt alta konulduğunda, tarım otoritelerinin ve ziraat mühendislerinin ortak kararı nettir: <strong>En ideal sulama zamanı sabahın erken saatleridir (05:00 - 09:00 arası).</strong> Peki sabah sulamasının faydaları nelerdir?
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Maksimum Su Verimliliği:</strong> Sabahın erken saatlerinde güneş henüz yükselmediği için rüzgar sakin, toprak ve hava serindir. Buharlaşma minimum düzeydedir. Suyun neredeyse %95'i toprağa süzülerek doğrudan kök bölgesine ulaşır.</li>
+          <li><strong>Mantardan Korunma:</strong> Sabah sulaması esnasında yapraklar ıslansa dahi, sulama bitip güneş yükselmeye başladığında esen hafif sabah rüzgarıyla yapraklar birkaç saat içinde kurur. Yaprak yüzeyi kuru kaldığı için mantar sporları çimlenecek ortam bulamaz.</li>
+          <li><strong>Bitkinin Güne Hazır Olması:</strong> Bitkiler fotosentez mekanizmalarını gün ışığıyla aktif hale getirirler. Sabah taze suyla doymuş olan hücreler (turgor basıncı), günün en sıcak saatlerinde güneş stresine karşı maksimum mukavemet gösterir. Bitki güne zinde ve su stresine girmeden girer.</li>
+        </ul>
+
+        <h2 id="aksam-sulamasi" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">3. Akşam Sulaması Hangi Durumlarda Tercih Edilebilir?</h2>
+        <p>
+          Her ne kadar sabah sulaması ideal olsa da, bazı özel durumlarda ve belirli tekniklerle akşam sulamaları da (güneş batımına yakın saatlerde, 17:00 - 20:00 arası) tercih edilebilir.
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Damlama Sulama Altyapısı:</strong> Damla sulama yapıyorsanız su doğrudan toprak altına, kök bölgesine verilir. Dolayısıyla yapraklar ıslanmaz. Yaprak ıslanmadığı için akşam yapılan damlama sulamalarda mantar hastalığı riski çok düşüktür. Eğer damlama sisteminiz varsa akşam-gece sulaması su tasarrufu açısından harika çalışır.</li>
+          <li><strong>Aşırı Kurak ve Rüzgarlı Bölgeler:</strong> Güneydoğu Anadolu veya İç Anadolu gibi yazın rüzgarın ve buharlaşmanın aşırı yüksek olduğu bölgelerde, sabah yapılan sulamada bile kayıplar yüksek olabilir. Bu durumlarda, güneşin battığı ve toprağın hafifçe soğuduğu akşam saatlerinde sulama yapmak suyun gece boyunca yavaş yavaş toprağa süzülmesini sağlar.</li>
+        </ul>
+
+        <h2 id="bitki-turlerine-gore" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">4. Bitki Türlerine Göre Sulama Zamanı Tavsiyeleri</h2>
+        <p>
+          Her bitkinin yaprak yapısı, kök derinliği ve hastalıklara olan duyarlılığı farklıdır. Bu nedenle <strong>sulama zamanı sabah akşam</strong> tercihini yaparken bitki ailelerini ayrı ayrı ele almak gerekir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Sebzeler (Domates, Biber, Patlıcan, Hıyar, Kabak)</h3>
+        <p>
+          Sebzeler fungal (mantari) hastalıklara en hassas bitki grubudur. Hıyar ve kabak yapraklarındaki tüyler nemi uzun süre tutar ve külleme hastalığına çok çabuk yakalanır. Domates ise yaprak ıslaklığı durumunda Erken Yaprak Yanıklığı (Alternaria) riskiyle karşı karşıya kalır. 
+          <br />
+          <strong className="text-stone-800">Tavsiye:</strong> Sebze ekili alanları kesinlikle <strong>sabah erken saatlerde</strong> sulamalısınız. Damlama borusu kullanılsa dahi sabah sulaması nem dengesini en iyi koruyan yöntemdir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Çim ve Peyzaj Alanları</h3>
+        <p>
+          Çim alanlar sıkı bir bitki örtüsü (halı) oluşturduğu için hava sirkülasyonu çok zayıftır. Akşam yapılan çim sulamaları gece boyunca çimlerin ıslak kalmasına neden olur ve ertesi gün "Sarımsı Kahverengi Yama (Brown Patch)" denilen çim çürümelerine zemin hazırlar.
+          <br />
+          <strong className="text-stone-800">Tavsiye:</strong> Çim fıskiyelerini mutlaka sabah güneş doğmadan, saat 05:00 ile 08:00 arasına ayarlayın. Gece çim sulamaktan kesinlikle kaçının.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Meyve Ağaçları ve Zeytinlikler</h3>
+        <p>
+          Meyve ağaçlarının kökleri çok derinlerdedir. Yaprakları genellikle havayla temas ettiği için daha hızlı kurur. Ağaçlar su kaybına sebzelere oranla daha dayanıklıdır.
+          <br />
+          <strong className="text-stone-800">Tavsiye:</strong> Meyve bahçelerinde damlama veya mini yağmurlama sistemleri kullanılıyorsa, hem <strong>sabah erken</strong> hem de <strong>akşam üzeri esintisinde</strong> sulama yapılabilir. Gün ortasında sulamaktan ise ağaç köklerinin şoka girmemesi adına mutlak suretle kaçınılmalıdır.
+        </p>
+
+        <h2 id="mevsim" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">5. Mevsimsel Sulama Zamanı Ayarlamaları</h2>
+        <p>
+          Yıl içerisindeki sıcaklık dalgalanmaları, sulama saatinizi doğrudan kaydırmanızı gerektirir. <strong>Mevsim</strong> dinamiklerine göre takviminizi şu şekilde güncelleyin:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>İlkbahar Dönemi:</strong> İlkbaharda geceler ve sabahın ilk saatleri oldukça soğuk olur. Eğer saat 05:00'te sulama yaparsanız, suun aşırı soğuk olması kökleri dondurabilir. Bu nedenle ilkbaharda sulama saatini hafifçe ileri kaydırarak <strong>09:00 - 11:00</strong> arasına almanız bitki gelişimi için daha faydalıdır.</li>
+          <li><strong>Yaz Dönemi (Kritik Dönem):</strong> Temmuz ve Ağustos aylarında buharlaşma zirve yapar. Bu aylarda sabah sulamalarını olabildiğince erken başlatmalısınız <strong>(04:00 - 07:00 arası)</strong>. Eğer bu saatlerde sulama imkanınız yoksa, rüzgarsız akşam saatlerinde damla sulama formülü devreye sokulabilir.</li>
+          <li><strong>Sonbahar Dönemi:</strong> Havaların soğumasıyla birlikte bitkinin su talebi azalır, buharlaşma hızı düşer. Sonbaharda sulamalar azaltılmalı ve sadece <strong>sabah geç saatlerde</strong> yapılarak toprağın aşırı çamurlaşması engellenmelidir.</li>
+        </ul>
+
+        <h2 id="karsilastirma-tablosu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">6. Günün Farklı Saatlerinde Sulama Karşılaştırma Matrisi</h2>
+        <p>
+          Uygulama saatine göre sulama verimliğini, su kaybını ve hastalık risk faktörlerini içeren teknik değerlendirme tablosu:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Sulama Saati</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Buharlaşma Kaybı</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Hastalık (Mantar) Riski</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Rüzgar Etkisi (Sürüklenme)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Fizyolojik Skor</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr className="bg-green-50/40">
+                <td className="px-6 py-4 font-bold text-stone-900">Sabah Erken (05:00 - 09:00)</td>
+                <td className="px-6 py-4 text-green-700 font-bold">Çok Düşük (%5)</td>
+                <td className="px-6 py-4 text-green-700 font-bold">Minimum (Yapraklar hızla kurur)</td>
+                <td className="px-6 py-4">Çok Düşük (Sabah meltemi hafiftir)</td>
+                <td className="px-6 py-4 font-bold text-green-800">10 / 10 (Mükemmel)</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Öğle / Gün Ortası (11:00 - 15:00)</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Aşırı Yüksek (%40+)</td>
+                <td className="px-6 py-4">Düşük (Su anında kurur ama yaprak yanar)</td>
+                <td className="px-6 py-4 text-red-600">Yüksek (Hava sirkülasyonu fazladır)</td>
+                <td className="px-6 py-4 font-bold text-red-700">2 / 10 (Zararlı & İsraf)</td>
+              </tr>
+              <tr className="bg-blue-50/20">
+                <td className="px-6 py-4 font-bold text-stone-900">Akşam Üzeri (17:00 - 20:00)</td>
+                <td className="px-6 py-4 text-blue-600">Düşük (%10 - %15)</td>
+                <td className="px-6 py-4 text-yellow-600">Orta (Damlama için ideal, yağmurlama için riskli)</td>
+                <td className="px-6 py-4">Orta (Gün batımı rüzgarları olabilir)</td>
+                <td className="px-6 py-4 font-bold text-blue-800">8 / 10 (İyi - Damlama Entegre)</td>
+              </tr>
+              <tr className="bg-stone-50/50 border-b">
+                <td className="px-6 py-4 font-bold text-stone-900">Gece Yarısı (22:00 - 04:00)</td>
+                <td className="px-6 py-4 text-green-750 font-bold">En Minimum (%2)</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Çok Yüksek (Yapraklar bütün gece ıslak kalır)</td>
+                <td className="px-6 py-4">Düşük (Sakin hava)</td>
+                <td className="px-6 py-4 font-bold text-stone-600">5 / 10 (Sadece Damlama İse Olabilir)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm font-sans">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)] font-sans">Ziraat Mühendisi Ahmet Kaya'dan Pratik Sıra Tüyosu</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Sevgili üreticilerimiz; bir tarlada toprağın sulama zamanının gelip gelmediğini anlamak için en basit gözlem "30 cm kuralı" dır. Bitkinin kök bölgesine yakın bir yerden toprağı yaklaşık 30 cm derinliğe kadar kazın. Buradan alacağınız bir avuç toprağı elinizde sıkın. Eğer toprak dağılmayıp köfte gibi kalıp halinde kalıyorsa henüz nem yeterlidir, sulamayı erteleyin. Eğer elinizi açtığınızda toprak hemen un ufak dağılıyor ve elinizde nem hissi bırakmıyorsa, ertesi sabah güneş doğmadan önce sulama vananızı açmanın vakti gelmiş demektir.
+          </p>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)] font-sans">
+          <h4 className="text-2xl font-black mb-4 text-white font-sans">Tarlanızın ve Bitkilerinizin İdeal Sulama Zamanını ve Su Miktarını Hesaplayın!</h4>
+          <p className="font-bold text-white/90">
+            Yetiştirdiğiniz ürünün türünü, tarlanızın bulunduğu konumu ve günün sıcaklık değerlerini girerek, bitkilerinizin haftalık kaç saat sulamaya ihtiyaç duyduğunu ve en düşük buharlaşmayla çalışacak ideal vana saatlerini saniyeler içinde öğrenmek ister misiniz? Hemen ana sayfamıza gidin, tamamen ücretsiz kullanabileceğiniz <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> çalıştırın; suyunuzun her damlasını kâra dönüştürün!
+          </p>
+        </div>
+
+        <h2 id="sonuc" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">7. Sonuç: Doğru Zaman, Bereketli Sonuçlar</h2>
+        <p>
+          Tarımda başarı, sadece girdileri (su, gübre, tohum) tarlaya atmakla değil; bunları en uygun zamanda, en verimli şekilde bitkiyle buluşturmakla ölçülür. <strong>Sulama zamanı sabah akşam</strong> kıyaslamasında, bitkinin fizyolojik direnci, yaprak kuruma hızı ve su tasarrufu parametrelerinin hepsi bizi sabahın serin saatlerine yönlendirmektedir. Erken kalkıp tarlasını güneş doğmadan sulayan çiftçilerimiz hem su kaynaklarını ve elektrik enerjilerini fuzuli kayıplardan korur, hem de mantar hastalıklarının önüne geçerek yüksek rekolteli ürünler elde eder. Unutmayın; doğa bir saat gibi çalışır ve bu saatin kurallarına uymak, üretiminize kazandıracağınız en büyük berekettir. Suyumuz bol, hasadımız hayırlı olsun!
+        </p>
+      </div>
+    )
   }
 };
 

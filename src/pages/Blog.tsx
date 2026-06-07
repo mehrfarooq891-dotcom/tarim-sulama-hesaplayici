@@ -233,6 +233,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sulama Teknolojileri",
     image: "https://images.unsplash.com/photo-1628157582853-a796fa650a6a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 24,
+    title: "Sabah mı Akşam mı Sulama Yapılmalı? Doğru Zaman Rehberi",
+    slug: "sabah-mi-aksam-mi-sulama-yapilmali-dogru-zaman-rehberi",
+    excerpt: "Tarımsal sulamada bitkilerin günün hangi saatinde sulanması gerektiğinin arkasındaki bilimsel gerçekler, su tasarrufu, bitki hastalıklarının engellenmesi, mevsimsel ve türel analizler...",
+    date: "7 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sulama Teknolojileri",
+    image: "https://images.unsplash.com/photo-1463123081488-729f60c3c527?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
