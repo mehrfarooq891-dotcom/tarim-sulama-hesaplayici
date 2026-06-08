@@ -3756,6 +3756,188 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "1-donum-tarla-icin-ne-kadar-su-gerekir-hesaplama-rehberi": {
+    title: "1 Dönüm Tarla İçin Ne Kadar Su Gerekir? Bilimsel Sulama Suyu Hesaplama Rehberi",
+    date: "8 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "40 dk okuma",
+    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=2560&q=100",
+    category: "Sulama Teknolojileri",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium select-none">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Tarım sektöründe sürdürülebilirliğin, maliyet yönetiminin ve yüksek verimin en kritik sac ayağı kuşkusuz su yönetimidir. Geleneksel tarımsal alışkanlıklarla "göz kararı" veya "su çıkana kadar" yapılan kontrolsüz sulamalar, hem kıymetli yeraltı su kaynaklarımızın hızla tükenmesine hem de fahiş enerji faturalarıyla çiftçinin belinin bükülmesine yol açmaktadır. Tarımsal faaliyete başlamadan önce her üreticinin kendine sorması gereken ilk ve en stratejik soru şudur: <strong>"1 dönüm tarla için ne kadar su gerekir?"</strong> Bu sorunun yanıtı; toprağınızın yapısından bölgenizin iklim verilerine, yetiştirdiğiniz bitki türünün fizyolojisinden kullandığınız sulama sisteminin mühendislik başarısına kadar pek çok parametreye sıkı sıkıya bağlıdır. Bu rehberimizde, ziraat mühendisliği prensipleri çerçevesinde ideal <strong>dönüm sulama suyu</strong> miktarını nasıl hesaplayacağınızı, bitki gruplarına göre su ihtiyaçlarını ve tarlanıza özel net tüketim formüllerini ele alacağız.
+        </p>
+
+        <h2 id="su-ihtiyacini-belirleyen-faktorler" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">1. Dönüm Sulama Suyu İhtiyacını Belirleyen Temel Hidrolik ve Tarımsal Faktörler</h2>
+        <p>
+          Tarımsal sulamada standart, her yere uygulanabilecek tek bir sihirli rakam yoktur. 1 dönüm (1.000 metrekare) arazinin su ihtiyacını belirlerken ziraat mühendisleri şu 4 temel değişkeni analiz eder:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Transpirasyon ve Evapotranspirasyon (ET) Değerleri</h3>
+        <p>
+          Bitkiler yapraklarındaki gözeneklerden terleme (transpirasyon) yoluyla su kaybederken, toprak yüzeyi de güneşin etkisiyle buharlaşma (evaporasyon) yaşar. Tarım biliminde bu iki kaybın toplamına <strong>evapotranspirasyon (ET)</strong> denir ve genellikle milimetre/gün (mm/gün) cinsinden ifade edilir. Örneğin, İç Anadolu Bölgesi'nde temmuz ayında günlük evapotranspirasyon değeri ortalama 6-8 mm civarındadır. Bu şu anlama gelir: 1 metrekare alandan günde 6 ila 8 litre su buharlaşarak kaybolmaktadır. Dönüm bazında hesaplarsak (1.000 m²), sadece güneş ve bitki terlemesi sebebiyle günde 6.000 ila 8.000 litre (6 - 8 ton) suyun eksildiğini görürüz.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Toprak Yapısı ve Su Tutma Kapasitesi</h3>
+        <p>
+          Toprağınızın fiziksel bileşimi, sulama sıklığını ve tek seferde verilecek su miktarını doğrudan belirler:
+        </p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>Kumlu Topraklar (Hafif Topraklar):</strong> Su tutma kapasiteleri çok düşüktür. Su hızla alt katmanlara süzülür. Bu topraklarda az miktarda ama sık sık sulama yapmak zorunludur. Aksi halde verilen su kök derinliğini aşarak israf olur.</li>
+          <li><strong>Tınlı Topraklar (Orta Topraklar):</strong> Tarım için en ideal topraklardır. Suyu ve besin elementlerini dengeli tutarlar.</li>
+          <li><strong>Killi Topraklar (Ağır Topraklar):</strong> Su tutma kapasiteleri son derece yüksektir ancak suyu çok yavaş sızdırırlar. Tek seferde çok fazla su verilirse göllenme ve kök çürüklüğü oluşur. Bu topraklarda uzun aralıklarla ama derinlemesine sulama tercih edilmelidir.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Sulama Yönteminin Etkinliği</h3>
+        <p>
+          Suyun kaynaktan alınıp tarlaya veriliş yöntemi, suyun ne kadarının gerçekten bitkiye ulaştığını belirler:
+        </p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>Salma (Vahşi) Sulama:</strong> Su tasarrufunda en kötü yöntemdir. Verim oranı %40-50 civarındadır. Yani verdiğiniz her 10 ton suyun 5 tonu bitkiye ulaşmadan buharlaşır veya tarladan akar gider.</li>
+          <li><strong>Yağmurlama Sulama:</strong> Verim oranı %70-80 arasındadır. Rüzgarlı havalarda sürüklenme ve yapraktan buharlaşma kayıpları yüksektir.</li>
+          <li><strong>Damla Sulama:</strong> Verim oranı %90-95 ile zirvededir. Suyu doğrudan bitki köküne, buharlaşmaya izin vermeden saniyede mililitre bazında damlattığı için en az su tüketen sistemdir.</li>
+        </ul>
+
+        <h2 id="bitki-turune-gore-su-hesabi" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">2. Bitki Türlerine Göre 1 Dönüm Tarla Su İhtiyacı</h2>
+        <p>
+          Farklı bitkilerin yaprak alanları, kök derinlikleri ve büyüme hızları gereği su tüketimleri dramatik değişiklikler gösterir. İşte popüler bitki grupları için dönüm başına ortalama mevsimlik su tüketimleri:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Sebze Tarımında Dönüm Sulama Suyu (Domates, Biber, Patlıcan)</h3>
+        <p>
+          Sebzeler genellikle sığ köklü ve yüksek su içeriğine sahip yıllık bitkilerdir. Aktif vejetasyon (gelişim) döneminde sürekli neme ihtiyaç duyarlar. Damla sulama yöntemiyle yetiştirilen 1 dönüm sebze tarlası için yaz aylarında günlük ortalama 3 ton ila 5 ton (3.000 - 5.000 litre) arasında su gerekir. Tüm sezon boyunca (yaklaşık 120-150 gün) 1 dönüm sebzenin tükettiği toplam net su miktarı yetiştirilen bölgeye göre 450 ila 600 ton (m³) arasındadır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Çok Yıllık Meyve Bahçelerinde Dönüm Sulama Suyu</h3>
+        <p>
+          Meyve ağaçlarının (elma, şeftali, kiraz, narenciye, zeytin) kökleri derin killi-tınlı tabakalara kadar uzandığı için toprağın derinliklerindeki rezerv suları da kullanabilirler. Ağaçların dikim aralığı (taç hacmi) su miktarını etkiler. Tam verim çağındaki 1 dönüm modern meyve bahçesi (örneğin sık dikim elma veya şeftali) yazın günde dönüm başına 2.5 ton ila 4 ton su tüketir. Sezonluk bazda ise dönüm başına toplam su tüketimi 350 ila 500 ton aralığındadır. Zeytin ağacı gibi kuraklığa dayanıklı türlerde bu oran çok daha düşüktür (sezonluk 150-200 ton).
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Yonca ve Yem Bitkilerinde Dönüm Sulama Suyu</h3>
+        <p>
+          Yonca, tarımda su tüketimi en yüksek olan bitkilerin başında gelir. Derin kazık kök yapısı ve yılda 4 ila 6 kez biçilmesi nedeniyle sürekli yeşil aksam sentezler. Yağmurlama yöntemiyle sulanan 1 dönüm yonca tarlası, kavurucu yaz günlerinde günde 8 ton ila 10 ton (8.000 - 10.000 litre) suya ihtiyaç duyabilir. Yoncanın sezonluk dönüm sulama suyu tüketimi 800 tondan başlayıp iklime göre 1.200 tona kadar ulaşabilmektedir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">D) Tarla Bitkileri (Mısır, Patates, Şeker Pancarı)</h3>
+        <p>
+          Silajlık veya danelik mısır, şeker pancarı ve patates de yüksek suya ihtiyaç duyan endüstri bitkileridir. Özellikle mısırın koçan çıkarma ve tozlaşma döneminde günlük su tüketimi tavan yapar. 1 dönüm mısır tarlası temmuz-ağustos aylarında günde ortalama 6 ila 8 ton su tüketir. Sezon boyunca 1 dönüm mısır için sulama suyu ihtiyacı yaklaşık 500-700 ton aralığındadır.
+        </p>
+
+        <h2 id="pratik-hesap-ornekleri" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">3. Bilimsel Formül ile Pratik Sulama Suyu Hesaplama Örnekleri</h2>
+        <p>
+          Bir ziraat mühendisi gibi tarlanız için kesin hesaplama yapmak istiyorsanız kullanacağınız temel formül şu şekildedir:
+        </p>
+        <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200 text-center font-mono my-6 text-stone-800 text-lg md:text-xl">
+          Gereken Su Miktarı (Litre) = Alan (m²) x Günlük ET (mm) / Sulama Sistemi Verimi (η)
+        </div>
+        
+        <h4 className="text-xl font-bold text-stone-900 mt-6 mb-3 font-sans">📌 Örnek Uygulama 1: Antalya'da 1 Dönüm Damlama Domates</h4>
+        <p>
+          Temmuz ayında Antalya'da günlük buharlaşma (ET) değerimiz 7 mm olsun. Tarlamız 1 dönüm (1.000 m²) olduğuna göre ve son derece verimli bir damla sulama sistemi (verim η = 0.95 yani %95) kullandığımıza göre günlük su ihtiyacımız:
+        </p>
+        <div className="bg-stone-50 p-4 rounded-xl border border-stone-100 text-center font-mono my-4 text-stone-700 font-bold">
+          Günlük Su = (1.000 m² x 7 mm) / 0.95 = 7.000 / 0.95 = ~7.368 Litre (~7.37 Ton/gün)
+        </div>
+
+        <h4 className="text-xl font-bold text-stone-900 mt-6 mb-3 font-sans">📌 Örnek Uygulama 2: Konya'da 1 Dönüm Yağmurlama Yonca</h4>
+        <p>
+          Haziran ayında Konya'da günlük buharlaşma (ET) değerimiz 6 mm olsun. Yağmurlama sulama sistemimizin verimi ise rüzgardan dolayı %75 (η = 0.75) kabul edilmektedir. Bu koşullarda 1 dönüm yoncanın günlük su talebi:
+        </p>
+        <div className="bg-stone-50 p-4 rounded-xl border border-stone-100 text-center font-mono my-4 text-stone-750 font-bold">
+          Günlük Su = (1.000 m² x 6 mm) / 0.75 = 6.000 / 0.75 = 8.000 Litre (8.00 Ton/gün)
+        </div>
+        <p className="mt-4 text-stone-600">
+          Görüldüğü üzere sulama sisteminin verimi düştükçe, aynı bitkiyi sulamak için kaynaktan çekmeniz gereken toplam <strong>dönüm sulama suyu</strong> miktarı buharlaşma kayıplarını karşılayabilmek adına ciddi oranda artmaktadır.
+        </p>
+
+        <h2 id="enerji-ve-su-tasarrufu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">4. Tarla Sulamasında Su ve Enerji Tasarrufu Sağlayan Akıllı Çözümler</h2>
+        <p>
+          Tarlanıza gereğinden fazla su vermek sadece su kaynağını israf etmez; aynı zamanda topraktaki oksijeni bitirerek kökleri çürütür, gübreleri yıkayıp götürür ve pompanızın saatlerce boş yere elektrik tüketmesine neden olur. İşte su tasarrufunun altın kuralları:
+        </p>
+        <ul className="list-disc pl-8 space-y-3">
+          <li><strong>Malçlama Kullanımı:</strong> Toprak yüzeyinin organik malzemelerle (saman, kuru ot) veya özel siyah polietilen malç naylonları ile kaplanması, doğrudan toprak yüzeyinden olan evaporasyon buharlaşmasını %50'ye varan oranda düşürür. Bu sayede 1 dönüm tarlayı sulamak için gereken su miktarı neredeyse yarı yarıya düşer.</li>
+          <li><strong>Toprak Nem Sensörleri (Tansiyometre):</strong> Toprağın 30 cm ve 60 cm derinliğine yerleştirilen küçük nem ölçüm cihazları (tansiyometreler), kök bölgesindeki gerçek emiş gücünü ölçer. Göz kararı sulama yerine sadece sensör "toprak kurudu" uyarısı verdiğinde sulama başlatılarak muazzam bir tasarruf elde edilir.</li>
+          <li><strong>Gece veya Sabah Erken Saat Sulaması:</strong> Bir önceki yazımızda da detaylandırdığımız üzere, sulamaları güneş doğmadan önce saat 04:00 - 08:00 arasına programlamak buharlaşma sürüklenmesini en aza indirerek suyun her damlasının köke süzülmesini sağlar.</li>
+        </ul>
+
+        <h2 id="bitki-su-tablosu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">5. Bitki Türlerine Göre Su Tüketim ve Sulama Sıklığı Başvuru Tablosu</h2>
+        <p>
+          Farklı mahsul türlerinin gelişim dönemlerindeki su hassasiyetlerini ve optimum sulama aralıklarını gösteren pratik çiftçi matrisi:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Bitki Türü</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">İdeal Sulama Metodu</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Günlük Su Tüketimi (1 Dönüm)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Sezonluk Toplam Su (1 Dönüm)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Hassas Dönem (Kritik Evre)</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Domates & Biber</td>
+                <td className="px-6 py-4">Damla Sulama</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">3 - 5 Ton</td>
+                <td className="px-6 py-4">450 - 550 Ton</td>
+                <td className="px-6 py-4">Çiçeklenme ve Meyve Tutumu</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Mısır (Slaj/Dane)</td>
+                <td className="px-6 py-4">Damla / Center Pivot</td>
+                <td className="px-6 py-4 text-blue-600 font-bold">6 - 8 Ton</td>
+                <td className="px-6 py-4">500 - 700 Ton</td>
+                <td className="px-6 py-4 text-red-650">Tepe Püskülü ve Tozlaşma Dönemi</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Meyve Ağaçları (Yetişkin)</td>
+                <td className="px-6 py-4">Damla / Mikro Fıskiye</td>
+                <td className="px-6 py-4 text-blue-600">3 - 4 Ton</td>
+                <td className="px-6 py-4">350 - 500 Ton</td>
+                <td className="px-6 py-4">Meyve İrileşme (Hızlı Büyüme)</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Yonca</td>
+                <td className="px-6 py-4">Yağmurlama</td>
+                <td className="px-6 py-4 text-red-600 font-bold">8 - 10 Ton</td>
+                <td className="px-6 py-4 text-red-600 font-bold">800 - 1200 Ton</td>
+                <td className="px-6 py-4">Her Biçim Sonrası İlk 5 Gün</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Zeytinlik</td>
+                <td className="px-6 py-4">Damla Sulama</td>
+                <td className="px-6 py-4 text-green-700">1.5 - 2.5 Ton</td>
+                <td className="px-6 py-4 text-green-700">150 - 250 Ton</td>
+                <td className="px-6 py-4">Çekirdek Sertleşme Dönemi</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm font-sans">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)] font-sans">Ziraat Mühendisi Ahmet Kaya'dan Akıllı Çözüm Hatırlatması</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Sevgili üreticilerimiz; tarımda su hesabını tam yapmak için her tarlanın başında mutlaka basit bir "Su Sayacı" (Debimetre) bulunmalıdır. Pompanızın saatte kaç metreküp su bastığını bilmeden sadece "3 vana açtım, 4 saat çalıştırdım" diyerek sulama yapmak su miktarınızı asla doğru hesaplamanızı sağlamaz. Kuyunuzun debisinin mevsimsel olarak düşebileceğini unutmayın. Basit bir debimetre ile tarlaya giren net tonajı görerek hareket etmek, paranızın cebinizde kalmasını sağlar.
+          </p>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)] font-sans">
+          <h4 className="text-2xl font-black mb-4 text-white font-sans">Tarlanıza Özel Sulama Suyu ve Pompa Süresini Saniyeler İçinde Hesaplayın!</h4>
+          <p className="font-bold text-white/90">
+            Tarlanızın dönüm sayısını, yetiştirdiğiniz bitki türünü, toprak çeşidini ve bölgenizin güncel hava durumunu seçerek; tarlanızın günde ve haftada kaç ton suya ihtiyaç duyduğunu, pompanızı günde kaç saat açık tutmanız gerektiğini saniyeler içinde hesaplamak ister misiniz? Hemen ana sayfamıza gidin, tamamen ücretsiz kullanabileceğiniz <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> çalıştırın; bilimsel verilerle sulayarak berekete ulaşın!
+          </p>
+        </div>
+
+        <h2 id="sonuc" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans font-sans">6. Sonuç: Su Hesabı Bereketin Anahtarıdır</h2>
+        <p>
+          Tarımda sürdürülebilirliğin yolu, her damla suyu bir hazine gibi korumaktan geçmektedir. <strong>"1 dönüm tarla için ne kadar su gerekir"</strong> sorusunun yanıtı statik bir ezber değil; bitkinin cinsi, toprak yapısı, bölgesel evaporasyon hızı ve sulama verimliliğinin dinamik bir ortak sonucudur. Bu parametreleri doğru analiz ederek tarlasına su veren üreticilerimiz hem mahsullerine tam ihtiyaç duyduğu konforu sunarak verimi ve kaliteyi maksimize eder, hem de gereksiz israftan kaçınarak enerji ve işletme maliyetlerinde devasa tasarruflar sağlarlar. Geleceğin tarımı dijital verilerle ve akıllı hesaplamalarla şekillenmektedir. Tarlamızın hakkı olan suyu tam zamanında ve tam dozunda sunalım, topraklarımızın bereketini nesiller boyu koruyalım!
+        </p>
+      </div>
+    )
   }
 };
 

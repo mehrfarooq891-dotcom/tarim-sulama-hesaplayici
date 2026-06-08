@@ -243,6 +243,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sulama Teknolojileri",
     image: "https://images.unsplash.com/photo-1463123081488-729f60c3c527?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 25,
+    title: "1 Dönüm Tarla İçin Ne Kadar Su Gerekir? Hesaplama Rehberi",
+    slug: "1-donum-tarla-icin-ne-kadar-su-gerekir-hesaplama-rehberi",
+    excerpt: "1 dönüm tarla sulaması için gereken net su miktarının bitki türü, toprak yapısı, klima özellikleri ve sulama yöntemi doğrultusunda bilimsel hesaplama formülleri ve pratik örnekleri...",
+    date: "8 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sulama Teknolojileri",
+    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
