@@ -1,3 +1,4 @@
+// Changelog: Added "1 Dönüm Tarla İçin Ne Kadar Su Gerekir? Hesaplama Rehberi" SEO blog post (dönüm sulama suyu keyword) with detailed calculator reference
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";

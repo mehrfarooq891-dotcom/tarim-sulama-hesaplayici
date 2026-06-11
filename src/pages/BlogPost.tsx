@@ -1,3 +1,4 @@
+// Changelog: Integrated comprehensive content for "1-donum-tarla-icin-ne-kadar-su-gerekir-hesaplama-rehberi" targeting "dönüm sulama suyu"
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useParams, Link } from "react-router-dom";
