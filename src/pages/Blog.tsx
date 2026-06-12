@@ -1,4 +1,4 @@
-// Changelog: Added "1 Dönüm Tarla İçin Ne Kadar Su Gerekir? Hesaplama Rehberi" SEO blog post (dönüm sulama suyu keyword) with detailed calculator reference
+// Changelog: Added "Damla Sulama Sistemini Kendiniz Nasıl Kurarsınız?" DIY installation guide (damla sulama kurulum target keyword) with step-by-step setup, material list, and detailed cost analysis
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
@@ -254,6 +254,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sulama Teknolojileri",
     image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 26,
+    title: "Damla Sulama Sistemini Kendiniz Nasıl Kurarsınız?",
+    slug: "damla-sulama-sistemini-kendiniz-nasil-kurarsiniz",
+    excerpt: "Adım adım rehberimizle tarlanıza veya bahçenize damla sulama sistemini kendiniz kurun. İhtiyacınız olan malzeme listesi, kurulum aşamaları ve detaylı dönüm başı maliyet hesabı...",
+    date: "11 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sulama Kurulumu",
+    image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
