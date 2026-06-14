@@ -3939,6 +3939,189 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "sulama-suyu-kalitesi-nasil-olculur-ve-iyilestirilir": {
+    title: "Sulama Suyu Kalitesi Nasıl Ölçülür ve İyileştirilir?",
+    date: "13 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "45 dk okuma",
+    image: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=2560&q=100",
+    category: "Su Kalitesi",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Tarımsal üretimde başarının, yüksek verimliliğin ve toprak sağlığının sürdürülebilirliğinin temel yapı taşlarından biri de doğru sulamadır. Ancak çoğu üretici yalnızca verilecek suyun miktarına ve zamanlamasına odaklanırken, hayati bir unsuru göz ardı eder: suyun kimyasal ve fiziksel özellikleri. Bilimsel araştırmalar, kalitesiz suyla yapılan sulamanın toprak yapısını bozduğunu ve bitkilerde telafi edilemez verim kayıplarına yol açtığını göstermektedir. Bu nedenle, profesyonel tarımda <strong>sulama suyu kalitesi</strong> parametrelerini bilmek, periyodik ölçümler yapmak ve gerektiğinde iyileştirici önlemler almak hayati bir zorunluluktur. Bu kapsamlı rehberimizde; pH dengesinden tuzluluğa, sulama suyu analizi yöntemlerinden tarlanızda uygulayabileceğiniz pratik ve modern su iyileştirme çözümlerine kadar bilmeniz gereken tüm detayları ele alacağız.
+        </p>
+
+        <h2 id="su-kalitesinin-onemi" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">1. Sulama Suyu Kalitesi Tarımda Neden Bu Kadar Önemlidir?</h2>
+        <p>
+          Sulama için kullanılan su, sadece bitkinin turgor basıncını korumasını sağlayan bir sıvı değildir; aynı zamanda içerisinde çözünmüş halde çok sayıda mineral, tuz, metal ve gaz barındıran kompleks bir kimyasal çözeltidir. <strong>Sulama suyu kalitesi</strong>, doğrudan veya dolaylı olarak tarımsal ekosistemin her parçasını etkiler:
+        </p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>Bitki Gelişimi ve Besin Alımı:</strong> Su kalitesi kötü olduğunda, bitki kökleri besin elementlerini (azot, fosfor, potasyum ve mikro elementler) toprakta bolca bulunsa dahi ememez. Bu durum bitkide ciddi gelişim geriliğine yol açar.</li>
+          <li><strong>Toprak Fiziği ve Kimyası:</strong> Yüksek sodyum veya ağır kireç içeren sular, zamanla toprağın gözeneklerini tıkar, kireç tabakası (kaymak tabakası) oluşturur ve toprağın su geçirgenliğini sıfıra indirir. Toprak betonlaşır ve havalanamaz hale gelir.</li>
+          <li><strong>Sulama Sistemlerinin Uzun Ömrü:</strong> Kalsiyum, magnezyum, demir ve kükürt oranı yüksek olan sert sular, damla sulama borularının içindeki labirentleri ve damlatıcı gözeneklerini çok kısa sürede tıkar. Bu durum sistemin ömrünü kısaltır ve tarlada düzensiz sulamaya yol açar.</li>
+        </ul>
+
+        <h2 id="kritik-parametreler" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">2. Sulama Suyu Kalitesini Belirleyen Kritik Parametreler</h2>
+        <p>
+          Tarımda suyun kalitesini değerlendirirken dikkate alınan düzinelerce parametre vardır ancak bunlardan ikisi bitki fizyolojisini ve toprak yapısını anlık olarak manipüle eder: <strong>pH (Asitlik/Alkalilik)</strong> ve <strong>Tuzluluk (Elektriksel İletkenlik - EC)</strong>.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) pH Derecesi (Asitlik / Alkalilik Dengesi)</h3>
+        <p>
+          pH derecesi, sudaki hidrojen iyonlarının yoğunluğunu ölçer ve suyun asidik, nötr veya alkali (bazik) olduğunu gösterir. Sulama sularında ideal pH aralığı <strong>6.0 ile 7.0 (hafif asidik ila nötr)</strong> arasıdır. Bu aralık, bitki köklerinin topraktaki mikro besin elementlerini (demir, çinko, mangan, bakır) en yüksek verimlilikle emebildiği altın bölgedir.
+        </p>
+        <p>
+          Ülkemizdeki kuyu ve akarsu sularının büyük bir kısmı maalesef alkali karakterlidir ve pH değerleri 7.5 ile 8.5 arasında değişir. Yüksek pH'lı suyla yapılan sulamalarda, demir ve fosfor gibi elementler toprakta çözünemez bileşikler oluşturarak kilitlenir. Yapraklar sararır (kloroz oluşur) ve gübreleme maliyetleri katlanır. Tam tersine pH'ın 5.5'in altına düştüğü aşırı asidik sularda ise alüminyum ve mangan toksisitesi baş gösterir, kök sistemleri zarar görür.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Tuzluluk Oranı (Elektriksel İletkenlik - EC)</h3>
+        <p>
+          Suda çözünmüş haldeki toplam tuz miktarını belirlemek için suyun elektrik akımını iletme yeteneği ölçülür. Bu parametreye <strong>Elektriksel İletkenlik (EC)</strong> denir ve birimi dS/m (desiSiemens/metre) veya µS/cm (mikroSiemens/santimetre) olarak ifade edilir. Toplam çözünmüş katı madde miktarı ise TDS (ppm) cinsinden belirlenir.
+        </p>
+        <p>
+          Sulama suyunda tuzluluk yükseldikçe, toprak çözeltisinin ozmotik basıncı artar. Bu durum, bitki köklerinin suyu topraktan çekmesini zorlaştırır. Bitki etrafında su olsa dahi susuzluk stresi yaşar; buna tarımda "fizyolojik kuraklık" adı verilir. Tuzluluğa karşı hassas olan çilek, soğan ve fasulye gibi bitkilerde EC değerinin 1.0 dS/m'yi aşması verimde doğrudan düşüşe yol açarken, arpa, pamuk ve şeker pancarı gibi toleranslı bitkiler 3.0-4.0 dS/m seviyelerine kadar dayanabilir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Sodyum Oranı ve Sodyum Absorbsiyon Oranı (SAR)</h3>
+        <p>
+          Sudaki sodyum miktarının kalsiyum ve magnezyum toplamına oranı olan <strong>SAR</strong> değeri, suyun toprağı sodyumlaştırma (çoraklaştırma) riskini gösterir. SAR değerinin 10'un üzerinde olması, toprağın agregat yapısının parçalanmasına, killerin dağılmasına ve geçirimsiz, havasız bir balçık tabakasına dönmesine neden olur. Dolayısıyla sulama suyu kalitesi değerlendirilirken sadece tuzluluğa değil, tuzun karakterine de (sodyum yoğunluğuna) dikkat edilmelidir.
+        </p>
+
+        <h2 id="sulama-suyu-analizi" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">3. Sulama Suyu Analizi Nasıl Yapılır ve Rapor Nasıl Okunur?</h2>
+        <p>
+          Tarlanızda hangi iyileştirme yöntemini uygulayacağınıza karar vermeden önce mutlaka akredite bir toprak-su analiz laboratuvarında profesyonel <strong>sulama suyu analizi</strong> yaptırmanız gerekir. Göz kararı veya komşu tavsiyesiyle yapılacak müdahaleler, suyunuzu ve toprağınızı tamamen kullanılamaz hale getirebilir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">Adım Adım Doğru Analiz Numunesi Alma Yöntemi:</h3>
+        <ul className="list-decimal pl-8 space-y-2 mb-6">
+          <li><strong>Temiz Kap Seçimi:</strong> En az 1.5 litrelik temiz bir pet şişe veya laboratuvardan temin edilen steril numune kabı kullanın. Önceden kimyasal, deterjan veya meyve suyu konulmuş kapları kesinlikle kullanmayın.</li>
+          <li><strong>Pompayı Çalıştırın:</strong> Eğer numuneyi bir yeraltı sondaj kuyusundan alacaksanız, kuyuda bekleyen durgun suyu tahliye etmek için pompayı en az 30-45 dakika boyunca çalıştırın. Doğrudan borudan akan taze suyu doldurun.</li>
+          <li><strong>Yıkama ve Doldurma:</strong> Şişeyi alacağınız sulama suyu ile en az 3-4 kez çalkalayıp dökün. Ardından şişeyi ağzına kadar, içerisinde hiç hava kabarcığı kalmayacak şekilde doldurun. Hava boşluğu, sudaki CO₂ gazının uçmasına ve pH değerinin değişmesine yol açar.</li>
+          <li><strong>Etiketleme ve Sevkiyat:</strong> Şişenin üzerine adınızı, tarlanın konumunu, suyun kaynağını (kuyu, baraj, dere, göl) ve tarihi yazarak en geç 24 saat içerisinde ilgili laboratuvara ulaştırın.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">Laboratuvar Raporunu Okuma Kılavuzu:</h3>
+        <p>
+          Analiz raporu elinize ulaştığında bakmanız gereken en kritik parametreler ve anlamları şunlardır:
+        </p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>ECw (Su İletkenliği):</strong> 0.75 dS/m altı mükemmel, 0.75-2.0 dS/m arası orta (dikkatli sulama gerektirir), 2.0-3.0 dS/m arası yüksek riskli, 3.0 dS/m üzeri ise tarımda doğrudan kullanılamaz olarak sınıflandırılır.</li>
+          <li><strong>Sodyum Absorbsiyon Oranı (SAR):</strong> SAR derecesi 0-6 arası ise güvenli, 6-9 hafif riskli, 9 üzeri ise toprağı çoraklaştırıcı sodyum birikimine yol açar.</li>
+          <li><strong>Klor (Cl) ve Sodyum (Na) İyonları:</strong> Özellikle narenciye ve sert çekirdekli meyvelerde yaprak yanıklıklarına neden olan toksik iyonlardır. Klor değerinin 100 mg/L üzerine çıkması damla sulamada yaprağa temas etmese bile kök duyarlılığı oluşturur.</li>
+          <li><strong>Karbonat (CO₃) ve Bikarbonat (HCO₃):</strong> Suda bikarbonat yüksekse (1.5 meq/L üzeri), kalsiyum ile birleşerek kireç oluşturur. Hem damla sulama borularını tıkar hem de toprağa kalsiyum girişini engelleyerek çoraklaşmayı tetikler.</li>
+        </ul>
+
+        <h2 id="iyilestirme-cozumleri" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">4. Kötü Sulama Suyu Kalitesini İyileştirmek İçin Pratik Çözümler</h2>
+        <p>
+          Eğer analiz raporunuz suyunuzun alkali, kireçli veya hafif tuzlu olduğunu söylüyorsa endişelenmeyin. Modern tarım teknolojileri ve ziraat mühendisliği yaklaşımları sayesinde bu suları optimize etmek ve bitki için son derece elverişli hale getirmek mümkündür. İşte en yaygın pratik çözümler:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Yüksek pH Değerini Düşürmek: Asit Enjeksiyonu</h3>
+        <p>
+          Kuyulardan ve akarsulardan gelen alkali (bazik) suların pH derecesini düşürmek için en etkili yöntem fertigasyon sistemi üzerinden suya asit enjekte etmektir. Genellikle <strong>nitrik asit (%60)</strong> veya <strong>fosforik asit (%85)</strong> kullanılır. Sülfürik asit de ucuz bir alternatif olmakla birlikte yoğun kireçli sularda kalsiyum sülfat (alçı taşı) çökeltisi oluşturarak tıkanmalara yol açabileceğinden dikkatli seçilmelidir.
+        </p>
+        <p>
+          <strong>Nasıl Uygulanır?</strong> Laboratuvar analizine göre suyun alkaliliğini kırmak için gereken asit miktarı hesaplanır. pH metre yardımıyla sulama suyunun pH'ı asit pompasıyla dozajlanarak 6.2 - 6.5 seviyesine ayarlanır. Bu işlem sadece bitkinin mikro elementleri almasını kolaylaştırmakla kalmaz, aynı zamanda boruların içerisindeki kireç tabakalarını çözerek damlatıcıların tıkanmasını tamamen önler.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Yüksek Sodyum ve Tuzluluk Riskini Azaltmak: Jips (Alçı Taşı) Enjeksiyonu</h3>
+        <p>
+          Su analizinizde sodyum (Na) yoğunluğu kalsiyum ve magnezyuma kıyasla çok yüksekse (SAR değeri yüksekse), toprağa sodyumun zarar vermesini engellemek için sulama suyuna çözünmüş <strong>akışkan jips (kalsiyum sülfat)</strong> eklenmelidir. Kalsiyum, toprak kolloidlerindeki zararlı sodyum iyonlarının yerini alarak sodyumun sülfat formunda alt katmanlara yıkanmasını sağlar. Jips enjeksiyon sistemleri, suyun doğrudan tarlaya verilmeden önce kalsiyum ile zenginleştirilmesini sağlayarak toprağın çoraklaşmasını ve çorbalaşmasını kalıcı olarak önler.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Harmanlama (Blending) Yöntemiyle Tuz Oranını Düşürme</h3>
+        <p>
+          Eğer kuyunuzun tuzluluk derecesi (EC) çok yüksekse ve doğrudan bitkiye verildiğinde verim kaybına yol açıyorsa, en kolay ve düşük maliyetli iyileştirme yöntemi <strong>harmanlamadır</strong>. Bu yöntemde yüksek tuzlu su, tuz oranı sıfıra yakın olan yağmur suyu, baraj suyu veya şebeke suyu ile belirli oranlarda (örneğin %50 - %50) karıştırılır. Elde edilen yeni karışım, bitkinin tolere edebileceği güvenli tuzluluk eşiğinin altına düşürülmüş olur.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">D) İleri Teknolojik Çözüm: Ters Ozmos (Reverse Osmosis) Sistemleri</h3>
+        <p>
+          Katma değeri çok yüksek olan seracılık, muz yetiştiriciliği, çilek üretimi veya dikey tarım tesislerinde, sulama suyunun aşırı tuzlu veya ağır metal içermesi durumunda sanayi tipi <strong>ters ozmos (RO)</strong> filtrasyon sistemleri kullanılır. RO sistemleri, suyu yarı geçirgen membranlardan yüksek basınçla geçirerek içerisindeki tüm çözünmüş iyonları, sodyumu ve kloru %98 oranında arındırır. Bu yöntem ilk yatırım ve enerji maliyeti açısından yüksek olsa da, hassas bitkilerde alınan yüksek tonaj ve ürün kalitesi sayesinde kendini kısa sürede amorti eder.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">E) Damla Sulamada Tıkanma Önleyici Fiziksel Çözümler</h3>
+        <p>
+          Suda asılı duran kum, kil veya organik yapıdaki yosunlar damlatıcıları mekanik olarak tıkar. Bunu önlemek için pompanızın hemen arkasına suyun kalitesine bağlı olarak sırasıyla <strong>Hidrosiklon (kum ayırıcı)</strong>, <strong>Diskli veya Elek Filtre</strong> ve organik yük fazlaysa <strong>Medya (kum-çakıl) Filtresi</strong> kurulmalıdır. Kimyasal kireç tıkanmalarını önlemek için ise yılda en az 1 veya 2 kez borulara son vana kapalıyken asidik su basılmalı ve ardından boru sonlarındaki körtapalar açılarak biriken çökeltiler tarladan dışarı tahliye edilmelidir.
+        </p>
+
+        <h2 id="su-kalitesi-tablosu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">5. Detaylı Sulama Suyu Kalitesi Parametre ve Sınıflandırma Tablosu</h2>
+        <p>
+          Tarım dünyasında genel kabul görmüş FAO standartlarına göre sulama suyu kalitesi parametrelerinin ideal, sınır ve riskli değerlerini içeren özet başvuru tablosu:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Kalite Değişkeni</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">İdeal Seviye (Problem Yok)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Sınır Değer (Hafif-Orta Risk)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Yüksek Risk Derecesi (Kritik)</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Olası Tarımsal Hasar</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">pH Derecesi</td>
+                <td className="px-6 py-4 text-green-700 font-bold">6.0 - 7.0</td>
+                <td className="px-6 py-4">7.0 - 8.0 veya 5.5 - 6.0</td>
+                <td className="px-6 py-4 text-red-600 font-bold">&gt; 8.5 veya &lt; 5.0</td>
+                <td className="px-6 py-4">Mikro besin kilitlenmesi, demir noksanlığı, kloroz</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Tuzluluk - ECw (dS/m)</td>
+                <td className="px-6 py-4 text-green-700 font-bold">&lt; 0.7 dS/m</td>
+                <td className="px-6 py-4">0.7 - 3.0 dS/m</td>
+                <td className="px-6 py-4 text-red-600 font-bold">&gt; 3.0 dS/m</td>
+                <td className="px-6 py-4">Ozmotik stres, yaprak ucu yanmaları, gelişim durması</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Sodyum Oranı (SAR)</td>
+                <td className="px-6 py-4 text-green-700 font-bold">&lt; 3.0</td>
+                <td className="px-6 py-4">3.0 - 9.0</td>
+                <td className="px-6 py-4 text-red-600 font-bold">&gt; 9.0</td>
+                <td className="px-6 py-4">Toprağın betonlaşması, geçirgenlik kaybı, çoraklaşma</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Klorür İyonu (mg/L)</td>
+                <td className="px-6 py-4 text-green-700">&lt; 140 mg/L</td>
+                <td className="px-6 py-4">140 - 350 mg/L</td>
+                <td className="px-6 py-4 text-red-650">&gt; 350 mg/L</td>
+                <td className="px-6 py-4">Hassas meyvelerde toksisite, nekroz, yaprak dökümü</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Bikarbonat - HCO₃ (meq/L)</td>
+                <td className="px-6 py-4 text-green-700">&lt; 1.5 meq/L</td>
+                <td className="px-6 py-4">1.5 - 8.5 meq/L</td>
+                <td className="px-6 py-4 text-red-600 font-bold">&gt; 8.5 meq/L</td>
+                <td className="px-6 py-4">Boru labirentlerinde ve damlatıcılarda kireç tıkanması</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm font-sans">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)] font-sans">Ziraat Mühendisi Ahmet Kaya'dan Altın Tavsiye</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Kıymetli çiftçilerimiz; "suyum berrak görünüyor, o zaman kalitelidir" yanılgısına asla düşmeyin. Suda çözünmüş haldeki kireç, tuz ve sodyum mikroskobik düzeydedir ve gözle asla seçilemez. Bitkinizin yapraklarında anormal uç kurumaları, sulama sonrası toprak yüzeyinde beyaz tuz tabakaları veya damla sulama borularınızda beyaz kireç lekeleri görüyorsanız, suyunuz alarm veriyor demektir. İş işten geçmeden, toprağınızı çoraklaştırmadan hemen akredite bir laboratuvardan <strong>sulama suyu analizi</strong> talep edin. Erken teşhis, tarlanızın ömrünü uzatır.
+          </p>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)] font-sans">
+          <h4 className="text-2xl font-black mb-4 text-white font-sans">Tarlanızın İdeal Su Tüketimini Saniyeler İçinde Öğrenin!</h4>
+          <p className="font-bold text-white/90">
+            Toprağınızın ve sulama suyunuzun kalitesini optimize ettikten sonra, suyunuzun tek bir damlasını dahi israf etmeden bitkinizin tam günlük su ihtiyacını hesaplamak ister misiniz? Gelişmiş yazılımımız, bulunduğunuz ilçenin hava durumunu, toprak tipinizi ve bitki türünüzü harmanlayarak size profesyonel bir sulama programı sunar. Hemen ana sayfamıza gidin, tamamen ücretsiz kullanabileceğiniz <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> test edin; bilimle sulayın, berekete ulaşın!
+          </p>
+        </div>
+
+        <h2 id="sonuc" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">6. Sonuç: Bilimsel Su Kalitesi Yönetimi ile Sürdürülebilir Tarım</h2>
+        <p>
+          Tarımda başarı, sadece tarlaya su ve gübre ulaştırmakla değil; girdi kalitesini en üst düzeyde tutarak bitkinin biyolojik konforunu sağlamakla ölçülür. <strong>Sulama suyu kalitesi</strong>, toprağınızın nesiller boyu verimli kalmasını ya da birkaç yılda çorak bir çöle dönmesini belirleyecek kadar güçlü bir etkendir. pH değerinin dengelenmesi, tuzluluk oranının kontrol altında tutulması, periyodik olarak yaptırılacak <strong>sulama suyu analizi</strong> ve tarlaya özel kurgulanacak pratik arıtıcı çözümler sayesinde hem mahsulünüzün rekoltesini katlarsınız hem de sulama altyapınızı tıkanmalardan korursunuz. Unutmayın, geleceğin tarımı körü körüne yapılan sulamalarla değil; verilerle, analizlerle ve akıllı hesaplamalarla yönetilen tarımdır. Suyun kalitesini ölçün, toprağınızın hakkını verin, kazanan her zaman siz olun!
+        </p>
+      </div>
+    )
   }
 };
 

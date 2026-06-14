@@ -264,6 +264,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sulama Kurulumu",
     image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 27,
+    title: "Sulama Suyu Kalitesi Nasıl Ölçülür ve İyileştirilir?",
+    slug: "sulama-suyu-kalitesi-nasil-olculur-ve-iyilestirilir",
+    excerpt: "Tarımsal üretimde yüksek verim için sadece suyun miktarı değil, kalitesi de hayatidir. Sulama suyu kalitesi parametreleri olan pH ve tuzluluk oranlarının ölçülmesi, sulama suyu analizi yöntemleri ile tarladaki kireçli veya tuzlu suyu iyileştiren pratik modern çözümler...",
+    date: "13 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Su Kalitesi",
+    image: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
