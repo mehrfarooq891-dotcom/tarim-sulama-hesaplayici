@@ -274,6 +274,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Su Kalitesi",
     image: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 28,
+    title: "Sera Sulama Sistemleri — Türler ve Kurulum Rehberi",
+    slug: "sera-sulama-sistemleri-turler-ve-kurulum-rehberi",
+    excerpt: "Seralarda yüksek verimlilik elde etmenin anahtarı doğru sera sulama sistemi tercihidir. Sera damla sulama, mikro yağmurlama teknolojileri, modern otomasyon sistemleri ve adım adım kurulum aşamaları...",
+    date: "17 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Sera Sulaması",
+    image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80"
   }
 ];
 

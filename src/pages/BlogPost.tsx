@@ -4122,8 +4122,175 @@ const postsData: Record<string, any> = {
         </p>
       </div>
     )
+  },
+  "sera-sulama-sistemleri-turler-ve-kurulum-rehberi": {
+    title: "Sera Sulama Sistemleri — Türler ve Kurulum Rehberi",
+    date: "17 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    readTime: "25 dk okuma",
+    image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=2560&q=100",
+    category: "Sera Sulaması",
+    content: (
+      <div className="prose prose-stone max-w-none prose-headings:font-black prose-headings:text-[var(--green-dark)] prose-p:text-stone-600 prose-p:leading-relaxed prose-li:text-stone-600 font-medium font-sans">
+        <p className="text-xl font-bold text-stone-800 mb-8 border-l-4 border-[var(--green-mid)] pl-6 py-2 italic font-sans">
+          Örtü altı yetiştiriciliği, modern tarımın en üst düzeyi olarak kabul edilir. Seralarda sıcaklık, nem ve rüzgar kontrol altına alınarak üretim verimliliği maksimum seviyeye çıkarılır. Ancak bu kontrollü ortamın beraberinde getirdiği en büyük zorluk, doğal yağışların engellenmesidir. Bir seranın başarısı, içinde kurulu olan <strong>sera sulama sistemi</strong> verimliliğine doğrudan bağlıdır. Doğru projelendirilmiş bir sistem; bitki besleme süreçlerini otomatikleştirir, su kaynaklarını optimize eder ve verimi katlar. Bu rehberimizde, en popüler sera sulama teknolojilerinden olan <strong>sera damla sulama</strong>, <strong>mikro yağmurlama</strong>, akıllı <strong>otomasyon sistemleri</strong> ve kurulum aşamalarını tüm teknik detaylarıyla inceleyeceğiz.
+        </p>
+
+        <h2 id="sera-sulama-onemi" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">1. Örtü Altı Tarımda Sera Sulama Sistemi Neden Hayatidir?</h2>
+        <p>
+          Açık tarla üretiminde bitkiler doğanın yağış döngüsünden yararlanabilirken, seracılıkta bir damla su bile insan eliyle tarlaya ulaştırılmalıdır. Dolayısıyla yapay ekosistemin can damarı kurulan modern <strong>sera sulama sistemi</strong> altyapısıdır. Bu sistemlerin sera tarımında kritik bir konumda bulunmasının temel nedenleri şunlardır:
+        </p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>Yüksek Bitki Yoğunluğu ve Mikro Klima Yönetimi:</strong> Seralarda birim alana düşen bitki sayısı açık tarlaya oranla çok daha fazladır. Bu durum, su tüketim hızını artırır ve saniyeler bazında dahi hatasız sulamayı zorunlu kılar.</li>
+          <li><strong>Hassas Gübreleme (Fertigasyon):</strong> Sera içi üretimde sıvı gübreler doğrudan sulama suyuyla senkronize biçimde köklere gönderilir. Gelişmiş bir sulama sistemi olmadan homojen ve dengeli gübreleme yapmak olanaksızdır.</li>
+          <li><strong>Nem Kontrolü ve Nem Kaynaklı Hastalıkların Önlenmesi:</strong> Aşırı sulama ya da yanlış sulama yöntemi sera içi bağıl nemi tavan yaptırarak külleme, pas ve kırmızı örümcek gibi fungal ve zararlı salgınlarını tetikler.</li>
+        </ul>
+
+        <h2 id="sulama-sistemi-turleri" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">2. Modern Sera Sulama Sistemi Türleri</h2>
+        <p>
+          Farklı bitki ailelerinin, fide gelişim evrelerinin ve toprak yapılarının gereksinim duyduğu su iletim mekanizmaları değişkenlik gösterir. Seralarda en yaygın olarak kullanılan üç sulama yöntemi şunlardır:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">A) Sera Damla Sulama Teknolojisi</h3>
+        <p>
+          Domates, biber, salatalık, patlıcan, çilek ve kesme çiçek gibi sıralı veya saksılı yetiştirilen bitkiler için <strong>sera damla sulama</strong> en popüler ve en verimli yöntemdir. Su, özel lateral borular üzerindeki basınç ayarlı damlatıcılar (drippers) vasıtasıyla doğrudan kök bölgesine damlatılır.
+        </p>
+        <p>
+          <strong>Sera damla sulama sistemlerinin benzersiz avantajları şunlardır:</strong>
+        </p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>Yaprak Islanmasını Önler:</strong> Su doğrudan toprağa iletildiği için yapraklar kuru kalır. Bu durum, sera tarımının baş belası olan botrytis (kurşuni küf) ve yaprak yanıklığı hastalıklarını %80'e varan oranda azaltır.</li>
+          <li><strong>Düşük Basınç İhtiyacı:</strong> Genellikle 1.0 - 1.5 bar gibi oldukça düşük çalışma basınçlarında çalışarak enerji ve pompa maliyetlerinden ciddi tasarruf sağlar.</li>
+          <li><strong>Maksimum Su Tasarrufu:</strong> Buharlaşma kayıpları sıfıra yakındır ve su verimliliği %95'in üzerindedir.</li>
+          <li><strong>Esnek Montaj Seçenekleri:</strong> Toprak üstü serilebileceği gibi toprak altı kılcal damlama veya saksılı yetiştiricilikte mızraklı (peglat) damlatıcı setleri halinde kurulabilir.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">B) Mikro Yağmurlama (Micro Sprinkler) Sistemleri</h3>
+        <p>
+          Seralarda yukarıdan asma veya toprak hizasına yerleştirilen küçük boyutlu fıskiyeler yardımıyla yapılan sulama yöntemine <strong>mikro yağmurlama</strong> denir. Su, ince damlacıklar halinde püskürtülerek belirli yarıçapta dairesel bir örüntüyle toprağa yayılır.
+        </p>
+        <p>
+          <strong>Mikro yağmurlama teknolojisinin tercih edildiği alanlar:</strong>
+        </p>
+        <ul className="list-disc pl-8 space-y-2 mb-6">
+          <li><strong>Fide ve Çimlendirme Masaları:</strong> Tohumların çimlenme aşamasında toprağın üst yüzeyinin sürekli nemli tutulması gerekir. Damla sulama tek bir noktayı ıslatırken, asma tip mikro yağmurlayıcılar fidelerin altına ve üstüne nazik bir sis etkisi sunarak tepsileri eşit derecede nemlendirir.</li>
+          <li><strong>Serinletme ve Nemlendirme:</strong> Kavurucu yaz sıcaklarında mikro yağmurlayıcılar kısa süreli (pulslar halinde) çalıştırılarak ortam sıcaklığını 5-8 °C düşürür ve bağıl nemi yukarı çeker.</li>
+          <li><strong>Yeşillik ve Köklü Sebzeler:</strong> Marul, roka, nane, ıspanak gibi sık ekilen ve yüzeyi tamamen kaplayan yeşillik seralarında sıra üzeri damlama kurmak zahmetli olduğundan mikro yağmurlama en verimli seçenektir.</li>
+        </ul>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">C) Sisleme (Fogging) ve İklimlendirme Entegrasyonu</h3>
+        <p>
+          Sisleme sistemleri, suyu çok yüksek basınç altında (50-70 bar) ultra küçük gözenekli memelerden geçirerek 10-20 mikron büyüklüğünde su zerreciklerine dönüştürür. Bu zerrecikler havada asılı kalarak yere düşmeden önce buharlaşır ve ortamın nemini artırırken sıcaklığını hızla düşürür. Fide köklendirme odalarında ve hassas tropikal seralarda vazgeçilmez bir yardımcı ünitedir.
+        </p>
+
+        <h2 id="sera-otomasyon-sistemleri" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">3. Sera Sulama Otomasyon Sistemleri (Otomasyon Sistemleri)</h2>
+        <p>
+          Geleneksel tarımda vanaların manuel olarak açılıp kapatılması sera tarımının yoğun temposunda kabul edilemez bir zaman ve iş gücü kaybıdır. Modern seralar, can damarını akıllı <strong>otomasyon sistemleri</strong> ile yönetmektedir. Tarım 4.0 vizyonunu seranıza taşıyan bu otomatik yapının temel faydaları ve çalışma mantığı şöyledir:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">Akıllı Sulama Otomasyonunun Yapı Taşları:</h3>
+        <ul className="list-decimal pl-8 space-y-2 mb-6">
+          <li><strong>Solenoit Vanalar (Solenoid Valves):</strong> Bilgisayar panelinden gelen 24V elektrik sinyaliyle otomatik açılıp kapanan elektro-mekanik akış kontrol elemanlarıdır. Seranızı bölge bölge (sektörlere ayırarak) sulamayı sağlarlar.</li>
+          <li><strong>Toprak Nemi ve Tansiyometre Sensörleri:</strong> Kök derinliğine yerleştirilen bu sensörler, toprağın emme gücünü (su potansiyelini) ölçer. Toprak kuruduğunda sisteme otomatik 'SULA' uyarısı gönderir, doygunluğa eriştiğinde ise sulamayı anında keser.</li>
+          <li><strong>Otomatik Gübre Dozajlama Üniteleri (Venturi / Fertigasyon Bilgisayarı):</strong> Bitkinin çeşidine ve büyüme evresine göre ayarlanmış asit, A ve B gübre tanklarından tam gereken oranlarda (miligram hassasiyetinde) çekim yaparak sulama suyuna karıştırır. Su analizine göre anlık pH ve EC (tuzluluk) kontrolü yapar.</li>
+          <li><strong>Yapay Zeka ve Mobil Kontrol Uygulamaları:</strong> Akıllı telefon üzerinden seradaki nem oranını, hangi vananın ne zaman çalıştığını ve hatta takılan su sayacının anlık debisini dünyanın öbür ucundan izleyebilir ve anında müdahale edebilirsiniz.</li>
+        </ul>
+
+        <h2 id="kurulum-rehberi" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">4. Adım Adım Sera Sulama Sistemi Kurulum Rehberi</h2>
+        <p>
+          Bir serada sulama sistemi kurmak profesyonel mühendislik hesaplamaları gerektirir. Seralar kapalı sistemler olduğu için hatalı kurulum tarlanın tüm toprağının tuzlanmasına veya çoraklaşmasına yol açabilir. İşte profesyonel bir kurulum kılavuzu:
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">Adım 1: Su Kaynağının Analizi ve Debinin Belirlenmesi</h3>
+        <p>
+          Kuruluma başlamadan önce suyunuzun saatlik akış hızını (debisini) kova veya sayaç testiyle ölçün. Ayrıca suyun kireç, tuz ve pH seviyelerini ölçmek için laboratuvarda su analizi yaptırın. Yüksek kireçli veya killi sularda özel filtre grupları seçilmelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">Adım 2: Filtrasyon İstasyonunun Kurulumu</h3>
+        <p>
+          Sera içi damlatıcıların memeleri mikro düzeydedir ve tıkanmaya çok müsaittir. Pompa çıkışına mutlaka bir <strong>hidrosiklon (kum ayırıcı)</strong> ve ardından en az 120 mesh gözenek değerine sahip çift kademeli <strong>diskli filtre</strong> entegre edilmelidir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">Adım 3: Ana ve Alt Hat Borularının Döşenmesi</h3>
+        <p>
+          Ana taşıyıcı boru hattı olarak seranın büyüklüğüne göre en az 40'lık veya 50'lik PVC veya polietilen yüksek mukavemetli borular seçilmelidir. Vanalardan sonra her sıraya gidecek lateral boruların bağlantı yuvaları (çıkış mini vanaları) ana hat üzerine monte edilir.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">Adım 4: Damlama Lateral Boruların Serilmesi veya Asılması</h3>
+        <p>
+          Bitki sıraları arasına basınç ayarlı damlama boruları gerdirilir. Eğer fide masaları sulanacaksa, seranın tavan çelik konstrüksiyonuna mikro yağmurlayıcı nozullar yukarıdan sarkıtılacak şekilde asılır. Her lateral borunun sonuna kör tapa yerleştirilmeli ancak temizlik için kolay açılabilir olmalıdır.
+        </p>
+
+        <h3 className="text-2xl mt-8 mb-4 font-black text-stone-900 font-sans">Adım 5: Otomasyon ve Test Süreci</h3>
+        <p>
+          Solenoid vanalar ve gübreleme dozajlama makinesi elektriğe bağlanarak kontrol paneline tanıtılır. Sistem ilk kez çalıştırılırken lateral uçlarındaki kör tapalar açık bırakılarak boru içindeki plastik çapakların ve tozların tarladan dışarı atılması (hat yıkama) sağlanır. Ardından tapalar kapatılıp sistemin basınç dengesi gözlemlenir.
+        </p>
+
+        <h2 id="karsilastirma-tablosu" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">5. Sera Sulama Yöntemlerinin Detaylı Karşılaştırma Tablosu</h2>
+        <p>
+          Seranızın bütçesi, yetiştireceğiniz bitki çeşidi ve su kaynağınızın durumuna göre doğru sistemi seçmenize yardımcı olacak profesyonel kılavuz tablomuz:
+        </p>
+
+        <div className="overflow-x-auto my-8 border-2 border-stone-100 rounded-2xl shadow-sm">
+          <table className="min-w-full border-collapse bg-white">
+            <thead>
+              <tr className="bg-stone-50 border-b border-stone-200">
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Sulama Yöntemi</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Su Kullanım Verimliliği</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">İlk Yatırım / Kurulum Maliyeti</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">En Uygun Olduğu Bitki Türleri</th>
+                <th className="px-6 py-4 text-left text-xs font-bold text-stone-600 uppercase tracking-wider">Sera İçi Neme Etkisi</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100 text-stone-700 text-sm">
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Sera Damla Sulama</td>
+                <td className="px-6 py-4 text-green-700 font-bold">%90 - %95 (Çok Yüksek)</td>
+                <td className="px-6 py-4">Düşük - Orta bütçe</td>
+                <td className="px-6 py-4">Domates, Biber, Salatalık, Çilek, Saksılı Bitkiler</td>
+                <td className="px-6 py-4">Minimal etki (Hastalık riskini sıfırlar)</td>
+              </tr>
+              <tr className="bg-stone-50/55">
+                <td className="px-6 py-4 font-bold text-stone-900">Mikro Yağmurlama</td>
+                <td className="px-6 py-4 text-amber-700 font-bold">%70 - %80 (Orta)</td>
+                <td className="px-6 py-4">Orta seviye</td>
+                <td className="px-6 py-4">Fideler, Tohum Yatakları, Marul, Maydanoz</td>
+                <td className="px-6 py-4">Orta (Nemlendirici ve serinletici etki sunar)</td>
+              </tr>
+              <tr>
+                <td className="px-6 py-4 font-bold text-stone-900">Yüksek Basınçlı Sisleme</td>
+                <td className="px-6 py-4 text-stone-500 font-bold">- (Sadece nem desteğidir)</td>
+                <td className="px-6 py-4 text-red-600 font-bold">Yüksek (Özel nozullar & pompa)</td>
+                <td className="px-6 py-4">Orkideler, Tropikal Çiçekler, Köklenme Alanları</td>
+                <td className="px-6 py-4 text-red-650 font-bold">Çok Yüksek (Sıcaklığı düşürür)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-[var(--green-light)] p-8 rounded-[32px] my-10 border-2 border-[var(--green-mid)]/20 shadow-sm font-sans">
+          <h4 className="text-xl font-black mb-4 text-[var(--green-dark)] font-sans">Ziraat Mühendisi Ahmet Kaya'dan Altın Öneriler</h4>
+          <p className="font-bold text-stone-700 leading-relaxed font-sans">
+            Sera üreticilerimizin en sık düştüğü hataların başında, tıkandığı için bazı damlatıcıları iğne yardımıyla delerek büyütmek gelir. Bu işlem, o hattaki boru içi basınç dengesini tamamen mahveder ve tarlanın bir tarafı çamur olurken diğer ucundaki bitkilerin susuz kalmasına yol açar. Tıkanıklıkları önlemek için damla sulama sezonu boyunca her 10-15 sulamada bir nitrik asit dozajlaması yaparak borulardaki kireçleri eritin. Asla boruyu delmeyin!
+          </p>
+        </div>
+
+        <div className="bg-[var(--green-dark)] text-white p-10 rounded-[40px] my-10 shadow-lg border border-[var(--green-mid)] font-sans">
+          <h4 className="text-2xl font-black mb-4 text-white font-sans">Seranızın İhtiyaç Duyduğu Suyu Hassasiyetle Hesaplayın!</h4>
+          <p className="font-bold text-white/90">
+            Sera tipi kapalı tarımda her bir bitkinizin günlük kaç litre su tüketmesi gerektiğini tahmin etmek zor olabilir. Yanlış tahminler kök çürümelerine veya yetersiz büyümeye sebebiyet verir. Bitkinizin türünü, seranızın en-boy ölçülerini ve yetiştirme metodunuzu sisteme yazarak saniyeler içinde ideal sulama miktarını öğrenmek ister misiniz? Hemen ana sayfamıza geçiş yapın ve tamamen ücretsiz olan <strong>Akıllı Tarımsal Sulama Hesaplama Aracımızı</strong> kullanmaya başlayın!
+          </p>
+        </div>
+
+        <h2 id="sonuc-sera" className="text-3xl mt-12 mb-6 font-black text-stone-950 font-sans">6. Sonuç: Akıllı Sera Sulama Sistemleri ile Geleceğin Çiftçiliği</h2>
+        <p>
+          Teknolojinin tarıma entegrasyonu, verimliliği geleneksel metotlarla hayal edilemeyecek boyutlara taşımıştır. Seralarda su ve besin maddelerini kusursuz dağıtan bir <strong>sera sulama sistemi</strong>, işletmenizin karlılığını ve üretim sürdürülebilirliğini güvence altına alır. <strong>Sera damla sulama</strong> sistemleri yaprakları kuru tutarak fungal hastalıkların önüne geçerken, <strong>mikro yağmurlama</strong> fide yetiştiriciliğinde homojen çimlenmeyi garantiler. Akıllı <strong>otomasyon sistemleri</strong> ise insan kaynaklı hataları sıfıra indirerek kaynakları en tasarruflu biçimde kullanmanızı sağlar. Seranızda bilimin ve teknolojinin sunduğu bu nimetlerden yararlanın; toprak ve su kaynaklarınızı korurken bol mahsullü, bereketli kazançlar elde edin!
+        </p>
+      </div>
+    )
   }
 };
+
 
 export default function BlogPost() {
   const { slug } = useParams();
