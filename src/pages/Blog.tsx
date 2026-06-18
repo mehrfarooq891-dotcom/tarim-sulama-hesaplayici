@@ -284,6 +284,16 @@ const blogPosts = [
     author: "Zir. Müh. Ahmet Kaya",
     category: "Sera Sulaması",
     image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 29,
+    title: "2026'da Çiftçi İçin En İyi Sulama Uygulamaları",
+    slug: "2026da-ciftci-icin-en-iyi-sulama-uygulamalari",
+    excerpt: "2026 yılında tarımsal üretimde su tasarrufu sağlamak ve verim artışı elde etmek isteyen çiftçiler için en modern akıllı sulama teknolojileri, sensör entegrasyonu ve dijital yönetim stratejileri...",
+    date: "18 Haziran 2026",
+    author: "Zir. Müh. Ahmet Kaya",
+    category: "Teknoloji",
+    image: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
